@@ -1,0 +1,184 @@
+<html><head><style type="text/css">pre { margin: 1px }
+			.fmt0 {  } /* normal */
+			.fmt1 {  } /* background */
+			.fmt2 { background-color: #ffcabf; } /* line:error */
+			.fmt3 { background-color: #fffbbf; } /* line:warning */
+			.fmt4 { background-color: #bfd6ff; } /* line:badbox */
+			.fmt5 {  } /* line:bookmark */
+			.fmt6 {  } /* line:bookmark0 */
+			.fmt7 {  } /* line:bookmark1 */
+			.fmt8 {  } /* line:bookmark2 */
+			.fmt9 {  } /* line:bookmark3 */
+			.fmt10 {  } /* line:bookmark4 */
+			.fmt11 {  } /* line:bookmark5 */
+			.fmt12 {  } /* line:bookmark6 */
+			.fmt13 {  } /* line:bookmark7 */
+			.fmt14 {  } /* line:bookmark8 */
+			.fmt15 {  } /* line:bookmark9 */
+			.fmt16 { color: #555580; } /* magicComment */
+			.fmt17 { background-color: #a8cf83; } /* commentTodo */
+			.fmt18 { color: #808080; } /* comment */
+			.fmt19 { color: #800000; } /* keyword */
+			.fmt20 { font-weight: 700;color: #0095ff; } /* extra-keyword */
+			.fmt21 { color: #808000; } /* math-keyword */
+			.fmt22 { border-bottom: 1px solid #0000ff;color: #0000ff; } /* link */
+			.fmt23 { font-weight: 700;color: #0055ff; } /* align-ampersand */
+			.fmt24 { color: #008080; } /* verbatim */
+			.fmt25 { color: #800000; } /* sweave-block */
+			.fmt26 { font-weight: 700;color: #0095ff; } /* sweave-delimiter */
+			.fmt27 { color: #800000; } /* pweave-block */
+			.fmt28 { font-weight: 700;color: #0095ff; } /* pweave-delimiter */
+			.fmt29 { color: #804000; } /* picture */
+			.fmt30 { color: #c06000; } /* picture-keyword */
+			.fmt31 { font-weight: 700;background-color: #ffff7f; } /* braceMatch */
+			.fmt32 { font-weight: 700;color: #ffff7f;background-color: #c00000; } /* braceMismatch */
+			.fmt33 { color: #000000;background-color: #ffef0b; } /* search */
+			.fmt34 { color: #008000; } /* numbers */
+			.fmt35 { color: #509600; } /* math-delimiter */
+			.fmt36 { color: #ff0000; } /* text */
+			.fmt37 { color: #ff0088; } /* escapeseq */
+			.fmt38 { border-bottom: 1px dashed #ff0000; } /* spellingMistake */
+			.fmt39 { border-bottom: 1px dashed #008000; } /* wordRepetition */
+			.fmt40 { border-bottom: 1px dashed #008000; } /* wordRepetitionLongRange */
+			.fmt41 { text-decoration: line-through; } /* badWord */
+			.fmt42 { border-bottom: 1px dashed #000080; } /* grammarMistake */
+			.fmt43 { background-color: #00ffa0; } /* grammarMistakeSpecial1 */
+			.fmt44 { background-color: #00c0ff; } /* grammarMistakeSpecial2 */
+			.fmt45 { background-color: #00ff00; } /* grammarMistakeSpecial3 */
+			.fmt46 { background-color: #c8ff61; } /* grammarMistakeSpecial4 */
+			.fmt47 { background-color: #ffbf9f; } /* latexSyntaxMistake */
+			.fmt48 { font-style: italic;color: #0000ff; } /* temporaryCodeCompletion */
+			.fmt49 { color: #000080; } /* environment */
+			.fmt50 { color: #008000; } /* referencePresent */
+			.fmt51 { border-bottom: 1px dashed #008000;color: #008000; } /* referenceMissing */
+			.fmt52 { border-bottom: 1px dashed #800080;color: #800080; } /* referenceMultiple */
+			.fmt53 { color: #008000; } /* citationPresent */
+			.fmt54 { border-bottom: 1px dashed #008000;color: #008000; } /* citationMissing */
+			.fmt55 { color: #008000; } /* packagePresent */
+			.fmt56 { border-bottom: 1px dashed #008000;color: #008000; } /* packageMissing */
+			.fmt57 { font-weight: 700;color: #000000; } /* structure */
+			.fmt58 { background-color: #eeeeff; } /* current */
+			.fmt59 { background-color: #b2d8ff; } /* selection */
+			.fmt60 { background-color: #ffaaaa; } /* replacement */
+			.fmt61 { text-decoration: line-through;background-color: #ffaaaa; } /* diffDelete */
+			.fmt62 { background-color: #aaffaa; } /* diffAdd */
+			.fmt63 { background-color: #ffff50; } /* diffReplace */
+			.fmt64 { background-color: #ddffcc; } /* previewSelection */
+			.fmt65 { font-weight: 700;color: #0095ff; } /* txs-test */
+			.fmt66 { font-weight: 700; } /* txs-test-summary */
+			.fmt67 { color: #008000; } /* txs-test-pass */
+			.fmt68 { color: #c00000; } /* txs-test-fail */
+			.fmt69 { color: #ea8800; } /* txs-test-warn */
+			.fmt70 { color: #808000; } /* txs-test-qdebug */
+			.fmt71 { color: #ffa500; } /* dtx:guard */
+			.fmt72 { font-weight: 700;color: #006400; } /* dtx:macro */
+			.fmt73 { color: #008080; } /* dtx:verbatim */
+			.fmt74 { color: #cc8100; } /* dtx:specialchar */
+			.fmt75 { font-weight: 700;color: #10c010; } /* dtx:commands */
+			.fmt76 { color: #b200ff; } /* lua:keyword */
+			.fmt77 { color: #808080; } /* lua:comment */
+			.fmt78 { color: #804000; } /* asymptote:block */
+			.fmt79 { color: #800080; } /* asymptote:keyword */
+			.fmt80 { color: #808000; } /* asymptote:type */
+			.fmt81 { color: #008000; } /* asymptote:numbers */
+			.fmt82 { color: #000080; } /* asymptote:string */
+			.fmt83 { color: #808080; } /* asymptote:comment */
+			.fmt84 { color: #808080; } /* qtscript:comment */
+			.fmt85 { color: #008000; } /* qtscript:string */
+			.fmt86 { color: #000080; } /* qtscript:number */
+			.fmt87 { color: #808000; } /* qtscript:keyword */
+			.fmt88 { color: #800000; } /* qtscript:txs-variable */
+			.fmt89 { font-style: italic; } /* qtscript:txs-function */
+			.fmt90 { background-color: #ffff7f; } /* preedit */
+		</style></head><body><pre><span class="fmt19">\documentclass</span>[12pt, a4paper,oneside]{<span class="fmt55">book</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>[T1]{<span class="fmt55">fontenc</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>[utf8]{<span class="fmt55">inputenc</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt55">braket</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt55">geometry</span>} </pre>
+		<pre><span class="fmt19">\geometry</span>{a4paper,top=3cm} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt55">titlesec</span>} </pre>
+		<pre><span class="fmt19">\titleformat</span>{<span class="fmt20">\chapter</span>}{<span class="fmt19">\normalfont\huge</span>}{<span class="fmt19">\thechapter</span>.}{20pt}{<span class="fmt19">\huge\it</span>} </pre>
+		<pre><span class="fmt19">\usepackage</span>{<span class="fmt55">newlfont</span>} </pre>
+		<pre><span class="fmt19">\textwidth</span>=450pt<span class="fmt19">\oddsidemargin</span>=0<span class="fmt39">pt</span> </pre>
+		<pre><span class="fmt19">\usepackage</span>[english]{<span class="fmt55">babel</span>} </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">document</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">titlepage</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>		{{<span class="fmt19">\Large</span>{<span class="fmt19">\textsc</span>{<span class="fmt38">Liceo</span> "I. Newton" di <span class="fmt38">Chivasso</span>}}}} <span class="fmt19">\rule</span>[0.1cm]{15.8cm}{0.1mm} </pre>
+		<pre>		<span class="fmt19">\rule</span>[0.5cm]{15.8cm}{0.6mm} </pre>
+		<pre>		{<span class="fmt19">\small</span>{<span class="fmt19">\bf</span> <span class="fmt38">LICEO</span> <span class="fmt38">SCIENTIFICO</span><span class="fmt19">\\</span> </pre>
+		<pre>				<span class="fmt38">Indirizzo</span> <span class="fmt38">scienze</span> <span class="fmt38">applicate</span>}} </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt19">\vspace</span>{15mm} </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>		<span class="fmt19">\vspace</span>{5cm} </pre>
+		<pre>		{<span class="fmt19">\LARGE</span>{<span class="fmt19">\bf</span> <span class="fmt38">APPUNTI</span>}}<span class="fmt19">\\</span> </pre>
+		<pre>		<span class="fmt19">\vspace</span>{19mm} {<span class="fmt19">\large</span>{<span class="fmt19">\bf</span> Corso di <span class="fmt38">Matematica</span> <span class="fmt38">Olimpionica</span>}} </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt19">\vspace</span>{50mm} </pre>
+		<pre>	<span class="fmt20">\par</span> </pre>
+		<pre>	<span class="fmt19">\noindent</span> </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">minipage</span></span><span class="fmt20">}</span>[t]{0.47<span class="fmt19">\textwidth</span>} </pre>
+		<pre>		{<span class="fmt19">\large</span>{<span class="fmt19">\bf</span> <span class="fmt38">Davide</span> <span class="fmt38">PECCIOLI</span>}} </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">minipage</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt19">\hfill</span> </pre>
+		<pre>	<span class="fmt19">\vspace</span>{3cm} </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre>		{<span class="fmt19">\large</span>{<span class="fmt19">\bf</span> <span class="fmt35">$</span><span class="fmt34">1^a</span><span class="fmt35">$</span> e <span class="fmt35">$</span><span class="fmt34">2^a</span><span class="fmt35">$</span> <span class="fmt38">superiore</span> }} </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">center</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">titlepage</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt20">\chapter</span>{<span class="fmt57"><span class="fmt38">Successioni</span></span>} </pre>
+		<pre>	<span class="fmt20">\section</span>{<span class="fmt57"><span class="fmt38">Aritmetiche</span></span><span class="fmt57">  </span><span class="fmt35"><span class="fmt57">$</span></span><span class="fmt21"><span class="fmt57">\to</span></span><span class="fmt34"><span class="fmt57"> </span></span><span class="fmt34"><span class="fmt57">n_a=n_{</span></span><span class="fmt34"><span class="fmt57"><span class="fmt57">a-1</span></span></span><span class="fmt34"><span class="fmt57">}+k</span></span><span class="fmt35"><span class="fmt57">$</span></span>} </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">itemize</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt19">\item</span> <span class="fmt38">punto</span> di <span class="fmt38">partenza</span><span class="fmt35">$</span><span class="fmt21">\to</span><span class="fmt34"> </span><span class="fmt34">a_0</span><span class="fmt35">$</span> </pre>
+		<pre>	<span class="fmt19">\item</span> <span class="fmt38">ragione</span> <span class="fmt35">$</span><span class="fmt21">\Delta</span><span class="fmt34"> </span><span class="fmt34">a=d</span><span class="fmt35">$</span> </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">itemize</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt21">\Set</span><span class="fmt34">{a_0;a_0+d;a_0+2d;</span><span class="fmt34"> </span><span class="fmt21">\dots</span><span class="fmt34">};</span><span class="fmt34"> </span><span class="fmt34">a_n=a_{n-1}+d=a_0+nd</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^n</span><span class="fmt34"> </span><span class="fmt34">a_i=</span><span class="fmt21">\frac</span><span class="fmt34">{(n+1)(a_0+a_0+nd)}{2}</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt20">\section</span>{<span class="fmt57"><span class="fmt38">Geometriche</span></span><span class="fmt57"> </span><span class="fmt35"><span class="fmt57">$</span></span><span class="fmt21"><span class="fmt57">\to</span></span><span class="fmt34"><span class="fmt57"> </span></span><span class="fmt34"><span class="fmt57">n_a=kn_{</span></span><span class="fmt34"><span class="fmt57"><span class="fmt57">a-1</span></span></span><span class="fmt34"><span class="fmt57">}</span></span><span class="fmt35"><span class="fmt57">$</span></span>} </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">itemize</span></span><span class="fmt20">}</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt38">punto</span> di <span class="fmt38">partenza</span><span class="fmt35">$</span><span class="fmt21">\to</span><span class="fmt34"> </span><span class="fmt34">a_0</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt38">ragione</span> <span class="fmt35">$</span><span class="fmt21"><span class="fmt47">\bigl</span></span><span class="fmt34"><span class="fmt47">(</span></span><span class="fmt21">\frac</span><span class="fmt34">{a_n}{a_{n-1}}</span><span class="fmt21"><span class="fmt47">\bigr</span></span><span class="fmt34"><span class="fmt47">)</span></span><span class="fmt34">=q</span><span class="fmt35">$</span> </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">itemize</span></span><span class="fmt20">}</span> </pre>
+		<pre>	<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt21">\Set</span><span class="fmt34">{a_0;ka_0;k^{2}a_0;</span><span class="fmt34"> </span><span class="fmt21">\dots</span><span class="fmt34">};</span><span class="fmt34"> </span><span class="fmt34">a_n=ka_{n-1}=k^{n}a_0</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^{n}a_i=a_0</span><span class="fmt21">\frac</span><span class="fmt34">{1-q^{n+1}}{1-q}</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt20">\subsection</span>{<span class="fmt57">Serie</span>} </pre>
+		<pre>	<span class="fmt19">\textit</span>{<span class="fmt38">Successioni</span> <span class="fmt38">protratte</span> <span class="fmt38">all'infinito</span>} </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">itemize</span></span><span class="fmt20">}</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">q</span><span class="fmt21">\ge</span><span class="fmt34">1</span><span class="fmt21">\Rightarrow</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt34">S_</span><span class="fmt21">\infty</span><span class="fmt34">=</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^{</span><span class="fmt21">\infty</span><span class="fmt34">}a_0</span><span class="fmt21">\cdot</span><span class="fmt34"> </span><span class="fmt34">q^i=+</span><span class="fmt21">\infty</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt35">\]</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">q&lt;1</span><span class="fmt21">\Rightarrow</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt34">q^2&lt;q</span><span class="fmt21">\Rightarrow\lim</span><span class="fmt34">_{n</span><span class="fmt34"> </span><span class="fmt21">\to</span><span class="fmt34"> </span><span class="fmt21">\infty</span><span class="fmt34">}q^{n+1}</span><span class="fmt21">\to</span><span class="fmt34"> </span><span class="fmt34">0</span><span class="fmt21">\Rightarrow</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt35">\]</span> </pre>
+		<pre>		<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^{</span><span class="fmt21">\infty</span><span class="fmt34">}a_i=a_0</span><span class="fmt21">\cdot\frac</span><span class="fmt34">{1}{1-q}</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">itemize</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt20">\chapter</span>{<span class="fmt57"><span class="fmt38">Polinomi</span></span>} </pre>
+		<pre>	<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt34">p(x)=a_nx^n+a_{n-1}x^{n-1}+</span><span class="fmt21">\dots</span><span class="fmt34">+a_0</span> </pre>
+		<pre><span class="fmt34">	</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt38">Alcuni</span> <span class="fmt38">teoremi</span> <span class="fmt38">non</span> <span class="fmt38">dimostrati</span>: </pre>
+		<pre>	<span class="fmt20">\begin{</span><span class="fmt20"><span class="fmt49">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">p(x)=q(x)</span><span class="fmt21">\Leftrightarrow</span><span class="fmt34"> </span><span class="fmt34">a_{n_p}=a_{n_q};</span><span class="fmt34"> </span><span class="fmt34">a_{{n-1}_p}=a_{{n-1}_q}:</span><span class="fmt21">\dots</span><span class="fmt34">;a_{0_p}=a_{0_q}</span><span class="fmt34"> </span><span class="fmt21">\forall</span><span class="fmt34"> </span><span class="fmt34">a</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt19">\item</span> Se <span class="fmt38">due</span> <span class="fmt38">polinomi</span> di <span class="fmt38">grado</span> <span class="fmt35">$</span><span class="fmt34">n</span><span class="fmt35">$</span> <span class="fmt38">hanno</span> <span class="fmt35">$</span><span class="fmt34">n+1</span><span class="fmt35">$</span> <span class="fmt38">punti</span> in <span class="fmt38">comune</span> <span class="fmt38">allora</span> <span class="fmt38">saranno</span> <span class="fmt38">uguali</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">p(x)</span><span class="fmt34"> </span><span class="fmt21">\land</span><span class="fmt34"> </span><span class="fmt34">f(x)</span><span class="fmt34"> </span><span class="fmt21">\Rightarrow</span><span class="fmt34"> </span><span class="fmt34">p(x)=f(x)</span><span class="fmt21">\cdot</span><span class="fmt34"> </span><span class="fmt34">q+r</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">p(x)=a_nx^n+a_{n-1}x^{n-1}+</span><span class="fmt21">\dots</span><span class="fmt34">+a_0</span><span class="fmt21">\Rightarrow</span><span class="fmt34"> </span><span class="fmt34">p(1)=</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^{n}a_i</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">p(x)=a_nx^n+a_{n-1}x^{n-1}+</span><span class="fmt21">\dots</span><span class="fmt34">+a_0</span><span class="fmt21">\Rightarrow</span><span class="fmt34"> </span><span class="fmt34">p(0)=a_0</span><span class="fmt35">$</span> </pre>
+		<pre>		<span class="fmt19">\item</span> <span class="fmt35">$</span><span class="fmt34">p(-1)</span><span class="fmt35">$</span> è <span class="fmt38">uguale</span> <span class="fmt38">alla</span> <span class="fmt38">differenza</span> <span class="fmt38">tra</span> i <span class="fmt38">coefficenti</span> <span class="fmt38">delle</span> <span class="fmt35">$</span><span class="fmt34">x</span><span class="fmt35">$</span> <span class="fmt38">con</span> <span class="fmt38">esponente</span> <span class="fmt38">pari</span> e di quelle <span class="fmt38">con</span> <span class="fmt38"><span class="fmt40">esponente</span></span> <span class="fmt38">dispari</span> </pre>
+		<pre>		<span class="fmt35">\[</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt34">p(x)=a_nx^n+a_{n-1}x^{n-1}+</span><span class="fmt21">\dots</span><span class="fmt34">+a_0</span><span class="fmt21">\land</span><span class="fmt34"> </span><span class="fmt34">\{a_n=a_{2u}</span><span class="fmt21">\lor</span><span class="fmt34"> </span><span class="fmt34">a_n=a_{2u+1}\}</span><span class="fmt21">\Rightarrow</span><span class="fmt34"> </span><span class="fmt34">p(-1)=</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^{u}a_{2i}-</span><span class="fmt21">\sum</span><span class="fmt34">_{i=0}^{u}a_{2i-1}</span> </pre>
+		<pre><span class="fmt34">		</span><span class="fmt35">\]</span> </pre>
+		<pre>	<span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">enumerate</span></span><span class="fmt20">}</span> </pre>
+		<pre><span class="fmt20">\end{</span><span class="fmt20"><span class="fmt49">document</span></span><span class="fmt20">}</span> </pre></body></html>

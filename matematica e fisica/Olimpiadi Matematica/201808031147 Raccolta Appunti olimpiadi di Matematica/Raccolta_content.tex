@@ -1,0 +1,95 @@
+\documentclass[12pt, a4paper,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{braket}
+\usepackage{geometry}
+\geometry{a4paper,top=3cm}
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\it}
+\usepackage{newlfont}
+\textwidth=450pt\oddsidemargin=0pt
+\usepackage[english]{babel}
+\newbox\bwk\edef\tempd#1pt{#1\string p\string t}\tempd\def\nbextr#1pt{#1}
+\def\npts#1{\expandafter\nbextr\the#1\space}
+\def\ttwplink#1#2{\special{ps:1 0 0 setrgbcolor}#2\special{ps:0 0 0 setrgbcolor}\setbox\bwk=\hbox{#2}\special{ps:( linkto #1)\space\npts{\wd\bwk} \npts{\dp\bwk} -\npts{\ht\bwk} true\space Cpos}}
+\begin{document}
+\begin{titlepage}
+	\begin{center}
+		{{\Large{\textsc{Liceo "I. Newton" di Chivasso}}}} \rule[0.1cm]{15.8cm}{0.1mm}
+		\rule[0.5cm]{15.8cm}{0.6mm}
+		{\small{\bf LICEO SCIENTIFICO\\
+				Indirizzo scienze applicate}}
+	\end{center}
+	\vspace{15mm}
+	\begin{center}
+		\vspace{5cm}
+		{\LARGE{\bf APPUNTI}}\\
+		\vspace{19mm} {\large{\bf Corso di Matematica Olimpionica}}
+	\end{center}
+	\vspace{50mm}
+	\par
+	\noindent
+	\begin{minipage}[t]{0.47\textwidth}
+		{\large{\bf Davide PECCIOLI}}
+	\end{minipage}
+	\hfill
+	\vspace{3cm}
+	\begin{center}
+		{\large{\bf $1^a$ e $2^a$ superiore }}
+	\end{center}
+\end{titlepage}
+\chapter{Successioni}
+	\section{Aritmetiche  $\to n_a=n_{a-1}+k$}
+	\begin{itemize}
+	\item punto di partenza$\to a_0$
+	\item ragione $\Delta a=d$
+	\end{itemize}
+	\[
+	\Set{a_0;a_0+d;a_0+2d; \dots}; a_n=a_{n-1}+d=a_0+nd
+	\]
+	\[
+	\sum_{i=0}^n a_i=\frac{(n+1)(a_0+a_0+nd)}{2}
+	\]
+	\section{Geometriche $\to n_a=kn_{a-1}$}
+	\begin{itemize}
+		\item punto di partenza$\to a_0$
+		\item ragione $\bigl(\frac{a_n}{a_{n-1}}\bigr)=q$
+	\end{itemize}
+	\[
+	\Set{a_0;ka_0;k^{2}a_0; \dots}; a_n=ka_{n-1}=k^{n}a_0
+	\]
+	\[
+	\sum_{i=0}^{n}a_i=a_0\frac{1-q^{n+1}}{1-q}
+	\]
+	\subsection{Serie}
+	\textit{Successioni protratte all'infinito}
+	\begin{itemize}
+		\item $q\ge1\Rightarrow$
+		\[
+		S_\infty=\sum_{i=0}^{\infty}a_0\cdot q^i=+\infty
+		\]
+		\item $q<1\Rightarrow$
+		\[
+		q^2<q\Rightarrow\lim_{n \to \infty}q^{n+1}\to 0\Rightarrow
+		\]
+		\[
+		\sum_{i=0}^{\infty}a_i=a_0\cdot\frac{1}{1-q}
+		\]
+	\end{itemize}
+\chapter{Polinomi}
+	\[
+	p(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0
+	\]
+	Alcuni teoremi non dimostrati:
+	\begin{enumerate}
+		\item $p(x)=q(x)\Leftrightarrow a_{n_p}=a_{n_q}; a_{{n-1}_p}=a_{{n-1}_q}:\dots;a_{0_p}=a_{0_q} \forall a$
+		\item Se due polinomi di grado $n$ hanno $n+1$ punti in comune allora saranno uguali
+		\item $p(x) \land f(x) \Rightarrow p(x)=f(x)\cdot q+r$
+		\item $p(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\Rightarrow p(1)=\sum_{i=0}^{n}a_i$
+		\item $p(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\Rightarrow p(0)=a_0$
+		\item $p(-1)$ è uguale alla differenza tra i coefficenti delle $x$ con esponente pari e di quelle con esponente dispari
+		\[
+		p(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\land \{a_n=a_{2u}\lor a_n=a_{2u+1}\}\Rightarrow p(-1)=\sum_{i=0}^{u}a_{2i}-\sum_{i=0}^{u}a_{2i-1}
+		\]
+	\end{enumerate}
+\end{document}
