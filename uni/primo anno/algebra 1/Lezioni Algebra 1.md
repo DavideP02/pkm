@@ -22,3 +22,6 @@
 - 21 ottobrer 2021
 	- [Appunti Lezione](202110211430%20(21%20ott%202021).md)| [pdf](202110211430.pdf)
 	- [Slide](Algebra%201%20-%20Slides%20Lezione%208%20(20211021)%20-%20Alessandro%20Ardizzoni.pdf)
+- 27 ottobre 2021
+- 28 ottobre 2021
+- 29 ottobre 2021

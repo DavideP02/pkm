@@ -10,6 +10,14 @@
 	- TODO ricopiare appunti
 - 28 settembre 2021:
 	- [Appunti Lezione](202109280840%20(28%20set%202021).md) | [pdf](202109280840.pdf)
+- 4 ottobre 2021
+- 5 ottobre 2021
+- 11 ottobre 2021
+- 12 ottobre 2021
+- 18 ottobre 2021
+- 19 ottobre 2021
+- 25 ottobre 2021
+- 26 ottobre 2021
 
 ## Tutorato
 - 28 ottobre 2021

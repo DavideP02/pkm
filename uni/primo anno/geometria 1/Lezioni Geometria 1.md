@@ -16,6 +16,28 @@
 	- [Appunti Lezione](202109301230%20(30%20set%202021).md) | [pdf](202109301230.pdf)
 - 1 ottobre 2021
 	- [Appunti Lezione](202110011040%20(1%20ott%202021).md) | [pdf](202110011040.pdf)
+- 5 ottobre 2021
+	- | [pdf](202110051048.pdf)
+- 7 ottobre 2021
+	- [Appunti lezione pt. 2](202110071230%20(7%20ott%202021).md)
+- 11 ottobre 2021
+	- [Appunti Lezione](202110110830%20(11%20ott%202021).md)
+- 12 ottobre 2021
+	- | [pdf](202110121045.pdf)
+- 14 ottobre 2021
+	- | [pdf](202110141246.pdf)
+- 18 ottobre 2021
+	- | [pdf](202110180845.pdf)
+- 19 ottobre 2021
+	- | [pdf](202110191045.pdf)
+- 21 ottobre 2021
+	- | [pdf](202110211245.pdf)
+- 25 ottobre 2021
+	- | [pdf](202110250845.pdf)
+- 26 ottobre 2021
+	- | [pdf](202110261040.pdf)
+- 28 ottobre 2021
+	- | [pdf](202110281242.pdf)
 
 ## Esercitazioni
 ### Homework - Tutorato correzione compiti:
