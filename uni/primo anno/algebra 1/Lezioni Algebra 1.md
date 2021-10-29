@@ -1,0 +1,24 @@
+# Lezioni Algebra 1
+- 22 settembre 2021:
+	- [Appunti Lezione](20210922856%20(22%20set%202021).md)  - [pdf](202109220856.pdf)
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%201%20(20210922)%20-%20Alessandro%20Ardizzoni.pdf)
+- 23 settembre 2021
+	- [Appunti Lezione](202109231430%20(23%20set%202021).md) - [pdf](202109231430.pdf)
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%202%20(20210923)%20-%20Alessandro%20Ardizzoni.pdf)
+- 29 settembre 2021
+	- [Appunti Lezione](202109290830%20(29%20set%202021).md) - [pdf](202109290830.pdf)
+	- [Slide](reference%20manager/Scolastici/Alessandro%20Ardizzoni/Algebra%201%20-%20Slides%20Lezione%203%20(20210929)%20(27)/Algebra%201%20-%20Slides%20Lezione%203%20(20210929)%20-%20Alessandro%20Ardizzoni.pdf)
+- 30 settembre 2021
+	- [Appunti Lezione](202109301430%20(30%20set%202021).md) | [pdf](202109301430.pdf)
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%204%20(20210930)%20-%20Alessandro%20Ardizzoni.pdf)
+- 13 ottobre 2021
+	- [Appunti Lezione)](202110130845%20(13%20ott%202021).md) | [pdf](202110130845.pdf)
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%205%20(20211013)%20-%20Alessandro%20Ardizzoni.pdf)
+- 14 ottobre 2021
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%206%20-%20Alessandro%20Ardizzoni.pdf)
+- 20 ottobre 2021
+	- [Appunti Lezione](20211020845%20(20%20ott%202021).md) | [pdf](202110200845.pdf)
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%207%20(20211020)%20-%20Alessandro%20Ardizzoni.pdf)
+- 21 ottobrer 2021
+	- [Appunti Lezione](202110211430%20(21%20ott%202021).md)| [pdf](202110211430.pdf)
+	- [Slide](Algebra%201%20-%20Slides%20Lezione%208%20(20211021)%20-%20Alessandro%20Ardizzoni.pdf)

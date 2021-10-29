@@ -22,3 +22,4 @@ References:
 Tags:
 	#primolevi
 	#shoah
+	#bookreview

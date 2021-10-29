@@ -1,0 +1,189 @@
+% pacchetti fondamentali per qualsiasi documento
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[babel]{csquotes}
+\usepackage[style=numeric]{biblatex}
+\usepackage{microtype}
+
+
+\usepackage{graphicx} % inserire immagini
+\usepackage{multicol} % due colonne
+\usepackage{ulem} % sottolineare
+\usepackage{lipsum} % lorem ipsum
+\usepackage{xcolor} % colori in latex
+
+\usepackage[hang]{footmisc} %per le note a pié pagina
+\footnotemargin=0.8em
+
+\usepackage{parskip} % rimuove l'indentazione dei nuovi paragrafi
+
+%definizioni particolari
+\newcommand{\straniero}[1]{\textit{#1}} %parole straniere
+\newcommand{\titolo}[1]{\textsc{#1}} %titoli
+
+%citazioni
+\usepackage{lineno}
+
+\newcommand{\citazione}[1]{%
+  \begin{quotation}
+  \begin{linenumbers}
+  \modulolinenumbers[5]
+  \begingroup
+  \setlength{\parindent}{0cm}
+  \noindent #1
+  \endgroup
+  \end{linenumbers}
+  \end{quotation}\setcounter{linenumber}{1}
+  }
+%
+
+%rimuovere header e footer dalle pagine vuote
+\usepackage{ifthen}
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+    \hbox{}
+    \vspace*{\fill}
+    \vspace{\fill}
+    \thispagestyle{empty}
+    \newpage
+    \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+% pacchetti matematica
+\usepackage[leqno,intlimits]{amsmath} 
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{yhmath}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+
+\usepackage{pgfplots} % stampare le funzioni
+	\pgfplotsset{/pgf/number format/use comma,compat=newest}
+	
+\usepackage{cancel} % semplificare
+
+\usepackage{polynom} %divisione tra polinomi
+
+\usepackage{forest} % grafi ad albero
+
+\usepackage{booktabs} % tabelle
+
+\usepackage{commath} %simboli e differenziali
+
+% definizione comandi matematici
+
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\tc}{t.c.}
+\newcommand{\R}{\mathds{R}}
+\newcommand{\K}{\mathds{K}}
+\newcommand{\Q}{\mathds{Q}}
+\newcommand{\N}{\mathds{N}}
+\newcommand{\C}{\mathds{C}}
+\newcommand{\Z}{\mathds{Z}}
+\newcommand{\rmn}{\R^{m,n}}
+
+\newcommand{\qmatrice}[1]{\begin{pmatrix}
+#1_{11} & \cdots & #1_{1n}\\
+\vdots & \ddots & \vdots \\
+#1_{m1} & \cdots & #1_{mn}
+\end{pmatrix}}
+
+% Comandi per la creazione del riquadro attorno alle equazioni
+% \equazione{arg1} crea una equazione con riquadro colorato
+
+\usepackage[leqno,fleqn,intlimits]{empheq}
+\usepackage[most]{tcolorbox}
+\usepackage{ifthen}
+
+	\newif\ifmarg
+	\margtrue
+	\ifmarg
+	\makeatletter
+	\let\mytagform@=\tagform@
+	\def\tagform@#1{\maketag@@@{\mbox{~}\hbox{\rlap{\hspace{0.5in}(\ignorespaces#1\unskip\@@italiccorr)}}}\kern1sp}
+	\renewcommand{\eqref}[1]{{\mytagform@{\ref{#1}}}}
+	\makeatother
+	\fi
+	
+	\newcommand*\mygraybox[0]{%
+		\tcbhighmath}
+		
+	\newcommand{\equazione}[1]{	\begin{empheq}[box=\mygraybox]{equation*}
+			#1
+		\end{empheq}}
+
+\usepackage{geometry}
+\geometry{papersize={15.24cm,22.86cm}, bottom=3cm,%
+heightrounded}
+
+\usepackage{hyperref}
+\hypersetup{%
+	pdfauthor={Davide Peccioli},
+	pdftitle={Geometriai},
+	pdfsubject={Appunti UniTO},
+	allcolors=blue,
+	citecolor=green,
+	colorlinks=true, 
+	bookmarksopen=true}
+
+% comandi per appunti
+
+\newcounter{esempi}[section]
+\newcounter{teorema}
+\newcounter{proposizione}
+\newcounter{osservazione}[section]
+\newcounter{lemma}
+
+\newcommand{\esempi}[2][]{\stepcounter{esempi}\paragraph{Esempi #1 (\thesection.\theesempi)\label{es:\thesection.\theesempi}} #2}
+\newcommand{\esempio}[2][]{\stepcounter{esempi}\paragraph{Esempio #1 (\thesection.\theesempi)\label{\thesection.\theesempi}} #2}
+\newcommand{\proprieta}[2][]{\paragraph{Proprietà #1} #2}
+\newcommand{\definizione}[2][]{\paragraph{Definizione #1} #2}
+\newcommand{\notazione}[2][]{\paragraph{Notazione #1} #2}
+\newcommand{\osservazione}[2][]{\stepcounter{osservazione}\paragraph{Osservazione (\thesection.\theosservazione)\label{oss:\thesection.\theosservazione}#1} #2}
+\newcommand{\esercizio}[3][]{\paragraph{Esercizio #1} #2 
+\paragraph{Soluzione} #3}
+
+\newcommand{\teorema}[3][]{
+	\def\optdub{#1}
+	\if\optdub\empty
+	\stepcounter{teorema} % da stampare se il teorema non ha un nome (parametro #1)
+	\newcounter{thm#2}\addtocounter{thm#2}{\theteorema}
+	\paragraph{Teorema
+		\Roman{teorema} \label{thm:#2}} 
+	#3
+	\else
+	\stepcounter{teorema} % da stampare se il teorema ha un nome (parametro #1)
+		\newcounter{thm#2}\addtocounter{thm#2}{\theteorema}
+		\paragraph{Teorema
+			\Roman{teorema} \label{thm:#2} (#1)} 
+		#3\fi}
+\newcommand{\dimostrazione}[2]{\paragraph{\textit{dim.} \hyperref[thm:#1]{(\Roman{thm#1})}} #2}
+
+\newcommand{\proposizione}[3][]{\def\optdub{#1}
+	\if\optdub\empty
+	\stepcounter{proposizione} % da stampare se il teorema non ha un nome (parametro #1)
+	\newcounter{prp#2}\addtocounter{prp#2}{\theproposizione}
+	\paragraph{Proposizione
+		\textit{p.}\roman{proposizione} \label{prp:#2}} 
+	#3
+	\else
+	\stepcounter{proposizione} % da stampare se il teorema ha un nome (parametro #1)
+		\newcounter{prp#2}\addtocounter{prp#2}{\theteorema}
+		\paragraph{Proposizione
+			\textit{p.}\roman{proposizione} \label{prp:#2} (#1)} 
+		#3\fi}
+\newcommand{\dimostrazioneprop}[2]{\paragraph{\textit{dim.} \hyperref[prp:#1]{(\textit{p.}\roman{prp#1})}} #2}
+
+
+%%%%
+
+\newcommand{\numerato}[1]{\begin{enumerate}
+#1
+\end{enumerate}}
+
+\newcommand{\elencop}[1]{\begin{itemize}
+#1
+\end{itemize}}

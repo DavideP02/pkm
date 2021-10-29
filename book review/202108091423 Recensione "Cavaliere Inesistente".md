@@ -26,3 +26,4 @@ References:
 	
 Tags:
 	#italocalvino
+	#bookreview
