@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>latex_geometria1.bcf</file>
+      <file>geometria1.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>latex_geometria1.bbl</file>
+      <file>geometria1.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>latex_geometria1</infile>
+      <infile>geometria1</infile>
     </cmdline>
     <input>
-      <file>latex_geometria1.bcf</file>
+      <file>geometria1.bcf</file>
     </input>
     <output>
-      <file>latex_geometria1.bbl</file>
+      <file>geometria1.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>latex_geometria1.bbl</file>
+      <file>geometria1.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>latex_geometria1.bcf</file>
+      <file>geometria1.bcf</file>
     </requires>
   </external>
 </requests>

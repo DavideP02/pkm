@@ -20,6 +20,8 @@ Università degli studi di Torino
 {\pagestyle{empty}
 \null\newpage}
 
+\tableofcontents\cleardoublepage
+
 \section{Matrici}
 
 Una matrice è una tabella rettangolare di numeri reali ($\in\R$)
@@ -695,7 +697,7 @@ $ V $ e $ W $ spazi vettoriali sullo stesso campo $ \K $ e una funzione $ F:V \t
 
 	Sia $ \mathscr{B}=\{v_1, \cdots, v_n\} $ una base di $ V $ e $ a_1, \cdots, a_{n} \in W $.
 
-	Allora esiste un'unica funzione lineare $ F:V\to W $ tale che $ F(v_{1} ) = a_{1} $ $ \forall i = 1, \cdots, n $
+	Allora esiste un'unica funzione lineare $ F:V\to W $ tale che $ F(v_{i} ) = a_{i} $ $ \forall i = 1, \cdots, n $
 }
 \dimostrazione{vem}{
 	\begin{itemize}
@@ -703,7 +705,7 @@ $ V $ e $ W $ spazi vettoriali sullo stesso campo $ \K $ e una funzione $ F:V \t
 		
 		Si definisce \[ F(v) = F(x_1v_1 + x_2v_2+ \cdots+x_{n}v_{n}):= x_1a_1 \cdots+x_{n}a_{n} \]
 
-		$ F$ definisce una funzione $ V\to W $ tale che $ F(v_{1} ) =a_{1}$ per $ i=1, \cdots, n $. Verifico che $ F $ è lineare.
+		$ F$ definisce una funzione $ V\to W $ tale che $ F(v_{i} ) =a_{i}$ per $ i=1, \cdots, n $. Verifico che $ F $ è lineare.
 
 		Siano $ \lambda, \mu \in \K $ e $ v, w \in V $ e dimostro che $ F(\lambda v + \mu w)= \lambda F(v)+ \mu F(w) $
 
@@ -745,7 +747,7 @@ $ V $ e $ W $ spazi vettoriali sullo stesso campo $ \K $ e una funzione $ F:V \t
 	\end{itemize}
 }
 
-\section{Matrice associata ad una applicazione lineare}
+\subsection{Matrice associata ad una applicazione lineare}
 
 Siano $ V $ e $ W $ spazi vettoriali su un campo $ \K $ con $ V,W $ entrambi finitamente generati. Supponiamo $ \dim V =n$ e $ \dim W = m$.
 
@@ -875,7 +877,7 @@ In generale data $ F: \R^n \to \R^m $ espressa in termini della base canonica di
 	Da risolvere %TODO risolvere esercizio
 }
 
-\section{Immagine di sottospazi vettoriali}
+\subsection{Immagine di sottospazi vettoriali}
 
 Siano $ V $ e $ W $ spazi vettoriali su un campo $ \K $ e sia $ F:V\to W $ lineare, sia $ H \subseteq V $ sottospazio vettoriale, $ F(H) $ immagine di $ H $ tramite $ F $, tale che $ F(H) \subseteq W $, $ F(H)=\{F(h) | h \in H\} $
 
@@ -981,7 +983,7 @@ Il rango di F coincide con il rango della matrice $ M^{\mathscr{B}, \mathscr{C}}
 
 $\implies$ tutte le matrici associate ad $ F $ hanno lo stesso rango.
 
-\section{Retroimmagine di sottospazi}
+\subsection{Retroimmagine di sottospazi}
 
 $ F: V\to W $ applicazione lineare, sia $ K \subseteq W $ un sottospazio \[
 	F^{-1}(K)=\{w \in K | w =F(v) \text{ per qualche } v \in V\}
@@ -1096,7 +1098,7 @@ Si noti che $ F^{-1}(K)\neq \emptyset$: sicuramente $ K $ contiene $ \underline{
 	Da qui si deduce una base di $ F^{-1}(K) $
 }
 
-\section{Nucleo di una funzione lineare}
+\subsection{Nucleo di una funzione lineare}
 
 $ V, W $ spazi vettoriali su un campo $ \K $, $ F: V\to W $ lineare 
 
