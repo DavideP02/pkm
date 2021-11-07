@@ -1,0 +1,98 @@
+\fancypagestyle{ciccio}
+{
+	\renewcommand{\headrulewidth}{0pt}
+    \fancyhead[LE, RO]{\underline{21 settembre 2021}}
+}
+
+\thispagestyle{ciccio}
+
+\section{Operazioni con le matrici}
+\subsection{Moltiplicazione}
+
+Si può moltiplicare $\lambda \in \R$ con matrici $A\in\rmn$
+\[
+\lambda A=\lambda\qmatrice{a}=\qmatrice{\lambda a}
+\]
+\[
+-1\cdot A = -A\qquad\text{coerente con la definizione di }-A
+\]
+
+\esempio{
+\[
+2\begin{pmatrix}
+3 & 1 & 0\\
+-1 & 4 & 1
+\end{pmatrix}=\begin{pmatrix}
+6 & 2 & 0\\
+-2 & 8 & 2
+\end{pmatrix}
+\]
+}
+
+\osservazione{$0\cdot A$ è la matrice nulla $\forall A\in \rmn$}
+
+\proprieta[del prodotto per scalari]{
+\begin{itemize}
+\item [(\textit{i})] $\displaystyle \lambda(A+B)=\lambda A + \lambda B \qquad\forall\lambda\in\R,\:A,B\in\rmn$
+\item [(\textit{ii})] $\displaystyle (\lambda+\mu)\cdot A=\lambda\cdot A+\mu\cdot A\qquad\forall\lambda\mu\in\R,\:A\in\rmn$
+\item [(\textit{iii})] $\displaystyle(\lambda\mu)A=\lambda(\mu A)\qquad\forall\lambda\mu\in\R,\:A\in\rmn$
+\item [(\textit{iv})] $\displaystyle 1\cdot A = A\qquad\forall A\in\rmn$
+\end{itemize}
+}
+
+$(\rmn, +)$ è un \textbf{gruppo abeliano} in cui è definita una moltiplicazione per scalari in cui valgono le proprietà \textit{i}-\textit{iv} (prototipo per gli spazi vettoriali).
+
+\subsection{Prodotto tra matrici}
+\[
+A,B\:\tc\: A\in\R^{m,\textcolor{red}{n}}, B\in\R^{\textcolor{red}{n}, k}\implies AB\in \R^{m, k}
+\]
+Questo è definito come il prodotto \textbf{righe per colonne}. Il numero di colonne della prima matrice deve corrispondere con il numero di righe della seconda matrice.
+
+\definizione{
+	Siano $ A \in \R^{m,n} $ e $ B \in \R^{n,k} $ due matrici, siano $ a_{ij}  $ gli elementi di $ A $ e $ b_{rs}  $ gli elementi di $ B $ [Notazione: $ A=(a_{ij})$, $ B=(b_{rs}) $]
+
+	La matrice $ A\cdot B $ è la matrice in $ R^{m,k} $ il cui $ ij $-esimo elemento è
+	\[
+		a_{i1} \cdot b_{1j} + a_{i 2} \cdot b_{2j} + \cdots+ a_{in} \cdot b_{ni} =\sum_{r=1}^n a_{ir} \cdot b_{rj}  
+	\]
+}
+
+\subsubsection{Prodotto tra matrici quadrate}
+
+Siano $ A, B \in \R^{m,m} $, $ AB \in \R^{m,m} $; in questo caso il prodotto tra matrici definisce una operazione in $ \R^{m,m} $.
+\begin{itemize}
+	\item [\textit{i}.] il prodotto è associativo: $ (A\cdot B) \cdot C = A \cdot (B\cdot C) $, $ \forall A, B, C \in \R^{m,m} $
+	\item [\textit{ii}.] esiste un elemento neutro
+\end{itemize}
+
+\proposizione{matrid}{
+	Sia $ I \in \R^{m,m} $ la matrice identità, $ A \in \R^{m,m} $ 
+	
+	$\implies$ $ A\cdot I = I\cdot A = A $ $ \forall A \in \R^{m,m} $
+}
+\dimostrazioneprop{matrid}{
+	Sia $ (r_{ij} ) $ l'$ij$-esimo elemento della matrice $ A\cdot I $ con $ A=(a_{ij} ) $ e $ I = (b_{ij} ) $ \[
+		r_{ij} = \sum_{n=1}^m a_{in}\cdot b_{ni}  
+	\]
+	Si noti che $ b_{kh} =0 $ $ \forall k,h | k \neq h $ $\implies$ 
+	\begin{multline*}
+		r_{ij} = \sum_{n=1}^m a_{in}\cdot b_{ni}  =\\
+		= \cancel{a_{i1}b_{1j}}  + \cancel{\cdots} + a_{ij}b_{jj}+ \cancel{\cdots}+\cancel{a_{in}b_{nj}}=\\
+		=a_{ij} \cdot b_{jj} = a_{ij} \cdot 1     
+	\end{multline*} 
+	
+	$\implies$ $ r_{ij}=a_{ij}$
+}
+
+In generale se $ A \in \R^{m,m} $ $ \nexists $ un inverso per $ A $, cioè non esiste $ B \in \R^{m,m} $ tale che $ A \cdot B = B \cdot A = I $
+
+\esempio{
+	\begin{itemize}
+		\item Se $ A $ è la matrice nulla 
+		
+		$\implies$ $ A \cdot B = $ matrice nulla $ \neq I $
+		\item Se $ A $ ha una riga o una colonna nulla (ovvero fatta tutta di zeri)
+		
+		$\implies$ non è invertibile
+	\end{itemize}
+}

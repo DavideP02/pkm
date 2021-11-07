@@ -1,0 +1,286 @@
+\fancypagestyle{firststyle}
+{
+	\renewcommand{\headrulewidth}{0pt}
+    \fancyhead[LE, RO]{\underline{2 novembre 2021}}
+}
+
+\thispagestyle{firststyle}
+
+\section{Funzioni lineari}
+
+$ V $ e $ W $ spazi vettoriali sullo stesso campo $ \K $ e una funzione $ F:V \to W $, $ F $ è lineare se verifica $ F(\lambda v + \mu w)= \lambda F(v)+ \mu F(w) $ $ \forall \lambda, \mu \in \K $, $ v, w \in V $
+\teorema[(di esistenza e unicità)]{vem}{
+	Siano $ V $ e $ W$ spazi vettoriali su un campo $ \K $ con $ V $ finitamente generato.
+
+	Sia $ \mathscr{B}=\{v_1, \cdots, v_n\} $ una base di $ V $ e $ a_1, \cdots, a_{n} \in W $.
+
+	Allora esiste un'unica funzione lineare $ F:V\to W $ tale che $ F(v_{i} ) = a_{i} $ $ \forall i = 1, \cdots, n $
+}
+\dimostrazione{vem}{
+	\begin{itemize}
+		\item [Esistenza] Sia $ v \in V $, $ v $ si scrive in modo unico come $ v=x_1v_1 + x_2v_2+ \cdots+x_{n}v_{n}  $ per $ x_1, \cdots , x_{n} \in \K$
+		
+		Si definisce \[ F(v) = F(x_1v_1 + x_2v_2+ \cdots+x_{n}v_{n}):= x_1a_1 \cdots+x_{n}a_{n} \]
+
+		$ F$ definisce una funzione $ V\to W $ tale che $ F(v_{i} ) =a_{i}$ per $ i=1, \cdots, n $. Verifico che $ F $ è lineare.
+
+		Siano $ \lambda, \mu \in \K $ e $ v, w \in V $ e dimostro che $ F(\lambda v + \mu w)= \lambda F(v)+ \mu F(w) $
+
+		Scrivo \[
+			v=\sum_{k=1}^{n}x_{k} v_{k} 
+		\]
+		e
+		\[
+			w=\sum_{r=1}^{n}y_{r} v_{r} 
+		\]
+
+		\[
+			\lambda v + \mu w=\sum_{k=1}^{n}(\lambda x_{k}  \mu y_{k}) v_{k} 
+		\]
+
+		Quindi per come è definita $ F $ risulta che
+		\begin{multline*}
+			F(\lambda v + \mu w)=F\bigg(\sum_{k=1}^{n}(\lambda x_{k}  \mu y_{k}\bigg) v_{k} )=\\
+			=\sum_{k=1}^{n}(\lambda x_{k}  \mu y_{k}) a_{k}=\\
+			\lambda \sum_{k=1}^{n}\lambda x_{k} a_{k} + \mu \sum_{k=1}^{n} y_{k} a_{k}=\\
+			= \lambda F(v)+\mu F(w)
+		\end{multline*}
+		
+		$\implies$ $ F $ è lineare
+	\item [Unicità] Supponiamo di avere due funzioni lineari $ F,G: V\to W $ tali che $ F(v_{i} ) = G(v_{i}) = a_{i} $ $ \forall i = 1, \cdots, n $ e dimostro che $F=G$, cioè che $ F(v)=G(v) $ $ \forall v \in V $
+	Possiamo scrivere $ v=\sum_{k=1}^{n}x_{k} v_{k}  $ quindi 
+	\begin{multline*}
+		F(v)=F\bigg(\sum_{k=1}^{n}x_{k} v_{k} \bigg)\\=\sum_{k=1}^{n}x_{k} F(v_{k})\\=\sum_{k=1}^{n}x_{k} a_{k} 
+	\end{multline*}
+
+	Inoltre
+	\begin{multline*}
+		G(v)=G\bigg(\sum_{k=1}^{n}x_{k} v_{k} \bigg)\\=\sum_{k=1}^{n}x_{k} G(v_{k})\\=\sum_{k=1}^{n}x_{k} a_{k} 
+	\end{multline*} 
+	
+	$\implies$ $ F(v)=G(v) $ $ \forall v \in V $ 
+	
+	$\implies$ $F=V$
+	\end{itemize}
+}
+
+\subsection{Matrice associata ad una applicazione lineare}
+
+Siano $ V $ e $ W $ spazi vettoriali su un campo $ \K $ con $ V,W $ entrambi finitamente generati. Supponiamo $ \dim V =n$ e $ \dim W = m$.
+
+Considero $ F:V\to W $ lineare, e fisso $ \mathscr{B}=\{v_{1}, \cdots, v_{n}  \} $ base di $ V $ e $ \mathscr{C}=\{w_{1}, \cdots, w_{n}  \} $ base di $ W $.
+
+\begin{gather*}
+F(v_{1} ) = a_{11} w_{1} + a_{21} w_2+ \cdots + a_{m1} w_{m}=\sum_{k=1}^m a_{k1} w_{k}   \\
+F(v_{2} ) = a_{12} w_{1} + a_{22} w_2+ \cdots + a_{m2} w_{m}=\sum_{k=1}^m a_{k2} w_{k}\\
+\cdots\\
+F(v_{n} ) = a_{1n} w_{1} + a_{2n} w_2+ \cdots + a_{mn} w_{m}=\sum_{k=1}^m a_{kn} w_{k}
+\end{gather*}
+
+Tutto questo determina $ A=(a_{ij} ) \in \K^{m,n}$, $ A $ è determinata da $ F, \mathscr{B}, \mathscr{C} $
+
+Sia $ v \in V $ un vettore generico $ v= \sum_{k=1}^n x_{k}v_{k}$, $ x_1, \cdots, x_{n} \in \K  $
+\begin{multline*}
+	F(v)=F\bigg(\sum_{k=1}^n x_{k}v_{k}\bigg)=\sum_{k=1}^n x_{k}F(v_{k})=\\
+	=x_1F(v_1)+x_2F(v_2)+ \cdots + x_{n}F(v_{n} ) =\\
+	=x_1\sum_{k=1}^m a_{k1} w_{k}+x_2\sum_{k=1}^m a_{k2} w_{k}+ \cdots + x_{n}\sum_{k=1}^m a_{kn} w_{k}=\\
+	=\sum_{k=1}^m (a_{k1} x_1) w_{k}+\sum_{k=1}^m (a_{k2} x_2) w_{k}+ \cdots + \sum_{k=1}^m (a_{kn} x_{n})  w_{k}=\\
+	=\bigg(\sum_{r=1}^n a_{1r} x_{r}  \bigg) w_1+\bigg(\sum_{r=1}^n a_{2r} x_{r}  \bigg) w_2 + \cdots + \bigg(\sum_{r=1}^n a_{mr} x_{r}  \bigg) w_m
+\end{multline*}
+
+Se $ (v)_{\mathscr{B}}=\begin{pmatrix}
+	x_1\\
+	\vdots\\
+	x_{n} 
+\end{pmatrix} $ 
+
+$\implies$ $ \big(F(v)\big)=A\cdot \begin{pmatrix}
+	x_1\\
+	\vdots\\
+	x_{n} 
+\end{pmatrix} $ 
+
+$\implies$ $ \big(F(v)\big)=A(v)_{\mathscr{B}}$
+
+\notazione{
+	Si indica $ A $ con $ M^{\mathscr{B}, \mathscr{C}}(F) $, matrice che rappresenta $ F $ rispetto alle basi $ \mathscr{B} $ e $ \mathscr{C} $
+}
+
+\esempio{
+	Sia $ I:V\to V $ funzione identità, e calcoliamo $ M^{\mathscr{B}, \mathscr{B}}(I) $ dove $ \mathscr{B} $ è una base fissata di $ V $. Se $ \mathscr{B}=\{v_1, \cdots, v_{n} \} $ risulta $ I(v_{i} )=v_{i}$ $ \forall i=1, \cdots, n $ 
+	
+	$\implies$ $ M^{\mathscr{B}, \mathscr{B}}(I)=Id $ matrice identità
+}
+\esempio{
+	Sia $ F: \R^3\to \R^2 $, \[
+		F(x_1,x_2,x_3)=(3x_1-x_2, 2x_2+3x_3)
+	\]
+
+	Sia $ \mathscr{B} $ la base canonica di $ \R^3 $ e $ \mathscr{C} $ la base canonica di $ \R^2 $, voglio trovare $ M^{\mathscr{B}, \mathscr{C}}(F) $
+
+	Possiamo scrivere $ F\begin{pmatrix}
+		x_1 \\ x_2\\x_3
+	\end{pmatrix}= M^{\mathscr{B}, \mathscr{C}}(F) \begin{pmatrix}
+		x_1\\x_2\\x_3
+	\end{pmatrix}$
+
+	Sono noti $ F(1, 0, 0) = (3,0) $, $ F(0, 1, 0) = (-1,2) $ e $ F(0, 0, 1) = (0,3) $, quindi
+	\[
+		M^{\mathscr{B}, \mathscr{C}}(F)=\begin{pmatrix}
+			3 & -1 & 0\\
+			0 & 2 & 3
+		\end{pmatrix}
+	\]
+}
+
+In generale data $ F: \R^n \to \R^m $ espressa in termini della base canonica di $ \R^n$ e $ \R^m $ la matrice che rappresenta $ F $ è la matrice le cui colonne sono $ F(e_{1} ), \cdots, F(e_{n} ) $
+
+\esempio{
+	Data $ F: \R^3 \to \R^2 $: $ (x_1,x_2,x_3)\mapsto (4x_1-x_3,x_1+x_2+x_3) $
+
+	Si ha\[
+		M^{\mathscr{B}, \mathscr{C}}(F)=\begin{pmatrix}
+			4 & 0 & -1\\
+			1 & 1 & 1
+		\end{pmatrix}
+	\]
+
+}
+
+\esempio{
+	$ F: \K^{n,n}\to \K$: $ A\mapsto \tr(A) $ e deterrmino la matrice che rappresenta $ F $ rispetto alla base canonica di $ \K^{n,n} $, $ \mathscr{B}={E_{i_1j} } $ e alla base canonica di $ \K $ $ \mathscr{C}=\{1\} $
+
+	Si ha\[
+		M^{\mathscr{B}, \mathscr{C}}(F)=\begin{pmatrix}
+			\tr(E_{11} ) & \tr(E_{12}) & \cdots & \tr(E_{1n}) & \tr(E_{21}) & \tr(E_{22}) & \cdots & \tr(E_{nn} )
+		\end{pmatrix}
+	\]
+
+	Per esempio se $ n=2 $ risulta $ M^{\mathscr{B}, \mathscr{C}}(F)=\begin{pmatrix}
+		1 & 0 & 0 & 1
+	\end{pmatrix} $
+}
+
+\esempio{
+	Sia $ a \in V_3 $ e $ F:V_3 \to V_3 $: $x\mapsto a\wedge x$ funzione lineare.
+
+	Sia $ \mathscr{B}=\{i,j, k\} $ base ortonormale positiva di $ V_3 $ e calcolo $ M^{\mathscr{B}, \mathscr{B}}(F)$, scriviamo $ a=a_1i+a_2j+a_3k $
+
+	\begin{gather*}
+	F(i)=a\wedge i = (a_1i+a_2j+a_3k)\wedge i=-a_2k+a_3j\\
+	F(j)=a\wedge j = (a_1i+a_2j+a_3k)\wedge j=a_1k-a_3j\\
+	F(k)=a\wedge k = (a_1i+a_2j+a_3k)\wedge k=-a_1j+a_2i
+	\end{gather*}
+
+	Si ha\[
+		M^{\mathscr{B}, \mathscr{B}}(F)=\begin{pmatrix}
+			0 & -a_3 & a_2\\
+			a_3 & 0 & -a_1\\
+			-a_2 & a_1 & 0
+		\end{pmatrix}
+	\]
+}
+
+\esercizio{
+	Sia $ F: \R^3 \to \R^{2,2} $, $ F(a,b,c)=\begin{pmatrix}
+		a & a+b \\
+		a+b+c & 0
+	\end{pmatrix} $
+
+	Sia $ \mathscr{B} $ base canonica di $ \R^3 $ e $ \mathscr{C} $ base canonica di $ \R^{2,2} $
+
+	Si trovi $M^{\mathscr{B}, \mathscr{C}}(F)$
+}{
+	Da risolvere %TODO risolvere esercizio
+}
+
+\subsection{Immagine di sottospazi vettoriali}
+
+Siano $ V $ e $ W $ spazi vettoriali su un campo $ \K $ e sia $ F:V\to W $ lineare, sia $ H \subseteq V $ sottospazio vettoriale, $ F(H) $ immagine di $ H $ tramite $ F $, tale che $ F(H) \subseteq W $, $ F(H)=\{F(h) | h \in H\} $
+
+\proposizione{gere}{
+	$F(H)$ è sempre un sottospazio vettoriale di $ W $
+}
+\dimostrazioneprop{gere}{
+	Siano $ w_1, w_2 \in F(H) $, $ \lambda, \mu \in \K $ e dimostriamo che $ \lambda w_1+ \mu w_2 \in F(H) $
+	\begin{gather*}
+		w_1 \in F(H) \implies w_1=F(h_1)\text{per qualche }h_1 \in H\\
+		w_2 \in F(H) \implies w_2=F(h_2)\text{per qualche }h_2 \in H
+	\end{gather*} \[
+		\lambda w_1+ \mu w_2= \lambda F(h_1) + \mu F(h_2)=F( \lambda h_1 + \mu h_2)
+	\]
+
+	Poiché $ H $ è un sottospazio vettoriale, risulta che, dato $ h=\lambda h_1+ \mu h_2 $ 
+	
+	$\implies$ $\lambda w_1+ \mu w_2=F(h)$ per qualche $ h \in H $ 
+	
+	$\implies$ $ \lambda w_1+ \mu w_2 \in F(H) $ 
+	
+	$\implies$ $ F(H) $ sottospazio vettoriale di $V $
+} 
+
+Supponiamo $ \dim H = n $, $ \dim F(H)=? $
+
+Sia $ \mathscr{B}=\{h_1, \cdots, h_{n}\} $ base di $ H $, sappiamo che $ \{F(h_1), \cdots, F(h_{n})\} $ è un insieme di generatori di $ F(H) $ 
+
+$\implies$ $ \dim F(H)\le n $
+
+\esercizio{
+	Sia $ F: \R^3\to \R^4 $ la funzione lineare data da 
+	\[
+		F(x_1,x_2,x_3)=(2x_1-x_3, x_1+x_2+x_3, x_1-x_2, x_2-x_3)
+	\]
+
+	Sia $ H \subseteq \R^3 $ il sottospazio $ H=\{(x_1,x_2,x_3 \in \R^3 | x_1+x_2=0\} $, $ \dim H=2 $
+
+	Si trovi una base di $ F(H) $
+}{
+	\begin{enumerate}
+		\item Trovo una base di $ H $, per esempio $ \{(1, -1, 0), (0, 0, 1)\} $
+		\item Calcolo le immagini dei vettori della base
+			\begin{gather*}
+				F(1, -1, 0)=(2, 0, 2, -1)\\
+				F(0, 0, 1)=(-1, 1, 0, -1)
+			\end{gather*}
+			Questi due vettori sono linearmente indipendendenti, allora formano una base di $ F(H) $
+	\end{enumerate}
+}
+
+\definizione{
+	Sia $ F: V\to W$ lineare, $ F(V) $ (che è un sottospazio vettoriale di $ W $) si dice l'immagine di $ F $
+}
+
+\osservazione{
+	$ F $ è suriettiva $ \iff $ $ F(V)=W $ $ \iff $ $ \dim F(V) = \dim W$ (criterio per testare la suriettività di una funzione lineare)
+}
+
+\esercizio{
+	Sia $ F: \R^3 \to \R^3$, $ F(x,y,z)=(2x+2y, x+z, x+3y-2z) $
+	\begin{enumerate}
+		\item Dire se $ F $ è suriettiva e in caso contrario trovare $ w \in \R^3 $ tale che $ w \notin F( \R^3) $
+		\item Sia $ a=(1, 0, 1) $, $ b=(0, 1, 1) $, $ H= \mathscr{L}(a, b) $. Dire se $ (4, 3, -2) \in F(H)$
+	\end{enumerate}
+}{
+	\begin{enumerate}
+		\item $ F( \R^3)= \mathscr{L}(F(e_1), F(e_2), F(e_3)) $
+		\begin{gather*}
+			F(e_1)=(2, 1, 1)\\
+			F(e_2)=(2, 0, 3)\\
+			F(e_3)=(0, 1, -2)
+		\end{gather*}
+		Si osserva che $ F(e_1)=F(e_2)+F(e_3) $, quindi i tre vettori sono linearmente dipendenti
+
+		Ma $ F(e_2) $ e $ F(e_3) $ sono linearmente indipendenti 
+		
+		$\implies$ $ F( \R^3) $ ha dimensioone 2, ed i vettori $ (2, 0, 3), (0, 1, -2) $ ne formano una base. $ F $ non è suriettiva
+
+		$ w \in \R^3 $, $ w \notin F( \R^3) $ $\iff$ $ w $ non è combinaziione lineare di $ (2, 0, 3), (0, 1, -2) $.
+
+		Per esempio $ w=(1, 0, 0) $ va bene, poiché non esistono $ \lambda, \mu \in \R$ tali che $ (1, 0, 0)=\lambda (2, 0, 3)+\mu(0,1, -2)$
+		\item $ F(H) = \mathscr{L}(F(a), F(b)) $. $F(a)=(2, 2, -1)$, $ F(b)=(2, 1, 1) $. $ F(a), F(b) $ sono linearmente indipendenti, quindi $ \dim F = 2 $
+		
+		$ (4, 3, -2) \in F(H) $ $ \iff $ $ \exists \lambda, \mu \in \R $ tali che $ (4, -3, -2)=(2 \lambda+2\mu, 2 \lambda+ \mu,- \lambda+ \mu) $
+
+		Il sistema non ha soluzione, pertanto $ (4, 3, -2)\notin F(H) $
+	\end{enumerate}
+}

@@ -1,0 +1,370 @@
+\fancypagestyle{firststyle}
+{
+	\renewcommand{\headrulewidth}{0pt}
+    \fancyhead[LE, RO]{\underline{4 novembre 2021}}
+}
+
+\thispagestyle{firststyle}
+
+\definizione{
+	Data $ F:V\to W $ applicazione lineare tra spazi vettoriali su uno stesso campo, il rango di F ($ \rank F $) è la dimensione di $ F(V) $
+}
+
+Se $ \mathscr{B} $ è una base di $ V $ e $ \mathscr{C} $ è una base di $ W $, ad $ F $ si associa la matrice $ M^{\mathscr{B}, \mathscr{C}}(F) $ che rappresenta $ F $ rispetto alle basi fissate.
+\[
+	(F(v))_{\mathscr{C}}=M^{\mathscr{B}, \mathscr{C}}(F)\cdot (v)_\mathscr{B}
+\]
+
+Il rango di F coincide con il rango della matrice $ M^{\mathscr{B}, \mathscr{C}}(F) $ 
+
+$\implies$ tutte le matrici associate ad $ F $ hanno lo stesso rango.
+
+\subsection{Retroimmagine di sottospazi}
+
+$ F: V\to W $ applicazione lineare, sia $ K \subseteq W $ un sottospazio \[
+	F^{-1}(K)=\{w \in K | w =F(v) \text{ per qualche } v \in V\}
+\]
+Si noti che $ F^{-1}(K)\neq \emptyset$: sicuramente $ K $ contiene $ \underline{0}_W $ e sappiamo che $ F(\underline{0}_V)=\underline{0}_W $.
+
+\proposizione{retro}{
+	$ F^{-1}(K) $ è sempre un sottospazio vettoriale di $ V $, $ \forall K \subseteq W $ sottospazio vettoriale
+}
+\dimostrazioneprop{retro}{
+	Fisso $ v, w \in F^{-1}(K) $, $ \lambda, \mu \in \K $ e dimostro che $ \lambda v + \mu w \in F^{-1}(K) $
+	\[
+	\begin{cases}
+		v \in F^{-1}(K) \,\implies\, v=F^{-1}(x) \text{ per qualche } x \in K, F(v)=x \\
+		w \in F^{-1}(K) \,\implies\, v=F^{-1}(y) \text{ per qualche } y \in K, F(w)=y
+	\end{cases}
+	\]
+	\[
+		F( \lambda v + \mu w) = \lambda F(v)+ \mu F(w)= \lambda x +\mu y \in K
+	\]
+	poiché $ K $ è un sottospazio vettoriale 
+	
+	$\implies$ $ F( \lambda v + \mu w) \in K$ 
+	
+	$\implies$ $ \lambda v + \mu w \in F^{-1}(K) $ 
+	
+	$\implies$ $ F^{-1}(K) $ sottospazio vettoriale di $ W $
+}
+
+\begin{gather*}
+	\dim F(H) \le \dim H, \\ \text{ se } K \subseteq F(V) \,\implies\,\dim F^{-1}(K)\ge \dim K
+\end{gather*}
+
+\esercizio{
+	\[
+		F: \R^3 \to \R^4, F(x_1,x_2,x_3)=(x_1+x_2, 2x_1+x_2+x_3, x_1+x_3, x_2-x_3)
+	\]
+	\[
+		K=\{(y_1,y_2, y_3, y_4) \in \R^4 | y_1+y_2=0\}\,\dim K=3
+	\]
+	Si determini $ F^{-1}(K) $
+}{
+	Voglio trovare le $ (x_1,x_2,x_3) \in \R^3 $ tali che $ F(x_1,x_2,x_3) \in K $ \[
+		F(x_1,x_2,x_3) \in K \iff (x_1+x_2)+2x_1+x_2+x_3=0
+	\]
+	$ 3x_1+2x_2+x_3=0 $ è l'equazione di $ F^{-1}(K) $ ($\dim F^{-1}(K)=2 $)
+
+	Trovo una base di $ F^{-1}(K) $
+	\[
+	\begin{cases}
+		x_1=t \\
+		x_2=s \\
+		x_3=-3t-2s
+	\end{cases}
+	\]
+	\[
+		\mathscr{B}=\{(1,0,-3), (0,1,-2)\}\quad \text{è una base di } F^{-1}(K)
+	\]
+	
+	Altro approccio risolutivo: 
+
+	Fisso una base di $ K $, per esempio 
+	\[ 
+		\{w_{1}=(1, -1, 0, 0), w_2=(0,0,1,0), w_3=(0,0,0,1)\} 
+	\]
+	\[
+		F^{-1}(K)=\{(x_1, x_2, x_3) \in \R^3 | F(x_1, x_2, x_3)= \lambda_1 w_1 + \lambda_2 w_2 + \lambda_3 w_3
+	\]
+	per qualche $\lambda_1, \lambda_2, \lambda_3 \in \R$
+
+	Ottengo il sistema 
+	\[
+	\begin{cases}
+		x_1+x_2= \lambda_1 \\
+		2x_1+x_2+x_3=-\lambda_1\\
+		x_1+x_3=\lambda_2\\
+		x_2-x_3= \lambda_3
+	\end{cases}
+	\]
+
+	Si risolve il sistema in $ x_1,x_2,x_3,x_4 $
+	\[
+		\begin{pmatrix}
+			1 & 1 & 0 & \lambda_1\\
+			2 & 1 & 1 & -\lambda_1\\
+			1 & 0 & 1 & \lambda_2\\
+			0 & 1 & -1 & \lambda_2
+		\end{pmatrix} \xrightarrow{\text{si riduce per righe}}
+		\begin{pmatrix}
+			1 & 1 & 0 & \lambda_1\\
+			0 & -1 & 1 & -3\lambda_1\\
+			0 & 0 & 0 & \lambda_2+2 \lambda_1\\
+			0 & 0 & 0 & \lambda_3+ 3 \lambda_1
+		\end{pmatrix}
+	\]
+
+	Affinché il sistema sia risolubile si deve avere \[
+		\lambda_2+2\lambda_1 = 0; \qquad \lambda_3+3 \lambda_1=0
+	\]
+	\[
+	\begin{cases}
+		x_1+x_2= \lambda_1	\\
+		-x_2+x_3=-3\lambda_1\\
+		\lambda_2+ 2 \lambda_1=0\\
+		\lambda_3+3 \lambda_1=0
+	\end{cases} \,\implies\, \begin{cases}
+		x_1=-2 \lambda_1 - \mu \\
+		x_2= \mu + 3 \lambda_1\\
+		x_2)\mu
+	\end{cases}
+	\]
+	Da qui si deduce una base di $ F^{-1}(K) $
+}
+
+\subsection{Nucleo di una funzione lineare}
+
+$ V, W $ spazi vettoriali su un campo $ \K $, $ F: V\to W $ lineare 
+
+$\implies$ $\{\underline{0}_W\}$ è sottospazio vettoriale di $ W $ 
+
+$\implies$ $ F^{-1}(\underline{0}_W) $ sottospazio vettoriale di $ V $
+
+\definizione{
+	$ F^{-1}(\underline{0}_W) $ si dice nucleo di $ F $ (kernel di $ F $) e si indica con $ \ker(F) $ \[
+		\ker F=\{v \in V | F(v)=\underline{0}_W \}
+	\]
+}
+
+\teorema{kern}{
+	$ F $ è iniettiva $ \iff $ $ \ker F={\underline{0}_V} $
+}
+\dimostrazione{kern}{
+	\begin{itemize}
+		\item ["$\implies$"] Supponiamo $ F $ iniettiva e sia $ v \in \ker F$ 
+		
+		$\implies$ $F(v)=\underline{0}_W$, ma poiché $ F $ è lineare risulta $ F(\underline{0}_V)=\underline{0}_W $ 
+		
+		$\implies$ $ F(v)=F(\underline{0}_V) $ e poiché $ F $ è iniettiva risulta $ v=\underline{0}_W $ 
+		
+		$\implies$ $ \ker F =\{ \underline{0}_V\} $
+		\item ["$\Longleftarrow$"] Per ipotesi $ \ker F=\{ \underline{0}_V\} $, siano $ v_1,v_2 \in V $ tali che $ F(v_1)=F(v_2) $ 
+		
+		$\implies$ $ F(v_1)-F(v_2)= \underline{0}_W $, poiché $ F $ è lineare si ottiene $ F(v_1-v_2)= \underline{0}_W $ 
+		
+		$\implies$ $ v_1-v_2 \in \ker F $ 
+		
+		$\implies$ $ v_1-v_2= \underline{0}_V $ 
+		
+		$\implies$ $ v_1=v_2 $, quindi $ F $ è iniettiva.
+	\end{itemize}
+}
+
+Supponiamo $ V, W $ di dimensione finita, $ \dim V = n $ e $ \dim W=m $, siano $ \mathscr{B}=\{v_1, \cdots, v_{n}  \}$ base di $ V $ e $ \mathscr{C}=\{w_1, \cdots, w_{m}  \}$ base di $ W $, e si consideri $ M^{\mathscr{B}, \mathscr{C}(F)} $
+\begin{multline*}
+	\ker F=\{v\in V | F(v)= \underline{0}_W\}=\\
+	=\{v \in V | (F(v))_{\mathscr{C}}= \underline{0}_{\K^m}\}=\\
+	=\{v \in V | M^{\mathscr{B}, \mathscr{C}}(F)(v)_{\mathscr{B}}= \underline{0}_{\K^m}\}=\\
+	= \{v \in V | (v)_{\mathscr{B}} \text{ appartiene al null-space di } M^{\mathscr{B}, \mathscr{C}}(F)\}
+\end{multline*}
+
+In particolare 
+\begin{multline*}
+ \dim\ker F = \\
+ = \dim(\text{null-space di } M^{\mathscr{B}, \mathscr{C}}(F))=\\
+ = \dim V - \rank M^{\mathscr{B}, \mathscr{C}}(F) =\\
+ = \dim V- \rank F 
+\end{multline*}
+\[
+	\dim V = \dim \ker F + \rank F
+\]
+
+Questo sopra enunciato è il teorema di nullità più rango in termini di una funzione lineare.
+
+\esercizio{
+	Sia $ F:V \to W $ lineare. Fisso $ w_{0} \in W $, e definisco \[
+		F^{-1}(w_0)=\{v \in V | F(v)=w_0\}
+	\]
+	Si diano condizioni necessarie e sufficienti affinché $ F^{-1}(w_0) $ sia sottospazio.
+}{
+	% TODO risolvere esercizio 
+}
+
+\esercizio{
+	Sia $ \mathscr{B}=\{v_1,v_2,v_3\} $ una base di uno spazio vettoriale $ V, 3-\dim $, $ \mathscr{C}=\{w_1,w_2,w_3,w_3\} $ una base di uno spazio vettoriale $ W, 4-\dim $
+
+	Sia $ g: V\to W $ la funzione lineare determinata dalle relazioni
+	\[
+	\begin{cases}
+		g(v_1) = w_1+2w_2+w_3\\
+		g(v_2) = w_1+w_2+w_4\\
+		g(v_3) = w_2+w_3-w_4\\
+	\end{cases}
+	\]
+
+	Si calcolino $ g(V) $ e $ \ker g $
+}{
+	Possiamo calcolare $ M^{\mathscr{B}, \mathscr{C}}(g) $
+	\[
+		M^{\mathscr{B}, \mathscr{C}}(g)=\begin{pmatrix}
+			1 & 1 & 0\\
+			2 & 1 & 1\\
+			1 & 0 & 1\\
+			0 & 1 & -1
+		\end{pmatrix}
+	\]	
+
+	Per calcolare $ \ker g $ devo calcolare il null-space di $ M^{\mathscr{B}, \mathscr{C}}(g) $, cioè \[
+		\begin{pmatrix}
+			1 & 1 & 0\\
+			2 & 1 & 1\\
+			1 & 0 & 1\\
+			0 & 1 & -1
+		\end{pmatrix}\cdot
+		\begin{pmatrix}
+			x_1\\ x_2\\ x_3
+		\end{pmatrix}=\begin{pmatrix}
+			0\\0\\0\\0
+		\end{pmatrix}
+	\]
+
+	Riduco $ M^{\mathscr{B}, \mathscr{C}}(g) $ per righe:
+	\begin{gather*}
+		\begin{pmatrix}
+			1 & 1 & 0\\
+			2 & 1 & 1\\
+			1 & 0 & 1\\
+			0 & 1 & -1
+		\end{pmatrix} \xrightarrow[R_{3} \to R_3-R_1 ]{R_{2}\to R_{2}-2R_1} \begin{pmatrix}
+			1 & 1 & 0\\
+			0 & -1 & 1\\
+			0 & -1 & 1\\
+			0 & 1 & -1\\
+		\end{pmatrix}\to \\
+		\to \begin{pmatrix}
+			1 & 1 & 0\\
+			0 & -1 & 1\\
+			0 & 0 & 0\\
+			0 & 0 & 0\\
+		\end{pmatrix}\to\\ \to \begin{cases}
+		x_1+x_2=0\\
+		x_2-x_3=0	
+		\end{cases}
+		\to \begin{cases}
+			x_1=- \lambda\\
+			x_2= \lambda\\
+			x_3= \lambda
+		\end{cases}
+	\end{gather*}
+
+	Quindi \[ \ker g =\{- \lambda v_1+ \lambda v_2+ \lambda v_3 | \lambda \in\K\}= \mathscr{L}(v_1-v_2-v_3)\]
+
+	$ g(V) $ ha dimensione 2. Per esercizio si trovi una base di $ g(V) $ % TODO svolgere esercizio
+}
+
+\notazione{
+	Spesso l'immagine di una funzione lineare $ F $ si indica con $ \text{Im}(F) $
+}
+
+\teorema{carfin}{
+	Sia $ F:V\to W $ una funzione lineare tra spazi vettoriali su un campo $ \K $. 
+	
+	$ F $ è iniettiva $ \iff $ $ F $ porta insiemi liberi di vettori di $ V $ in insiemi liberi di vettori di $ W $
+}
+\dimostrazione{carfin}{
+	\begin{itemize}
+		\item ["$\implies$"] Supponiamo $ F $ iniettiva e sia $ \{v_1, \cdots, v_{l} \} \subseteq V$ un insieme libero, e dimostriamo che $ \{F(v_1), \cdots, F(v_{l} )	\} $ è un insieme libero in $ W $
+		
+		Considero $ \lambda_1, \cdots, \lambda_{l} \in \K $ tali che \[
+			\lambda_1F(v_1)+ \lambda_2F(v_2)+ \cdots+ \lambda_{l} F(v_{l} )= \underline{0}_W
+		\]
+		Poiché $ F $ è lineare risulta \[
+			F( \lambda_1 v_1+ \lambda_2 v_2 + \cdots+ \lambda_{l} v_{l})= \underline{0}_W
+		\]
+
+		$\implies$ $ \lambda_1 v_1+ \lambda_2 v_2 + \cdots+ \lambda_{l} v_{l} \in \ker F$, ma poiché $ F $ iniettiva $ \ker F = \{ \underline{0}_W\} $
+
+		$ \implies $ $\lambda_1 v_1+ \lambda_2 v_2 + \cdots+ \lambda_{l} v_{l}= \underline{0}_V$, ma $ \{v_1, \cdots, v_{l} \} $ è libero
+
+		$ \implies $ $ \lambda_1= \cdots=\lambda_{l}=0  $
+
+		$ \implies $ $ \{F(v_1), \cdots, F(v_{l} )\} $ è libero
+		
+		\item ["$\Longleftarrow$"] Per ipotesi $ F $ porta insiemi liberi in insiemi liberi. Si fissa $ v \in V $, $ v \neq \underline{0}_V $, quindi $ \{v\} $ è libero 
+		
+		$ \implies $ $ \{F(v)\} $ è libero 
+
+		$ \implies $ $F(v)\neq \underline{0}_W $
+
+		$ \implies $ $ \ker F = \{ \underline{0}_V\}$
+
+		$ \implies $ $ F $ è iniettiva
+	\end{itemize}
+}
+
+\definizione{Una funzione lineare sia iniettiva che suriettiva si dice un isomorfismo
+
+$ F:V\to W $ è un isomorfismo $\iff$ $ \text{Im}(F)=W $ e $ \ker F =\{ \underline{0}_V\} $
+
+}
+
+\teorema{chedde}{
+	\begin{enumerate}
+		\item Sia $ F:V\to W $ lineare con $ V, W $ finitamente generati e tali che $ \dim V = \dim W $. 
+		
+		$ F $ è iniettiva $ \iff $ $ F $ è suriettiva
+		\item $ F:V \to V $ lineare con $ V $ finitamente generato è un isomorfismo $ \iff $ iniettiva $\iff$ suriettiva
+	\end{enumerate}
+}
+\definizione{Un isomorfismo $ F:V\to V $ si dice un automorfismo di $ V $}
+\dimostrazione{chedde}{
+	\begin{enumerate}
+		\item $ \dim V =\dim W $, $ \dim V = \dim \ker (F)+\dim \text{Im}(F) $
+		
+		$ \implies$ $ \dim W = \dim \ker (F)+\dim \text{Im}(F) $
+
+		\begin{itemize}
+		\item Se $ F $ è suriettiva 
+		
+		$\implies$ $ \dim W = \dim \text{Im}(F) $
+
+		$\implies$ $ \dim \ker (F) = 0 $
+
+		$\implies$ $ \ker F = \{ \underline{0}_V\} $
+
+		$\implies$ F è iniettiva
+
+		\item Se $ F $ è iniettiva
+		
+		$\implies$ $ \dim \ker F = 0 $
+		
+		$\implies$ $ \dim W = \dim \text{Im}F $
+		
+		$\implies$ $ W=\text{Im}F $
+		
+		$\implies$ F è suriettiva
+		\end{itemize}
+		\item Segue dal punto 1.
+	\end{enumerate}
+}
+
+\esempio{
+	$ V $ spazio vettoriale su un campo $ \K$, $ \mathscr{B} $ base di $ V $
+	\begin{align*}
+		V \xrightarrow{L_{\mathscr{B}}} & \K^n\\
+		v \mapsto & (v)_{\mathscr{B}}
+	\end{align*}
+	è un isomorfismo
+}

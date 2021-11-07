@@ -9,5 +9,7 @@
 - [Homo Deus: Singapore](Homo%20Deus%20-%20Yuval%20Noah%20Harari.md#Singapore%20-%20p%20257)
 - [Homo Deus: Umanesimo](Homo%20Deus%20-%20Yuval%20Noah%20Harari.md#Umanesimo%20-%20pp%20305-328)
 - [Homo Deus](202108221817%20Recensione%20"Homo%20Deus".md#^024584)
+- [L'ordine del tempo](202110061446.md)
+
 
 #riflessioni 
