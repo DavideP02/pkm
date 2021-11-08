@@ -43,7 +43,7 @@
 - 4 novembre 2021
 	- [Appunti Lezione](202111041245%20(4%20nov%202021).md) | [pdf](202111041245.pdf)
 - 8 novembre 2021
-	- [Appunti Lezione](202111041245%20(4%20nov%202021).md) | [pdf](202111080850.pdf)
+	- [Appunti Lezione](202111080850%20(8%20nov%202021).md) | [pdf](202111080850.pdf)
  
 ## Esercitazioni
 
