@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'analisi1.blg'
-[22] biber-darwin:315> INFO - === Tue Nov  2, 2021, 10:33:52
-[37] Biber.pm:371> INFO - Reading 'analisi1.bcf'
-[95] Utils.pm:193> WARN - No data sources defined!
+[29] biber-darwin:315> INFO - === Sun Nov  7, 2021, 18:12:40
+[47] Biber.pm:371> INFO - Reading 'analisi1.bcf'
+[114] Utils.pm:193> WARN - No data sources defined!

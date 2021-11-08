@@ -11,13 +11,22 @@
 - 28 settembre 2021:
 	- [Appunti Lezione](202109280840%20(28%20set%202021).md) | [pdf](202109280840.pdf)
 - 4 ottobre 2021
+	-  | [pdf](202110041045.pdf)
 - 5 ottobre 2021
+	-  | [pdf](202110050853.pdf)
 - 11 ottobre 2021
+	-  | [pdf](202110111030.pdf)
 - 12 ottobre 2021
+	-  | [pdf](202110120850.pdf)
 - 18 ottobre 2021
+	-  | [pdf](202110181045.pdf)
 - 19 ottobre 2021
+	-  | [pdf](202110190840.pdf)
 - 25 ottobre 2021
-- 26 ottobre 2021
+	-  | [pdf](202110251030.pdf)
+- 26 ottobre 2021	
+	-  | [pdf](202110260852.pdf)
+- 2 novembre 2021
 
 ## Tutorato
 - 28 ottobre 2021
