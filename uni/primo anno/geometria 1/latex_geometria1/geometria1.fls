@@ -514,7 +514,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecsl1095.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/vf/public/yhmath/yhcmex10.vf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/yhmath/yrcmex10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
@@ -530,6 +529,8 @@ INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/02nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/04nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/04nov2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/08nov2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/08nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.aux
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.out
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.out
@@ -544,6 +545,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb

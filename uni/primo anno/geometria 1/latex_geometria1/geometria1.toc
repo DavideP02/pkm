@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempi (1.1)}{5}{section*.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Somma}{6}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.1}Somma}{7}{subsection.1.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempi (1.2)}{7}{section*.3}% 
 \defcounter {refsection}{0}\relax 
@@ -14,9 +14,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{7}{section*.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{7}{section*.6}% 
+\contentsline {paragraph}{Notazione }{8}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{7}{section*.7}% 
+\contentsline {paragraph}{Definizione }{8}{section*.7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Propriet\IeC {\`a} }{8}{section*.8}% 
 \defcounter {refsection}{0}\relax 
@@ -28,9 +28,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Propriet\IeC {\`a} }{8}{section*.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{8}{section*.12}% 
+\contentsline {paragraph}{Definizione }{9}{section*.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (2.1)}{8}{section*.13}% 
+\contentsline {paragraph}{Esempi (2.1)}{9}{section*.13}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{9}{section*.14}% 
 \defcounter {refsection}{0}\relax 
@@ -42,7 +42,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Osservazione (3.1)}{9}{section*.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} del prodotto per scalari}{9}{section*.17}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} del prodotto per scalari}{10}{section*.17}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Prodotto tra matrici}{10}{subsection.3.2}% 
 \defcounter {refsection}{0}\relax 
@@ -68,7 +68,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (3.3)}{13}{section*.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Operazioni tra sottospazi vettoriali}{15}{section.4}% 
+\contentsline {section}{\numberline {4}Operazioni tra sottospazi vettoriali}{16}{section.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Proposizione \textit {p.}ii }{16}{section*.28}% 
 \defcounter {refsection}{0}\relax 
@@ -78,39 +78,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [prp:somvet]{(\textit {p.}iii)}}{16}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{16}{section*.32}% 
+\contentsline {paragraph}{Esercizio }{17}{section*.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{16}{section*.33}% 
+\contentsline {paragraph}{Soluzione}{17}{section*.33}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Proposizione \textit {p.}iv }{17}{section*.34}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [prp:caa]{(\textit {p.}iv)}}{17}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{17}{section*.36}% 
+\contentsline {paragraph}{Notazione }{18}{section*.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (4.1)}{17}{section*.37}% 
+\contentsline {paragraph}{Esempio (4.1)}{18}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (4.2)}{17}{section*.38}% 
+\contentsline {paragraph}{Esempio (4.2)}{18}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}v }{17}{section*.39}% 
+\contentsline {paragraph}{Proposizione \textit {p.}v }{18}{section*.39}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (4.3)}{18}{section*.40}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Osservazione (4.1)}{18}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema III }{18}{section*.42}% 
+\contentsline {paragraph}{Teorema III }{19}{section*.42}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [thm:grassmann]{(III)}}{19}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Funzioni lineari}{20}{section.5}% 
+\contentsline {section}{\numberline {5}Funzioni lineari}{21}{section.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Teorema IV (di esistenza e unicit\IeC {\`a})}{21}{section*.44}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [thm:vem]{(IV)}}{21}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Matrice associata ad una applicazione lineare}{22}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.1}Matrice associata ad una applicazione lineare}{23}{subsection.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{23}{section*.46}% 
+\contentsline {paragraph}{Notazione }{24}{section*.46}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (5.1)}{24}{section*.47}% 
 \defcounter {refsection}{0}\relax 
@@ -118,7 +118,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (5.3)}{24}{section*.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.4)}{24}{section*.50}% 
+\contentsline {paragraph}{Esempio (5.4)}{25}{section*.50}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (5.5)}{25}{section*.51}% 
 \defcounter {refsection}{0}\relax 
@@ -130,7 +130,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Proposizione \textit {p.}vi }{25}{section*.54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:gere]{(\textit {p.}vi)}}{25}{section*.55}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:gere]{(\textit {p.}vi)}}{26}{section*.55}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{26}{section*.56}% 
 \defcounter {refsection}{0}\relax 
@@ -138,25 +138,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{26}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (5.1)}{26}{section*.59}% 
+\contentsline {paragraph}{Osservazione (5.1)}{27}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{26}{section*.60}% 
+\contentsline {paragraph}{Esercizio }{27}{section*.60}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{27}{section*.61}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{27}{section*.62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Retroimmagine di sottospazi}{27}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.3}Retroimmagine di sottospazi}{28}{subsection.5.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Proposizione \textit {p.}vii }{28}{section*.63}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [prp:retro]{(\textit {p.}vii)}}{28}{section*.64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{28}{section*.65}% 
+\contentsline {paragraph}{Esercizio }{29}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{28}{section*.66}% 
+\contentsline {paragraph}{Soluzione}{29}{section*.66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Nucleo di una funzione lineare}{29}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.4}Nucleo di una funzione lineare}{30}{subsection.5.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{30}{section*.67}% 
 \defcounter {refsection}{0}\relax 
@@ -170,20 +170,72 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{31}{section*.72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{31}{section*.73}% 
+\contentsline {paragraph}{Soluzione}{32}{section*.73}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Notazione }{32}{section*.74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VI }{32}{section*.75}% 
+\contentsline {paragraph}{Teorema VI }{33}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carfin]{(VI)}}{32}{section*.76}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carfin]{(VI)}}{33}{section*.76}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{33}{section*.77}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VII }{33}{section*.78}% 
+\contentsline {paragraph}{Teorema VII }{34}{section*.78}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{33}{section*.79}% 
+\contentsline {paragraph}{Definizione }{34}{section*.79}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:chedde]{(VII)}}{33}{section*.80}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:chedde]{(VII)}}{34}{section*.80}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (5.6)}{34}{section*.81}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Propriet\IeC {\`a} delle funzioni lineari}{35}{subsection.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}viii }{35}{section*.82}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:comp]{(\textit {p.}viii)}}{35}{section*.83}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}ix }{35}{section*.84}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:sdfsdf]{(\textit {p.}ix)}}{35}{section*.85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempi (5.7)}{36}{section*.86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{37}{section*.87}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}x }{37}{section*.88}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:ccdcdc]{(\textit {p.}x)}}{37}{section*.89}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6}Funzioni lineari e cambiamenti di base}{38}{subsection.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.6.1}Caso particolare}{39}{subsubsection.5.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{39}{section*.90}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{39}{section*.91}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{39}{section*.92}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{39}{section*.93}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{40}{section*.94}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{40}{section*.95}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{40}{section*.96}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{41}{section*.97}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Attenzione}{41}{section*.98}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (5.8)}{41}{section*.99}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7}Somma di funzioni lineari}{41}{subsection.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{42}{section*.100}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{42}{section*.101}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{42}{section*.102}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{42}{section*.103}% 

@@ -1,10 +1,4 @@
-\fancypagestyle{firststyle}
-{
-	\renewcommand{\headrulewidth}{0pt}
-    \fancyhead[LE, RO]{\underline{7 ottobre 2021}}
-}
-
-\thispagestyle{firststyle}
+\marginnote{7 ott 2021}
 
 \proposizione{somvet}{Sia $V$ uno spazio vettoriale e $W, W_1$ e $W_2$ sottospazi di $V$.
 
@@ -12,7 +6,7 @@
 
 \dimostrazioneprop{somvet}{Sia $x+y \in W_1+W_2$, $x \in W_1$ $\implies$ $x \in W, y \in W_2$ $\implies$ $y \in W$ $\implies$ $x+y \in W$, poiché $W$ è un sottospazio vettoriale. Quindi ogni $v \in W_1+W_2$ è elemento di $W$ $\implies$ $W_1+W_2 \subseteq W$.
 
-La somma si generalizza a più sottospazi. Siano $W_1, \cdots, W_l \subseteq V$ sottospazi vettoriali, allora si definisce \[W_1+\cdots+W_l=\{x_1+\cdots+x_l | x_1 \in W_1, \cdots, x_l \in W_l\} \subseteq V\] è un sottospazio vettoriale ed è il più piccolo sottospazio che contiene tutti i $W_1,\cdots, W_l$}
+La somma si generalizza a più sottospazi. Siano $W_1, \cdots, W_l \subseteq V$ sottospazi vettoriali, allora si definisce \[W_1+\cdots+W_l=\{x_1+\cdots+x_l | x_1 \in W_1, \cdots, x_l \in W_l\} \subseteq V\] è un sottospazio vettoriale ed è il più piccolo sottospazio che contiene tutti i $W_1,\cdots, W_l$\qed}
 
 \esercizio{
 	Si trovino somma e intersezione dei seguenti sottospazi vettoriali di $\R^4$
@@ -45,7 +39,7 @@ La somma si generalizza a più sottospazi. Siano $W_1, \cdots, W_l \subseteq V$ 
 	
 	\item [2. $\implies$ 1.] Suppongo che ogni $v \in W_1+W_2$ si scriva in modo unico come $v=x+y$ con $x \in W_1$ e $y \in W_2$ e dimostro che $W_1 \cap W_2 = \{\underline{0}\}$
 
-		Sia $v \in W_1 \cap W_2$. Sia $v \in W_1+W_2$, $v=x+y=x+v+y-v$, con $x+v \in W_1$, $y-v \in W_2$. Quindi se $v \neq \underline{0}$, le due scritture $v=x+y$, $v=(x+v)+(y-v)$ sono diverse e ciò non è possibile per ipotesi}}
+		Sia $v \in W_1 \cap W_2$. Sia $v \in W_1+W_2$, $v=x+y=x+v+y-v$, con $x+v \in W_1$, $y-v \in W_2$. Quindi se $v \neq \underline{0}$, le due scritture $v=x+y$, $v=(x+v)+(y-v)$ sono diverse e ciò non è possibile per ipotesi}\qed}
 
 		
 \notazione{
@@ -91,7 +85,8 @@ Sia $V$ spazio vettoriale su un campo $\K$, finitamente generato. Sia $ W \subse
 	\[\dim V = \dim W_1 + \dim W_2 - \dim (W_1 \cap W_2)\]
 	Questa è la \textbf{Formula di Grassmann}.}
 \dimostrazione{grassmann}{
-Chiamo $ \dim V=n $, $ \dim W_1=l $, $ \dim W_2=p $, $ \dim (W_1 \cap W_2) = r $
+Chiamo 
+\[ \dim V=n,\, \dim W_1=l,\, \dim W_2=p,\, \dim (W_1 \cap W_2) = r\]
 
 In particolare $ l,p \leq n $, $ r\leq l,p $
 \begin{enumerate}
@@ -129,7 +124,7 @@ In particolare $ l,p \leq n $, $ r\leq l,p $
     $\implies$ $\lambda_1=\cdots=\lambda_r = \mu_{r+1}=\cdots=\mu_l=0$
     
     $\implies$ $\{a_1, \cdots, a_r, b_{r+1}, \cdots, b_l, c_{r+1}, \cdots, c_p\}$ è libero
-\end{enumerate}}
+\end{enumerate}\qed}
 
 %TODO sistemare appunti con quelli del prof
 %TODO sistemare sistema di numerazione teoremi e proposizioni
