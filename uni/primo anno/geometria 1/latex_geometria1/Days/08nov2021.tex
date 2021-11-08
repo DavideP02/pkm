@@ -56,7 +56,7 @@ Questa proprietà ci mostra quanto sia rigida la linearità di una funzione
         \end{pmatrix}
         \end{align*}
 
-        Se $ A $ è invertibile, esiste $ A^{-1} \in \K^{n,n} $ tale che $ A^{-1} A = A A^{-1} = Id $ dove $ Id \in \K^{n,n} $ è la matrice identita.
+        Se $ A $ è invertibile, esiste $ A^{-1} \in \K^{n,n} $ tale che $ A^{-1} A = A A^{-1} = \Id $ dove $ \Id \in \K^{n,n} $ è la matrice identita.
 
         Posso considerare \begin{align*}
             F_A^{-1}: \K^n & \to \K^n\\
@@ -68,7 +68,7 @@ Questa proprietà ci mostra quanto sia rigida la linearità di una funzione
             \end{align*}
 
         \[
-            F_{A^{-1}}\circ F_{A} (x)= F_{A^{-1}} (F_{A}(x) ) = A^{-1}(A x)= Id \cdot x = x
+            F_{A^{-1}}\circ F_{A} (x)= F_{A^{-1}} (F_{A}(x) ) = A^{-1}(A x)= \Id \cdot x = x
         \] 
         
         $\implies$ $ F_{A^{-1}}\circ F_{A}   $ è la funzione identità $ I: \K^{n} \to \K^n$ 
@@ -138,9 +138,21 @@ Siano $ V, W $ spazi vettoriali su un campo $ K$, entrambi finitamente generati 
 
 Considero $ F:V\to W $ lineare, e fisso $ \mathscr{B} $ base di $ V $ e $ \mathscr{C} $ base di $ W $. 
 
-$ F $ è rappresentata da una matrice $A = M^{ \mathscr{B}, \mathscr{C}}(F) \in \K^{m,n}$ tramite la relazione \[(F(v))_{ \mathscr{C}}=M^{ \mathscr{B}, \mathscr{C}}(F)*(V)_{\mathscr{B}}\]
+$ F $ è rappresentata da una matrice $A = M^{ \mathscr{B}, \mathscr{C}}(F) \in \K^{m,n}$ tramite la relazione \[(F(v))_{ \mathscr{C}}=M^{ \mathscr{B}, \mathscr{C}}(F)\cdot(v)_{\mathscr{B}}\]
 
-% TODO diagramma 1
+\begin{center}
+\begin{tikzpicture}
+    \matrix (m) [matrix of math nodes,row sep=3em,column sep=4em,minimum width=2em]
+    {
+       V & W \\
+       \K^n & \K^m \\};
+    \path[-stealth]
+      (m-1-1) edge node [left] {iso} (m-2-1)
+              edge node [above] {$F$} (m-1-2)
+      (m-2-1) edge node [below] {$F_{A}$} (m-2-2)
+      (m-1-2) edge node [right] {iso} (m-2-2);
+\end{tikzpicture}
+\end{center}
 
 Questo è un diagramma commutativo
 
@@ -213,7 +225,7 @@ In questo caso la formula implica $ A'=P^{-1}AP $ dove $ P $ è la matrice del c
         A\sim B\text{ se esiste } P \in \K^{n,n}\text{ invertibile }|\, B=P^{-1}AP
     \]
     \begin{itemize}
-        \item $ \sim $ è riflessiva, $ A=(Id)^{-1} A \cdot Id $ $\implies$ $ A\sim A $
+        \item $ \sim $ è riflessiva, $ A=(\Id)^{-1} A \cdot \Id $ $\implies$ $ A\sim A $
         \item $ \sim $ è simmetrica, infatti, se $ A\sim B $ 
         
         $ \implies $ $ B=P^{-1}AP $ 
@@ -292,7 +304,7 @@ In questo caso la formula implica $ A'=P^{-1}AP $ dove $ P $ è la matrice del c
 
     Notiamo che $ \det A =\det B $, $ \tr A = \tr B $, $\rank A =\rank B$, ma $ A $ e $ B $ non sono simili, infatti
     \[
-        P^{-1}AP=Id \forall P \in \text{GL}(2, \R), B\neq Id
+        P^{-1}AP=\Id \forall P \in \text{GL}(2, \R), B\neq \Id
     \]
 }
 

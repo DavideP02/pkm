@@ -216,13 +216,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{39}{section*.92}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{39}{section*.93}% 
+\contentsline {paragraph}{Esercizio }{40}{section*.93}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{40}{section*.94}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{40}{section*.95}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{40}{section*.96}% 
+\contentsline {paragraph}{Soluzione}{41}{section*.96}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Definizione }{41}{section*.97}% 
 \defcounter {refsection}{0}\relax 
@@ -230,7 +230,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (5.8)}{41}{section*.99}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7}Somma di funzioni lineari}{41}{subsection.5.7}% 
+\contentsline {subsection}{\numberline {5.7}Somma di funzioni lineari}{42}{subsection.5.7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{42}{section*.100}% 
 \defcounter {refsection}{0}\relax 
