@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  8 NOV 2021 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  9 NOV 2021 12:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1589,31 +1589,34 @@ Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
 \c@prpsdfsdf=\count539
  [35] [36]
 \c@prpccdcdc=\count540
- [37] [38] [39] [40] [41]) [42]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+ [37] [38] [39] [40] [41]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/09nov2021.tex
+Package marginnote Info: Margin note 42.1 is on absolute page 42 on input line 1.
+Package marginnote Info: xpos seems to be 142.70891pt on input line 1.
+ [42] [43] [44] [45] [46] [47]) [48]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `geometria1.out' has not changed.
-(rerunfilecheck)             Checksum: 5C64385048F219DA2EF69D8385741604;1182.
+(rerunfilecheck)             Checksum: 27DDF827EE9280899C52E97D7A7D6CFF;1510.
 Package logreq Info: Writing requests to 'geometria1.run.xml'.
 \openout1 = `geometria1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 63096 strings out of 492616
- 1472402 string characters out of 6129481
- 2148041 words of memory out of 5000000
- 65861 multiletter control sequences out of 15000+600000
+ 63150 strings out of 492616
+ 1473222 string characters out of 6129481
+ 2148328 words of memory out of 5000000
+ 65873 multiletter control sequences out of 15000+600000
  553441 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,18n,136p,1731b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/rsfs/rsfs5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on "/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.pdf" (42 pages, 390469 bytes).
+Output written on "/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.pdf" (48 pages, 423572 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 193 named destinations out of 1000 (max. 500000)
- 15141 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 587 compressed objects within 6 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 15173 words of extra memory for PDF output out of 17280 (max. 10000000)
 

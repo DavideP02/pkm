@@ -230,12 +230,62 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esempio (5.8)}{41}{section*.99}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7}Somma di funzioni lineari}{42}{subsection.5.7}% 
+\contentsline {subsection}{\numberline {5.7}Spazio delle funzioni lineari}{42}{subsection.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.1}Somma di funzioni lineari}{42}{subsubsection.5.7.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{42}{section*.100}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{42}{section*.101}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.2}Prodotto per scalari di funzioni lineari}{42}{subsubsection.5.7.2}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{42}{section*.102}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{42}{section*.103}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{43}{section*.104}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{43}{section*.105}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8}Composizione di funzioni lineari}{43}{subsection.5.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{44}{section*.106}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{44}{section*.107}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (5.2)}{44}{section*.108}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{45}{section*.109}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (5.9)}{46}{section*.110}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{46}{section*.111}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{46}{section*.112}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{46}{section*.113}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{46}{section*.114}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Spazi vettoriali Euclidei}{46}{section.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{47}{section*.115}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (6.1)}{47}{section*.116}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Conseguenza}{47}{section*.117}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (6.2)}{47}{section*.118}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (6.3)}{48}{section*.119}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{48}{section*.120}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (6.4)}{48}{section*.121}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{48}{section*.122}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{48}{section*.123}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{48}{section*.124}% 

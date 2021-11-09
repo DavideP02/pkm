@@ -1,0 +1,243 @@
+Suppongo\marginnote{9 nov 2021} che $ V $ e $ W $ abbiano dimensione finita, $ \dim V=n, \dim W=m $. Fisso $ \mathscr{B} $ base di $ V $ e $ \mathscr{C} $ base di $ W $, ogni $ F \in L(V,W) $ induce la matrice $ M^{ \mathscr{B}, \mathscr{C}}(F) \in \K^{m,m} $
+
+Abbiamo quindi una funzione \[
+    M^{ \mathscr{B}, \mathscr{C}}:L(V,W)\to \K^{m,m}
+\]
+\esercizio{La funzione $ M^{ \mathscr{B}, \mathscr{C}} $ è un isomorfismo di spazi vettoriali:
+\begin{itemize}
+    \item $ M^{ \mathscr{B}, \mathscr{C}} $ è lineare cioè \begin{gather*} M^{ \mathscr{B}, \mathscr{C}}(F+G)=M^{ \mathscr{B}, \mathscr{C}}(F)+M^{ \mathscr{B}, \mathscr{C}}(G)\\ M^{ \mathscr{B}, \mathscr{C}}(\lambda F) = \lambda M^{ \mathscr{B}, \mathscr{C}}(F)\end{gather*}
+    \item $ \ker (M^{ \mathscr{B}, \mathscr{C}}) = \underline{0}_{L(V,W)} $ $\implies$ $ M^{ \mathscr{B}, \mathscr{C}} $ è iniettiva
+    \item $ M^{ \mathscr{B}, \mathscr{C}} $ è suriettiva, cioè \[
+        M^{ \mathscr{B}, \mathscr{C}}\biggl(L(V,W)\biggr)= \K^{m,n}
+    \]
+\end{itemize}
+}{
+    Da fare %TODO fare esercizio
+}{}
+
+\subsection{Composizione di funzioni lineari}
+
+Siano $ V, W, Z $ spazi vettoriali sullo stesso campo $ \K $.
+\[
+    V \xrightarrow{F} W \xrightarrow{G} Z \,\implies\, G\circ F:V\to Z \text{ è lineare}
+\]
+
+Supponiamo che $ V, W, Z $ abbiano dimensione finita. Siano $ \mathscr{B} $ una base di $ V $, $ \mathscr{C} $ una base di $ W $ e $ \mathscr{D} $ una base di $ Z $. Abbiamo $ M^{ \mathscr{B}, \mathscr{C}}(F) $ e $ M^{ \mathscr{C}, \mathscr{D}}(G) $ matrici, con \[M^{ \mathscr{B}, \mathscr{C}}(F) \cdot  (v)_{ \mathscr{B}}=(F(v))_{ \mathscr{C}}\text{ e }M^{ \mathscr{C}, \mathscr{D}}(G) \cdot  (w)_{ \mathscr{C}}=(G(v))_{ \mathscr{D}}\]
+
+Considero \begin{multline*}
+    \bigl((G\circ F)(v)\bigr)_{ \mathscr{D}}=\bigl(G(F(v))\bigr)_{ \mathscr{D}}=\\
+    =M^{ \mathscr{C}, \mathscr{D}}(G) \cdot (F(v))_{ \mathscr{C}}=\\=M^{ \mathscr{C}, \mathscr{D}}(G) \cdot M^{ \mathscr{B}, \mathscr{C}}(F) \cdot (v)_{ \mathscr{B}}
+\end{multline*} 
+cioè la matrice che rappresenta $ G\circ F $ rispetto alle basi $  \mathscr{B} $ e $ \mathscr{D} $ è il prodotto della matrice che rappresenta $ G $ per la matrice che rappresenta $ F $
+
+\esercizio{
+    Siano $ F: \R^{4}\to \R^{3}$, $ H:\R^{4}\to \R^{2} $ le funzioni lineari definite come \[
+        F\begin{pmatrix}
+            x_1\\x_2\\x_3\\x_4
+        \end{pmatrix}=\begin{pmatrix}
+            x_1+x_2+x_3+x_4\\
+            x_2-x_3+3x_4\\
+            2x_1+2x_2-x_3-x_4
+        \end{pmatrix}
+    \]
+    \[
+        H\begin{pmatrix}
+            x_1\\x_2\\x_3\\x_4
+        \end{pmatrix}=\begin{pmatrix}
+            x_1+2x_2-3x_4\\
+            x_1+x_2+x_3-2x_4
+        \end{pmatrix}
+    \]
+
+    Si determini (se esiste) una funzione lineare $ G:\R^{3}\to \R^{2} $ tale che $ H=G\circ F $
+}{
+    $ F $ è rappresentata dalla matrice \[
+        A=\begin{pmatrix}
+            1 & 1& 1& 1\\
+            0&1&-1&3\\
+            2&2&-1&-1
+        \end{pmatrix} \in \R^{3,4}
+    \] $ H $ è rappresentata dalla matrice \[
+        B=\begin{pmatrix}
+            1 & 2 & 0 & -3\\
+            1 & 1 & 1 & -2
+        \end{pmatrix}
+    \]  
+
+    Sia $ C $ la matrice che rappresenta $ G $
+
+    $\implies$ $ C $ soddisfa $ B = C \cdot A $ con $ B $ e $ A $ note e $ C $ matrice incognita. Studio il sistema matriciale, che posso scrivere nella forma $ \null^{t}B=\null^{t}A X $, con $ X=\null^{t}C $
+}{}
+
+\osservazione{}{
+    Siano $ A \in \K^{m,n} $, $ B \in \K^{p,m} $, con $ BA \in \K^{p,n} $. Si noti che \[\rank BA \le \min\{\rank A, \rank B\} \]
+
+    Motivazione geometrica: $ A $ induce \begin{align*}
+    F_{A} : \K^{n} & \to \K^{m}  \\
+    x & \mapsto Ax
+    \end{align*} e $ \rank A = \dim \text{Im}(F_{A} ) $
+    
+    $ B $ induce \begin{align*}
+        F_{B} : \K^{m} & \to \K^{p}  \\
+        x & \mapsto Bx
+        \end{align*} e $ \rank B = \dim \text{Im}(F_{B} ) $
+
+    $ BA $ induce \begin{align*}
+        F_{BA} : \K^{n} & \to \K^{p}  \\
+        x & \mapsto BAx
+        \end{align*} e $ \rank BA = \dim \text{Im}(F_{BA} ) $
+
+        Ma $ \text{Im}(F_{BA} ) \subseteq \text{Im}(F_{B}) $, perché $ F_{BA}=F_{B} \circ F_{A}$: \[
+            \K^{n}\xrightarrow[]{F_{A}} \K^{m} \xrightarrow[]{F_{B}} \K^{p}
+        \] 
+
+        $\implies$ $ \dim \text{Im}(F_{BA} ) \subseteq \dim \text{Im}(F_{B} )  $ $ \,\implies\,$ \[
+            \rank BA \le \rank B
+        \]
+
+        Si noti che $ \ker F_{A} \subseteq \ker F_{BA}$; per il teorema del rango \[n-\rank A \le n-\rank BA\] 
+        
+        $\implies$ $ \rank BA \le \rank A $
+
+        Ottengo quindi che \[\rank BA \le \min\{\rank A, \rank B\}\]
+}
+
+\definizione{}{
+    Sia $ V $ uno spazio vettoriale su un campo $ \K $ e sia $ F: V\to V$ lineare (un automorfismo). $ F $ è \textit{nilpotente} se $ \exists k \in \N $ tale che \[
+        \underset{k-\text{volte}}{\underbrace{F\circ F \circ \cdots \circ F}}=0 
+    \]
+    con $ 0: V\to V $ funzione identicamente nulla
+}
+
+\esempio{
+    \begin{align*}
+    F:\R^{2} & \to \R^{2} \\
+    \begin{pmatrix}
+        x\\y
+    \end{pmatrix} & \mapsto \begin{pmatrix}
+        y\\0
+    \end{pmatrix}
+    \end{align*}
+
+    $ F $ è lineare e $ F\circ F \begin{pmatrix}
+        x\\y
+    \end{pmatrix} = \begin{pmatrix}
+        0\\0
+    \end{pmatrix}$, $ F $ è nilpotente.
+
+    $ F $ è rappresentata dalla matrice $ \begin{pmatrix}
+        0 & 1 \\0 & 0
+    \end{pmatrix}= A $, infatti $ A^{2}= \begin{pmatrix}
+        0 & 0\\0 & 0
+    \end{pmatrix} $
+}
+\definizione{}{
+    Una matrice $ A \in \K^{n,n} $ tale che $ A^{k} $ è la amtrice nulla per qualche $ k \in \N $ si dice nilpotente
+}
+\definizione{}{
+    Data $ F: V\to V $ lineare nilpotente, $ F $ ha grado di nilpotenza $ k$ se \[
+        \underset{k-\text{volte}}{\underbrace{F\circ \cdots\circ F}}=0 \,\land\,\underset{k-1-\text{volte}}{\underbrace{F\circ \cdots\circ F}}\neq0
+    \]
+}
+
+\esercizio{Si trovi una funzione $ F:\R^{4}\to \R^{4} $ nilpotente con grado di nilpotenza 2}{Da fare %TODO risolvere l'esercizio
+}{}
+
+\rule{7em}{.4pt}
+
+$ F: V\to V $ lineare con $ V $ di dimensione finita. Possiamo usare il teorema di nullità più rango:
+\[
+    \dim  V = \dim \ker (F)+ \dim (\text{Im}(F))
+\]
+ma in generale \[
+    V \neq \ker (F) + \text{Im}(F)
+\]
+
+\section{Spazi vettoriali Euclidei}
+
+Si consideri $ V $ spazio vettoriale su $ \R $
+
+\definizione{}{
+    Un prodotto scalare su $ V $ è una funzione $ \cdot:V\times V\to \R $ tale che:
+    \begin{enumerate}
+        \item $ v\cdot w = w \cdot v $ (simmetria)
+        \item $ (v_1+v_2)\cdot w = v_1\cdot w + v_2\cdot w $
+        \item $ (\lambda v)\cdot w = \lambda(v \cdot w) $
+        \item $ v\cdot v \ge 0 $ e $ v\cdot v = 0 $ se e solo se $ v=\underline{0} $ ($ \cdot $ è definito positivo)
+    \end{enumerate}
+    Si noti che $ \cdot $ è lineare in ogni componente
+}
+
+\esempio{}{
+    In $ V_{3}  $ è definito il prodotto scalare $ v\cdot w=||v||\,||w||\, \cos \hat{vw}  $. "$\cdot$" definisce un prodotto scalare in $ V_{3}  $
+}
+
+% TODO manca il prodotto scalare canonico in \R^{n}
+
+\conseguenza{
+    Su ogni spazio vettoriale di dimensione finita esiste un prodotto scalare, infatti se $ V $ è uno spazio vettoriale di dimensione finita, si fissa una base $ \mathscr{B}=\{v_1, \cdots,v_{n} \}$ si definisce per $ x,y \in V $ \[
+        x\cdot y = \biggl(\sum_{i=1}^{n}x_{i}v_{i}\biggr)\cdot\biggl(\sum_{j=1}^{n}y_{j}v_{j}\biggr):=\sum_{i=1}^{n}x_{i}y_{i}
+    \]
+}
+
+\esempio{
+Anche $ \R^{m,n} $ ha un prodotto scalare canonico, dato da \[
+    A\cdot B := \tr(\null^{t}B \cdot A)
+\] 
+\begin{enumerate}
+\item Per le proprietà della traccia $ \tr(\null^{t}B \cdot A) = \tr(\null^{t}(\null^{t}B \cdot A))= \tr(\null^{t}A B)= B \cdot A$ 
+
+$\implies$ $ \cdot  $ è simmetrico
+
+\item \[(A+C) \cdot B=\tr(\null^{t}B(A+C))=\tr(\null^{t}BA)+\tr(\null^{t}BC) = A \cdot B+C \cdot B \] 
+
+$\implies$ la proprietà 2 è verificata
+
+\item \[
+    (\lambda A) \cdot B = \tr(\null^{t}B(\lambda A))= \lambda \tr (\null^{t}BA)=\lambda A \cdot B 
+\] 
+
+$\implies$ la proprietà 3 è verificata
+
+\item $ A \cdot A =\tr(\null^{t}A A) $; % TODO manca un pezzo, non ho capito
+
+\end{enumerate}
+}
+
+\esempio{}{ 
+    Si consideri lo spazio vettoriale \[
+        \R_{n} [x]=\{p \in \R[x] | \deg p \le n\}
+    \] spazio vettoriale su $ \R $ di dimensione $ n+1 $
+
+    Se $ p,q \in \R_{n} [x] $ possiamo scrivere $ p(x)=\sum_{k=0}^{n}a_{k}x^{k}$, $ q(x)=\sum_{k=0}^{n}b_{k}x^{k}$
+
+    Si definisce $ p \cdot  q $ come \[
+        p \cdot q := \sum_{k=0}^{n}a_{k}b_{k}   
+    \]
+}
+
+\definizione{}{
+    Uno \textit{spazio vettoriale euclideo} è uno spazio vettoriale su $\R$ di dimensione finita in cui è stato fissato un prodotto scalare, indicato generalmente con $ (V, \cdot) $
+}
+
+In uno spazio vettoriale euclideo è definita la norma di un vettore come \[
+    ||v||=\sqrt{v \cdot v}
+\]
+$ ||v|| $ definisce una funzione $ ||v||:V \to \R_{+} $ dove $ \R_{+}=\{t \in \R | t\ge 0\}  $. Si noti che \[
+    ||\lambda v || = \sqrt{(\lambda v) \cdot (\lambda v)}= \sqrt{\lambda^{2} v \cdot  v}=|\lambda|\sqrt{v \cdot v}=|\lambda|\,||v||
+\]
+
+\esempio{
+    Su $ \R^{3} $ si consideri il prodotto scalare \[x \cdot y = 2 x_1 y_1 + 3x_2 y_2 + 5x_3y_3.\] Rispetto a questo prodotto scalare risulta \[
+        ||x||=\sqrt{2x_1^{2}+3x_2^{2}+5x_3^{2}}.
+    \]
+} 
+
+\definizione{}{
+    Due vettori $ v, w $ in uno spazio vettoriale euclideo sono \textit{ortogonali} se $ v \cdot w =0$     
+}
+
+\esercizio{
+    In $ \R^{3} $ con il prodotto scalare \[x \cdot y = 2 x_1 y_1 + 3x_2 y_2 + 5x_3y_3\] si trovino tutti i vettori ortogonali a $ (1, 1, 0) $
+}{Da fare % TODO risolvere l'esercizio
+}{}
