@@ -1,0 +1,35 @@
+\definizione{}{Un\marginnote{22 set 2021} insieme $ U $ si dice totalmente ordinato con la relazione d'ordine ``$\preceq$''}
+
+Consideriamo $ A \subseteq U$
+\begin{enumerate}
+    \item $ A $ è \textit{limitato superiormente} se 
+    \[
+        \exists\, k \in U\,\tc\, \forall a \in A, a \preceq k
+    \] 
+    
+    $\implies$ $ k $ è detto \textit{maggiorante} di $ A $
+    \item $ A $ è \textit{limitato inferiormente} se 
+    \[
+        \exists\, h \in U\,\tc\, \forall a \in A, h \preceq a
+    \] 
+    
+    $\implies$ $ k $ è detto \textit{minorante} di $ A $
+\end{enumerate}
+Possono esistere infiniti maggioranti e infiniti minoranti
+
+\definizione{}{$M$ è il massimo di $ A $ se $ M $ è un maggiorante ($ a \preceq M \forall\,a \in A$) e $ M \in A $}
+
+\definizione{}{$m$ è il minimo di $ A $ se $ m $ è un minorante ($ m \preceq a \forall\,a \in A$) e $ m \in A $}
+
+Si dice che $ M=\max A $ e $ m = \min A $
+
+\esempi{}{
+    Per tutti gli esempi successivi si consideri $ U= \Q $ e $ \preceq = \le $\begin{enumerate}
+        \item Sia $ A = \{5, 7, 9, -4, 588\} $. $ \min A = -4 $, $ \max A = 588 $
+        
+        Con $ A \subseteq Q $ e $ A $ contenente un numero finito di valori 
+        
+        $\implies$ $ A $ ammette $ \max $ e $ \min $
+        %TODO finire gli appunti da pagina due del pdf
+    \end{enumerate}
+}

@@ -52,4 +52,4 @@
 -   [Homework 1](Geometria%201%20-%20Homework%201%20-%20Luigi%20Vezzoni.pdf)
     -   Svolti
 
-- [ ] Aggiungere homework successivi (@2021-11-09 15:30)
+- [ ] Aggiungere homework successivi (@2021-11-16)

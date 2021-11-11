@@ -11,22 +11,27 @@
 - 28 settembre 2021:
 	- [Appunti Lezione](202109280840%20(28%20set%202021).md) | [pdf](202109280840.pdf)
 - 4 ottobre 2021
-	-  | [pdf](202110041045.pdf)
+	- [Appunti Lezione](202110041045%20(4%20ott%202021).md) | [pdf](202110041045.pdf)
 - 5 ottobre 2021
-	-  | [pdf](202110050853.pdf)
+	- [Appunti Lezione](202110050853%20(05%20ott%202021).md) | [pdf](202110050853.pdf)
 - 11 ottobre 2021
-	-  | [pdf](202110111030.pdf)
+	- [Appunti Lezione](202110111030%20(11%20ott%202021).md) | [pdf](202110111030.pdf)
 - 12 ottobre 2021
-	-  | [pdf](202110120850.pdf)
+	- [Appunti Lezione](202110120850%20(12%20ott%202021).md) | [pdf](202110120850.pdf)
 - 18 ottobre 2021
-	-  | [pdf](202110181045.pdf)
+	- [Appunti Lezione](202110181045%20(18%20ott%202021).md) | [pdf](202110181045.pdf)
 - 19 ottobre 2021
-	-  | [pdf](202110190840.pdf)
+	- [Appunti Lezione](202110190840%20(19%20ott%202021).md) | [pdf](202110190840.pdf)
 - 25 ottobre 2021
-	-  | [pdf](202110251030.pdf)
+	- [Appunti Lezione](202110251030%20(25%20ott%202021).md) | [pdf](202110251030.pdf)
 - 26 ottobre 2021	
-	-  | [pdf](202110260852.pdf)
+	- [Appunti Lezione](202110260852%20(26%20ott%202021).md) | [pdf](202110260852.pdf)
 - 2 novembre 2021
+	- [Appunti Lezione](202111020830%20(02%20nov%202021).md) | [pdf](202111020830.pdf)
+- 8 novembre 2021
+	- [Appunti Lezione](202111081030%20(08%20nov%202021).md) | [pdf](202111081030.pdf)
+- 9 novembre 2021
+	- [Appunti Lezione](202111090830%20(09%20nov%202021).md) | [pdf](202111090830.pdf)
 
 ## Tutorato
 - 28 ottobre 2021
@@ -35,3 +40,5 @@
 	- [Esercizio III](reference%20manager/Scolastici/Gianluca%20Garello/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%2028%20-%20Esercizio%20III%20(32)/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%20-%20Gianluca%20Garello.pdf) - [soluzione](Esercizio%20III%20-%20v2.pdf) ([soluzione errata](Esercizio%20III.pdf))
 		- [soluzione animata](https://www.desmos.com/calculator/707eqd0kuf)
 	- [Esercizio IV](reference%20manager/Scolastici/Gianluca%20Garello/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%2028%20-%20Esercizio%20IV%20(30)/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%20-%20Gianluca%20Garello.pdf) - [soluzione](Esercizio%20IV.pdf)
+
+TODO aggiungere altri tutorati
