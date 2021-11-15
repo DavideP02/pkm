@@ -320,10 +320,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{52}{section*.138}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VIII }{53}{section*.139}% 
+\contentsline {paragraph}{Teorema VIII (Gram-Schmidt)}{53}{section*.139}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [thm:algoritmograamsmith]{(VIII)}}{53}{section*.140}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{54}{section*.141}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{54}{section*.142}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Matrici ortogonali}{55}{subsection.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{55}{section*.143}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xii }{55}{section*.144}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{55}{section*.145}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:ortomatrx]{(\textit {p.}xii)}}{56}{section*.146}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema IX }{57}{section*.147}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:strutturaaaa]{(IX)}}{57}{section*.148}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema X }{58}{section*.149}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:dkkkdkkdkkkk]{(X)}}{58}{section*.150}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{58}{section*.151}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{59}{section*.152}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Orientazione di uno spazio vettoriale (reale)}{59}{section.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (7.1)}{59}{section*.153}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xiii }{59}{section*.154}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (7.2)}{59}{section*.155}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:classibosldo]{(\textit {p.}xiii)}}{60}{section*.156}% 

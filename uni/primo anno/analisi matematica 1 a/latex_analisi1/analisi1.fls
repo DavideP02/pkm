@@ -511,8 +511,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
-INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/21set2021.tex
-INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/21set2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/21set2021ord.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/21set2021ord.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -544,8 +544,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/yhmath/yrcmex10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecti0900.tfm
-INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/22set2021.tex
-INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/22set2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/22set2021ord.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/22set2021ord.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/02nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/02nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/08nov2021.tex
@@ -553,6 +553,8 @@ INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/09nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/09nov2021.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/15nov2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/15nov2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.aux
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.out
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.out
@@ -560,6 +562,7 @@ INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive
 OUTPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.run.xml
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
