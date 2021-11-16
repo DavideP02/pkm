@@ -46,6 +46,10 @@
 	- [Appunti Lezione](202111080850%20(8%20nov%202021).md) | [pdf](202111080850.pdf)
 - 11 novembre 2021
 	- [Appunti Lezione](202111111245%20(11%20nov%202021).md) | [pdf](202111111245.pdf)
+- 15 novembre 2021
+	- [Appunti Lezione](202111151030%20(15%20nov%202021).md) | [pdf](202111151030.pdf)
+- 16 novembre 2021
+	- [Appunti Lezione](202111161045%20(16%20nov%202021).md) | [pdf](202111161045.pdf)
  
 ## Esercitazioni
 

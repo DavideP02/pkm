@@ -1,0 +1,298 @@
+In generale $ V $ non ha un'orientazione canonica, ma nei casi in cui $ V $ abbia una base canonica $ \mathscr{B}_0 $ 
+
+$\implies$ $ V $ ha l'orientazione canonica $ [ \mathscr{B}_0] $; ad esempio in $ \R^{n} $ si considera la base canonica $ \mathscr{B}_0=\{e_1,\cdots,e_{n} \} $, e ci si riferisce a $ [B_{0} ] $ come all'orientazione di $ \R^{n} $
+
+\section{Complementi ortogonali}
+
+Sia $ (V, \cdot ) $ uno spazio vettoriale euclideo, e sia $ W \subseteq V $ sottospazio vettoriale. Si definisce \[ W^{\bot }=\{v \in V\,|\, v \cdot w = 0 \, \forall\, w \in W\}\]
+
+Questi sono i vettori di $ V $ ortogonali a tutti i vettori di $ W$, $ W^{\bot} \subseteq V $
+
+\esempi{}{
+    \begin{enumerate}
+        \item $ W=\{\underline{0}\} $ 
+        
+        $\implies$ $ W^{\bot}=V $
+        \item $ W=V $ 
+        
+        $\implies$ $ W^{\bot}=\{\underline{0}\}$
+        \item $ W \subseteq V $ sottospazio vettoriale, $ \dim W = k $. Fisso $ \mathscr{B}=\{w_1, \cdots, w_{k} \} $ base di $ W $.
+        
+        Si osserva che \[W^{\bot}=\{v \in V \,|\, v \cdot w_{r}\, \forall\, r = 1, \cdots, k \}.\] Lo dimostro con la doppia inclusione. L'inclusione $ \supseteq  $ è ovvia, dimostro $ \subseteq $.
+
+        Sia $ v \in V $ tale che $ v \cdot w_{r}= 0$ $ \forall\,r = 1, \cdots, k $. Sia $ w \in W $ generico. Posso scrivere $ w = a_1w_1 + \cdots + a_{k}w_{k}$ per qualche $ a_1, \cdots, a_{k}  \in \R $ \begin{multline*}
+            v \cdot w =v ( a_1w_1 + \cdots + a_{k}w_{k})= \\
+            = a_1v \cdot w_1 + a_2v \cdot w_2 + \cdots+ a_{k}v \cdot w_{k}=0  
+        \end{multline*} 
+        
+        $\implies$ $ v \cdot w =0 $ $ \forall\, w \in W $ 
+        
+        $\implies$ $ v \in W^{\bot} $
+    \end{enumerate}
+}
+
+\esercizio{
+    Sia $ W \subseteq \R^{3} $ il sottospazio vettoriale di equazioni \[
+      \begin{cases}
+          x+y=0 \\
+          x+z=0
+      \end{cases}  
+    \]
+
+    Determinare $ W^{\bot} $ rispetto al prodotto scalare canonico
+}{
+    $ \dim W=1 $. Una base di $ W  $ è data da $ \mathscr{B}=\{(1, -1, -,1)\} $. \[
+        W^{\bot}=\{(x,y,z) \in \R^{3} \,|\, (x,y,z) \cdot (1, -1, -,1)=0\}
+    \]
+
+    \[
+        (x,y,z) \cdot (1, -1, -,1)=x-y-z
+    \]
+
+    \[
+        W^{\bot}=\{(x,y,z) \in \R^{3} \,|\, x-y-z=0\}\quad\text{piano in }\R^{3}
+    \]
+}{}   
+
+\teorema{kjkjhjjdjdj}{
+    Sia $ (V, \cdot ) $ uno spazio vettoriale euclideo, e sia $ W \subseteq V $ un sottospazio vettoriale. Allora \begin{enumerate}
+        \item $ W^{\bot} $ è un sottospazio vettoriale di $ V $
+        \item $ W\oplus W^{\bot}=V $
+        \item $ (W^{\bot})^{\bot}=W $
+    \end{enumerate}
+}
+\dimostrazione{kjkjhjjdjdj}{
+    \begin{enumerate}
+        \item Siano $ v_1 $, $ v_2 \in W^{\bot}$, e  $\lambda$, $\mu \in \R$, dimostriamo che $ \lambda v_1+ \mu v_2 \in W^{\bot} $
+        
+        \begin{align*}
+            v_1 \in W^{\bot} \,&\implies\, v_1 \cdot w =0\, \forall\,w \in W\\
+            v_2 \in W^{\bot} \,&\implies\, v_2 \cdot w =0\, \forall\,w \in W
+        \end{align*}
+
+        Sia $ w \in W $ \[
+            (\lambda v_1 \cdot \mu v_2) \cdot w = \lambda \overset{0}{\overbrace{v_1 \cdot w }} + \mu\overset{0}{\overbrace{v_2 \cdot w}}=0
+        \] 
+        
+        $\implies$ $ \lambda v_1 \cdot \mu v_2 \in W^{\bot}$ 
+        
+        $\implies$ $ W^{\bot} $ sottospazio vettoriale.
+        \item Supponiamo $ \dim  W =k$, sia $ \{v_1, \cdots, v_{k} \} $ una base di $ W $. Possiamo completare $ \{v_1, \cdots, v_{k} \} $ ad una base \[\{v_1, \cdots, v_{k}, v_{k+1}, \cdots, v_{n}\}\] base di tutto $ V $ 
+        
+        Utilizziamo l'algoritmo di Gram-Schmidt e troviamo una base ortonormale $ \{e_1, \cdots, e_{n} \} $ di $ V $ tale che \[
+            \mathscr{L}(e_1, \cdots, e_{r} )= \mathscr{L}(v_1, \cdots, v_{r} )\quad \forall\, r = 1, \cdots, n.
+        \]
+        Quindi $ \{e_1, \cdots, e_{k} \} $ è una base di $ W $.
+
+        Sia $ v \in V $. Possiamo scrivere \[
+            v=\sum_{r=1}^{n} \lambda_{r}e_{r}   
+        \]
+        $ v \in W^{\bot} $ $\iff$ $ v \cdot e_{i} =0  $ $ \forall\,i=1, \cdots,k $
+
+        $ \iff $ $ \underset{\lambda_{i}}{\underbrace{\sum_{r=1}^{n}(\lambda_{r} e_{r}  ) \cdot e_1}} =0  $ $ \forall\, i =1, \cdots, k $
+
+        $ \iff $ $ \lambda_{i}=0 $ $ \forall\, i = 1, \cdots, k $ 
+
+        $ \iff $ $ v \in \mathscr{L}(e_{k+1}, \cdots, e_{n}  ) $
+
+        Cioè $ W^{\bot}= \mathscr{L}(e_{k+1}, \cdots, e_{n}  ) $ 
+        
+        $\implies$ $ V= \mathscr{L}(e_{1}, \cdots, e_{k}  )+ \mathscr{L}(e_{k+1}, \cdots, e_{n}  )= W \oplus W^{\bot}$
+
+        In particolare $ W\cap W^{\bot}=\{\underline{0}\} $, infatti se $ \overline{v} \in W\cap W^{\bot} $ 
+        
+        $\implies$ $ \overline{v} \cdot \overline{v}=0 $ 
+        
+        $\implies$ $ \overline{v}=\underline{0} $
+        \item $ (W^{\bot})^{\bot} $: \[
+            v \in (W^{\bot})^{\bot} \,\iff\, v \cdot z = 0 \,\forall\, z \in W^{\bot}\,\iff\, v \in W\qedhere
+        \]
+    \end{enumerate}
+}
+
+\proposizione{jjdijijijiij}{
+    Sia $ (V, \cdot) $ uno spazio vettoriale Euclideo, siano $ W_1 $ e $ W_2 \in V $ sottospazi vettoriali
+    \begin{enumerate}
+        \item Se $ W_1 \subseteq W_2 $ $\implies$ $ W_2^{\bot} \subseteq W_1^{\bot} $
+        \item $ (W_1+W_2)^{\bot}=W_1^{\bot}\cap W_2^{\bot} $
+        \item $ (W_1\cap W_2)^{\bot}=W_1^{\bot}+ W_2^{\bot} $
+    \end{enumerate}
+}
+\dimostrazioneprop{jjdijijijiij}{
+    Dimostrazione per esercizio %TODO fare dimostrazione
+}
+
+\esercizio{
+    Prendiamo $ \R^{2,2} $ con il prodotto scalare canonico, considero \[ A=\begin{pmatrix}
+        1 & 3 \\
+        0 & -1
+    \end{pmatrix},\] e prendo $ W=\{X \in \R^{2,2}\,|\, AX=XA\} $ sottospazio vettoriale di $ \R^{2,2} $. Trovare $ W^{\bot} $
+}{
+    Trovo una base di $ W $. Sia \[
+        X=\begin{pmatrix}
+            x_1 &x_2\\
+            x_3 & x_4
+        \end{pmatrix}
+    \]
+    matrice generica in $ \R^{2,2} $ e impongo $ AX=XA $
+
+    \[
+        AX=\begin{pmatrix}
+            1 & 3 \\
+            0 & -1
+        \end{pmatrix} \cdot \begin{pmatrix}
+            x_1 & x_2 \\
+            x_3 & x_4
+        \end{pmatrix}=\begin{pmatrix}
+            x_1+3x_3 & x_2+3x_4 \\
+            -x_3 & -x_4
+        \end{pmatrix}
+    \]
+    \[
+        XA=\begin{pmatrix}
+            x_1 & x_2 \\
+            x_3 & x_4
+        \end{pmatrix}\cdot\begin{pmatrix}
+            1 & 3 \\
+            0 & -1
+        \end{pmatrix}  =\begin{pmatrix}
+            x_1 & 3x_1-x_2 \\
+            x_3 & 3x_3-x_4
+        \end{pmatrix}
+    \]
+
+    Otteniamo il sistema \[
+      \begin{cases}
+          x_1+3x_3=x_1 \\
+          x_2+3x_4=3x_1-x_2\\
+          x_3=-x_3\\
+          -x_4=3x_3-x_4
+      \end{cases} \,\implies\, \begin{cases}
+        x_1=x_1\\
+        x_2=\frac{3}{2}(x_1-x_4)\\
+        x_3=0 \\
+        x_3=0
+      \end{cases} \,\implies\, \dim  W =2
+    \]
+      Una base di $ W $ è data da \[
+          A_1=\begin{pmatrix}
+              2 & 3\\
+              0 & 0
+          \end{pmatrix}\qquad A_2=\begin{pmatrix}
+              0 & -3 \\ 0 & 2
+          \end{pmatrix}
+      \]
+
+      Impongo per $ Y \in \R^{2,2} $, $ Y \cdot A_1= Y \cdot A_2 = \underline{0}$
+      \[
+          Y=\begin{pmatrix}
+              y_1 & y_2 \\
+              y_3 & y_4
+          \end{pmatrix}
+      \] \begin{multline*}
+          Y \cdot A_1=\tr (\null^{t}Y A_1)= \\=\tr\Biggl(\begin{pmatrix}
+            y_1 & y_2 \\
+            y_3 & y_4
+        \end{pmatrix} \begin{pmatrix}
+            2 & 3\\
+            0 & 0
+        \end{pmatrix}\Biggr)=\\
+        =\tr \begin{pmatrix}
+            2y_1 & 3y_1 \\ 2y_2 & 3y_2
+        \end{pmatrix}= 2y_1+3y_2
+    \end{multline*}
+    \begin{multline*}
+        Y \cdot A_2=\tr (\null^{t}Y A_2)= \\=\tr\Biggl(\begin{pmatrix}
+          y_1 & y_2 \\
+          y_3 & y_4
+      \end{pmatrix} \begin{pmatrix}
+        0 & -3 \\ 0 & 2
+    \end{pmatrix}\Biggr)=\\
+      =\tr \begin{pmatrix}
+          0 & -3y_1+2y_3 \\ 0 & -3y_2+2y_4
+      \end{pmatrix}= -3y_2+2y_4
+  \end{multline*}
+
+  Quindi \begin{gather*}Y \in W^{\bot}\,\iff\, 2y_1+3y_2=0\,\land\, -3y_2+2y_4=0\\
+y_1=-3/2 y_2, \quad y_4 = 3/2 y_2,\quad y_3 = y_3 \end{gather*}
+
+Una base di $ W^{\bot} $ è data da \[
+    A_{3}=\begin{pmatrix}
+        -3/2 & 1 \\0 & 3/2
+    \end{pmatrix}, A_{4}=\begin{pmatrix}
+        0 &0 \\0 &1
+    \end{pmatrix} .
+\]
+$ W= \mathscr{L}(A_3,A_4) $
+}{}
+
+\esercizio{
+    $ \R^{n,n} $ con il prodotto scalare canonico, \[
+        \mathcal{S}(\R^{n,n})=\{A \in \R^{n,n}\,|\, \null^{t}\!A=A\}\qquad \mathcal{A}(\R^{n,n})=\{A \in \R^{n,n}\,|\, \null^{t}\!A=-A\}
+    \]
+    Dimostrare $ \mathcal{S}(\R^{n,n})^{\bot}= \mathcal{A}(\R^{n,n})$
+}{
+    \[
+    \mathcal{S}(\R^{n,n})\cap\mathcal{A}(\R^{n,n})=\{\underline{0}\}, 
+    \] infatti una matrice è sia simmetrica che antisimmetrica $ \iff $ è la matrice nulla.
+
+    \[
+        \dim \mathcal{A}(\R^{n,n}) + \dim \mathcal{S}(\R^{n,n}) = n^{2}%TODO calcolarlo per esercizio
+        = \dim  \R^{n,n}
+    \] 
+    
+    $\implies$ $ \R^{n,n}= \mathcal{S}(\R^{n,n}) \oplus\mathcal{A}(\R^{n,n})$
+
+    Mi basta dimostrare che date $ A \in \mathcal{A}(\R^{n,n}) $ e $ S \in \mathcal{S}(\R^{n,n})  $ risulta $ A \cdot S =0 $
+    \[
+        A \cdot S=\tr (\null^{t}\!A \cdot S) = -\tr (A \cdot S)
+    \] ma \[
+        A \cdot S = S \cdot A =\tr( \null^{t}\!S A) = \tr (S A) = \tr (A S).
+    \]
+
+    Quindi $ A \cdot S = - A \cdot S$ 
+    
+    $\implies$ $ A \cdot S = 0 $. Segue l'esercizio.
+}{}
+
+\subsection{Proiezioni ortogonali} 
+
+$ (V, \cdot ) $ spazio vettoriale Euclideo, $ W \subseteq V $ sottospazio. $ V=W \oplus W^{\bot} $. Ogni $ v \in V $ si scrive in modo unico come $ v=v'+v'' $ con $ v' \in W $ e $ v'' \in W^{\bot} $.
+
+Si definisce \begin{align*}
+    pr_{w}: V& \to W \\
+ v & \mapsto v' 
+\end{align*}
+$ pr_{w} $ si dice la \textit{proiezione ortogonale} su $ W $. $ pr_{w} $ è lineare, suriettiva, e $ pr_{w} = \I_{W}  $%TODO rivedere appunti
+, $ \ker(pr_{w})= W^{\bot} $
+
+Sia $ F \in End(V) $\footnote{è un endomorfismo}, $ F:V \to V $ è lineare. $ F $ è un'isometria se $ F(v) \cdot  F(w) = v \cdot w $ $ \forall\, v,w \in V $.
+
+\teorema{jjjjkdpojkdkks}{
+    Se $ F $ è una isometria, 
+    
+    $\implies$ $ F $ è un automorfismo di $ V $ (cioè $ F $ è un isomorfismo $ V \to V$)
+}
+\dimostrazione{jjjjkdpojkdkks}{
+    Basta verificare che $ F $ iniettiva, ovvero che $ \ker F =\{\underline{0}\} $. Sia $ v \in \ker F $, cioè $ v $ è tale che $ F(v)=0 $ 
+    
+    $\implies$ $ F(v) \cdot F(v)= \underline{0} \cdot \underline{0} = \underline{0} $, ma poiché $ F $ isometria risulta che $ F(v) \cdot F(v) = v \cdot v $ 
+    
+    $\implies$ $ v \cdot v = 0 $ 
+    
+    $\implies$ $ v=\underline{0} $ 
+    
+    Quindi $ \ker F = \{\underline{0}\} $ e $ F $ è iniettiva. \qed
+}
+
+\esempio{
+    $ \I $ e $ -\I $ sono isometrie su $ V $ rispetto a tutti i prodotti scalari.
+}
+
+\esercizio{
+    Sia $ F \in End(V) $ tale che $ ||F(v)||= ||v|| $ $ \forall\, v \in V $. Si dimostri che $ F $ è un'isometria
+}{
+    Da risolvere. %TODO da fare
+}{}
+
+%TODO creare file md per pdf di questa lezione

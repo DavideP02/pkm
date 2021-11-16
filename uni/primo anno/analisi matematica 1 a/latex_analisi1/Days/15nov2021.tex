@@ -221,14 +221,16 @@ Si ricorda che la chiusura è \[
     \end{itemize}
 }
 
+\subsection{Successioni di Cauchy}
+
 \definizione{}{
     Sia $ \{a_{k} \}_{k=0}^\infty $ a valori in $ \R^{n} $. Questa successione è detta \textit{successione di Cauchy} (o successione fondamentale) se \[
-        \forall\, \varepsilon>0\, \exists\,\overline{k} \in \N\,|\, \forall\, k,m\ge \overline{k}\, |a_{k}-a_{m}|< \varepsilon  
+        \forall\, \varepsilon>0\, \exists\,\overline{k} \in \N\,|\, \forall\, k,m\ge \overline{k}:\, |a_{k}-a_{m}|< \varepsilon  
     \]
 
     O, equivalentemente
     \[
-        \forall\, \varepsilon>0\, \exists\, \overline{k} \in \N\, \forall\,k>\overline{k}\, \forall\, p \in \N\, |a_{k}-a_{k+p}|< \varepsilon    
+        \forall\, \varepsilon>0\, \exists\, \overline{k} \in \N\, \forall\,k>\overline{k}\, \forall\, p \in \N:\, |a_{k}-a_{k+p}|< \varepsilon    
     \]
     (Definitivamente $ |a_{k}-a_{k+p}|< \varepsilon $)
 }

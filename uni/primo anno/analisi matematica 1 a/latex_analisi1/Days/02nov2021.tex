@@ -5,9 +5,9 @@ Data $ \{a_{n} \}_{n=0}^\infty, \N \to \R, a: n\to a_{n}  $, $l \in \R*$, diciam
     \lim_{n\to\infty}a_{n}=l  
 \]
 se $\forall V(l) \exists U(+\infty) n \in(\N intersezione D) \implies a_{n \in V(l)}$
-Scriviamo $\forall V(l) \exists n_{segnato} \in N | \forall n>n_{segnato} a_{n} \in V(l)$
+Scriviamo $\forall V(l) \exists \overline{n} \in N \,|\, \forall n>\overline{n} a_{n} \in V(l)$
 
-$l\in \R$, diciamo che $ \{a_{n} \}_{n=0}^\infty $ è \textbf{convergente} a $ l $ se $ \forall \varepsilon \exists n_{segnato} \in \N | \forall n>n_{segnato} |a_{n} -l |<\varepsilon  $
+$l\in \R$, diciamo che $ \{a_{n} \}_{n=0}^\infty $ è \textbf{convergente} a $ l $ se $ \forall\, \varepsilon \exists \overline{n} \in \N | \forall n>\overline{n} |a_{n} -l |<\varepsilon  $
 
 Se $ l=\pm \infty $ $a_{n}$ è divergente a $ \pm\infty $, se $ \lim_{n\to+\infty} a_{n}=\nexists $ allora $ \{a_{n}\}_{n=0 }^\infty$ è irregolare (o oscillante).
 
@@ -29,7 +29,7 @@ Si dice di una successione $\{a_{n} \}_{n=0}^\infty$
 \end{itemize}
 Una successione crescente o decrescente si dice monotona, se strettamente crescente o decrescente si dice strettamente monotona.
 
-Un predicato $ P(n) $ è verificato definitivamente se $ \exists n_{segnato} \forall n\le n_{segnato}$ $ P(n) $  è vero
+Un predicato $ P(n) $ è verificato definitivamente se $ \exists \overline{n} \forall n\le \overline{n}$ $ P(n) $  è vero
 
 Valgono per $ \{a_{n} \}_{n=0}^\infty$ i seguenti teoremi
 \begin{itemize}
@@ -78,8 +78,8 @@ Valgono per $ \{a_{n} \}_{n=0}^\infty$ i seguenti teoremi
         \bigg[\frac{b}{a}\bigg]\le \frac{b}{a}<\bigg[\frac{b}{a}\bigg]+1
     \]
 
-    Posto $ n_{segnato}=\big[\frac{b}{a}\big] +1 \in \N$ \[
-        \frac{b}{a}<n_{segnato}\,\implies\, n_{segnato} a > b  
+    Posto $ \overline{n}=\big[\frac{b}{a}\big] +1 \in \N$ \[
+        \frac{b}{a}<\overline{n}\,\implies\, \overline{n} a > b  
     \]
 }
 Osserviamo che posto $ a=1 $ si ha che $ \forall b \in \R $, $\exists n \in \N$ t.c. $ n>b $
@@ -97,10 +97,10 @@ $\iff$ $\frac{1}{n}<\varepsilon$
 $ \iff $ $ n>\frac{1}{\varepsilon} $
 
 $ \frac{1}{\varepsilon} \in \R $ allora per il principio di archimede \[
-    \exists n_{segnato} \in \N, n_{segnato}>\frac{1}{\varepsilon}  
+    \exists \overline{n} \in \N, \overline{n}>\frac{1}{\varepsilon}  
 \]
 
-Allora $ \forall n \ge n_{segnato}  $, $ n>\frac{1}{\varepsilon} $ 
+Allora $ \forall n \ge \overline{n}  $, $ n>\frac{1}{\varepsilon} $ 
 
 $\implies$ $ \frac{1}{n}\le \varepsilon $ dunque $ \frac{1}{n}<\varepsilon $ definitivamente
 
@@ -206,12 +206,12 @@ Progressione geometrica \[
         \]
 
         Consideriamo $ \{a_{n} \}_{n=0}^\infty $ con $ a_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle  $ con $ a_{n} \in D $ e $ a_{n}\neq x_{0} $ ossia \[
-            \exists n_{segnato}  \in \N \forall n \ge n_{segnato} a_{n} \in D\land a_{n} \neq x_{0} \land a_{n} \in U(x_{0})
+            \exists \overline{n}  \in \N \forall n \ge \overline{n} a_{n} \in D\land a_{n} \neq x_{0} \land a_{n} \in U(x_{0})
         \]
         allora $ f(a_{n} ) \in V(l) (2)$
         
         Concludendo unendo (1) e (2) \[
-            \forall V(l) \exists n_{segnato} \in \N | \forall n > n_{segnato} f(a_{n} ) \in V(l)
+            \forall V(l) \exists \overline{n} \in \N | \forall n > \overline{n} f(a_{n} ) \in V(l)
         \]
         ossia
         \[
@@ -232,7 +232,7 @@ Progressione geometrica \[
 
         Allora abbiamo costruito una successione $ \{x_{n} \}_{n=0}^\infty $ tale che $ x_{n} \in D $, $ x_{n}\neq x_0  $ e $ f(x_{n})\notin V(l) $ 
 
-        inoltre $ \forall \varepsilon >0 \exists n_{segnato} | \forall n>n_{segnato} 0<|x_{n}-x_{0}|<\varepsilon $ ($n_{segnato}>\frac{1}{\varepsilon}$)
+        inoltre $ \forall \varepsilon >0 \exists \overline{n} | \forall n>\overline{n} 0<|x_{n}-x_{0}|<\varepsilon $ ($\overline{n}>\frac{1}{\varepsilon}$)
 
         ossia $ x_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle  $
 

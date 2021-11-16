@@ -229,7 +229,7 @@ $ \iff $ hanno la stessa orientazione
 \]
 
 \proposizione{classibosldo}{
-    $ \sim $ è una relazione di equivalenza e nel quoziente $ \text{Basi}(B)/\sim $ ci sono solo due classi
+    $ \sim $ è una relazione di equivalenza e nel quoziente $ \text{Basi}(V)/\sim $ ci sono solo due classi (se $ \dim V\ge 1 $).
 }
 \esempio{}{
     $ \text{Basi}(\R)=\big\{\{t_0\}\,|\, t_{0}\neq 0 \big\} $, $ \{t_0\}\sim\{t_0'\} $ $ \iff $ $ t_0 $ e $ t_0' $ hanno lo stesso segno.
@@ -267,7 +267,26 @@ $ \iff $ hanno la stessa orientazione
             \det (M^{ \mathscr{B}, \mathscr{B}''})=\det (M^{ \mathscr{B}, \mathscr{B}'} \cdot M^{ \mathscr{B}', \mathscr{B}''})=\\
             \overset{\text{Binet}}{=}\det (M^{ \mathscr{B}, \mathscr{B}'}) \cdot \det (M^{ \mathscr{B}', \mathscr{B}''})>0\qed
         \end{multline*}
+
+        Per\marginnote{16 nov 2021} dimostrare il numero di elementi dell'insieme quoziente: 
+        \begin{itemize}
+            \item [caso 1.] $ \dim  V \ge 2 $; date $ \mathscr{B}=\{v_1, v_2, \cdots, v_{n} \} $ e $ \mathscr{B}'=\{v_2, v_1, \cdots, v_n\} $; si osserva facilmente che $ \mathscr{B}' $ non hja la stessa orientazione di $ \mathscr{B} $.
+            
+            In $ \text{Basi}(V)/\sim $ ci sono sempre almeno 2 elementi. Dimostriamo che sono esattamente 2.
+
+            Considero $ [ \mathscr{B}] $ e $ []\mathscr{B}'] \in \text{Basi}(V)/\sim $, con $ [ \mathscr{B}]\neq [ \mathscr{B}'] $ e sia $ \mathscr{B}'' \in \text{Basi}(V)/\sim $ tale che $ \mathscr{B}'' \notin [ \mathscr{B}] $ 
+            
+            $\implies$ $ \det M^{ \mathscr{B}, \mathscr{B}''}<0 $. Dimostro che $ \mathscr{B}'' \in [ \mathscr{B}'] $
+
+            Infatti \begin{multline*}
+                M^{ \mathscr{B}, \mathscr{B}''}= M^{ \mathscr{B}, \mathscr{B}'} \cdot M^{ \mathscr{B}', \mathscr{B}''} \\
+                \overset{\text{Binet}}{\overbrace{\implies}}\, \underset{<0}{\det M^{ \mathscr{B}, \mathscr{B}''}} = \underset{<0}{\det M ^{ \mathscr{B}, \mathscr{B}'}} \cdot \underset{>0}{\det M^{ \mathscr{B}', \mathscr{B}''}}
+            \end{multline*}
+            
+            $\implies$ deduco che $ \det M^{ \mathscr{B}', \mathscr{B}''}>0 $ 
+            
+            $\implies$ $ \mathscr{B}' \in [ \mathscr{B}''] $\qed
+        \end{itemize}
+
     \end{itemize}
-    
-    %TODO dimostrare per esercizio che le classi siano solo due
 }

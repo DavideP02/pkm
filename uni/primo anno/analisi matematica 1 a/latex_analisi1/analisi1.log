@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  15 NOV 2021 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  16 NOV 2021 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,7 +22,7 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Latex/unito.tex (/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/LatexAN/unito.tex (/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
@@ -1346,9 +1346,10 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 138.
 \c@proposizione=\count512
 \c@osservazione=\count513
 \c@lemma=\count514
+\c@corollario=\count515
  (/usr/local/texlive/2019/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count515
+\c@mn@abspage=\count516
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1359,22 +1360,22 @@ File: italian.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.aux)
 \openout1 = `analisi1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Info: Redefining \it@ocap on input line 5.
-LaTeX Info: Redefining \it@ccap on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \it@ocap on input line 10.
+LaTeX Info: Redefining \it@ccap on input line 10.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1383,9 +1384,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'analisi1.bbl' found.
  (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.bbl)
-Package biblatex Info: Reference section=0 on input line 5.
-Package biblatex Info: Reference segment=0 on input line 5.
-LaTeX Info: Redefining \microtypecontext on input line 5.
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
+LaTeX Info: Redefining \microtypecontext on input line 10.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1399,16 +1400,16 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) ABD: EveryShipout initializing macros (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count516
+\scratchcounter=\count517
 \scratchdimen=\dimen338
 \scratchbox=\box127
-\nofMPsegments=\count517
-\nofMParguments=\count518
+\nofMPsegments=\count518
+\nofMParguments=\count519
 \everyMPshowfont=\toks67
-\MPscratchCnt=\count519
+\MPscratchCnt=\count520
 \MPscratchDim=\dimen339
-\MPnumerator=\count520
-\makeMPintoPDFobject=\count521
+\MPnumerator=\count521
+\makeMPintoPDFobject=\count522
 \everyMPtoPDFconversion=\toks68
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1424,7 +1425,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-\c@lstlisting=\count522
+\c@lstlisting=\count523
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1460,51 +1461,58 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box128
-Package hyperref Info: Link coloring ON on input line 5.
+Package hyperref Info: Link coloring ON on input line 10.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count523
+\c@section@level=\count524
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.out) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.out)
 \@outlinefile=\write8
 \openout8 = `analisi1.out'.
 
  [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/20set2021.tex
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 2.
-Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OMX+yhex on input line 4.
+LaTeX Font Info:    Try loading font information for OMX+yhex on input line 7.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 7.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 8.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 9.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
+))
+\tf@toc=\write9
+\openout9 = `analisi1.toc'.
+
+ [3] [4
+
+] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/20set2021.tex
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 2.
+Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 20.
@@ -1525,7 +1533,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 48.
 
-[3]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/21set2021ord.tex
+[5]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/21set2021ord.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -1534,70 +1542,61 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 2.
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 2.
 Package marginnote Info: xpos seems to be 91.06114pt on input line 2.
-\c@prpsdfsdfsdfdd=\count524
-\c@prpm2parimpari=\count525
-[4]
-\c@prpassurdo1=\count526
-\c@prpassurdo2=\count527
-\c@prpassurdo3=\count528
- [5]
+\c@prpsdfsdfsdfdd=\count525
+\c@prpm2parimpari=\count526
+[6]
+\c@prpassurdo1=\count527
+\c@prpassurdo2=\count528
+\c@prpassurdo3=\count529
+ [7]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
- [6] [7]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/22set2021ord.tex
-Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 1.
+ [8] [9]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/22set2021ord.tex
+Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 1.
 Package marginnote Info: xpos seems to be 184.8618pt on input line 1.
- [8]
+ [10]
 Overfull \hbox (24.10187pt too wide) detected at line 55
 [] \OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = []\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 M \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 U \OMS/cmsy/m/n/10.95 j 8 \OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 A; x \OMS/cmsy/m/n/10.95 ^^V \OML/cmm/m/it/10.95 M\OMS/cmsy/m/n/10.95 g\OML/cmm/m/it/10.95 ;  [] A \OT1/cmr/m/n/10.95 = []\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 m \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 U \OMS/cmsy/m/n/10.95 j 8 \OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 A; m \OMS/cmsy/m/n/10.95 ^^V \OML/cmm/m/it/10.95 a\OMS/cmsy/m/n/10.95 g
  []
 
-[9] [10] [11]
-\c@thmddddd=\count529
-) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/02nov2021.tex [12]
-Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 2.
+[11] [12] [13]
+\c@thmddddd=\count530
+) [14] [15] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/02nov2021.tex
+Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 2.
+Package marginnote Info: xpos seems to be 91.06114pt on input line 2.
+ [16]
+\c@thmlimitatezza=\count531
+\c@thmesistenzalim=\count532
+ [17]
+\c@thmarchi=\count533
+ [18]
+\c@thmbern=\count534
+ [19]
+\c@thmrel=\count535
+ [20] [21] [22]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/08nov2021.tex
+Package marginnote Info: Margin note 23.1 is on absolute page 23 on input line 2.
 Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
-
-Overfull \hbox (27.28233pt too wide) in paragraph at lines 6--9
-\T1/cmr/m/n/10.95 (-20) se $\OMS/cmsy/m/n/10.95 8\OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 l\OT1/cmr/m/n/10.95 (-20) )\OMS/cmsy/m/n/10.95 9\OML/cmm/m/it/10.95 U\OT1/cmr/m/n/10.95 (-20) (+\OMS/cmsy/m/n/10.95 1\OT1/cmr/m/n/10.95 (-20) )\OML/cmm/m/it/10.95 n \OMS/cmsy/m/n/10.95 2 \OT1/cmr/m/n/10.95 (-20) (\U/dsrom/m/n/10.95 N\OML/cmm/m/it/10.95 intersezioneD\OT1/cmr/m/n/10.95 (-20) )  =[]\OMS/cmsy/m/n/10.95 )  \OML/cmm/m/it/10.95 a[]$ \T1/cmr/m/n/10.95 (-20) Scri-via-mo $\OMS/cmsy/m/n/10.95 8\OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 l\OT1/cmr/m/n/10.95 (-20) )\OMS/cmsy/m/n/10.95 9\OML/cmm/m/it/10.95 n[] \OMS/cmsy/m/n/10.95 2
- []
-
-\c@thmlimitatezza=\count530
-[13]
-\c@thmesistenzalim=\count531
-\c@thmarchi=\count532
- [14]
-\c@thmbern=\count533
- [15] [16]
-\c@thmrel=\count534
- [17] [18]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/08nov2021.tex
-Package marginnote Info: Margin note 19.1 is on absolute page 19 on input line 2.
-Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
- [19] [20]
-\c@prpsgrsgfdsgfsd=\count535
-\c@lmmgagaga=\count536
- [21] [22]
-\c@lmmdfgdfgdg=\count537
- [23]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/09nov2021.tex
-Package marginnote Info: Margin note 24.1 is on absolute page 24 on input line 4.
-Package marginnote Info: xpos seems to be 91.06114pt on input line 4.
-
-Overfull \hbox (19.74965pt too wide) detected at line 7
-[] \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )   \OMS/cmsy/m/n/10.95 ([])   [] \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 h\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )   \OMS/cmsy/m/n/10.95 ([])   [] \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 h\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) = 0
- []
-
-[24]
-\c@thmadgfdagf=\count538
- [25] [26] [27] [28] [29] [30]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/15nov2021.tex
-Package marginnote Info: Margin note 31.1 is on absolute page 31 on input line 2.
+ [23] [24]
+\c@prpsgrsgfdsgfsd=\count536
+\c@lmmgagaga=\count537
+ [25] [26]
+\c@lmmdfgdfgdg=\count538
+) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/09nov2021.tex
+Package marginnote Info: Margin note 27.1 is on absolute page 27 on input line 4.
+Package marginnote Info: xpos seems to be 60.7074pt on input line 4.
+ [27]
+\c@thmadgfdagf=\count539
+ [28] [29] [30] [31] [32] [33] [34]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/15nov2021.tex
+Package marginnote Info: Margin note 35.1 is on absolute page 35 on input line 2.
 Package marginnote Info: xpos seems to be 183.35384pt on input line 2.
-\c@thmddfsfsfsdfs=\count539
- [31]
+\c@thmddfsfsfsdfs=\count540
+ [35]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 59.
@@ -1610,16 +1609,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 59.
 
-[32]
-\c@prpasgdfgdffger=\count540
- [33]
-\c@thmcentrale=\count541
+[36]
+\c@prpasgdfgdffger=\count541
+ [37]
+\c@thmcentrale=\count542
 
 Overfull \hbox (14.47171pt too wide) in paragraph at lines 126--126
  []\T1/cmr/bx/n/10.95 Teorema IX [](di Bolzano-Weierstrass per le suc-ces-sio-ni)[] \T1/cmr/m/n/10.95 (-20) Da-ta $\OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 a[]\OMS/cmsy/m/n/10.95 g[]$
  []
 
-[34]
+[38]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 162.
@@ -1636,41 +1635,43 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 162.
 
-[35]
-\c@thmdsfsdfsdddddd=\count542
-Package marginnote Info: Margin note 36.1 is on absolute page 36 on input line 207.
-Package marginnote Info: xpos seems to be 152.16718pt on input line 207.
-Package marginnote Info: Margin note 36.2 is on absolute page 36 on input line 207.
-Package marginnote Info: xpos seems to be 443.42213pt on input line 207.
-Package marginnote Info: Margin note 36.3 is on absolute page 36 on input line 207.
-Package marginnote Info: xpos seems to be 155.79771pt on input line 207.
-Package marginnote Info: Margin note 36.4 is on absolute page 36 on input line 208.
-Package marginnote Info: xpos seems to be 424.6059pt on input line 208.
-) [36]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+\c@thmdsfsdfsdddddd=\count543
+[39]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/Days/16nov2021.tex
+\c@lmmdddddddsdfsdfs=\count544
+Package marginnote Info: Margin note 40.1 is on absolute page 40 on input line 5.
+Package marginnote Info: xpos seems to be 195.02689pt on input line 5.
+ [40]
+\c@thmdfgdfgdfgdfgdfg=\count545
+ [41]
+\c@thmteoexzeri=\count546
+ [42] [43] [44]
+\c@thmvalinter=\count547
+\c@crlciaociao=\count548
+ [45]) [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `analisi1.out' has not changed.
-(rerunfilecheck)             Checksum: 5A0448060C1C3E5D29571B8E127178E2;1527.
+(rerunfilecheck)             Checksum: 4678A46FE4122D6A02209B41D53F0AB2;1705.
 Package logreq Info: Writing requests to 'analisi1.run.xml'.
 \openout1 = `analisi1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 63576 strings out of 492616
- 1480890 string characters out of 6129481
- 2154360 words of memory out of 5000000
- 66350 multiletter control sequences out of 15000+600000
- 560424 words of font info for 149 fonts, out of 8000000 for 9000
+ 63682 strings out of 492616
+ 1482678 string characters out of 6129481
+ 2166118 words of memory out of 5000000
+ 66396 multiletter control sequences out of 15000+600000
+ 561755 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,15n,136p,1738b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on "/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.pdf" (36 pages, 442308 bytes).
+ 80i,15n,136p,1740b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
+Output written on "/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/analisi matematica 1 a/latex_analisi1/analisi1.pdf" (46 pages, 475089 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 489 compressed objects within 5 object streams
- 173 named destinations out of 1000 (max. 500000)
- 24909 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 706 PDF objects out of 1000 (max. 8388607)
+ 596 compressed objects within 6 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 25445 words of extra memory for PDF output out of 29859 (max. 10000000)
 
