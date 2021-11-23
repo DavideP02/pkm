@@ -1,0 +1,261 @@
+% \teorema{compcont1}{
+%     Sia $ K \subseteq \R^{n} $, $ K $ compatto sequenzialmente. Consideriamo $
+%     f:K \to \R^{m}$ continua su tutto $ K $ 
+% 
+%     $\implies$ $ f(K) $ è un insieme sequenzialmente compatto in $ \R^{m}$
+% 
+%     L'immagine continua di un compatto è compatta.
+% }
+\dimostrazione{compcont1}{
+    Consideriamo\marginnote{23 nov 2021} $ \{y_{k} \}_{k=0}^\infty $ successione a valori in $ f(K) $. \[y_{k} \in f(K)\,\iff\, \exists\, x_{k} \in K \,\tc\, y_{k}=f(x_{k} )\]
+
+    Consideriamo ora la successione $ \{x_{k} \}_{k=0}^\infty $ così ottenuta, a valori in $ K $: $ K $ è compatto in $ \R^{n} $ 
+    
+    $\implies$ $ \exists\, l \in K $, $ \exists \{x_{h_k} \}_{k=0}^\infty $ sottosuccessione di $ \{x_{k} \}_{k=0}^\infty $ tale che \[
+        x_{h_{k} } \xrightarrow{k\to +\infty} l \in K \displaystyle
+    \]
+
+    Consideriamo $ y_{h_{k}} = f(x_{h_{k} } )  $: $ \{y_{h_{k}} \}_{k=0}^\infty $ è sottosuccessione di $ \{y_{k} \}_{k=0}^\infty $ \begin{multline*}
+        \lim_{k\to + \infty} y_{h_{k}}  = \lim_{k\to +\infty} f(x_{h_{k} } ) =\\
+        \overset{\footnotemark}{=} f( \lim_{k\to +\infty} x_{h_k} ) = f(l) \in f(K)
+    \end{multline*}\footnotetext{{per la continuità di $ f $ su $ K $}}
+
+    Allora considerata $ \{y_{k} \}_{k=0}^\infty $ successione a valori in $ f(K) $ \[
+        \exists\, y_{h_{k} } \xrightarrow{k\to +\infty} f(l) \in f(K) \displaystyle 
+    \] 
+    
+    $\implies$ $ f(K) $ è compatto.
+}
+
+\definizione{}{
+    Dato $ D \subseteq \R^{n} $, e \begin{align*}
+    f:D & \to \R \\
+    x & \mapsto f(x)
+    \end{align*} diciamo che 
+    \begin{itemize}
+        \item $ x_{M}  $ è punto di massimo assoluto di $ f $ su $ D $ se \[
+            \forall\,x \in D\quad f(x)\le f(x_{M} ).
+        \]
+        Si indica inoltre $ M=f(x_{M} ) $ come valore massimo di $ f $ su $ D $.
+        \item $ x_{m}  $ è punto di minimo assoluto di $ f $ su $ D $ se \[
+        \forall\,x \in D\quad f(x)\ge f(x_{M} ).
+        \]
+        Si indica inoltre $ m=f(x_{m} ) $ come valore minimo di $ f $ su $ D $
+    \end{itemize}
+}
+
+\teorema[(di Weierstrass)]{weierstrass}{
+    Sia $ K \subseteq \R^{n} $, $ K $ compatto sequenzialmente. Data $ f: K\to \R $ continua su $ K $ 
+    
+    $\implies$ $ \exists\, x_{M} $ punto di massimo assoluto di $ f $ su $ K $, e $ \exists\, x_{m} $ punto di minimo assoluto di $ f $ su $ K $.
+}
+\dimostrazione{weierstrass}{
+    $ K $ compatto in $ \R^{n} $, $ H=f(K) $ compatto in $ \R $. Dunque $ H \subseteq \R $ chiuso e limitato in $ \R $: $ H $ ammette \begin{align*}
+        s &= \sup H \in \R\\
+        i &= \inf H \in \R
+    \end{align*}
+
+    Concentriamoci su $ s $; abbiamo verificato che se $ s =\sup H $ allora ci sono due possibilità\begin{itemize}
+        \item $ s $ isolato $ \implies $ $ s \in H $
+        \item $ s $ di accumulazione per $ H $, 
+        
+        $\overset{\footnotemark}{\implies}$\footnotetext{perché $ H $ è chiuso}$ s \in H $
+    \end{itemize} 
+
+    Concludiamo allora che $ s \in H $, ma allora per definizione \[s=M=\max H\quad\land\quad \exists\, x_{M}\,\tc\, f(x_{M} )=M. \] Dunque esiste $ x_{M}  $ punto di massimo. Lo stesso si ripete con $ i=\inf H $.
+
+    $ i=\min H =m $, $ m \in H $ 
+    
+    $\implies$ $ \exists\, x_{m} \,\tc\, f(x_{m} )=m  $ 
+    
+    $\implies$ $ x_{m}  $ è un punto di minimo \qed
+}
+
+\osservazione{
+    Dato $ D \subseteq \R $, \begin{align*}
+    f:D & \to \R \\
+    x & \mapsto f(x)
+    \end{align*} $ f $ continua su $ D $, allora dato $ [a,b] \subseteq D $ \begin{align*}
+        \exists\,x_{m} \in [a,b]&\text{ punto di minimo di }f\text{ su }[a,b] \\
+        \exists\,x_{M} \in [a,b]&\text{ punto di massimo di }f\text{ su }[a,b] 
+    \end{align*}
+}
+
+\teorema[(dei valori intermedi sui compatti)]{diiidiiidiidii}{
+    Sia $ f:[a,b]\to \R $ continua 
+    
+    $\implies$ $ f $ assume tutti i valori compresi tra il suo minimo e il suo massimo.
+
+    Dati \[
+        M=\max_{x \in[a,b]} f(x)\quad  m=\min_{x \in[a,b]} f(x)
+    \]
+    vale che \[
+        \forall\,\lambda \in [m, M]\quad \exists\, c \in [a,b]\,\tc\, f(c)=\lambda
+    \]
+}
+\dimostrazione{diiidiiidiidii}{
+    $ f $ continua su $ [a,b] $ 
+    
+    $\implies$ $ f $ ammette valor massimo $ M $ e valor minimo $ m $. Poniamo \[ x_{M}\,|\, f(x_{M} )=M  \qquad x_{m}\,|\, f(x_{m} )=m \]
+
+    Sia $ \lambda \in[m,M] $, e consideriamo $ g(x)=f(x)-\lambda $. $ g $ è continua su $ [a,b] $, e in particolar modo $ g $ continua su $ [x_{m}, x_{M} ] $ o su $ [x_{M}, x_{m}  ] $ \[
+        \exists\, c \in \begin{aligned}
+            &[x_{m}, x_{M}  ]\\
+            &[x_{M}, x_{m}  ]
+        \end{aligned} \quad \tc\, g(c)= 0 \,\implies\, f(x)=\lambda\qedhere
+    \]
+}
+
+\subsection{Legame tra uniforme continuità e compattezza}
+
+\teorema[(di Heine-Cantor)]{heinecantor}{
+    Sia $ K \subseteq \R^{n} $ compatto, sia $ f:K\to \R^{m} $ e $ f $ continua su $ K $ 
+    
+    $\implies$ $ f $ è uniformemente continua su $ K $.
+
+    Le funzioni continue sui compatti sono ivi uniformemente continue.
+}
+\dimostrazione{heinecantor}{
+    Per assurdo assumiamo che $ f $ sia continua su $ K $ e che $ f $ non sia assolutamente continua su $ K $.
+    \[
+        \exists \,\overline{ \varepsilon}>0\,\tc\, \forall\, \delta>0 \,\exists\, x_{\delta}, z_{\delta} \in K\qquad |x_{\delta}-z_{\delta}|<\delta\,\land\,|f(x_{\delta} )-f(z_{\delta} )|\ge \overline{ \varepsilon}.    
+    \]
+
+    Diamo a $ \delta $ i valori $ 1, 1/2, \cdots, 1/k $ allora \begin{multline*}
+        \exists\,\overline{ \varepsilon}>0\,\forall\, k \in  \N\setminus\{0\}\, \exists\, x_{k}, z_{k}  \in K\\\tc\, |x_{\delta}-z_{\delta}|<1/k\,\land\,|f(x_{\delta} )-f(z_{\delta} )|\ge \overline{ \varepsilon}.\referenze{(A)}{\label{xviii:A}}
+    \end{multline*}
+
+    Consideriamo le successioni a valori in $ K $ ottenute dagli $ x_{k}  $ e $ z_{k}  $ sopra considerati, a valori in $ K $ \[
+        \{x_{k} \}_{k=1}^\infty\qquad \{z_{k} \}_{k=1}^\infty.
+    \]
+
+    $ K $ compatto in $ \R^{n} $, allora esiste una sottosuccesssione di $ \{x_{k} \}_{k=1}^\infty $ tale che $ x_{h_{k} } \xrightarrow{k\to +\infty} x \in K \displaystyle $.
+
+    Consideriamo $ \{z_{h_{k} }\}  $ la sottosuccessione di $ \{z_{k} \} $ ottenuta con gli stessi indici $ h_{k}  $.
+
+    Osserviamo che \[
+        |z_{h_{k}}- x|\le \underset{\text{def. }\le 1/k}{\underbrace{|z_{h_{k} }-x_{h_{k} }|}}+\underset{\xrightarrow[k\to +\infty]{} 0}{\underbrace{|x_{h_{k} }-x|}}
+    \]
+    Allora $ z_{h_{k} } \xrightarrow{k\to +\infty} x \displaystyle  $
+
+    Stimiamo \[
+        |f(x_{h_{k} } )-f(z_{h_{k} } )|
+        \le |f(x_{h_{k} } )-f(x)| + |f(x)-f(z_{h_{k} } )|.
+    \]
+    Poiché $ f $ continua su $ K $\begin{align*}
+        f(x_{h_{k} }) & \xrightarrow{k\to +\infty} f(x) \\
+        f(z_{h_{k} }) & \xrightarrow{k\to +\infty} f(x)
+    \end{align*} allora \[
+        |f(x_{h_{k} } )-f(z_{h_{k} } )| \xrightarrow{k\to +\infty} 0 \displaystyle
+    \] 
+    
+    $\implies$ \[\forall\, \varepsilon>0 \exists\, \overline{k}\,|\,\forall\, k>\overline{k}\quad |f(x_{h_{k} } )-f(z_{h_{k} } )|< \varepsilon\]
+
+    Questo nega la condizione \hyperref[xviii:A]{(A)}, dunque $ f $ non può essere non uniformemente continua
+
+    Concludiamo che, dato $ K $ compatto
+    \[
+        f\text{ continua su }K \quad \land\quad f\text{ non uniformemente continua su }K
+    \] 
+    
+    $\implies$ $ f $ uniformemente continua su $ K $: contraddizione
+
+    Dunuqe $ f $ continua su $ K $ 
+    
+    $\implies$ $ f $ uniformemente continua su $ K $.\qed
+}
+
+\proprieta{}{
+    $ K $ compatto di $ \R^{n} $, $ f:K\to \R $ continua e iniettiva (e quindi invertibile) 
+    
+    $\implies$ $ f^{-1}:f(K)\to K $ è continua su $ f(K) $.
+}
+
+\definizione{}{
+Data $ D \subseteq \R^{n} $ e \begin{align*}
+f:D & \to \R^{m} \\
+x & \mapsto f(x)
+\end{align*}
+un insieme $ E \subseteq \R^{m} $ indichiamo con \[
+    f^{-1}(E)=\{x \in D;\, f(x)\in E\}
+\]
+chiamato \textit{controimmagine} di $ E $}
+
+\teorema[(caratt. delle funzioni continue)]{funxcontcaratt}{
+    Data $ f:\R^{n}\to \R^{m} $
+
+    $ f $ è continua su $ \R^{n} $
+
+    $ \iff $ $ \forall\, E \subseteq \R^{m} $, $ E $ aperto, si ha che $ f^{-1}(E) $ è aperto in $ \R^{n} $.
+}
+
+\section{Derivata}
+
+\esempio{\label{caso1}
+Data
+\begin{align*}
+f:I & \to \R \\
+x & \mapsto f(x)
+\end{align*}
+
+%TODO aggiungere disegno (dis 1)
+
+Si ha che $ x_0, x_1 \in I $, $ P_0=(x_0, f(x_0)) $, $ P_1=(x_1, f(x_1)) $.
+
+Indichiamo con $ s $ la secante al grafico tra $ P_0$ e $ P_1 $, di equazione \[
+    y=f(x_0)+\underset{m,\text{ pendenza\footnotemark}}{\underbrace{\frac{f(x_1)-f(x_0)}{x_1-x_0}}}(x-x_0)
+\]\footnotetext{o coefficiente angolare}
+
+Cosa accade quando $ x_1\to x_0 $? Si ha che $ P_1 \to P_0 $ e che $ s\to r $, che intuitivamente è la retta tangenta al grafico in $ P_0 $.}
+
+\esempio{
+    Consideriamo la funzione \[
+        g(x)=\begin{cases}
+            1 &x\le x_0\\
+            2 &x> x_0
+        \end{cases}
+    \]
+
+    %TODO aggiungere disegno (dis 2)
+
+    In questo caso quando $ x\to x_0$, $ P_1 \to P_2\neq P_1 $, e $ s\to r $ retta verticale.
+
+    Intuitivamente $ r $ non è la tangente in $ P_0 $.
+}
+
+\esempio{
+    Sia $ h(x) $ una funzione, dal grafico:
+    %TODO aggiungere disegno (dis 3)
+
+    Quando $ x_1\to x_0 $, $ P_1 \to P_2 $, ma $ s\to r $ che non è ``tangente''.
+}
+
+Si ha l'obiettivo di dare una definizione che 
+\begin{itemize}
+    \item distingua il \hyperref[caso1]{primo esempio} dagli altri
+    \item dare una definizione rigorosa di tangente in $ P_0 $
+\end{itemize}
+
+\definizione{}{
+Data $ f:I\to \R $, fissiamo $ x_0 \in I $, diciamo \text{rapporto incrementale} di $ f $ centrato in $ x_0 $, la quantità \[
+    \frac{f(x)-f(x_0)}{x-x_0}
+\]
+
+Si osservi che è il coefficiente angolare della secante tra $ P_0=(x_0, f(x_0)) $ e $ P=(x, f(x)) $
+}
+
+\definizione{}{
+    Diciamo che $ f $ è \textit{derivabile} in $ x_0 $ se \[
+        \lim_{x\to x_0} \frac{f(x)-f(x_0)}{x-x_0} = L \in \R 
+    \]
+
+    Indichiamo \[
+        L=f'(x_0)
+    \]
+    detta \textit{derivata} di $ f $ in $ x_0 $.
+
+    Diciamo \textit{tangente} si $ f $ in $ x_0$ la retta $ r $ di equazione \[
+        y=f(x_0)+f'(x_0)(x-x_0)
+    \]
+    da cui $ f'(x_0) $ è il coefficiente angolare (pendenza) della tangente al grafico in $ x_0 $.
+}    

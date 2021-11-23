@@ -390,12 +390,80 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.1}Proiezioni ortogonali}{70}{subsection.10.1}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}Isometrie}{70}{section.11}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Teorema XII }{70}{section*.168}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [thm:jjjjkdpojkdkks]{(XII)}}{70}{section*.169}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.2)}{70}{section*.170}% 
+\contentsline {paragraph}{Esempio (11.1)}{70}{section*.170}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Esercizio }{70}{section*.171}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{70}{section*.172}% 
+\contentsline {paragraph}{Soluzione}{71}{section*.172}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{71}{section*.173}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Attenzione}{71}{section*.174}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (11.2)}{71}{section*.175}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{73}{section*.176}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{73}{section*.177}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Conseguenza}{74}{section*.178}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12}Endomorfismi simmetrici}{74}{section.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XIII }{74}{section*.179}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:lineoinlin]{(XIII)}}{74}{section*.180}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{75}{section*.181}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{76}{section*.182}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempi (12.1)}{76}{section*.183}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{76}{section*.184}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{76}{section*.185}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13}Spazi vettoriali Hermitiani}{77}{section.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (13.1)}{77}{section*.186}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{78}{section*.187}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{79}{section*.188}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (13.1)}{79}{section*.189}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (13.2)}{79}{section*.190}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{79}{section*.191}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (13.2)}{79}{section*.192}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{79}{section*.193}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{79}{section*.194}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{80}{section*.195}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XIV }{80}{section*.196}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:herm1]{(XIV)}}{80}{section*.197}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (13.3)}{80}{section*.198}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (13.4)}{81}{section*.199}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{81}{section*.200}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (13.3)}{81}{section*.201}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{81}{section*.202}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (13.5)}{81}{section*.203}% 

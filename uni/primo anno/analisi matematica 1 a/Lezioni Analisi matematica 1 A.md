@@ -36,6 +36,9 @@
 	- [Appunti Lezione](202111150830%20(15%20nov%202021).md) | [pdf](202111150830.pdf)
 - 16 novembre 2021
 	- [Appunti Lezione](202111160853%20(16%20nov%202021).md) | [pdf](202111160853.pdf)
+- 22 novembre 2021
+- 23 novembre 2021
+	- [Appunti Lezione](202111230830%20(23%20nov%202021).md) | [pdf](202111230830.pdf)
 
 ## Tutorato
 - 28 ottobre 2021

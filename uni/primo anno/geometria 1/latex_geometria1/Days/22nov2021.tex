@@ -1,0 +1,217 @@
+%TODO aggiungere da qualche parte cosa significa bilineare (lineare in ogni variabile)
+
+% In ogni spazio vettoriale (di dimensione >=1) esistono infiniti prodotti scalari 
+% TODO trovare un modo dove sistemarli
+
+\section{Spazi vettoriali Hermitiani}
+\marginnote{22 nov 2021}
+
+\[
+    \C =\{a+ib\,|\, a, b \in \R\}\qquad i \notin \R\text{ soddisfa }i^{2}=-1
+\]
+
+Su $ \C $ sono definite una somma e un prodotto \begin{align*}
+    (a+ib)+(c+id)&=(a+c)+i(b+d)\\
+    (a+ib)(c+id)&=(ac-bd)+i(ad+bc)
+\end{align*}
+
+In questo modo $ \C $ è un campo. Possiamo considerare spazi vettoriali complessi, cioè su $ \C $.
+
+\esempio{}{
+    $ \C^{n}=\underset{n-\text{volte}}{\underbrace{\C \times \cdots\times \C}} $, gli elementi di $ \C^{n} $ sono della forma $ (x_1, \cdots, x_{n} ) $ con $ x_1, \cdots, x_{n} \in \C $, \begin{align*}
+        (x_1, \cdots, x_{n}) + (y_1, \cdots, y_{n}) &= (x_1+y_1, \cdots, x_{n}+y_{n}  )\\
+        \lambda (x_1, \cdots, x_{n}) &= (\lambda x_1, \cdots, \lambda x_{n})
+    \end{align*}
+    $ \C^{n} $ spazio vettoriale $ n $-dimensionale su $ \C $.
+}
+
+$ V $ spazio vettoriale su $ \C $, $ \R \subseteq \C $ 
+
+$\implies$ $ \forall\, \lambda \in \R $, $ x \in V $ è definitivo $ \lambda v $ 
+
+$\implies$ $ V $ è anche uno spazio vettoriale su $ R $. 
+
+La dimensione di $ V $ come spazio vettoriale su $ \R $ è il doppio della dimensione di $ V $ come spazio vettoriale su $ \C $. Si indica $ \dim_{\R} V $ la dimensione dello spazio vettoriale rispetto ad $ \R $ e si indica $ \dim_{\C} V $ la dimensione dello spazio vettoriale rispetto ad $ \C $. 
+
+$\implies$ $ \dim_{\C} V = \frac{1}{2}\dim_{\R} V $
+
+\rule{7em}{.4pt}
+
+$ \C $ è sia spazio vettoriale su $ \C $ che spazio vettoriale su $ \R $: $ \dim_{\C} \C = 1 $ e $ \dim_{\R} \C = 2 $
+
+$ \mathscr{B}=\{1\} $ base di $ \C $ come spazio vettoriale su $ \C $, $ \mathscr{B}=\{1, i\} $ base di $ \C $ come spazio vettoriale su $ \R $
+
+La funzione \begin{align*}
+F:\C & \to \R^{2} \\
+a+ib & \mapsto (a,b)
+\end{align*} è un isomorfismo tra $ \C $ visto come spazio vettoriale su $ \R $ e $ \R^{2} $
+
+\rule{7em}{.4pt}
+
+Su $ \C $ è definito il coniugato tramite la relazione \[
+    \overline{(a+ib)}=(a-ib)
+\]
+La funzione definita da $ \C\to \C $, tale che $ z\mapsto \overline{z} $, è lineare su $ \C  $ visto come spazio vettoriale su $ \R $, ma non su $ \C $ visto come spazio vettoriale su $ \C $. La funzione quindi è $ \R $-lineare, ma non $ \C $-lineare.
+
+Si noti che \[
+    (a+ib)(a-ib)=a^{2}+b^{2}
+\]
+Si definisce il modulo di un numero complesso come \[
+    |(a+ib)|=\sqrt{a^{2}+b^{2}}=||(a,b)||
+\] 
+
+$\implies$ $ z \cdot \overline{z}=|z|^{2} $
+
+È naturale in $ \C $ considerare la funzione \begin{align*}
+\cdot : \C\times\C & \to \C \\
+(z,w) & \mapsto z\overline{w}
+\end{align*}
+\proprieta{di $ \cdot $}{
+    \begin{enumerate} % TODO riguardare dagli appunti 
+        \item $ z \cdot w =\overline{w \cdot z} $ in quanto
+        \[
+            z \cdot w = z\overline{w}=\overline{w}z=\overline{w\overline{z}}=\overline{w \cdot z}
+        \]
+        \item $ (z_1+z_2) \cdot w = z_1 \cdot w + z_2 \cdot w $, $ z (w_1+w_2)=z \cdot w_1 + z \cdot w_2$
+        \item $ (\lambda z) \cdot w = \lambda z \cdot w $, $ z \cdot (\lambda w) = \overline{\lambda} z \cdot w $
+        \item $ z \cdot \overline{z}\ge0 $ e $ z \cdot \overline{z}=0 $ $ \iff $ $ z=0 $
+    \end{enumerate}
+}
+
+\definizione{}{
+    Sia $ V $ uno spazio vettoriale complesso. Un \textit{prodotto Hermitiano} su $ V $ è una funzione $ \cdot: V\times V \to \C$ tale che % TODO riguardare dagli appunti 
+    \begin{enumerate}
+        \item $ v \cdot w =\overline{w \cdot v} $
+        \item $ (v_1+v_2) \cdot w = v_1 \cdot w + v_2 \cdot w $
+        \item $ (\lambda v) \cdot w = \lambda (v \cdot w $)
+        \item $ v \cdot v \ge0 $ e $ v \cdot v=0 $ $ \iff $ $ v=0 $
+    \end{enumerate}
+}
+
+\osservazione{
+    Se $ \cdot $ è un prodotto Hermitiano 
+    
+    $\implies$ $ v \cdot (w_1+w_2)=v \cdot w_1 + v \cdot w_2$ % TODO manca un pezzo
+}
+
+\osservazione{
+    Se $ \cdot  $ prodotto Hermitiano, e $ v \in V $ 
+    
+    $\implies$ $ v \cdot v \in \R $, infatti per la proprietà 1. vale \[
+        v \cdot v =\overline{v \cdot v}
+    \]
+    e un numero complesso coincide con il suo coniugato $ \iff $ è reale
+}
+
+\definizione{}{Uno spazio vettoriale Hermitiano è una coppia $ (V, \cdot ) $ con $ V $ spazio vettoriale complesso, finitamente generato, e $ \cdot  $ prodotto Hermitiano su $ V $}
+
+\esempio{}{
+    $ \C^{n} $ con il prodotto Hermitiano canonico, \[ (z_1, \cdots, z_{n} ) \cdot  (w_1, \cdots, w_{n} )=\sum_{k=1}^{n} z_{k} \overline{w_{k} } \]
+
+\esercizio{Si dimostri che $ \cdot  $ è un prodotto Hermitiano su $ \C^{n} $}{Da fare %TODO risolvere esercizio
+}{}
+
+}
+
+Se $ V $ è uno spazio vettoriale complesso finitamente generato, posso sempre definire un prodotto Hermitiano su $ V $. Fisso $ \mathscr{B} $ una base e definisco $ v \cdot w $ come il prodotto Hermitiano canonico in $ \C^{n} $ tra $ (v)_{ \mathscr{B}} $ e $ (w)_{ \mathscr{B}} $ 
+
+$\implies$ Ogni spazio vettoriale complesso ($\dim \ge 1$) ha un prodotto Hermitiano.
+
+Se $ \cdot $ è un prodotto Hermitiano su $ V $, e $ \lambda \in \R_{+}  $ 
+
+$\implies$ $ v\star w:= \lambda\, v \cdot w $ definisce un prodotto Hermitiano su $ V $. 
+
+$\implies$ Ogni spazio vettoriale complesso ($\dim \ge 1$) ha sempre infiniti prodotti Hermitiani.
+
+\definizione{}{Sia $ (V, \cdot ) $ uno spazio vettoriale Hermitiano.
+\begin{enumerate}
+    \item Se $ v, w \in V$ soddisfano $ v \cdot w=0 $ si dicono ortogonali.
+    \item Se $ v \in V $ si definisce la \textit{norma} di $ v $ come $ ||v||:=\sqrt{v \cdot v} $, $
+        ||\,||:V\to \R_{+} 
+    $ e soddisfa
+    \begin{enumerate}
+        \item $ ||\lambda v||=|\lambda| ||v|| $, infatti
+        \[
+            ||\lambda v|| =\sqrt{(\lambda v) \cdot (\lambda v)}= \sqrt{\lambda \overline{\lambda} v \cdot v}
+        \]
+        \item $ ||v||=0 $ $ \iff $ $ v=\underline{0} $
+    \end{enumerate}
+\end{enumerate}
+}
+
+\teorema{herm1}{
+    Sia $ (V, \cdot ) $ uno spazio vettoriale Hermitiano. Valgono le seguenti proprietà: \begin{enumerate}
+        \item (Teorema di Pitagora) \hspace{1em} se $ v \cdot w = 0 $ 
+        
+        $\implies$ $ ||v+w||^{2}=||v||^{2}+||w||^{2} $
+        \item (Disuguaglianza di Cauchy-Schwartz)\hspace{1em} $ |v \cdot w| \le ||v||\, ||w|| $
+        \item (Disuguaglianza triangolare)\hspace{1em} $ ||v+w|| \le ||v||+||w||$
+    \end{enumerate}
+    $ \forall\, v, w \in V $
+}
+\dimostrazione{herm1}{
+    Data per esercizio %TODO svolgere la dimostrazione
+}
+
+\osservazione{
+    Nel Teorema di Pitagora non vale ``$ \impliedby $''. Per esempio consideriamo $ \C^{2} $ con il prodotto Hermitiano canonico, $ v=(1, -i) $, $ w=(i, 1) $. 
+    \begin{align*}
+        &v \cdot w = -2i\qquad\text{non sono ortogonali}\\
+        &v+w = (1+i, 1-i)\\
+        &||v+w||^{2} = \cdots = 4\\
+        &||v||^{2}=||w||^{2}=2
+    \end{align*} 
+    
+    $\implies$ $ ||v+w||^{2} =  ||v||^{2}+||w||^{2}$ ma $ v \cdot w \neq 0 $
+}
+
+\osservazione{
+    La disuguagliana di Cauchy-Schwartz non permette di definire l'angolo tra i due vettori
+    \[
+        \frac{|v \cdot w|}{||v||\,||w||}\le 1 \nRightarrow -1\le\frac{v \cdot w}{||v||\,||w||}\le 1
+    \]
+    poiché $ v \cdot w $ potrebbe non essere reale.
+}
+
+\definizione{}{
+    Una base $ \mathscr{B}=\{e_1, \cdots, e_{n} \} $ di uno spazio vettoriale Hermitiano si dice \textit{Unitaria} se soddisfa \[
+        e_{i} \cdot e_{j} = \delta_{ij}   
+    \]
+}
+
+\esempio{
+    La base canonica di $ \C^{n} $ %TODO qual è la base canonica di $ \C^n $?
+    è unitaria rispetto al prodotto Hermitiano canonico.
+}
+
+Sia $ (V, \cdot ) $ uno spazio vettoriale Hermitiano, siano $ \mathscr{B} $ e $ \mathscr{B}' $ due basi unitarie, sia $ A=M^{ \mathscr{B}, \mathscr{B}'} $ la matrice del cambiamento di base. La matrice del cambiamento di base soddisfa \[
+    \null^{t}\overline{A} A =\Id
+\]
+
+\definizione{}{
+    Una matrice $ A \in \C^{n,n}$ che soddisfa $ \null^{t}\overline{A} A =\Id $ si dice unitaria. \[
+        U(n)=\{A \in \C^{n,n} \,|\, \null^{t}\overline{A} A =\Id\} \subseteq
+        \text{GL}(n, \C)
+    \]
+}
+
+\osservazione{
+    Se $ A \in U(n) $ 
+    
+    $\implies$ $ \null^{t}\overline{A} A =\Id $ 
+    
+    $\implies$ $ \det (\null^{t}\overline{A})\det( A )=1 $ 
+    
+    $\implies$ $ \det (\overline{A})\det( A )=1 $ 
+
+    Per $ A \in \C^{n,n} $ vale\footnote{evidente con gli sviluppi di Laplace}  $ \det(\overline{A})=\overline{\det(A)} $\,
+    
+    $\implies$ $ \overline{\det(A)}\det(A)=1 $ 
+    
+    $\implies$ $ |\underset{\in \C}{\det (A)}|=1 $
+
+    \[
+        SU(n)=\{A \in U(n)\,|\, \det A =1\}
+    \]
+}
+%TODO creare pdf singolo e pagina obsidian

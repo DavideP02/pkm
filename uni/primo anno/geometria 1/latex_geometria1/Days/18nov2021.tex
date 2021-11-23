@@ -1,0 +1,235 @@
+\proprieta{delle isometria\marginnote{18 nov 2021}}{
+\begin{enumerate}
+    \item $ F $ è una isometria $ \iff $ $ ||F(v)||=||v|| $ $ \forall\,v \in V $.
+    \item $ F $ è una isometria $ \implies $ $ F $ conserva gli ancoli tra i vettori.
+    \attenzione{Ci sono funzioni che conseravano gli angoli ma non sono isometrie: si chiamano \textit{funzioni conformi}. }
+
+\esempio{}{
+    Sia $ F: \R^{2}\to \R^{2} $, $ F(x,y)=(2x, 2y) $, $ F $ conserva gli angoli in $ \R^{2} $ rispetto al prodotto scalare canonico, infatti \[
+        \frac{F(v) \cdot F(w)}{||F(v)||\,||F(w)||}=\frac{4 v \cdot w}{4 ||v||\,||w||}
+    \]
+    ma $ ||F(v)||=||2v||=2||v||\neq ||v|| $, quindi $ F $ non è un'isometria.
+}
+\item $ F $, $ G $ isometrie $ \implies $ $ F\circ G $ è un'isometria.
+\item $ F $ è un'isometria $ \implies $ $ F^{-1} $ è una isometria.
+
+Quindi \[
+    Iso(V, \cdot )=\{F \in End(v) | F\text{ isometria rispetto a } \cdot \}
+\] è un sottogruppo di $ (Aut(v), \circ) $
+
+\item $ F \in Aut(V) $ è un'isometria $ \iff $ $ F $ porta basi ortonormali in basi ortonormali
+\item Fissiamo $ \mathscr{B} $ una base ortonormale di $ (V, \cdot ) $. Sia $ F \in Aut(v) $. $ F $ isometria $ \iff $ $ M^{ \mathscr{B}, \mathscr{B}}(F) $ è ortogonale.
+\end{enumerate}
+}
+\begin{proof}
+    Dimostriamo le proprietò delle isometrie
+    \begin{enumerate}
+        \item \begin{itemize}
+            \item [``$\Rightarrow$''] ovvio
+            \item [``$\Leftarrow$''] Supponiamo che $ F $ soddisfi $ ||F(v)||=||v|| $ $ \forall\, v \in V $, e siano $ v,w \in V $. Per ipotesi $ ||F(v+w)||^{2}=||v+w|| $ 
+            
+            $\implies$ $ ||F(v)+F(w)||^{2}= ||v+w||^{2}$ \[
+                ||F(v)||^{2}+||F(w)||^{2}+ 2 F(v) \cdot F(w)= ||v||^{2}+||w||^{2}+2v \cdot w
+            \] uso $ ||F(v)||=||v|| $ e $ ||F(w)||=||w|| $ 
+            $\implies$ \[
+                \cancel{||F(v)||^{2}}+\cancel{||F(w)||^{2}}+ 2 F(v) \cdot F(w)= \cancel{||v||^{2}}+\cancel{||w||^{2}}+2v \cdot w
+            \] 
+            
+            $\implies$ $ F(v) \cdot F(w) = v \cdot w $ 
+            
+            $\implies$ $ F $ isometria
+        \end{itemize}
+        \item Siano $ v,w \in V $, $ v,w \neq \underline{0} $, $ \hat{vw}:=\arccos \frac{v \cdot w}{||v||\,||w||} $, utilizzando che $ F $ è una isometria si ottiene che \[
+            \frac{v \cdot w}{||v||\,||w||} = \frac{F(v) \cdot F(w)}{||F(v)||\,||F(w)||}
+        \] quindi \[
+            \hat{vw}=\frac{F(v) \cdot F(w)}{||F(v)||\,||F(w)||}=\widehat{F(v)\,F(w)}
+        \]
+        \item $ ||F(G(v))|| \underset{F\text{ isometria}}{=} ||G(v)|| \underset{G\text{ isometria}}{=} ||v||$ 
+        
+        $\implies$ $ F\circ G $ è isometria.
+    \item So che $ ||F(v)||=||v|| $ $ \forall\, v \in V $, in particolare \[
+        ||F(F^{-1}(v))||=||F^{-1}(v)||
+    \] 
+    
+    $\implies$ $ ||v||=||F^{-1}(v)|| $
+
+    \item \begin{itemize}
+        \item [``$\Rightarrow$''] Supponiamo $ F $ isometria, sia $ \mathscr{B}=\{e_1, \cdots, e_{n} \} $ una base ortonormale di $ (V, \cdot ) $, sappiamo che $ \{F(e_1), \cdots, F(e_{n} )\} $ è base di $ V $ e $ F(e_i) \cdot F(e_{j} ) = e_{i} \cdot e_{j} =\delta_{ij}   $ 
+        
+        $\implies$ $ \{F(e_1), \cdots, F(e_{n} )\} $ è ortonormale
+        \item [``$\Leftarrow$''] Supponiamo che $ F $ porti basi ortonormali in basi ortonormali. Sia $ \mathscr{B}=\{e_1, \cdots, e_{n} \} $ una base ortonormale di $ (V, \cdot ) $. 
+        
+        Per ipotesi $ \{F(e_1), \cdots, F(e_{n} )\} $ è una base ortogonale di $ (V, \cdot ) $
+
+        Sia $ v \in V $, $ v=\sum_{k=1}^{n} \lambda_{k} e_{k} $, \begin{multline*} ||F(v)||^{2}=||\sum_{k=1}^{n} \lambda_{k} F(e_{k})||^{2}=\\=\sum_{k=1}^{n} \lambda^{2}_k ||F(e_{k} )||^{2}=\\
+        =\sum_{k=1}^{n} \lambda_{k}^{2}=||v||^{2}  \end{multline*} 
+        
+        $\implies$ $ F $ isometria
+    \end{itemize}
+    $\underset{\{F(e_1), \cdots, F(e_{n} )\}\text{ ortonormale}}{=}$ % TODO sistemare da qualche parte
+    \item \begin{itemize}
+        \item [``$\Rightarrow$''] Supponiamo $ F $ isometria e sia $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $, $ A \in \text{GL}(n, \R) $ dove $ n = \dim V $, $ \mathscr{B}=\{v_1, \cdots, v_{n} \} $, $ F(v_{i} ) \cdot F(v_{j}) =\delta_{ij} $
+        
+        $ \implies $ $ (Ae_{i} ) \star (A_{ej} )=\delta_{ij}  $, dove $ \{e_1, \cdots, e_{n} \} $ è la base canonica di $ \R^{n} $, e $ \star  $ è il prodotto scalare canonico in $ \R^{n} $
+
+        $ \implies $ le colonne di $ A $ formano una base ortonormale di $ (\R^{n}, \star) $ 
+
+        $ \implies $ $A \in O(n)$
+
+        \item [``$\Leftarrow$''] Supponiamo che $ M^{ \mathscr{B}, \mathscr{B}}(F) \in O(n)$ 
+        
+        $\implies$ $ F $ porta $ \mathscr{B} $ in una base ortonormale 
+        
+        $\implies$ $ F $ isometria (stessa dimostrazione della proprietà 5, lasciata per esercizio)
+    \end{itemize}
+    \esercizio{
+        Sia $ F \in End(V) $ e $ \mathscr{B} $ base ortonormale fissata di $ (V, \cdot ) $.
+
+        Dimostrare che $ F $ isometria $ \iff $ $ F $ porta $ B $ in una base ortonormale
+    }{}{}
+    \conseguenza{
+        Se si fissa $ \mathscr{B} $ base ortonormale di $ (V, \cdot ) $, allora \begin{align*}
+        \Phi: Iso(V, \cdot ) & \to O(n)  \\
+        F & \mapsto M^{ \mathscr{B}, \mathscr{B}}(F)
+        \end{align*}
+        è un isomorfismo di gruppi, cioè $ \Phi $ è biettiva, \[\Phi(F\circ G)=  M^{ \mathscr{B}, \mathscr{B}}(F) \cdot M^{ \mathscr{B}, \mathscr{B}}(G)\]
+    }
+\end{enumerate}
+\end{proof}
+
+\section{Endomorfismi simmetrici}
+
+Siano $ (V, \cdot )$ e $ (W, \cdot ) $ spazi vettoriali Euclidei (diversi, con prodotti scalari anche diversi tra loro), e $ F: V \to W$ lineare
+
+\teorema{lineoinlin}{
+    Esiste un'unica funzione lineare $ F^{*}: W\to V$ tale che 
+    \begin{equation}
+        \label{eq:cicci} F(v) \cdot w = v \cdot F^{*}(w) \,\forall\, v \in V, w \in W
+    \end{equation} 
+
+    $ F^{*} $ si dice l'\textit{aggiunta} di $ F $ rispetto ai prodotti scalari
+}
+\dimostrazione{lineoinlin}{
+    \begin{itemize}
+        \item [Esistenza di $ F^{*} $.] Dimostro che $ \forall\, w \in W $ esiste un unico $ w^{*} $ tale che \begin{equation}
+            v \cdot w^{*} =F(v)*w\, \forall\, v \in V \label{eq:puzzi}
+        \end{equation}
+    
+        Siano \[\mathscr{B}=\{v_1, \cdots, v_{n} \}\] una base ortonormale di $ (V, \cdot ) $ e \[\mathscr{C}=\{w_1, \cdots, w_{m} \}\] base ortonormale di $ (W, \cdot ) $. Sia $ A=M^{ \mathscr{B}, \mathscr{C}}(F) $
+
+        Si definisce $ w^{*} $, \[
+            (w^{*})_{ \mathscr{B}}:=\null^{t}\!A (w)_{\mathscr{C}}
+        \]
+
+        Si dimostra che $ w^{*} $ soddisfa la (\ref{eq:puzzi})
+
+        Infatti supponiamo $ v=\sum_{i=1}^{n}x_{i}v_{i}    $, $ w=\sum_{j=1}^{m}y_{j}w_{j}    $
+        \[
+            F(v) \cdot w=(A(v)_{ \mathscr{B}}) \star (w)_{ \mathscr{C}}=
+        \]
+        dove $ \star $ è il prodotto canonico in $ \R^{m} $
+        \[
+            =\null^{t}\!(A(v)_{ \mathscr{B}})(w)_{ \mathscr{C}}=\null^{t}\!(v)_{ \mathscr{B}} \null^{t}\!A(w)_{ \mathscr{C}}= \null^{t}\!(v)_{ \mathscr{B}} \star (w^{*})_{ \mathscr{B}}=v \cdot w^{*}
+        \]
+
+        Quindi si definisce $ F^{*}:= w^{*} $. In altre parole $ F^{*} $ è la funzione lineare $ W\to V $ che soddisfa $ M^{ \mathscr{C}, \mathscr{B}}(F^{*}): \null^{t}\!A $ 
+        
+        $\implies$ esistenza di $ F^{*} $ 
+        \item [Unicità di $ F^{*} $.] Supponiamo di avere $ G_1, G_2: W\to V$ lineari, tali che, $ \forall\, v \in V $ e $ w \in W $ 
+        \[
+            F(v) \cdot w = v \cdot  G_1(w)\qquad F(v) \cdot w = v \cdot G_2(w)
+            \] 
+            e dimostriamo che $ G_1=G_2 $
+
+            Sappiamo che $ v \cdot  G_1(w) = v \cdot G_2(w)$ $ \forall\, v \in V, w \in W  $ 
+            
+            $\implies$ $ v \cdot  G_1(w) - v \cdot G_2(w) =0 $ 
+            
+            $\implies$ $ v (\cdot  G_1(w) - \cdot G_2(w))=0 $ 
+            
+            $\implies$ $ (\cdot  G_1(w) - \cdot G_2(w))(\cdot  G_1(w) - \cdot G_2(w))=0 $ 
+            
+            $\implies$ $ ||\cdot  G_1(w) - \cdot G_2(w)||=0 $ $ \forall\, w \in W $ 
+            
+            $\implies$ $ G_1(w)=G_2(w) $ $ \forall\, w \in W $ 
+            
+            $\implies$ $ G_1 = G_2$\qed
+    \end{itemize}
+}
+
+\proprieta{dell'aggiunta}{
+    \begin{enumerate}
+        \item $ \dim (Im\,F)=\dim (Im\,F^{*}) $.
+        \item $ (F^{*})^{*}=F $.
+        \item In generale, se $ \mathscr{B} $ e $ \mathscr{C} $ non sono ortonormali 
+        
+        $\implies$ $ M^{ \mathscr{C}, \mathscr{B}}(F^{*}) $ non è la matrice trasposta di $ M^{ \mathscr{B}, \mathscr{C}}(F) $.
+    \end{enumerate}
+}
+\begin{proof}
+    Si motivano le proprietà:
+    \begin{enumerate}
+        \item È implicata da $ \rank (A) =\rank (\null^{t}\!A) $ $ \forall\, A \in \R^{m,n} $.
+        \item È implicata da $ \null^{t}\!(\null^{t}\!A) $ $ \forall\, A \in \R^{m,n} $
+        \item Lasciata per esercizio \qedhere%TODO risolvere esercizio
+    \end{enumerate}
+\end{proof}
+
+\definizione{
+    Sia $ F \in End(V)$ con $ (V, \cdot ) $ spazio vettoriale Euclideo. $ F $ si dice \textit{autoaggiunta} se $ F^{*}=F $
+}{}
+
+\esempi{
+    \begin{enumerate}
+        \item Sia $ F:V\to V $ l'endomorfismo nullo, cioè $ F(v)=\underline{0} $ $ \forall\, v \in V $. \[
+            F(v) \cdot  w = 0 \, \forall\, v, w \in V\qquad 0 = v \cdot \underline{0}
+        \] 
+        
+        $\implies$ $ F(v) \cdot w = v \cdot \underline{0} $ $ \forall\, v \in V, w \in W  $ 
+        
+        $\implies$ $ F^{*}=\underline{0} $ $ \forall\, v \in V $ 
+        
+        $\implies$ $ F=F^{*} $, cioè $ F $ è autoaggiunta.
+
+        \item $ \I :V\to V $, $ \I (v) = v$ $ \forall\, v \in V $ \[
+            \I(v) \cdot w = v \cdot w = v \cdot \I(w)
+        \] 
+        
+        $\implies$ $ \I(v) \cdot w = v \cdot \I(w) $ $ \forall\, v, w \in  V$ 
+        
+        $\implies$ $ \I^{*}=\I $.
+
+        \item $ (\R^{2}, \cdot ) $, $ F: \R^{2}\to \R^{2} $, $ F(x,y)=(y, x+3y) $ \[
+            A=\begin{pmatrix}
+                0 & 1\\ 1 & 3
+            \end{pmatrix}
+        \] $ A $ rappresenta $ F $ rispetto alla base canonica.
+
+        Quindi $ F $ è autoaggiunta poiché $ A $ è simmetrica.
+    \end{enumerate}
+}{}
+
+\esercizio{
+    Sia $ (V, \cdot ) $ uno spazio vettoriale Euclideo. $ F \in Aut(V) $. 
+
+    Dimostrare che: $ F $ è un'isometria $ \iff $ $ F^{*}=F^{-1} $.
+}{
+    \begin{itemize}
+        \item [``$\implies$''] $ F $ isometria, quindi $ F(v) \cdot F(w)= v \cdot w $ $ \forall\, v,w \in V $. Sostituendo $ w $ con $ F^{-1}(w) $ si ottiene \[
+            F(w) \cdot F(F^{-1}(w))= v \cdot F^{-1}(w)
+        \] 
+        
+        $\implies$ $ F(v) \cdot w = v \cdot F^{-1}(w)$ $ \forall\, v, w \in V $ 
+        
+        $\implies$ $ F^{-1}=F^{*} $
+        \item [``$\impliedby$''] Supponiamo $ F^{*}=F^{-1} $ e dimostriamo $ F $ isometria. \[
+            F(v) \cdot w = v \cdot F^{-1}(w) \quad \forall\, v,w \in V.
+        \] Sostituendo a $ w $, $ F(w) $ si ottiene \[
+            F(v) \cdot F(w) = v \cdot w \quad \forall\, v,w \in V
+        \] 
+        
+        $\implies$ $ F $ isometria.\qed
+    \end{itemize}
+}{}
+
+%TODO integrare nel sistema

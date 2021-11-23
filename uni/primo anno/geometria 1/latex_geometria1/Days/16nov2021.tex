@@ -266,7 +266,9 @@ Si definisce \begin{align*}
 $ pr_{w} $ si dice la \textit{proiezione ortogonale} su $ W $. $ pr_{w} $ è lineare, suriettiva, e $ pr_{w} = \I_{W}  $%TODO rivedere appunti
 , $ \ker(pr_{w})= W^{\bot} $
 
-Sia $ F \in End(V) $\footnote{è un endomorfismo}, $ F:V \to V $ è lineare. $ F $ è un'isometria se $ F(v) \cdot  F(w) = v \cdot w $ $ \forall\, v,w \in V $.
+\section{Isometrie}
+
+Sia $ (V, \cdot ) $ spazio vettoriale, e sia $ F \in End(V) $\footnote{è un endomorfismo}, $ F:V \to V $ lineare. $ F $ è un'\textit{isometria} se $ F(v) \cdot  F(w) = v \cdot w $ $ \forall\, v,w \in V $.
 
 \teorema{jjjjkdpojkdkks}{
     Se $ F $ è una isometria, 
@@ -292,7 +294,16 @@ Sia $ F \in End(V) $\footnote{è un endomorfismo}, $ F:V \to V $ è lineare. $ F
 \esercizio{
     Sia $ F \in End(V) $ tale che $ ||F(v)||= ||v|| $ $ \forall\, v \in V $. Si dimostri che $ F $ è un'isometria
 }{
-    Da risolvere. %TODO da fare
+    Supponiamo che $ F $ soddisfi $ ||F(v)||=||v|| $ $ \forall\, v \in V $, e siano $ v,w \in V $. Per ipotesi $ ||F(v+w)||^{2}=||v+w|| $ 
+            
+    $\implies$ $ ||F(v)+F(w)||^{2}= ||v+w||^{2}$ \[
+        ||F(v)||^{2}+||F(w)||^{2}+ 2 F(v) \cdot F(w)= ||v||^{2}+||w||^{2}+2v \cdot w
+    \] uso $ ||F(v)||=||v|| $ e $ ||F(w)||=||w|| $ 
+    $\implies$ \[
+        \cancel{||F(v)||^{2}}+\cancel{||F(w)||^{2}}+ 2 F(v) \cdot F(w)= \cancel{||v||^{2}}+\cancel{||w||^{2}}+2v \cdot w
+    \] 
+    
+    $\implies$ $ F(v) \cdot F(w) = v \cdot w $ 
+    
+    $\implies$ $ F $ isometria
 }{}
-
-%TODO creare file md per pdf di questa lezione
