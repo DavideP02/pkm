@@ -1,1 +1,253 @@
-\marginnote{25 nov 2021}
+\osservazione{
+    Il\marginnote{25 nov 2021} polinomio caratteristico non dipende dalla base $ \mathscr{B} $. Infatti se fisso un'altra base $ \mathscr{B}' $ e considero $ A'=M^{ \mathscr{B}', \mathscr{B}'}(F) $, allora $ A'=P^{-1}AP $, con $ P \in \text{GL}(n, \K) $.
+    \[
+        \det (A'-\lambda \Id)=\det (P^{-1}AP-\lambda P^{-1}P)=\det(P^{-1}(A-\lambda\Id)P)
+    \]
+    Questa quantità, per il teorema di Binet \[
+        =\det P^{-1}\det P \det (A-\lambda\Id)=\det (A-\lambda\Id).
+    \]
+}
+
+\subsection{Molteplicità di un autovalore}
+
+Se $ \lambda_0 \in \text{Spettro}(F) $ 
+    
+$\implies$ $ p(\lambda_0)=0 $ 
+
+$\implies$ $ p(\lambda) = (\lambda-\lambda_0)^{m}r(\lambda) $ con $ r $ polinomio tale che $ r(\lambda_0)\neq 0 $, ci riferiamo a $ m $ come alla \textit{molteplicità algebrica} di $ \lambda_0 $, e viene indicata con $ m_{a}(\lambda_{0} )   $
+
+La \textit{molteplicità geometrica} di $ \lambda_0 $ è il numero $ m_{g}(\lambda_0):=\dim V_{\lambda_0}  $.
+
+\esempio{
+    Sia $ F:\R^{4}\to \R^{4} $ la funzione $ F(X)=AX $, dove $ A \in \R^{4,4} $ è la matrice \[
+        A=\begin{pmatrix}
+            -2 & 0 & 0 & 0\\
+            0 & -2 & 6 & 6\\
+            0 & 0 & 3 & 3\\
+            0 & 0 & -2 & -2
+        \end{pmatrix}
+    \] 
+    Calcoliamo gli autovalori di $ F $ e gli autospazi corrispondenti.
+
+    Calcolo $ p(\lambda)=\det (A-\lambda\Id) $
+    \begin{multline*}
+        p(\lambda)=\det\begin{pmatrix}
+            -2-\lambda & 0 & 0 & 0\\
+            0 & -2-\lambda & 6 & 6\\
+            0 & 0 & 3-\lambda& 3\\
+            0 & 0 & -2 & -2-\lambda
+        \end{pmatrix}=\\
+        =(-2-\lambda)\det\begin{pmatrix}
+            -2-\lambda & 6 & 6\\
+            0 & 3-\lambda& 3\\
+            0 & -2 & -2-\lambda
+        \end{pmatrix}=\\
+        =(-2-\lambda)^{2}\det\begin{pmatrix}
+            3-\lambda & 3\\
+            -2 & -2-\lambda
+        \end{pmatrix}=\\
+        (2+\lambda)^{2}\bigl((3-\lambda)(-2-\lambda)+6\bigr)=(2+\lambda)^{2}(\lambda^{2}-\lambda)=\\
+        \lambda(2+\lambda)^{2}(\lambda-1)
+    \end{multline*}
+    \[
+        \text{Spettro}(F)=\{-2, 0, 1\}
+    \]
+    \[
+        m_{a}(-2)=2, \quad m_{a}(0)=m_{a}(1)=1   
+    \]
+
+    Calcoliamo gli autospazi di $ F: V_{-2}, V_0, V_1  $
+    \begin{multline*}
+        V_{-2}=\{X \in \R^{4}\,|\,F(X)=-2X\}=\\=\{X \in \R^{4}\,|\, AX+2X=\underline{0}\} = \{X \in \R^{4}\,|\, (A+2I)X=\underline{0}\}=\\
+        =\text{nullspace} (A+2I)
+    \end{multline*}
+    Inoltre $ V_0=\text{nullspace}(A)$, $ V_1=\text{nullspace}(A-I) $
+
+    \begin{enumerate}
+        \item Calcolo $ V_{-2} $\[
+            A+2I=\begin{pmatrix}
+                0 & 0 & 0 & 0\\
+                0 & 0 & 6 & 6\\
+                0 & 0 & 5 & 3\\
+                0 & 0 & -2 & 0
+            \end{pmatrix}
+        \]
+        Si studia il sistema lineare omogeneo associato a $ A+2I $.
+        \[
+            \begin{cases}
+                6x_3+6x_4=0\\
+                5x_3+3x_4=0\\
+                x_3=0
+            \end{cases} \,\implies\, \begin{cases}
+                x_3=0\\
+                x_4=0
+            \end{cases}
+        \] 
+        
+        $\implies$ $ V_{-2}= \mathscr{L}(e_1, e_2)  $. 
+        
+        $ m_{g}(-2)=2  $.
+        \item Calcolo $ V_0 $\[
+            \begin{cases}
+                x_1=0\\
+                -2x_2+6x_3+6x_4=0\\
+                x_3+x_4=0
+            \end{cases} \,\implies\, \begin{cases}
+                x_1=0\\
+                x_2=0\\
+                x_4=-x_3
+            \end{cases}
+        \] 
+        
+        $\implies$ $ V_0= \mathscr{L}((0, 0, 1, -1)) $
+
+        $ m_{g}(0)=1  $
+        \item Calcolo $ V_1 $ \[
+            A-I=\begin{pmatrix}
+                -3 & 0 & 0 & 0\\
+                0 & -3 & 6 & 6\\
+                0 & 0 & 2 & 3\\
+                0 & 0 & -2 & -3
+            \end{pmatrix}
+        \]
+        Considero il sistema omogeneo associato a $ A-I $ \[
+            \begin{cases}
+                x_1=0\\
+                -3x_2+6x_3+6x_4=0\\
+                2x_3+3x_4=0
+            \end{cases} \,\implies\, \begin{cases}
+                x_1=0\\
+                x_2=\frac{2}{3}x_3\\
+                x_4=-\frac{2}{3}x_3
+            \end{cases}
+        \] 
+        
+        $\implies$ $ V_1= \mathscr{L}((0, 2, 3, -2)) $
+
+        $ m_{g}(1)=1  $
+    \end{enumerate}
+
+    In questo caso, facendo \[
+        V_{-2}\oplus V_0\oplus V_1=\R^{4}
+    \]
+    Rispetto alla base \[
+        \mathscr{B}=\begin{Bmatrix}
+            \begin{pmatrix}
+                1 \\ 0 \\ 0 \\ 0
+            \end{pmatrix}, & \begin{pmatrix}
+                0 \\ 1 \\ 0 \\ 0
+            \end{pmatrix}, & \begin{pmatrix}
+                0 \\ 0 \\ 1 \\ -1
+            \end{pmatrix}, & \begin{pmatrix}
+                0 \\ 2 \\ 3 \\  -2
+            \end{pmatrix}
+        \end{Bmatrix}
+    \]
+    $ M^{ \mathscr{B}, \mathscr{B}}(F) $ è diagonale
+}
+
+\definizione{}{
+    $ F \in \text{End}(F) $ è diagonalizzabile se esiste $ \mathscr{B} $ base di $ V $ rispetto a cui $ M^{ \mathscr{B}, \mathscr{B}}(F) $ è diagonale.
+
+    Una matrice $ A $ in $ \K^{n,n} $ è diagonalizzabile se $ \exists\, P \in \text{GL}(n, \K) $ tale che $ P^{-1}AP $ è diagonale.
+}
+
+\osservazione{
+    %TODO manca questa osservazione
+}
+
+\osservazione{
+    \begin{itemize}
+        \item Se $ \K=\C $, $ A \in \C^{n,n} $, $ p \in \C[\lambda] $ 
+    
+        $\implies$ per $ n\ge 1 $ il teorema fondamentale dell'algebra implica che $ p $ ha almeno una radice.
+    
+        Quindi ogni endomorfismo di uno spazio vettoriale complesso ha sempre almeno un autovalore.
+
+        \item Se $ \K=\R $ un endomorfismo di uno spazio vettoriale su $ V $ potrebbe non avere autovalori.
+        Per esempio se $ F $ è una rotazione di $ \pi/2 $, lo spettro di $ F $ è vuoto.
+
+        \item Sia $ V $ uno spazio vettoriale su $ \R $ con $ \dim V $ dispari 
+        
+        $\implies$ ogni $ F \in \text{End}(V) $ ha almeno un autovalore.
+
+        Infatti sia $ F \in \text{End}(V) $ e consideriamo $ p(\lambda ) $ polinomio caratteristico. $ p \in \R[\lambda] $, $ p \in \C[\lambda] $.
+
+        Si osserva che se $ \lambda_0 \in \C $ è una radice di $ p $ 
+        
+        $\implies$ $ \overline{\lambda_0} $ è una radice di $ p $. Infatti $ p(\lambda)=a_{n}\lambda^{n}+a_{n-1}\lambda^{n-1}+\cdots+ a_0 $ con $ a_{n}, a_{n-1}, \cdots, a_0  \in \R $.
+
+        Se $ \lambda_0 $ è una radice di $ p $, $ p(\lambda_0)=0 $, \[
+            a_{n}\lambda_0^{n}+a_{n-1}\lambda_0^{n-1}+\cdots+ a_0=0
+        \] e coniugando \begin{multline*}
+            \overline{a_{n}\lambda_0^{n}+a_{n-1}\lambda_0^{n-1}+\cdots+ a_0}=0 \\
+            \,\implies\, a_{n}\overline{\lambda_0}^{n}+a_{n-1}\overline{\lambda_0}^{n-1}+\cdots+ a_0=0
+        \end{multline*}
+
+        Il teorema fondamentale dell'algebra dice che $ p $ ha esattamente $ n $ radici complesse contate con la rispettiva molteplicità. Dal momento che per ogni radice di $ p $, anche la sua coniugata è radice di $ p $, e $ n $ è dispari (per ipotesi)
+        
+        $\implies$ $ \exists\, \lambda_0 $ radice di $ p $ tale che $ \lambda_0=\overline{\lambda_0} $, cioè $ \lambda_0 $ è reale 
+        
+        $\implies$ $ p $ come polinomio reale ha almeno una radice, 
+        
+        $\implies$ $ F $ ha almeno un autovalore.
+        \conseguenza{
+            Se $ V $ è uno spazio vettoriale su $ \R $, $ F \in \text{End}(V) $, e $ \dim V $ è dispari 
+            
+            $\implies$ esiste $ W \subseteq V $ sottospazio vettoriale di dimensione 1 tale che $ F(W) \subseteq W $
+        }
+    \end{itemize}
+} 
+
+\teorema{hhfjjalkjdkskaljskslkjslkjsljs}{
+    Sia $ V $ uno spazio vettoriale su un campo $ \K $ con $ V $ finitamente generato, $ F \in \text{End}(V) $, $ \lambda \in \text{Spettro}(F) $, allora \[
+        1 \le m_{g}(\lambda) \le m_{a}(\lambda)  
+    \]
+}
+\dimostrazione{hhfjjalkjdkskaljskslkjslkjsljs}{
+    Supponiamo $ \dim V=n $ \begin{itemize}
+        \item \underline{Caso 1}: $ m_{g}(\lambda)=n=\dim V$ 
+        
+        $\implies$ $ V=V_{\lambda}  $, cioè $ F(v)=\lambda v$ $ \forall\, v \in V $. Se $ \mathscr{B}$ è una base di $ V $ 
+        
+        $\implies$ $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $ soddisfa $ A=\lambda\Id $. Quindi $ \det (A-x\Id) = (\lambda-x)^{n}$ 
+        
+        $\implies$ $\lambda$ è una radice del polinomio caratteristico di $ F $ con molteplicità $ n $. 
+        
+        $\implies$ $ m_{g}(\lambda)=m_{a}(\lambda)=n $
+
+        Il teorema è vero in questo caso.
+        \item \underline{Caso 2}: supponiamo che $ l:=m_{g}(\lambda)\lneq n  $. Quindi $ V_{\lambda} $ ha dimensione $ l $. Fissiamo una base $ \{v_1, \cdots, v_{l} \} $ di $ V_{\lambda}  $, che completo con una base di $ V $, $ \mathscr{B}=\{v_1, \cdots, v_{l}, w_{l+1}, \cdots, w_{n}   \} $.
+        
+        Sia $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $. \[
+            A=%TODO aggiungere matrice da [disegno](https://photos.app.goo.gl/FYKefCDKemSkZ7tb7)
+        \]
+        Calcolo $ p(x)=\det(A-x\Id)=(\lambda-x)^{l}q(x) $ con $ q \in \K_{n-l}[x]  $
+
+        $\lambda$ è radie di $ p $ con molteplicità $ \ge l =m_{g}(\lambda)  $. Quindi $ m_{g}(\lambda)\le m_{a}(\lambda)   $   \qed
+    \end{itemize}
+}
+
+\corollario{dsfdsfsdfsdfsdfsdfsd}{
+    Se $ m_{a}(\lambda)=1  $ 
+    
+    $\implies$ $ m_{g}(\lambda) =1 $
+}{}
+
+\teorema{oodoikjfkkekodino}{
+Sia $ V $ uno spazio vettoriale su un campo $ \K $, $ V $ finitamente generato. $ F \in \text{End}(V) $.
+
+Sono fatti equivalenti \begin{enumerate}
+    \item $ F $ è diagonalizzabile;
+    \item $ V=V_{\lambda_1}\oplus V_{\lambda_2}\oplus\cdots\oplus V_{\lambda_{l} } $ con $ \text{Spettro}(F)=\{\lambda_1,\cdots, \lambda_{l} \} $;
+    \item $ \dim V =m_{g}(\lambda_1)+m_{g}(\lambda_2)+\cdots+m_{g}(\lambda_{l} )   $ con $ \text{Spettro}(F)=\{\lambda_1,\cdots, \lambda_{l} \} $;
+    \item il polinomio caratteristico di $ F $ ha tutte le radici in $ \K $ e per ogni radice $ \lambda_{i}   $ risulta $ m_{g}(\lambda_{i})=m_{a}(\lambda_i)    $
+\end{enumerate}
+}
+\dimostrazione{oodoikjfkkekodino}{
+    % TODO dimostrazione per esercizio 
+    % $1 \,\implies\, 2 \,\implies\, 3 \,\implies\, 4 \,\implies\, 1  $ oppure
+    % $ 1 \,\implies\, 4 \,\implies\, 3 \,\implies\,2 \,\implies\,1 $
+}   
+
+%TODO creare pdf giorno e pagina obsidian
