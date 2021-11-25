@@ -1,0 +1,308 @@
+\proposizione{lkmlkmlkml}{\marginnote{23 nov 2021}
+    \begin{enumerate}
+        \item Se $ A \in U(n)$ $\implies$ $ \null^{t}\!A \in U(n) $.
+        \item Data $ A \in \C^{n,n} $, $ A \in U(n) $ 
+        
+        $ \iff $ le colonne di $ A $ formano una base unitario di $ C^{n} $ con il prodotto Hermitiano canonico.
+    \end{enumerate}
+}
+
+\definizione{}{
+Dato $ (V, \cdot ) $ spazio vettoriale Hermitiano, $ W \subseteq V $ sottospazio vettoriale, si definisce \[
+    W^{\bot}=\{v \in V\,|\, v \cdot w =0\, \forall\, w \in W\}
+\] chiamato complemento ortogonale di $ W $}
+
+\proposizione{ddddd}{
+    \[
+        V=W \oplus W^{\bot}
+    \]
+}
+
+\definizione{}{
+$ F:V\to V $ funzione lineare su $ (V, \cdot) $ è una \textit{isometria} se \[
+    F(v) \cdot F(w) = v \cdot w\, v,w \in V
+\]
+}
+
+$ F $ isometria $ \implies $ $ F \in \text{Aut}(V) $, definendo \[
+    \text{Iso}(V, \cdot)=\{F:V \to V\,|\, F\text{ isometria}\}
+\] si ha che $ \text{Iso}(V, \cdot) $ è sottogruppo di $ \text{Aut}(V) $ con l'operazione di composizione tra funzioni.
+
+Se si fissa $ \mathscr{B} $ base unitario di $ (V, \cdot ) $, $ M^{ \mathscr{B}, \mathscr{B}}(F) $, 
+
+$ F $ isometria $ \iff $ $ M^{ \mathscr{B}, \mathscr{B}}(F) \in U(n) $
+
+Si definisce quindi un isomorfismo \begin{align*}
+\Phi: \text{Iso}(V, \cdot) & \to  U(n)\\
+F & \mapsto M^{ \mathscr{B}, \mathscr{B}}(F)
+\end{align*}
+
+\rule{7em}{.4pt}
+
+Siano $ (V, \cdot ) $ e $ (W, \cdot ) $ spazi vettoriale Hermitiani, $ F: V \to W $ lineare, allora esiste un'unica funzione lineare $ F^{*}: W \to V$ lineare, tale che \[
+    F(v) \cdot w = v \cdot F^{*}(w)\quad \forall\,v \in V, w \in W
+\] 
+$ F^{*} $ si dice l'aggiunta di $ F $.
+
+Se $ \mathscr{B} $ base unitaria di $ (V, \cdot ) $ e $ \mathscr{C} $ base unitaria di $ (W, \cdot ) $ 
+
+$\implies$ $ F^{*} $ soddisfa $ M^{ \mathscr{C}}(F^{*})=\overline{\null^{t}\!M^{ \mathscr{B}, \mathscr{C}}(F)} $
+
+\definizione{}{
+    $ F \in \text{End}(V) $ è \textit{autoaggiunta} se $ F=F^{*} $
+}
+
+Se $ \mathscr{B} $ è una base unitaria di $ (V, \cdot ) $, $ F \in \text{End}(V) $ è autoaggiunta 
+    
+    $ \iff $ $\overline{\null^{t}\!M^{ \mathscr{B}, \mathscr{B}}(F)}=M^{ \mathscr{B}, \mathscr{B}}(F)$
+
+\definizione{}{Una matrice $ A \in \C^{n,n} $ è \textit{Hermitiana} se \[
+    \null^{t}\!\overline{A}=A
+\]
+\[
+    \text{Herm}(n)=\{A \in \C^{n,n}\,|\, \null^{t}\!\overline{A}=A\}
+\]
+$ \text{Herm}(n) $ è un sottospazio vettoriale di $ \C^{n,n} $ su campo $ \R $. %TODO capire se è sottospazio vettoriale di $ \C^{n,n} $ o di $ \C^{n} $
+}
+
+\esercizio{
+    Calcolare $ \dim \text{Herm}(n) $
+}{
+    Da fare %TODO fare esercizio
+}{}
+
+\section{Autovalori e autovettori}
+
+Sia $ V $ uno spazio vettoriale su un campo $ \K $, $ F \in \text{End}(V) $ i.e. $ F:V\to V $ lineare.
+
+\definizione{}{
+    $ v \in V $ è un autovettore di $ F $ se $ v \neq \underline{0} $ e \[
+        \exists\, \lambda \in \K\,\tc\, F(v)= \lambda v
+    \]
+}
+
+\osservazione{
+    Se $ F(v)=\lambda v $ e $ F(v)= \mu v $ 
+    
+    $\implies$ $ \lambda  v= \mu v $ 
+    
+    $\implies$ $ (\lambda - \mu)v = \underline{0} $, quindi se $ v\neq \underline{0} $ 
+    
+    $\implies$ $ \lambda=\mu $.
+
+    Quindi $ v \in V $ con $ v \neq 0 $ può essere autovettore di $ F $ per al più un $ \lambda $.
+}
+
+\definizione{}{
+Se $ v $ autovettore di $ F $ e $ F(v)= \lambda v $, $ \lambda $ si dice un autovalore di $ F $. \[
+    \text{Spettro}(F)=\{\text{autovalori di }F\} \subseteq \K
+\]
+e si dice spettro di $ F $.
+
+Se $ \lambda \in \text{Spettro}(F) $, \[
+    V_{\lambda}=\{v \in V\,|\, F(v)=\lambda v\} 
+\]
+e $ V_{\lambda}  $ si dice l'autospazio di $ F $ relativo a $ \lambda $}
+
+\proposizione{diiidokjlikjlkjladkskks}{
+    $ V_{\lambda}  $ è sempre un sottospazio vettoriale di $ V $
+}
+\dimostrazioneprop{diiidokjlikjlkjladkskks}{
+    Siano $ v_1 $ e $ v_2 \in V_{\lambda} $, e $\mu_1$ e $ \mu_2 \in \K $ e dimostriamo che $ \mu_1v_1+\mu_2v_2 \in V_{\lambda}  $
+    \begin{multline*}
+        F(\mu_1v_1+\mu_2v_2)\underset{F\text{ lin.}}{=} \mu_1 F(v_1)+ \mu_2 F(v_2)=\\
+        \underset{\footnotemark}{=} \mu_1 \lambda v_1+\mu_2 \lambda v_2= \lambda(\mu_1v_1+\mu_2v_2)
+    \end{multline*} 
+    
+    $\implies$ $ \mu_1v_1+\mu_2v_2 \in V_{\lambda}  $ \qed
+}
+\footnotetext{$v_1, v_2 \in V_{\lambda} $}
+
+\proposizione{vlambd}{
+    $ F(V_{\lambda}) \subseteq V_{\lambda}  $
+}
+\dimostrazioneprop{vlambd}{
+    Sia $ v \in F(V_{\lambda} ) $ 
+    
+    $\implies$ $ v=F(v_1) $ con $ v_1 \in V_{\lambda}  $ \[
+        F(v)=F(F(v_1))=F(\lambda v_1) = \lambda F(v_1)=\lambda v
+    \] 
+    
+    $\implies$ $ v \in V_{\lambda}  $ 
+    
+    $\implies$ $ F(V_{\lambda} ) \subseteq V_{\lambda} $\qed
+}
+
+\esempi{}{
+    \begin{enumerate}
+        \item $ \I:V\to V $, $ \I (v)=v $ $ \forall\,v \in V $ \[
+            \text{Spettro}(I)=\{1\}\qquad V_{1}=V.
+        \]
+        \item $ F:V\to V $, $ F (v)=\lambda_0 v $ $ \forall\,v \in V, \lambda_0 \in \K $ fissato \[
+            \text{Spettro}(F)=\{\lambda_0\}\qquad V_{1}=V.
+        \]
+        \item $ F:V\to V $ non iniettiva, ovvero $ \ker (F)\neq \{\underline{0}\} $, $ \underline{0} \in \text{Spettro}(F) $ e $ \ker(F)=V_{0}  $.
+        \item Sia $ F:\R^{2}\to \R^{2} $ tale che $ F(x,y)=(x, x+y) $. Per trovare lo spettro di $ F $ si imposta il sistema $ F(x,y)=\lambda(x,y) $ 
+        \[
+            \,\implies\,\begin{cases}
+                x=\lambda x \\
+                x+ y=\lambda y
+            \end{cases}
+        \]
+        \begin{itemize}
+            \item Se $ x \neq 0 $ $ \,\implies\, $ l'equazione $ x=\lambda x $ implica $ \lambda=1 $, e la seconda equazione $(x+y)=y$ è soddisfatta se $ x=0 $, quindi mai.
+            \item Se $ x =0 $ $ \,\implies\, $ l'equazione $ x=\lambda x $ è soddisfatta per ogni $\lambda$, mentre la seconda si riduce a $ y=\lambda y $, e se $ y \neq 0 $ 
+            
+            $\implies$ $ \lambda=1 $
+        \end{itemize}
+        
+        \[
+            \text{Spettro}(F)=\{1\}\qquad \R^{2}_1 = \mathscr{L}((0,1))
+        \]
+        L'insieme degli autovettori rispetto a $ 1 $ è dato da \[
+            \{(0,y)\,|\, y \neq 0\}
+        \]
+        e non è un sottospazio vettoriale.
+    \end{enumerate}
+}
+
+\osservazione{
+    $ F \in \text{End}(V) $, $ \lambda, \mu \in \text{Spettro}(F) $, $ \lambda\neq \mu $ 
+    
+    $\implies$ $ V_{\lambda}\cap V_{\mu} =\{\underline{0}\}  $
+
+    Infatti se $ v \in V_{\lambda}\cap V_{\mu} $ 
+    
+    $\implies$ $ F(v)= \lambda v  $ e $ F(v)= \mu v $ 
+    
+    $\implies$ $ (\lambda-\mu)v=\underline{0} $ 
+    
+    $\implies$ $ v=\underline{0}. $
+}
+
+\teorema{jjijjlkjdkdkslkjd}{
+    $ V $ spazio vettoriale su $ \K $, $ F \in \text{End}(V) $, \[ \lambda_1, \cdots, \lambda_{l} \in \text{Spettro}(F)  \] con $ \lambda_i \neq \lambda_j $ se $ i \neq j $
+
+    Sia $ v_{i} \in V_{\lambda_{i} }   $ con $ v_{i} \neq \underline{0} $ 
+    
+    $\implies$ $ \{v_1, \cdots, v_{l} \} $ è libero.
+}
+\dimostrazione{jjijjlkjdkdkslkjd}{
+    Per induzione su $ l $.
+    
+    Se $ l =1 $ allora $ \lambda_1 \in \text{Spettro}(F) $ 
+    
+    $\implies$ $ v_1 \in V_{\lambda_1}  $ con $ v_1 \neq 0 $ 
+    
+    $\implies$ $ \{v_1\} $ è libero.
+
+    Supponiamo l'enunciato vero per $ l-1 $ autovalori, e dimostriamolo per $ l $ autovalori.
+
+    Dati $ \lambda_1, \cdots, \lambda_{l} \in \K  $, $ v_1, \cdots, v_{l}  $ consideriamo $ \mu_1, \cdots, \mu_{l} \in \K $ tali che \[
+        \mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l}=\underline{0}.  
+    \]
+
+    Devo verificare che necessariamente risulta $ \mu_1=\cdots=\mu_{l}=0  $
+
+        \[F(\mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l})=F(\underline{0})=\underline{0}\]
+    \begin{multline*}
+        F(\mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l})=\\
+        = \mu_1 F(v_1)+\cdots+\mu_{l}F(v_{l} ) = \lambda_1 \mu_1v_1 + \cdots + \lambda_{l} \mu_{l} v_{l}    
+    \end{multline*} 
+    
+    $\implies$ $ \lambda_1 \mu_1v_1 + \cdots + \lambda_{l} \mu_{l} v_{l}  =\underline{0}\referenze{(1)}{\label{xv:1}} $
+
+    Si considera la relazione $ \mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l} = \underline{0}$ e la si moltiplica per $ \lambda_1 $ (qui senza perdere di generalità si può supporre $\lambda_1\neq 0$)
+
+    \[
+        \lambda_1 \mu_1v_1 + \cdots + \lambda_{1} \mu_{l} v_{l}  \referenze{(2)}{\label{xv:2}}
+    \]
+
+    Facendo ora \hyperref[xv:2]{(2)}-\hyperref[xv:1]{(1)} \[
+        \mu_2 (\lambda_1-\lambda_2)v_2 + \mu_3(\lambda_1-\lambda_3)v_3+\cdots+\mu_l(\lambda_1-\lambda_l)v_l=\underline{0}
+    \]
+
+    Per ipotesi induttiva $ \{v_2, \cdots, v_{l} \} $ è libero 
+    
+    $\implies$ $
+        \mu_2 (\lambda_1-\lambda_2) = \mu_3 (\lambda_1-\lambda_3) = \cdots = \mu_l(\lambda_1-\lambda_l)=\underline{0}
+    $
+
+    Per ipotesi $ \lambda_{i}-\lambda_{j} \neq 0  $ se $ i\neq j$ 
+    
+    $\implies$ $ \mu_2=\mu_3=\cdots=\mu_{l}=0  $ 
+    
+    $\implies$ la relazione $ \mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l} = \underline{0}$ si riduce a $ \mu_1 v_1=\underline{0} $, $ v_1 \neq 0$ 
+    
+    $\implies$ $\mu_1=0$ 
+    
+    $\implies$ $ \mu_1=\mu_2=\cdots=\mu_{l}=\underline{0}  $ 
+    
+    $\implies$ $ \{v_1, \cdots, v_{l} \} $ è libero.\qed
+
+}
+
+\conseguenza{
+    Se $ \text{Spettro}(F) = \{\lambda_1,\cdots, \lambda_{l} \}$ 
+    
+    $\implies$ $ V_{\lambda_1} \oplus \cdots \oplus V_{\lambda_{l} } \subseteq V $, e in particolare se $ V $ ha dimensione finita lo spettro è finito e $ \dim  V=n $ 
+    
+    $\implies$ lo spettro di $ F $ ha al più $ n $ elementi.
+}
+
+Sia $ V $ a dimensione finita, $ V=V_{\lambda_1}\oplus\cdots\oplus V_{\lambda_{l} }   $, dove \[\text{Spettro}(F)=\{\lambda_1, \cdots, \lambda_{l} \}\] sia $ \mathscr{B}_i$ una base di $ V_{\lambda_{i} }  $, sia $ \mathscr{B}=\bigcup_{i} \mathscr{B}_i  $ base di $ V $, $ \mathscr{B}=\{v_1, \cdots, v_{n} \} $
+
+\[
+    M^{ \mathscr{B}, \mathscr{B}}(F)=\begin{pmatrix}
+        \lambda_1 & 0 & 0 & 0 & 0\\
+        0 & \star & 0 & \vdots & \vdots\\
+        \vdots & 0 & \star & 0 & \vdots\\
+        \vdots & \vdots & 0 & \ddots & 0\\
+        \vdots & \vdots & \vdots & 0 & \ddots\\
+        0 & 0 & 0 & 0 & 0
+    \end{pmatrix}
+\]
+
+In questa situazione $ M^{ \mathscr{B}, \mathscr{B}}(F) $ è una matrice diagonale.
+
+\subsection{Calcolo degli autovalori}
+
+Sia $ V $ uno spazio vettoriale su un campo $ \K $, con $ V $ finitamente generato, $ F \in \text{End}(V) $ e cerco gli autovalori di $ F $.
+
+Fisso $ \mathscr{B} $ base di $ V  $ e sia $ A = M^{ \mathscr{B}, \mathscr{B}}(F)$, $\lambda \in \K$. 
+
+$\lambda$ autovattore di $ F $ 
+
+$ \iff $ $ \exists\, v \in V $ con $ v \neq 0 $ tale che $ F(v)=\lambda v $ 
+
+$ \iff $ $ \exists\, v \in V $, $ v \neq 0 $ tale che $ A(v)_{ \mathscr{B}}= \lambda (v)_{ \mathscr{B}} $
+
+$ \iff $ $ (A- \lambda \Id)(v)_{ \mathscr{B}}=\underline{0} $
+
+$ \lambda $ autovalore di $ F $ $ \iff $ $ \exists\,X \in \K^{n} $ tale che \[
+    (A-\lambda\id)X=\underline{0}
+\]
+
+$ \iff $ $ \det(A-\lambda\id)=0 $
+
+Quindi gli autovalori di $ F $ sono gli elementi $\lambda$ di $ \K  $ che soddisfano l'equazione \[
+    \det(A-\lambda\id)=0.
+\]
+
+Si definisce $ p(\lambda):=\det(A-\lambda\id) $, un polinomio in $ \lambda $ di grado $ n $.
+
+\definizione{}{ 
+    $ p(\lambda):=\det(A-\lambda\id) $ si dice il polinomio caratteristico di $ F $.
+    \[
+        \text{Spettro}(F)=\{\text{radici di }p\}
+    \]
+    Quindi se $ \lambda_0 \in \text{Spettro}(F) $ 
+    
+    $\implies$ $ p(\lambda_0)=0 $ 
+    
+    $\implies$ $ p(\lambda) = (\lambda-\lambda_0)^{m}r(\lambda) $ con $ r $ polinomio tale che $ r(\lambda_0)\neq 0 $, ci riferiamo a $ m $ come alla \textit{molteplicità algebrica} di $ \lambda_0 $.
+
+    Chiamiamo \textit{molteplicità geometria} di $ \lambda_0 $ $ \dim V_{\lambda_0}  $.
+}
+
+% TODO creare pdf individuale e pagina obsidian
