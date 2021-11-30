@@ -39,6 +39,7 @@
 - 22 novembre 2021
 - 23 novembre 2021
 	- [Appunti Lezione](202111230830%20(23%20nov%202021).md) | [pdf](202111230830.pdf)
+- 29 novembre 2021
 
 ## Tutorato
 - 28 ottobre 2021
@@ -48,4 +49,4 @@
 		- [soluzione animata](https://www.desmos.com/calculator/707eqd0kuf)
 	- [Esercizio IV](reference%20manager/Scolastici/Gianluca%20Garello/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%2028%20-%20Esercizio%20IV%20(30)/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%20-%20Gianluca%20Garello.pdf) - [soluzione](Esercizio%20IV.pdf)
 
-TODO aggiungere altri tutorati
+TODO aggiungere tutorati

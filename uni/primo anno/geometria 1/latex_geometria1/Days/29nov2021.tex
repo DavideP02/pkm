@@ -1,0 +1,287 @@
+\dimostrazione{oodoikjfkkekodino}{
+    \begin{itemize}
+        \item [``$1. \,\implies\,4.$''] Per ipotesi $ F $\marginnote{29 nov 2021} diagonalizzabile 
+        
+        $\implies$ $ \exists\, \mathscr{B} $ base di $ B $ rispetto a cui $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $ è diagonale. \[
+            A=\begin{pmatrix}
+                a_1 & & & &\\
+                & \ddots \\
+                & & \ddots\\
+                & & & \ddots\\
+                & & & & a_{n} 
+            \end{pmatrix}\qquad \begin{gathered}
+                p(\lambda)=\det (A-\lambda\Id)=(a_1-\lambda)\\
+                (a_{n}-\lambda )=\prod_{i=1}^{n}(a_{i}- \lambda )
+            \end{gathered}
+        \]
+        
+        $\implies$ $ p(\lambda) $ ha tutte le radici in $ \K $.
+
+        Siano $ \{\lambda_1, \cdots, \lambda_{l}\}  $ le radici di $ p $. A meno di riordinare i vettori di $ B  $ posso supporre \[
+            \mathscr{B}=\{\underset{\footnotemark}{\underbrace{v_1, \cdots, v_{k_1}}}, \underset{\footnotemark}{\underbrace{v_{k_1+1} , \cdots, v_{k_2+k_1}}}, \cdots, \underset{\footnotemark}{\underbrace{v_{k_{l-1}+kl }}}\}
+        \]
+        \addtocounter{footnote}{-2}
+        \footnotetext{autovettori rispetto a $ \lambda_1 $}
+        \stepcounter{footnote}
+        \stepcounter{footnote}
+        \addtocounter{footnote}{-1}
+        \footnotetext{autovettori rispetto a $ \lambda_2 $}
+        \stepcounter{footnote}
+        \footnotetext{autovettore rispetto a $ \lambda_{l}  $}
+        %TODO manca matrice 
+        
+        $\implies$ $ p(\lambda)=\det (A-\lambda\Id)=(\lambda_1-\lambda)^{k_1}(\lambda_2-\lambda)^{k_2} \cdot \cdots \cdot (\lambda_{l}-\lambda )^{k_{l} } $ con $ \lambda_{i}\neq \lambda_{j} $ per $ i\neq j $ 
+        
+        $\implies$ $ m_{a}(\lambda_{i} )=k_1   $
+
+        $ \{v_1, \cdots, v_{k}\}  $ è una basee di $ V_{\lambda_1}  $ 
+        
+        $\implies$ $ \dim V_{\lambda_1} =k_1 $ 
+        
+        $\implies$ $ m_{g}(\lambda_1)=k_1  $
+
+        $ \{v_{k_1+1}, \cdots, v_{k_1+k_2}\}  $ è una basee di $ V_{\lambda_1}  $ 
+        
+        $\implies$ $ \dim V_{\lambda_2} =k_2 $ 
+        
+        $\implies$ $ m_{g}(\lambda_2)=k_2 $
+
+        Si itera il processo per ogni $ \lambda_{i}  $. 
+        
+        $\implies$ $ m_{a}(\lambda_{i} )= m_{g}(\lambda_{i} )   $ $ \forall\, i =1, \cdots, l $
+        \item [``$4. \,\implies\,3.$''] Per ipotesi $ p $ ha tutte le radici in $ \K $ e $ m_{g}(\lambda_i)=m_{a}(\lambda_i)$ per ogni $ \lambda_{i}  $ radice di $ p $.
+        
+        Per ipotesi $ \{\lambda_1, \cdots, \lambda_{l} \} $ sono le radici di $ p $ e soddisfano \[m_{a}(\lambda_1)+\cdots+m_{a}(\lambda_{l} ) =n  \] con $ n= \dim V=\deg p $.
+
+        $ m_{g}(\lambda_i)\le m_{a}(\lambda_i) \, \forall\, \lambda_i  $ 
+        
+        $\implies$ $ m_{g}(\lambda_1)+\cdots+ m_{g}(\lambda_{l} )=n=\dim V   $
+        \item [``$3. \,\implies\,2.$''] Per ipotesi \[\dim V=n= m_{g}(\lambda_1)+\cdots+ m_{g}(\lambda_{l} )\] sappiamo che $ m_{g}(\lambda_{i})= \dim V_{\lambda_{i} }   $ \[
+            V_{\lambda_{i} }\cap V_{\lambda_{j} }=\{\underline{0}\}\quad\text{se } \lambda_{i}\neq \lambda_j      
+        \] 
+        
+        $\implies$ $ V=V_{\lambda_1}\oplus V_{\lambda_2}\oplus \cdots\oplus V_{\lambda_{l} }     $
+        \item [``$2. \,\implies\,1.$''] Per ipotesi $ V=V_{\lambda_1}\oplus V_{\lambda_2}\oplus \cdots\oplus V_{\lambda_{l} } $. Considero una base $ \mathscr{B}_i $ di $ V_{\lambda_{i} }$ 
+        
+        $\implies$ $ \displaystyle\mathscr{B}=\bigcup_{i=1}^{l} \mathscr{B}_i  $ è una base di $ V $ fatta di autovettori di $ F $ 
+        
+        $\implies$ $ F $ è diagonalizzabile.\qed
+    \end{itemize}
+}
+
+%TODO manca definizione
+
+Una matrice $ A \in \K^{n,n}$ è diagonalizzabile se l'endomorfismo $ F_{A}: \K^{n}\to \K^{n}  $, $ x \mapsto Ax$ è diagonalizzabile.
+
+$ \iff $ esiste $ P \in \gl (n, \K) $ tale che $ P^{-1}AP $ è diagonale.
+
+\esercizio{
+    Dire se la matrice $ A \in \R^{3,3} $, \[
+        A=\begin{pmatrix}
+            -1 & 0 & 0 \\
+            0 & 1 & 1\\
+            0 & 0 & 1
+        \end{pmatrix}
+    \] è diagonalizzabile.
+}{
+Si trova lo spettro di $ A $. \[
+    p(\lambda)=\det(A-\lambda\id)= \det\begin{pmatrix}
+        -1-\lambda & 0 & 0 \\
+        0 & 1-\lambda & 1\\
+        0 & 0 & 1-\lambda
+    \end{pmatrix}=(-1-\lambda)(1-\lambda)^{2}
+\] 
+
+$\implies$
+gli autovalori di $ A $ sono $ \pm 1 $, $ m_{a}(-1)=1  $, $ m_{a}(+1)=2  $.
+
+\[m_{a}(-1)=1 \,\implies\, m_{g}(-1)=1  \,\implies\, m_{a}(-1)=m_{g}(-1)\]
+
+Ci sono due possibilità:\begin{itemize}
+    \item $ m_{g}(1)=1  $, $ A $ non è diagonalizzabile
+    \item $ m_{g}(1)=2  $, $ A $ è diagonalizzabile
+\end{itemize}
+
+
+Si calcola $ m_{g}(1)  $, \[
+    m_{g}(1)= \dim V_{1}=\dim \nulls (A-\I)  
+\] \[
+    A-I=\begin{pmatrix}
+        -2 & 0 & 0\\
+        0 & 0 & 1\\
+        0 & 0 & 0
+    \end{pmatrix}
+\]
+Imposto \[
+    (A-I)\begin{pmatrix}
+        x_1\\x_2\\x_3
+    \end{pmatrix}=\underline{0} \,\implies\, \begin{pmatrix}
+        -2 & 0 & 0\\
+        0 & 0 & 1\\
+        0 & 0 & 0
+    \end{pmatrix}\begin{pmatrix}
+        x_1\\x_2\\x_3
+    \end{pmatrix}=\underline{0}
+\] \[
+    \,\implies\, \begin{cases}
+        -2x_1=0\\x_3=0
+    \end{cases} \,\implies\, \begin{cases}
+        x_1=0\\ x_2=x_2\\ x_3=0
+    \end{cases}
+\] 
+
+$\implies$ $ V_1= \mathscr{L}((0,1,0)) $ 
+
+$\implies$ $ \dim V_1=1 $ 
+
+$\implies$ $ m_{g} (1) =1$ 
+
+$\implies$ $ A $ non è diagonalizzabile.}{}
+
+\osservazione{
+    Se $ \dim V =n$, e $ F \in\End(V) $ ha $ n $-autovalori (distinti) 
+    
+    $\implies$ $ F $ è diagonalizzabile. 
+    
+    Infatti la molteplicità algebrica di ogni autovalore è necessariamente $ 1 $ 
+    
+    $\implies$ la molteplicità geometrica di ogni autovalore è $ 1 $ 
+    
+    $\implies$ $ m_{g}(\lambda_i)=m_{a}(\lambda_i)  $ per ogni $ \lambda_i \in \spettro(F) $ 
+    
+    $\implies$ $ F $ è diagonalizzabile.
+}
+
+\osservazione{
+    Sia $ V $ di dimensione finita, $ F \in \End(V)$, supponiamo che il polinomio $ p $ di $ F $ abbia tutte le radici in $ K $. Fisso $ \mathscr{B} $ base di $ V $, e sia $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $, \begin{align*}
+        p(\lambda)&=(\lambda_1-\lambda) \cdot \cdots \cdot (\lambda_{n}-\lambda )\\
+        p(\lambda)&=(-1)^{n}\lambda^{n}-\tr(A)\lambda^{n-1}+\cdots+ (-1)^{n}\det A 
+    \end{align*} con $\lambda_1, \cdots, \lambda_{n}$ non necessariamente distinti.
+    
+    Uguagliando le due scritture si ottiene \[
+        \det A = \lambda_1 \cdot \lambda_2 \cdot \cdots \cdot \lambda_{n}\qquad \tr (A) =\lambda_1 + \lambda_2+ \cdots+ \lambda_{n}  
+    \]
+}
+\subsection{Teorema di Caley-Hamilton}
+
+Sia $ \K $ un campo e consideriamo $ \K^{n,n} $, $ \K[x] $. Se $ p \in \K[x] $, \[
+        p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots+ a_1x+a_0\qquad p: \K\to \K  
+    \]
+    $ p $ induce una funzione $ p: \K^{n,n}\to \K^{n,n} $ \[
+        p(A)=a_{n}A^{n}+a_{n-1}A^{n-1}+\cdots+ a_1A+a_0\id \in \K^{n,n}\, \forall\, A \in \K^{n,n}.
+    \]
+
+\teorema[(di Caley-Hamilton)]{dnondoinodin}{
+    Se $ p $ è il polinomio caratteristico di $ A $, allora $ p(A)=\underline{0} $
+}
+
+Si definisce \[
+        I=\{1 \in \K[x]\,|\, q(A)=\underline{0}\}, p \in I
+    \] e da qui si arriva al polinomio minimo di $ A $.
+
+\subsection{Teorema Spettrale}
+
+\teorema[(versione geometrica)]{spettreucl}{
+    Sia $ (V, \cdot ) $ uno spazio vettoriale euclideo ($V$ spazio vettoriale su $ \R $, $ \dim V< + \infty $ e $ \cdot  $ è un prodotto scalare di $ V $). 
+    \begin{enumerate}
+        \item Sia $ F \in \End(V) $ simmetrico (cioè $ F(v) \cdot w=v \cdot F(w) $ $ \forall\, v, w \in V $) 
+    
+        $\implies$ $ F $ è diagonalizzabile e i relativi autospazi sono 2 a 2 ortogonali.
+        \item Se $ F \in \End(V) $ diagonalizzabile, e i suoi autospazi sono 2 a 2 ortogonali 
+        
+        $\implies$ $ F $ è simmetrico.
+    \end{enumerate}
+}
+
+\nota{$ F \in \End(V) $ è simmetrico $ \iff $ la matrice che rappresenta $ F $ rispetto ad una base ortonormale è simmetrica}
+
+\teorema[(versione algebrica)]{spetttrialgege}{
+    Sia $ A \in \R^{n,n} $ \begin{enumerate}
+        \item Se $ A $ è simmetrica ($\null^{t}\!A=a$) 
+        
+        $\implies$ $ \exists\, P \in O(n) $ ($\null^{t}\!P=P^{-1}$) tale che $ P^{-1}AP = \null^{t}\!PAP $ è diagonale.
+        \item Se esiste $ P \in O(n) $ tale che $ P^{-1}AP $ è diagonale 
+        
+        $\implies$ $ A $ è simmetrica.
+    \end{enumerate}
+}
+
+\lemma{diiidiiididididoij}{
+    Sia $ (V, \cdot )$ uno spazio vettoriale Hermitiano ($V$ spazio vettoriale su $\C$ con $ \dim V< +\infty $, $ \cdot  $ prodotto Hermitiano), $ F \in \End(V) $ un endomorfismo Hermitiano (i.e. $ F(v) \cdot w = v \cdot F(w)$ $ \forall\, v, w \in V $) 
+    
+    $\implies$ tutti gli autovalori di $ F $ sono reali. 
+}
+\dimostrazionelem{diiidiiididididoij}{
+    Sia $ \lambda \in \C $ un autovalore di $ F $ 
+    
+    $\implies$ $ \exists\, v\neq \underline{0} \in V  $ tale che $ F(v)= \lambda v $ \[
+        \lambda ||v||^{2} = F(v) \cdot v = v \cdot F(v) = v (\lambda v)=\overline{\lambda} ||v||^{2}.
+    \]
+    Poiché $ ||v||\neq \underline{0} $ ottengo $ \lambda=\overline{\lambda} $, cioè $ \lambda \in \R $\qed
+}
+
+\corollario{maiochenesoscusi}{
+    Se $ A \in \C^{n,n} $ è una matrice Hermitiana (i.e. $ A=\null^{t}\!\overline{A} $) 
+    
+    $\implies$ gli autovalori di $ A $ sono reali.
+}{}
+
+\dimostrazionecrl{maiochenesoscusi}{
+    Ogni endomorfismo Hermitiano rispetto ad una base unitaria è rappresentato da una matrice Hermitiana, quindi si applica il lemma precedente.\qed
+}
+
+\lemma{diiidiioijoooijoajkfjlkjdf}{
+    Sia $ (V, \cdot ) $ uno spazio vettoriale Euclideo, sia $ F \in \End(V) $ simmetrico e $ \lambda_1, \lambda_2 \in \spettro(F) $ con $ \lambda_1\neq \lambda_2 $. 
+    
+    $\implies$ $ V_{\lambda_1}  $ e $ V_{\lambda_2}  $ sono ortogonali. ($v \cdot w =0$ $ \forall\, v \in V_{\lambda_1}, w \in V_{\lambda_2}   $)
+}
+
+\dimostrazionelem{diiidiioijoooijoajkfjlkjdf}{
+    Siano $ v \in V_{\lambda_1}  $ e $ w \in V_{\lambda_2}  $. $ F(v) \cdot w =v \cdot F(w) $ poiché $ F $ è simmetrico.
+    \[
+        \lambda_1 v \cdot w = F(v) \cdot  = v \cdot (F(w)) = v \cdot (\lambda_2 w) = \lambda_2 v \cdot w
+    \] 
+    
+    $\implies$ $ (\lambda_1-\lambda_2)v \cdot w = 0 $ con $ \lambda_1-\lambda_2\neq 0 $ 
+    
+    $\implies$ $ v \cdot w =0$.\qed
+}
+
+\dimostrazione{spettreucl}{
+    \begin{enumerate}
+        \item $ F \in \End(V)$ simmetrico. Considero $ \spettro(F)=\{\lambda_1, \cdots, \lambda_{l}\} $. 
+
+        Per il lemma precedente so che $ V_{\lambda_i} \bot V_{\lambda_{j} }  $ se $ \lambda_i\neq \lambda_j $. Dimostro che 
+        \[
+            V = V_{\lambda_1}\oplus\cdots\oplus V_{\lambda_{l} }  
+        \] 
+        da cui si ottiene la tesi.
+
+        Considero $ H=V_{\lambda_1} \oplus\cdots\oplus V_{\lambda_{l} }   $ sottospazio vettoriale di $ V $ tale che $ F(H) \subseteq H $ (poiché $ F(V_{\lambda_i} ) \subseteq V_{\lambda_{i} }  $).
+
+        Suppongo per assurdo che $ H \varsubsetneq V $. 
+        
+        $\implies$ $ H^{\bot}\neq \{\underline{0}\} $
+
+        Si verifica che $ F(H^{\bot}) \subseteq H^{\bot} $, infatti se $ v \in H^{\bot} $ 
+    
+        $  \implies$ $ V h = 0 $ $ \forall\, h \in H $ \[
+            F(v) \cdot h \underset{\footnotemark}{=} v \cdot F(h) \underset{\footnotemark}{=}0
+        \]
+        \addtocounter{footnote}{-1}
+        \footnotetext{poiché $ F $ è simmetrico}
+        \stepcounter{footnote}
+        \footnotetext{poiché $ F(h) \in H $}
+
+        Sia $ F'=\restriction{F}{H^{\bot}}$, $ F' :H\bot \to H^{\bot} $ ed è un endomorfismo simmetrico. 
+
+        Per un lemma precedente $ F' $ ha almeno un autovalore.
+    \end{enumerate}
+    
+}
+
+\dimostrazione{spetttrialgege}{
+    
+}
+
+% TODO creare pdf singolo + pagina obsidian

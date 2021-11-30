@@ -102,8 +102,35 @@ Verifichiamo la convergenza:
     }
     \dimostrazionelem{gagaga}{
         \begin{enumerate}
-            \item $x_{n} \xrightarrow{n\to + \infty} +\infty$, ricordiamo $ [x_{n} ]\le x_{n} \le [x_{n}] +1  $ % TODO manca, aggiungere da https://math.i-learn.unito.it/pluginfile.php/160444/mod_resource/content/3/UNO_lezione12_2020_21.pdf
-            \item \dots\qed
+            \item $x_{n} \xrightarrow{n\to + \infty} +\infty$, ricordiamo $ [x_{n} ]\le x_{n} \le [x_{n}] +1  $ 
+            \begin{gather*}
+                \frac{1}{[x_{n} ]+1}<\frac{1}{x_{n} }\le \frac{1}{[x_{n} ]}\\
+                1+\frac{1}{[x_{n} ]+1}<1+\frac{1}{x_{n} }\le 1+\frac{1}{[x_{n} ]}\\
+                \parentesi{\alpha_{n} }{\biggl(1+\frac{1}{[x_{n} ]+1}\biggr)^{[x_{n} ]}}\le 1+\frac{1}{x_{n} }\le \parentesi{\beta_{n} }{\biggl(1+\frac{1}{[x_{n} ]}\biggr)^{[x_{n} ]+1}}
+            \end{gather*}
+             
+            \[
+                \beta_n = \parentesi{ \xrightarrow[n\to + \infty]{} e}{\biggl(1+\frac{1}{[x_{n} ]}\biggr)^{[x_{n} ]}}\:\parentesi{ \xrightarrow[n\to + \infty]{} 1}{\biggl(1+\frac{1}{[x_{n} ]}\biggr)}
+            \] notando che $ [x_{n} ] \xrightarrow{n\to +\infty} +\infty \displaystyle $. Ne risulta che $ \beta_{n} \xrightarrow{n\to +\infty} e \displaystyle $.
+
+            \[
+                \alpha_{n} = \biggl(1+\frac{1}{[x_{n} ]+1}\biggr)^{[x_{n} ]} =\parentesi{ \xrightarrow[n\to + \infty]{} e}{\biggl(1+\frac{1}{[x_{n} ]+1}\biggr)^{[x_{n}]+1}}\:\parentesi{ \xrightarrow[n\to + \infty]{} 1}{\biggl(1+\frac{1}{[x_{n} ]}\biggr)^{-1}}
+            \] Ne risulta che $ \alpha_{n} \xrightarrow{n\to +\infty} e \displaystyle $.
+
+            Dunque, data $x_{n} \xrightarrow{n\to + \infty} +\infty$ \[
+                \lim_{n\to +\infty} \biggl(1+\frac{1}{x_{n} }\biggr)^{x_{n} } = e
+            \] per il teorema del confronto
+            \item $ x_{n} \xrightarrow{n\to + \infty} - \infty \displaystyle $, $ y_{n}=-x_{n } \xrightarrow{n\to + \infty} \infty \displaystyle $ \begin{multline*}
+                \biggl(1+\frac{1}{x_{n} }\biggr)^{x_{n} } = \biggl(1-\frac{1}{y_{n} }\biggr)^{-y_{n} } = \\=\biggl(\frac{y_{n} - 1}{y_{n} }\biggr)^{-y_{n} }= \biggl(\frac{y_{n}}{y_{n} -1}\biggr)^{y_{n} }= \biggl(1+ \frac{1}{y_{n} -1}\biggr)^{y_{n} }=\\
+                = \parentesi{ \xrightarrow[n\to + \infty]{} e}{\biggl(1+ \frac{1}{y_{n} -1}\biggr)^{y_{n} -1}}\:\parentesi{ \xrightarrow[n\to +\infty]{} 1 \displaystyle}{\biggl(1+ \frac{1}{y_{n} -1}\biggr)}
+            \end{multline*} poiché $ (y_{n}-1) \xrightarrow{n\to + \infty} +\infty \displaystyle  $.
+
+            Dunque, data $x_{n} \xrightarrow{n\to + \infty} -\infty$ \[
+                \lim_{n\to +\infty} \biggl(1+\frac{1}{x_{n} }\biggr)^{x_{n} } = e.
+            \]
+            \item La proprietà\[
+                \lim_{x_{n} \to \infty} \biggl(1+\frac{1}{x_{n} }\biggr)^{x_{n} } = e
+            \] discende direttamente da 1. e 2.
         \end{enumerate}
     }
 
@@ -144,7 +171,14 @@ Consideriamo $ x_0 \in D $
             \lim_{x\to 0^+} \text{sgn}(x) = 1 &\neq \text{sgn}(0)=0\\
             \lim_{x\to 0^-} \text{sgn}(x) = -1 &\neq \text{sgn}(0)=0
         \end{align*}
-        \item % TODO manca un esempio https://math.i-learn.unito.it/pluginfile.php/133502/mod_resource/content/1/UNO_lezione18_2020_21.pdf
+        \item $ H(x)=\begin{cases}
+            0 & x<0\\
+            1 & x\ge 0
+        \end{cases} $
+        \begin{gather*}
+            \lim_{ x\to 0^{+}} H(x) =0=H(0)\\
+            \lim_{x\to 0^{-}} H(x) =0\neq H(0)
+        \end{gather*}
         \item $ f(x)= \begin{cases}
             x\sin \frac{1}{x} & x \neq 0 \\
             0 & x=0
@@ -169,14 +203,14 @@ Consideriamo $ x_0 \in D $
         \item [\textit{a}.] $ x_0 $ punto isolato di $ D $
         \item [\textit{b}.] $ x_0 \in D'$ e vale una delle seguenti affermazioni tra di loro equivalenti:
             \begin{itemize}
-                \item [\textit{i}.] $ \forall V(f(x_0))$ $ \exists U(x_0)$ tale che $ x \in U \cap D $ 
+                \item [(\textit{i})] $ \forall V(f(x_0))$ $ \exists U(x_0)$ tale che $ x \in U \cap D $ 
                 
                 $\implies$ $f(x) \in V$
-                \item [\textit{ii}.] $ \forall \varepsilon>0 $ $ \exists \delta > 0 $ tale che $ |x-x_0|<\delta $ 
+                \item [(\textit{ii})] $ \forall \varepsilon>0 $ $ \exists \delta > 0 $ tale che $ |x-x_0|<\delta $ 
                 
                 $\implies$ $ |f(x)-f(x_0)|<\varepsilon $
-                \item [\textit{iii}.] $ \lim_{x\to x_0} f(x) =f(x_0) $
-                \item [\textit{iv}.] data $ \{x_{n} \}_{n=0}^\infty $ a valori in $ D $ tale che $ x_{n} \xrightarrow{n\to \infty} x_0 \displaystyle  $ allora
+                \item [(\textit{iii})] $ \lim_{x\to x_0} f(x) =f(x_0) $
+                \item [(\textit{iv})] data $ \{x_{n} \}_{n=0}^\infty $ a valori in $ D $ tale che $ x_{n} \xrightarrow{n\to \infty} x_0 \displaystyle  $ allora
                 \[
                     \lim_{n\to \infty} f(x_{n} ) = f(x_0)
                 \]
@@ -202,7 +236,12 @@ Consideriamo $ x_0 \in D $
     Diciamo che $ f $ è continua in $ E \subseteq D$ se $ \forall x_0 \in E $ $ f $ è continua in $ x_0 $
 
     \esempi{}{
-        % TODO mancano gli esempi, prendere da LEZIONE 18 https://math.i-learn.unito.it/pluginfile.php/133502/mod_resource/content/1/UNO_lezione18_2020_21.pdf
+        Funzioni continue nel loro dominio\begin{itemize}
+            \item $ f(x)=x $
+            \item $ f(x)=x^{\alpha} $
+            \item $ f(x)=a^{x} $, $ a>0 $, $ a\neq 1 $
+            \item $ f(x)=\log_a x $, $ a>0 $, $ a\neq 1 $
+        \end{itemize}
     }
 
     In generale dati $ f:D\to \R $ con $ D \subseteq \R $, e $ x_0 \in D $ se si ha 

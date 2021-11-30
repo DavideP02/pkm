@@ -537,3 +537,37 @@
 \contentsline {paragraph}{Teorema XVII }{93}{section*.236}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [thm:oodoikjfkkekodino]{(XVII)}}{93}{section*.237}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{95}{section*.238}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{95}{section*.239}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (14.6)}{96}{section*.240}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (14.7)}{96}{section*.241}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3}Teorema di Caley-Hamilton}{97}{subsection.14.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XVIII (di Caley-Hamilton)}{97}{section*.242}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.4}Teorema Spettrale}{97}{subsection.14.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XIX (versione geometrica)}{97}{section*.243}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XX (versione algebrica)}{97}{section*.244}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Lemma \textit {l.}i }{98}{section*.245}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiiididididoij]{(\textit {l.}i)}}{98}{section*.246}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corollario }{98}{section*.247}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\hyperref [crl:maiochenesoscusi]{\textit {dim.} }}{98}{section*.248}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Lemma \textit {l.}ii }{98}{section*.249}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiioijoooijoajkfjlkjdf]{(\textit {l.}ii)}}{98}{section*.250}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spettreucl]{(XIX)}}{98}{section*.251}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spetttrialgege]{(XX)}}{99}{section*.252}% 

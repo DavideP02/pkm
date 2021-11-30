@@ -60,7 +60,7 @@ Valgono per $ \{a_{n} \}_{n=0}^\infty$ i seguenti teoremi
         }
 \end{itemize}
 
-\teorema[Principio di Archimede]{archi}{
+\teorema[(Principio di Archimede)]{archi}{
     $ \forall a,b \in \R_{+} , a,b>0 $ 
     
     $\implies$ $ \exists n \in \N $ tale che $ na>b $
@@ -84,13 +84,11 @@ Valgono per $ \{a_{n} \}_{n=0}^\infty$ i seguenti teoremi
 }
 Osserviamo che posto $ a=1 $ si ha che $ \forall b \in \R $, $\exists n \in \N$ t.c. $ n>b $
 
-\subsection{Applicazione del Principio di Archimede}
-
-Verifichiamo che \[
+\paragraph{Applicazione del Principio di Archimede} Verifichiamo che \[
     \lim_{n\to \infty}\frac{1}{n}=0 
 \]
 
-Fissiamo $ \varepsilon>0 $, vogliamo verificare che definitivamente $ \bigg|\frac{1}{n}\bigg|<\varepsilon$
+Fissiamo $ \varepsilon>0 $, vogliamo verificare che definitivamente $ \big|\frac{1}{n}\big|<\varepsilon$
 
 $\iff$ $\frac{1}{n}<\varepsilon$
 
@@ -108,7 +106,7 @@ Dunque \[
     \lim_{n\to \infty} \frac{1}{n}=0
 \]
 
-\teorema[Disugualiganza di Bernoulli]{bern}{
+\teorema[(Disugualiganza di Bernoulli)]{bern}{
     \[
         \forall n \in \N, \forall x \in \R, x>-1
     \] 
@@ -127,8 +125,21 @@ Dunque \[
             1+x>0\, (1+x)^0 = 1 =1+n0
         \]
         P(0) è vera 
-        \item Assumiamo vera P(n) %TODO manca un pezzo: https://math.i-learn.unito.it/pluginfile.php/160438/mod_resource/content/3/UNO_lezione11_2020_21.pdf
+        \item Assumiamo vera $P(n)$ e verifichiamo $ P(n+1) $ \begin{gather*}
+            P(n):\qquad (1+x)^{n}\ge 1+nx\quad \land \quad x>-1\\
+            \textcolor{blue}{(1+x) \cdot }(1+x)^{n}\ge 1+nx \textcolor{blue}{ \cdot  (1+x)}\\
+            (1+x)^{n+1}\ge (1+nx)(1+x)\\
+            (1+nx)(1+x) = 1+nx+x+\underset{\ge 0}{\underbrace{nx^{2}}} \ge 1+(n+1)x
+        \end{gather*}
+        Dunque $ P(n+1): $ 
+        \[
+            (1+x)^{n+1}\ge 1+ (n+1)x
+        \]
+        è verificata
     \end{enumerate}
+    Allora per induzione \[
+        \forall\, n \in \N\qquad (1+x)^{n}\ge 1+nx \quad\land\quad x>-1\qedhere
+    \]
 }
 
 \subsection{Limiti}
@@ -188,29 +199,29 @@ Progressione geometrica \[
         Da risolvere %TODO risolvere esercizio
     }
 
-\teorema{rel}{
+\teorema[(di relazione)]{rel}{
     Sia $f:D\to \R$: $ x\to f(x) $, $ x_{0} \in D' $ e $ x_{0} \in \R* $, $ l \in \R* $ 
     
-    Allora $ \lim_{x\to x_{0} } f(x) = l $ (A) 
+    Allora $ \lim_{x\to x_{0} } f(x) = l $ \referenze{(A)}{\label{vi:A}}
     
     $ \iff $ 
     
     per ogni successione $ a: \{a_{n}\}_{n=0}^\infty $ a valori in $ D\setminus \{x_{0} \} $ 
     
-    $a_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle $ $\implies$ $f(a_{n}) \xrightarrow{n\to + \infty} l \displaystyle $) (B)
+    $a_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle $ $\implies$ $f(a_{n}) \xrightarrow{n\to + \infty} l \displaystyle $ \referenze{(B)}{\label{vi:B}}
 }
 \dimostrazione{rel}{
     \begin{itemize}
-        \item [(A) $\implies$ (B)] Sappiamo che $ \lim_{x\to x_{0} } f(x) =l $ ovvero \[
-            \forall V(l) \exists U(x_{0} ) | x \in U \land x \in V land x \neq x_{0} \,\implies\, f(x) \in V(l) (1)
-        \]
+        \item [(A) $\implies$ (B)] Sappiamo che $\displaystyle \lim_{x\to x_{0} } f(x) =l $ ovvero \begin{equation}
+            \forall\, V(l)\, \exists\, U(x_{0} ) \,|\, x \in U\, \land \,x \in V \,\land\, x \neq x_{0} \,\implies\, f(x) \in V(l)\label{eq1}
+        \end{equation}
 
         Consideriamo $ \{a_{n} \}_{n=0}^\infty $ con $ a_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle  $ con $ a_{n} \in D $ e $ a_{n}\neq x_{0} $ ossia \[
-            \exists \overline{n}  \in \N \forall n \ge \overline{n} a_{n} \in D\land a_{n} \neq x_{0} \land a_{n} \in U(x_{0})
+            \exists\, \overline{n}  \in \N \,|\,\forall\, n \ge \overline{n},\, a_{n} \in D\,\land\, a_{n} \neq x_{0} \,\land\, a_{n} \in U(x_{0})
         \]
-        allora $ f(a_{n} ) \in V(l) (2)$
+        allora \begin{equation}f(a_{n} ) \in V(l)\label{eq2}\end{equation}
         
-        Concludendo unendo (1) e (2) \[
+        Concludendo, unendo \eqref{eq1} e \eqref{eq2}: \[
             \forall V(l) \exists \overline{n} \in \N | \forall n > \overline{n} f(a_{n} ) \in V(l)
         \]
         ossia
@@ -220,15 +231,30 @@ Progressione geometrica \[
         
         \item [(B) $\implies$ (A)] Procediamo per assurdo: verificando $ \neg A \implies \neg B $
         
-        $ \neg B $: esiste una successione $ \{a_{n} \}_{n=0}^\infty$ tale che $ a_{n} \in D\setminus \{x_{0} \} $ per cui $ a_{n} \xrightarrow{\to }  \displaystyle $
+        $ \neg B $: esiste una successione $ \{a_{n} \}_{n=0}^\infty$ tale che $ a_{n} \in D\setminus \{x_{0} \} $ per cui $ a_{n} \xrightarrow{n\to + \infty} x_0  \displaystyle $ con $ a_{n}\neq x_0  $, e $ f(a_{n}) \nrightarrow l $
 
-        %TODO manca un pezzo: https://math.i-learn.unito.it/pluginfile.php/160438/mod_resource/content/3/UNO_lezione11_2020_21.pdf
+        Abbiamo ipotizzato $\neg$\hyperref[vi:A]{(A)}, ossia \[
+            \lim_{x\to x_0} f(x) \neq l
+        \] ossia \[
+            \exists\, V(l)\,|\, \forall\, U(x_0)\, \exists\, x \in U \,\land\, x \in D\,\land\, x \neq x_0\,\tc\, f(x)\notin V(l)
+        \]
 
-        Consideriamo $\delta=1$ $ \exists x_{1}  \, 0<|x-x_{0} |<1 $ $\land$ $ f(x_1) \notin V(l) $
+        Ci poniamo nel caso particolare $ x_0 \in \R $ (il caso $ x_0=\pm \infty $ funziona analogamente).
         
-        Consideriamo $ \delta=\frac{1}{2} $ $ \exists x_{2}  \, 0<|x_{2} -x_{0} |<1 $ $\land$ $ f(x_2) \notin V(l) $
+        $\neg$\hyperref[vi:A]{(A)} $ \,\implies\,  $
+        \[
+            \exists\, V(l)\,|\, \forall\, \delta >0\, \exists\, x\,|\, 0<|x-x_0|<\delta \,\land\, x \in D \,\land\, f(x)\notin V(l)
+        \]
 
-        Consideriamo $ \delta=\frac{1}{n} $ $ \exists x_{n}  \, 0<|x_{n} -x_{0} |<1 $ $\land$ $ f(x_n) \notin V(l) $
+        Consideriamo $\delta=1$ $ \exists\, x_{1}  \, 0<|x-x_{0} |<1 $ $\land$ $ f(x_1) \notin V(l) $
+        
+        Consideriamo $ \delta=\frac{1}{2} $ $ \exists\, x_{2}  \, 0<|x_{2} -x_{0} |<1 $ $\land$ $ f(x_2) \notin V(l) $
+
+        \dots
+
+        Consideriamo $ \delta=\frac{1}{n} $ $ \exists\, x_{n}  \, 0<|x_{n} -x_{0} |<1 $ $\land$ $ f(x_n) \notin V(l) $
+
+        \dots
 
         Allora abbiamo costruito una successione $ \{x_{n} \}_{n=0}^\infty $ tale che $ x_{n} \in D $, $ x_{n}\neq x_0  $ e $ f(x_{n})\notin V(l) $ 
 
@@ -280,5 +306,5 @@ Progressione geometrica \[
     ovvero \[
         n^k = o(a^n)_{n\to + \infty}
     \]
-    \item %TODO manca un pezzo: https://math.i-learn.unito.it/pluginfile.php/160438/mod_resource/content/3/UNO_lezione11_2020_21.pdf
+    \item %TODO manca un pezzo: https://math.i-learn.unito.it/pluginfile.php/160452/mod_resource/content/2/UNO_lezione13_2020_21.pdf
 \end{enumerate}

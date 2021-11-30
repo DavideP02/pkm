@@ -1,0 +1,249 @@
+\subsection{Derivate di funzioni elementari}
+
+\begin{itemize}
+    \item Sia $ f(x)=x^{\alpha} $\marginnote{30 nov 2021}, $ x \in (0,+ \infty) $, $ \alpha \in \R $. \begin{multline*}
+        \lim_{h\to 0} \frac{f(x+h)-f(x)}{h} = \lim_{h\to 0} \frac{(x+h)^{\alpha}-x^{\alpha}}{h} =\\
+        = \lim_{h\to 0} \frac{x^{\alpha}(1+h/x)^{\alpha}-x^{\alpha}}{h} = x^{\alpha}\lim_{h\to 0} \frac{(1+h/x)^{\alpha}-1}{(h/x) \cdot x} = \\
+        x^{\alpha-1} \lim_{h\to 0} \frac{(1+t)^{\alpha}-1}{t} = \alpha x^{\alpha-1}
+    \end{multline*}
+    
+    Abbiamo effettuato una sostituzione: $ t=h/x $, mentre l'ultimo è un limite notevole % TODO aggiungere nella formula
+    \item Sia $ f(x)=e^{x} $, $ x \in \R $\begin{multline*}
+        \lim_{h\to 0} \frac{f(x+h)-f(x)}{h} = \\
+        \lim_{h\to 0} \frac{e^{x+h}-e^{x}}{h} = e^{x} \lim_{h\to 0} \frac{e^{h}-1}{h} = \\
+        = e^{x}
+    \end{multline*}
+
+    Vale quindi $ \forall\, x \in \R $, \begin{equation}
+        D(e^{x})=e^{x}
+    \end{equation}
+
+    Di verifica inoltre che \begin{equation}
+        a>0\qquad D(a^{x})=a^{x}\ln x
+    \end{equation}
+    \item Sia $ f(x)=\ln x $, $ x>0 $ \begin{multline*}
+        \lim_{h\to 0} \frac{f(x+h)-f(x)}{h} = \lim_{h\to 0} \frac{\ln (x+h)-\ln x}{h} =\\
+        \lim_{h\to 0} \frac{\ln [x(1+h/x)]-\ln x}{h}=\lim_{h\to 0} \frac{\cancel{\ln x} + \ln(1+h/x)]-\cancel{\ln x}}{x(h/x)} =\\
+        \frac{1}{x} \lim_{h\to 0} \frac{\ln (1+t)}{t} = \frac{1}{x}
+    \end{multline*}
+
+    Sostituendo $ t=h/x $, e ricordando che $ \lim_{h\to 0} \frac{\ln (1+t)}{t}=1 $ % TODO aggiungere queste cose in display
+    \item Sia $ f(x)=\sin x $, $ x \in \R $.\begin{multline}
+        \lim_{h\to 0} \frac{\sin(h+x)-\sin(x)}{h} = \lim_{h\to 0} \frac{\sin x \,\cos h + \sin h\,\cos x-\sin(x)}{h} =\\
+        = \lim_{h\to 0} \biggl( \sin x \frac{\cos h -1}{h} + \cos x \frac{\sin h}{h} \biggr)=\\
+        = \cos x
+    \end{multline}
+
+    % TODO manca scrivere i limiti notevoli
+
+    %TODO sistemare in numeri equazione
+\end{itemize}
+
+\subsection{Prima formula dell'incremento finito}
+
+\osservazione{
+    Sia $ f:I\to \R $, $ x \in I  $, assumiamo $ f $ derivabile in $ x $.
+    \begin{align*}
+        \iff &\lim_{ h\to 0} \frac{f(x+h)-f(x)}{h} = f'(x)\\
+        \iff &\lim_{ h\to 0} \frac{f(x+h)-f(x)}{h} - f'(x) = 0
+    \end{align*}
+
+    Poniamo \begin{equation}
+        \varepsilon(h) =\frac{f(x+h)-f(x)}{h} - f'(x)
+    \end{equation}
+    Vale $ \dom \varepsilon(h)=\dom f \setminus \{0\} $. Notiamo che $ \lim_{h\to 0} \varepsilon(h) = 0$, quindi $ \varepsilon(h)  $ è estendibile per continuità in $ h=0 $.
+
+    Possiamo scrivere che $ f $ è derivabile in $ x $
+
+    $ \iff $ $ \exists\, \varepsilon(h) $ continua in $ I(0) $, con \[
+        \lim_{h\to 0} \varepsilon(h) =0
+    \] tale che \begin{equation}
+        f(x+h)-f(x)=f'(x)\,h + h\, \varepsilon(h)
+    \end{equation}
+
+    Questa è la prima formula dell'\textit{incremento finito}.
+
+    Equivalentemente, poiché $ \lim_{h\to 0} \bigl(h\, \varepsilon(h)\bigr)/h = 0 $ si ha \begin{equation}
+        f(x+h)-f(x)=f'(x)\,h+o(h)
+    \end{equation}
+}
+
+\teorema[(di derivazione delle funzioni composte)]{diderfunccomi}{
+    Consideriamo $ f:D\to \R $, $ D \subseteq \R $, e consideriamo $ g:E\to \R $, con $ f(D) \subseteq E $.
+    Assumiamo $ f $ derivabile in $ x \in D $, e $ g $ derivabile in $ y=f(x) \in E $.
+
+    Allora $ w=g\circ f $ è derivabile in $ x $ e vale \begin{equation}
+        w'(x)=g'(f(x))\, f'(x)\label{chain rule}
+    \end{equation}
+
+    La \eqref{chain rule} prende il nome di \textit{chain rule}.
+}
+\dimostrazione{diderfunccomi}{
+    $ f $ derivabile in $ x $, poniamo $ y = f(x) $, e assumiamo $ g $ derivabile in $ y $. \begin{equation}
+        \exists\, \varepsilon(k) \xrightarrow{k\to 0} 0 \displaystyle\,|\, g(y+k)-g(y)=g'(y)\,k+k\,\varepsilon(k) \label{cicio}
+    \end{equation}
+
+    Poniamo $ k =f(x+h) - f(x) \xrightarrow{h\to 0} 0 \displaystyle $, si ha allora \[
+        k=f(x+h)-y 
+    \] e, poiché $ f $ continua in $ x $ \[
+        y+k=f(x+h)
+    \]
+
+    Sostituiamo in \eqref{cicio} \[
+        g  \bigl(f(x+h) \bigr)-g \bigl(f(x) \bigr) = g'(y)\,k+k\,\varepsilon_{k} 
+    \] dunque, sostituendo e dividendo per $ h$
+    \begin{multline*}
+        \frac{g \bigl(f(x+h) \bigr)-g \bigl(f(x)\bigr)}{h}=\\= g'\bigl(f(x)\bigr)\,\parentesi{ \xrightarrow[h\to 0]{} f'(x) }{\frac{\bigl(f(x+h)-f(x)\bigr)}{h}}+ \parentesi{ \xrightarrow[h\to 0]{} f'(x) \in \R }{\frac{\bigl(f(x+h)-f(x)\bigr)}{h}}\, \parentesi{ \xrightarrow[h\to 0]{} 0 }{\varepsilon(k) }
+    \end{multline*} allora \begin{equation*}
+        \lim_{h\to 0} \frac{g \bigl(f(x+h)\bigr)-g\bigl(f(x)\bigr)}{h} = g'(f(x))\, f'(x)\qedhere
+    \end{equation*}
+}
+
+%TODO manca l'iterazione del processo
+
+\esempio{}{
+    Consideriamo $ f(x)= \ln(\sin x) $, con $ x \in (0,\pi) $ \[
+        f'(x)=\frac{1}{\sin x} \cos x =\frac{\cos x}{\sin x}
+    \]
+
+    In generale, se $ f(x)=\ln g(x) $, $ x \in \dom f$, $g(x)>0 $, vale \[
+        f'(x)=\frac{1}{g(x)}\,g'(x)=\frac{g'(x)}{g(x)}
+    \]
+}
+
+\esercizio{
+    Calcolare \[
+        D(\ln |x|)
+    \]
+}{
+   Da svolgere % TODO risolvere 
+}{}
+
+\teorema[(di derivazione della funzione inversa)]{dderfuncinv}{
+    Sia \[f:I\to \R\] $ I $ intervallo, $ f $ invertibile su $ I $ (strettamente monotona su $ I $), indichiamo $ J=f(I) $, e assumiamo $ f $ derivabile in $ x_0 \in I $, e $ f'(x_0)\neq 0 $, allora posto $ y_0=f(x_0) $, si ha che la funzinoe inversa \[
+        f^{-1}:J\to I   
+    \] è derivabile in $ y_0 $ e vale \begin{equation}
+        (f^{-1})'\,(y_0)=\frac{1}{f'(x_0)}.
+    \end{equation}
+}
+
+\esempio{}{Sia $ f(x)=x^{3} $, $ f'(0)=0 $ \begin{align*}
+    f^{-1}(0)& =0\\
+    f^{-1}(y) &=\sqrt[3]{y}
+\end{align*} $ f^{-1}(y) $ è derivabile per qualsiasi $ y \neq 0 $. Osserivamo che in $ y=0 $ la tangente a $ y=\sqrt[3]{x} $ è verticale, dunque $ \sqrt[3]{x} $ non è derivabile in $ 0 $.
+%TODO aggiugnere grafico di f e f^{-1}
+}
+
+\paragraph{Applicazione} Sia $ f(x)=\tan x $, $ x \in \bigl(-\frac{ \pi}{2}, \frac{ \pi}{2}\bigr) $, e $ f^{-1}=\arctan x $ \begin{multline*}
+    f'(x)=D(\tan x)=D \biggl(\frac{\sin x}{\cos x}\biggr)=\\=\frac{\cos^{2}x+\sin^{2}x}{\cos^{2}x}=\\= 1+\tan^{2}x>0
+\end{multline*}
+
+Poniamo $ y=\tan x $, $ f^{-1} $ derivabile in $ y $ \[
+    \bigl(f^{-1}\bigr)'(y)=\frac{1}{f'(x)}=\frac{1}{1+\tan^{2}x}=\frac{1}{1+y^{2}}
+\]
+Dunque \begin{equation}
+    D(\arctan x) = \frac{1}{1+x^{2}}
+\end{equation}% TODO aggiungere grafici tan e arctan
+
+
+\paragraph{Applicazione} Sia $ f(x) = \sin x $, $ x \in \bigl[-\frac{ \pi}{2}, \frac{ \pi}{2}\bigr]$. Consideriamo $ f^{-1} = \arcsin x$
+
+%TODO aggiungere grafici sin e arcsin
+
+\[
+    f'(x)=D(\sin x)=\cos x \neq 0 \text{ per } x \neq \pm\frac{ \pi}{2}
+\]
+Posto $ y=f(x)=\sin x $, $ \arcsin y $ è derivabile per $ y\neq \pm 1 = f\bigl(\pm\frac{ \pi}{2}\bigr)$ \[
+    \bigl(f^{-1}\bigr)'(y)=\frac{1}{f'(x)}=\frac{1}{\cos x}
+\]
+
+Osserviamo che \begin{gather*}
+    \cos^{2}x + \sin^{2}x )=1\\
+    \cos^{2}x =1- \sin^{2}x )\\
+    \cos x =\pm \sqrt{1- \sin^{2}x )}\\
+    x \in \biggl[-\frac{\pi}{2},\frac{\pi}{2}\biggr]\quad \cos x =+\sqrt{1- \sin^{2}x )}
+\end{gather*}
+
+Quindi
+\[
+    \bigl(f^{-1}\bigr)'(y)=\frac{1}{\cos x}=\frac{1}{\sqrt{1- \sin^{2}x )}}=\frac{1}{\sqrt[]{1-y^{2}}}.
+\] 
+
+Allora \begin{equation}
+    \forall\,x \in (-1, 1)\quad D(\arcsin x)=\frac{1}{\sqrt[]{1-x^{2}}}
+\end{equation}
+
+Inoltre \begin{equation}
+    \forall\,x \in (-1, 1)\quad D(\arccos x)=\frac{1}{-\:\sqrt[]{1-x^{2}}}
+\end{equation}
+
+\subsection{Studio dei punti di dubbia derivabilità}
+
+Sia $ f:I\to \R $, assumiamo $ f $ derivabile in $ I\setminus \{x_0\} $
+
+L'obiettivo è studiare la derivabilità in $ x_0 $
+
+\teorema[(di Darboux)]{darbouxdi}{
+    Sia $ f: I\to \R $, , assumiamo $ f $ derivabile in $ I\setminus \{x_0\} $, $ f $ continua in $ x_0 $ e esistano \begin{align*}
+        \lim_{x\to x_0^{+}} f'(x) &= l \in \R^{*}\\
+        \lim_{x\to x_0^{-}} f'(x) &= m \in \R^{*}
+    \end{align*}
+
+    Allora \begin{enumerate}
+        \item se $ l=m \in \R $ 
+        
+        $\implies$ $ f $ è derivabile in $ x_0 $ e $ f'(x_0)=l=m $;
+        \item se $ l, m \in \R $, $ l\neq m $ 
+        
+        $\implies$ $ f $ è derivabile da destra e sinistra in $ x_0 $ e si ha \[
+            f_{+}'(x)=l \qquad f_{-}'(x)=m;
+        \]
+
+        \item se anche solo uno tra $ m $ e $ l $ è $ \pm \infty $;
+        
+        $\implies$ $ f $ non è derivabile in $ x_0 $.
+    \end{enumerate}
+}
+Se \[
+    \lim_{x\to x_0} f'(x_0) = \nexists
+\] (al di fuori dei casi precedenti) l'esistenza di $ f'(x_0) $ varia da caso a caso.
+
+\esempi{}{
+    \begin{enumerate}
+    \item Sia $ f(x)=\begin{cases}
+        x \,\sin\frac{1}{x} & x\neq 0\\
+        0 & x =0
+    \end{cases} $, $ f $ continua in $ 0 $
+    \[
+        x\neq 0\qquad f'(x)=\sin \frac{1}{x}+x\,\cos x\,\frac{1}{x^{2}}=\parentesi{\footnotemark}{\sin \frac{1}{x}}+\parentesi{\footnotemark}{\cos x\,\frac{1}{x}}
+    \]
+    \addtocounter{footnote}{-1}
+    \footnotetext{oscilla tra $ \pm 1 $ per $ x\to 0 $}
+    \stepcounter{footnote}
+    \footnotetext{oscilla tra $ \pm \infty $ per $ x\to 0 $}
+
+    % TODO aggiungere limite rapporto incrementale
+    \item Sia $ g(x)=\begin{cases}
+        x^{2}\,\sin \frac{1}{x} & x \neq 0\\
+        0 & x=0
+    \end{cases} $, $ g $ continua in $ 0 $.
+    \[
+        x\neq 0\qquad g'(x)=\parentesi{\xrightarrow[x\to 0]{} 0}{2x \sin \frac{1}{x}}-\parentesi{\footnotemark}{\frac{\cancel{x^{2}}}{\cancel{x^{2}}}}
+    \]
+    \footnotetext{oscilla tra $ \pm 1 $ per $ x\to 0 $}
+
+    % TODO manca il limite del rapporto incrementale
+    % TODO manca la fine dell'esercizio
+\end{enumerate}
+}
+
+\esercizio{
+    Studiare la derivabilità in $ x_0=0 $ di \[
+        f(x)=\begin{cases}
+            \sin x & x\ge 0\\
+            \alpha x & x<0
+        \end{cases}
+    \] al variare di $ \alpha \in \R $
+}{
+    Da risolvere % TODO risolvere esercizio
+}{}
