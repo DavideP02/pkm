@@ -552,9 +552,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {14.4}Teorema Spettrale}{97}{subsection.14.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIX (versione geometrica)}{97}{section*.243}% 
+\contentsline {paragraph}{Teorema XIX (reale, versione geometrica)}{97}{section*.243}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XX (versione algebrica)}{97}{section*.244}% 
+\contentsline {paragraph}{Teorema XX (reale, versione algebrica)}{97}{section*.244}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Lemma \textit {l.}i }{98}{section*.245}% 
 \defcounter {refsection}{0}\relax 
@@ -564,10 +564,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\hyperref [crl:maiochenesoscusi]{\textit {dim.} }}{98}{section*.248}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemma \textit {l.}ii }{98}{section*.249}% 
+\contentsline {paragraph}{Conseguenza}{98}{section*.249}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiioijoooijoajkfjlkjdf]{(\textit {l.}ii)}}{98}{section*.250}% 
+\contentsline {paragraph}{Conseguenza}{98}{section*.250}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spettreucl]{(XIX)}}{98}{section*.251}% 
+\contentsline {paragraph}{Lemma \textit {l.}ii }{98}{section*.251}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spetttrialgege]{(XX)}}{99}{section*.252}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiioijoooijoajkfjlkjdf]{(\textit {l.}ii)}}{98}{section*.252}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spettreucl]{(XIX)}}{99}{section*.253}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corollario }{100}{section*.254}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\hyperref [crl:dididi]{\textit {dim.} }}{100}{section*.255}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (14.8)}{100}{section*.256}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{100}{section*.257}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{101}{section*.258}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (14.9)}{103}{section*.259}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXI (complesso, versione geometrica)}{103}{section*.260}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXII (complesso, versione algebrica)}{103}{section*.261}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXIII (complesso, per matrici normali)}{103}{section*.262}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:sdofijoijoijoijoidsf]{(XXIII)}}{104}{section*.263}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {15}Forme Bilineari}{104}{section.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.1)}{104}{section*.264}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{104}{section*.265}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempi (15.2)}{104}{section*.266}% 

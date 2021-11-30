@@ -181,7 +181,7 @@ Si definisce \[
 
 \subsection{Teorema Spettrale}
 
-\teorema[(versione geometrica)]{spettreucl}{
+\teorema[(reale, versione geometrica)]{spettreucl}{
     Sia $ (V, \cdot ) $ uno spazio vettoriale euclideo ($V$ spazio vettoriale su $ \R $, $ \dim V< + \infty $ e $ \cdot  $ è un prodotto scalare di $ V $). 
     \begin{enumerate}
         \item Sia $ F \in \End(V) $ simmetrico (cioè $ F(v) \cdot w=v \cdot F(w) $ $ \forall\, v, w \in V $) 
@@ -193,10 +193,8 @@ Si definisce \[
     \end{enumerate}
 }
 
-\nota{$ F \in \End(V) $ è simmetrico $ \iff $ la matrice che rappresenta $ F $ rispetto ad una base ortonormale è simmetrica}
-
-\teorema[(versione algebrica)]{spetttrialgege}{
-    Sia $ A \in \R^{n,n} $ \begin{enumerate}
+\teorema[(reale, versione algebrica)]{dijoijoisdfs}{
+    Sia $ A \in \R^{n,n} $\begin{enumerate}
         \item Se $ A $ è simmetrica ($\null^{t}\!A=a$) 
         
         $\implies$ $ \exists\, P \in O(n) $ ($\null^{t}\!P=P^{-1}$) tale che $ P^{-1}AP = \null^{t}\!PAP $ è diagonale.
@@ -205,6 +203,8 @@ Si definisce \[
         $\implies$ $ A $ è simmetrica.
     \end{enumerate}
 }
+
+\nota{$ F \in \End(V) $ è simmetrico $ \iff $ la matrice che rappresenta $ F $ rispetto ad una base ortonormale è simmetrica}
 
 \lemma{diiidiiididididoij}{
     Sia $ (V, \cdot )$ uno spazio vettoriale Hermitiano ($V$ spazio vettoriale su $\C$ con $ \dim V< +\infty $, $ \cdot  $ prodotto Hermitiano), $ F \in \End(V) $ un endomorfismo Hermitiano (i.e. $ F(v) \cdot w = v \cdot F(w)$ $ \forall\, v, w \in V $) 
@@ -230,6 +230,18 @@ Si definisce \[
     Ogni endomorfismo Hermitiano rispetto ad una base unitaria è rappresentato da una matrice Hermitiana, quindi si applica il lemma precedente.\qed
 }
 
+\conseguenza{Se $ A \in \R^{n,n} $ è una matrice simmetrica 
+
+$\implies$ $ A $ ha almeno un autovalore. 
+
+Infatti, $ A \in \C^{n,n} $ ed è Hermitiana, quindi $ A $ ha un autovalore $\lambda \in \C$ per il teorema fondamentale dell'algebra, e $ \lambda \in \R $ per il corollario precedente}
+
+\conseguenza{
+    Se $ (V, \cdot ) $ è uno spazio vettoriale euclideo, $ F \in \End(V) $ è simmetrico 
+    
+    $\implies$ $ F $ ha almeno un autovalore.
+}
+
 \lemma{diiidiioijoooijoajkfjlkjdf}{
     Sia $ (V, \cdot ) $ uno spazio vettoriale Euclideo, sia $ F \in \End(V) $ simmetrico e $ \lambda_1, \lambda_2 \in \spettro(F) $ con $ \lambda_1\neq \lambda_2 $. 
     
@@ -245,43 +257,6 @@ Si definisce \[
     $\implies$ $ (\lambda_1-\lambda_2)v \cdot w = 0 $ con $ \lambda_1-\lambda_2\neq 0 $ 
     
     $\implies$ $ v \cdot w =0$.\qed
-}
-
-\dimostrazione{spettreucl}{
-    \begin{enumerate}
-        \item $ F \in \End(V)$ simmetrico. Considero $ \spettro(F)=\{\lambda_1, \cdots, \lambda_{l}\} $. 
-
-        Per il lemma precedente so che $ V_{\lambda_i} \bot V_{\lambda_{j} }  $ se $ \lambda_i\neq \lambda_j $. Dimostro che 
-        \[
-            V = V_{\lambda_1}\oplus\cdots\oplus V_{\lambda_{l} }  
-        \] 
-        da cui si ottiene la tesi.
-
-        Considero $ H=V_{\lambda_1} \oplus\cdots\oplus V_{\lambda_{l} }   $ sottospazio vettoriale di $ V $ tale che $ F(H) \subseteq H $ (poiché $ F(V_{\lambda_i} ) \subseteq V_{\lambda_{i} }  $).
-
-        Suppongo per assurdo che $ H \varsubsetneq V $. 
-        
-        $\implies$ $ H^{\bot}\neq \{\underline{0}\} $
-
-        Si verifica che $ F(H^{\bot}) \subseteq H^{\bot} $, infatti se $ v \in H^{\bot} $ 
-    
-        $  \implies$ $ V h = 0 $ $ \forall\, h \in H $ \[
-            F(v) \cdot h \underset{\footnotemark}{=} v \cdot F(h) \underset{\footnotemark}{=}0
-        \]
-        \addtocounter{footnote}{-1}
-        \footnotetext{poiché $ F $ è simmetrico}
-        \stepcounter{footnote}
-        \footnotetext{poiché $ F(h) \in H $}
-
-        Sia $ F'=\restriction{F}{H^{\bot}}$, $ F' :H\bot \to H^{\bot} $ ed è un endomorfismo simmetrico. 
-
-        Per un lemma precedente $ F' $ ha almeno un autovalore.
-    \end{enumerate}
-    
-}
-
-\dimostrazione{spetttrialgege}{
-    
 }
 
 % TODO creare pdf singolo + pagina obsidian
