@@ -1,0 +1,41 @@
+\definizione{
+Data $ f: I\to \R $, $ f $\marginnote{1 dic 2021} derivabile in $ I\setminus \{x_0\} $, $ f $ continua in $ x_0 $, se \[
+    \lim_{x\to x_0} f'(x) = \pm \infty
+\]
+allora $ x_0 $ è un \textit{flesso a tangente verticale}.
+
+In $ x_0 $ la tangente al grafico è verticale}
+\esempio{}{
+    $ f(x)=\sqrt[3]{x} $, derivabile in $ \R\setminus\{0\} $ \[
+        f'(x)_{x\neq 0}=\frac{1}{3\sqrt[3]{x}} \xrightarrow[x\to 0]{} +\infty \displaystyle
+    \]
+}
+
+\definizione{
+    Data $ f: I\to \R $, $ f $ derivabile in $ I\setminus \{x_0\} $, $ f $ continua in $ x_0 $, se \[
+    \lim_{x\to x_0^{\pm}} f'(x) = \begin{aligned}
+        +&\infty\\
+        -&\infty
+    \end{aligned}\begin{pmatrix}
+        -\infty\\
+        +\infty
+    \end{pmatrix}
+\]
+allora $ x_0 $ è detto \textit{cuspide}.
+}{}
+
+\osservazione{
+    È fondamentale che $ f $ sia continua in $ x_0 $, altrimenti può succedere che \[\lim_{x\to x_0} f'(x) = l \in \R\] e $ f $ non derivabile in $ x_0 $.
+}
+
+\esempio{
+    $ f(x)=\begin{cases}
+        x^{2} & x\neq 0\\
+        1 & x=0
+    \end{cases} $ non è derivabile in $ x_0=0 $, ma \[
+        \lim_{x\to 0} f'(x) = \lim_{x\to 0} 2x =0 \in \R
+    \]
+}
+
+%TODO mancano tutte le cose successive, non si capiva assolutamente niente
+% appunti di Simone Pacini

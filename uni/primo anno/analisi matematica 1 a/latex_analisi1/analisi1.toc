@@ -367,3 +367,13 @@
 \contentsline {paragraph}{Esercizio }{69}{section*.161}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Soluzione}{69}{section*.162}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{69}{section*.163}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (9.11)}{69}{section*.164}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{70}{section*.165}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (9.6)}{70}{section*.166}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (9.12)}{70}{section*.167}% 
