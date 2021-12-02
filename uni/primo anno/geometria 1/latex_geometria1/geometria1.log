@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  1 DEC 2021 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  2 DEC 2021 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1437,21 +1437,21 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside heightrounded 
-* h-part:(L,W,R)=(60.7074pt, 354.12141pt, 91.06114pt)
+* modes: heightrounded 
+* h-part:(L,W,R)=(75.88426pt, 354.12141pt, 75.88428pt)
 * v-part:(T,H,B)=(86.72485pt, 550.6167pt, 85.35826pt)
 * \paperwidth=505.88995pt
 * \paperheight=722.69981pt
 * \textwidth=354.12141pt
 * \textheight=555.00024pt
-* \oddsidemargin=-11.56259pt
-* \evensidemargin=18.79115pt
+* \oddsidemargin=3.61427pt
+* \evensidemargin=3.61427pt
 * \topmargin=-22.54514pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=113.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1459,8 +1459,8 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1482,7 +1482,13 @@ LaTeX Info: Redefining \nameref on input line 10.
 
  [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.toc
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 \null\newpage
+                  } [1]
+Package marginnote Info: Using workaround for absolute page number on input line 26.
+ (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 9.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1503,13 +1509,14 @@ File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 9.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [3])
+) [2])
 \tf@toc=\write9
 \openout9 = `geometria1.toc'.
 
- [4] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/20set2021.tex
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 2.
-Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
+ [3] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/20set2021.tex
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 2.
 LaTeX Font Info:    Try loading font information for U+dsrom on input line 5.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
@@ -1520,142 +1527,153 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
- [5
+ [4
 
-] [6] [7] [8]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/21set2021.tex
-Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 2.
-Package marginnote Info: xpos seems to be 64.33794pt on input line 2.
- [9]
+] [5] [6] [7]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/21set2021.tex
+Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 79.5148pt on input line 2.
+ [8]
 \c@prpmatrid=\count525
- [10]) [11] [12] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/05ott2021.tex
-Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 2.
-Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
+ [9]) [10] [11] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/05ott2021.tex
+Package marginnote Info: Margin note 14.1 is on absolute page 14 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 2.
 \c@thmprimo=\count526
- [13]
+ [12]
 Overfull \hbox (2.64903pt too wide) in paragraph at lines 31--31
 []\T1/cmr/m/n/10.95 (-20) Sia $\OML/cmm/m/it/10.95 W \OMS/cmsy/m/n/10.95 ^^R \OML/cmm/m/it/10.95 V$ \T1/cmr/m/n/10.95 (-20) uno spa-zio vet-to-ria-le, con $\OML/cmm/m/it/10.95 V$ \T1/cmr/m/n/10.95 (-20) fi-ni-ta-men-te ge-ne-ra-to. $[] \OML/cmm/m/it/10.95 W \OT1/cmr/m/n/10.95 (-20) =
  []
 
 \c@thmcomplbs=\count527
-[14]
+[13]
 Overfull \hbox (11.98993pt too wide) in paragraph at lines 249--249
 []$\T1/cmr/m/n/10.95 (-20) , $\OML/cmm/m/it/10.95 E[] \OT1/cmr/m/n/10.95 (-20) = []$\T1/cmr/m/n/10.95 (-20) , $\OML/cmm/m/it/10.95 E[] \OT1/cmr/m/n/10.95 (-20) = []$\T1/cmr/m/n/10.95 (-20) , e sia $\U/rsfs/m/n/10.95 B \OT1/cmr/m/n/10.95 (-20) = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 E[]; []  ; E[]\OMS/cmsy/m/n/10.95 g$ 
  []
 
-[15] [16]
+[14] [15]
 \c@prpinters=\count528
- [17]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/07ott2021.tex
-Package marginnote Info: Margin note 18.1 is on absolute page 18 on input line 2.
-Package marginnote Info: xpos seems to be 91.06114pt on input line 2.
+ [16]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/07ott2021.tex
+Package marginnote Info: Margin note 19.1 is on absolute page 19 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 2.
 \c@prpsomvet=\count529
 \c@prpcaa=\count530
- [18]
+ [17]
 \c@prpvetteq=\count531
- [19]
+ [18]
 \c@thmgrassmann=\count532
- [20] [21]
+ [19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 127--127
 
  []
 
-) [22] [23] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/02nov2021.tex
-Package marginnote Info: Margin note 24.1 is on absolute page 24 on input line 2.
-Package marginnote Info: xpos seems to be 91.06114pt on input line 2.
+) [21] [22] (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/02nov2021.tex
+Package marginnote Info: Margin note 25.1 is on absolute page 25 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 2.
 \c@thmvem=\count533
- [24] [25]
-Underfull \vbox (badness 5893) has occurred while \output is active []
-
- [26] [27]
+ [23] [24] [25] [26]
 Overfull \hbox (24.86717pt too wide) detected at line 156
 \OML/cmm/m/it/10.95 M[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 ) = []
  []
 
-[28]
+[27]
 \c@prpgere=\count534
- [29] [30]
+ [28] [29]
 Overfull \hbox (2.12648pt too wide) in paragraph at lines 280--280
 []$\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 H\OT1/cmr/m/n/10.95 (-20) ) = \U/rsfs/m/n/10.95 L\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 (-20) )\OML/cmm/m/it/10.95 ; F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 (-20) ))$\T1/cmr/m/n/10.95 (-20) . $\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 (-20) ) = (2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (-20) 2\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 (-20) 1)$\T1/cmr/m/n/10.95 (-20) , $\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 (-20) ) = (2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (-20) 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (-20) 1)$\T1/cmr/m/n/10.95 (-20) . $\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 (-20) )\OML/cmm/m/it/10.95 ; F\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 (-20) )$
  []
 
 ) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/04nov2021.tex
-Package marginnote Info: Margin note 31.1 is on absolute page 31 on input line 2.
-Package marginnote Info: xpos seems to be 60.7074pt on input line 2.
+Package marginnote Info: Margin note 32.1 is on absolute page 32 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 2.
 \c@prpretro=\count535
- [31] [32] [33]
+ [30] [31] [32]
 \c@thmkern=\count536
- [34] [35]
+ [33] [34]
 \c@thmcarfin=\count537
- [36]
+ [35]
 \c@thmchedde=\count538
- [37]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/08nov2021.tex
-Package marginnote Info: Margin note 38.1 is on absolute page 38 on input line 2.
-Package marginnote Info: xpos seems to be 91.06114pt on input line 2.
+ [36]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/08nov2021.tex
+Package marginnote Info: Margin note 39.1 is on absolute page 39 on input line 2.
+Package marginnote Info: right page because not two side mode on input line 2.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 2.
 \c@prpcomp=\count539
- [38]
+ [37]
 \c@prpsdfsdf=\count540
- [39]
+ [38]
 \c@prpccdcdc=\count541
- [40] [41] [42] [43] [44] [45]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/09nov2021.tex
-Package marginnote Info: Margin note 46.1 is on absolute page 46 on input line 1.
-Package marginnote Info: xpos seems to be 142.70891pt on input line 1.
- [46] [47] [48] [49] [50] [51]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/11nov2021.tex
+ [39] [40] [41] [42] [43] [44]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/09nov2021.tex
+Package marginnote Info: Margin note 47.1 is on absolute page 47 on input line 1.
+Package marginnote Info: right page because not two side mode on input line 1.
+Package marginnote Info: xpos seems to be 127.53203pt on input line 1.
+ [45] [46] [47] [48] [49] [50]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/11nov2021.tex
 \c@prpnorma=\count542
-Package marginnote Info: Margin note 52.1 is on absolute page 52 on input line 12.
-Package marginnote Info: xpos seems to be 219.76537pt on input line 12.
- [52] [53] [54] [55] [56]
+Package marginnote Info: Margin note 53.1 is on absolute page 53 on input line 12.
+Package marginnote Info: right page because not two side mode on input line 12.
+Package marginnote Info: xpos seems to be 204.58849pt on input line 12.
+ [51] [52] [53] [54] [55]
 \c@thmalgoritmograamsmith=\count543
 ) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/15nov2021.tex
-Package marginnote Info: Margin note 57.1 is on absolute page 57 on input line 32.
-Package marginnote Info: xpos seems to be 137.68713pt on input line 32.
- [57]
+Package marginnote Info: Margin note 58.1 is on absolute page 58 on input line 32.
+Package marginnote Info: right page because not two side mode on input line 32.
+Package marginnote Info: xpos seems to be 152.864pt on input line 32.
+ [56]
 \c@prportomatrx=\count544
- [58] [59]
+ [57] [58]
 \c@thmstrutturaaaa=\count545
- [60]
+ [59]
 \c@thmdkkkdkkdkkkk=\count546
 
 Overfull \hbox (5.55101pt too wide) in paragraph at lines 168--168
  []\T1/cmr/bx/n/10.95 Teorema X [][] \T1/cmr/m/n/10.95 (-20) Con-si-de-ro $\OT1/cmr/m/n/10.95 (-20) (\OML/cmm/m/it/10.95 V; \OMS/cmsy/m/n/10.95 ^^A\OT1/cmr/m/n/10.95 (-20) )$ \T1/cmr/m/n/10.95 (-20) spa-zio vet-to-ria-le Eu-cli-deo, e $\U/rsfs/m/n/10.95 B \OT1/cmr/m/n/10.95 (-20) = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 e[]; []  ; e[]\OMS/cmsy/m/n/10.95 g$
  []
 
-[61] [62]
+[60] [61]
 \c@prpclassibosldo=\count547
- [63]
-Package marginnote Info: Margin note 64.1 is on absolute page 64 on input line 292.
-Package marginnote Info: xpos seems to be 138.24596pt on input line 292.
-) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/16nov2021.tex [64] [65]
+ [62]
+Package marginnote Info: Margin note 65.1 is on absolute page 65 on input line 292.
+Package marginnote Info: right page because not two side mode on input line 292.
+Package marginnote Info: xpos seems to be 123.06908pt on input line 292.
+) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/16nov2021.tex [63] [64]
 \c@thmkjkjhjjdjdj=\count548
- [66]
+ [65]
 \c@prpjjdijijijiij=\count549
- [67] [68] [69]
+ [66] [67] [68]
 \c@thmjjjjkdpojkdkks=\count550
- [70]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/18nov2021.tex
-Package marginnote Info: Margin note 71.1 is on absolute page 71 on input line 1.
-Package marginnote Info: xpos seems to be 196.92752pt on input line 1.
- [71] [72] [73]
+ [69]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/18nov2021.tex
+Package marginnote Info: Margin note 72.1 is on absolute page 72 on input line 1.
+Package marginnote Info: right page because not two side mode on input line 1.
+Package marginnote Info: xpos seems to be 212.10439pt on input line 1.
+ [70] [71] [72]
 \c@thmlineoinlin=\count551
- [74] [75] [76]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/22nov2021.tex
-Package marginnote Info: Margin note 77.1 is on absolute page 77 on input line 8.
-Package marginnote Info: xpos seems to be 60.7074pt on input line 8.
- [77] [78] [79]
+ [73] [74] [75]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/22nov2021.tex
+Package marginnote Info: Margin note 78.1 is on absolute page 78 on input line 8.
+Package marginnote Info: right page because not two side mode on input line 8.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 8.
+ [76] [77] [78]
 \c@thmherm1=\count552
- [80]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/23nov2021.tex
+ [79]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/23nov2021.tex
 \c@prplkmlkmlkml=\count553
- [81]
-Package marginnote Info: Margin note 82.1 is on absolute page 82 on input line 8.
-Package marginnote Info: xpos seems to be 91.06114pt on input line 8.
+ [80]
+Package marginnote Info: Margin note 83.1 is on absolute page 83 on input line 8.
+Package marginnote Info: right page because not two side mode on input line 8.
+Package marginnote Info: xpos seems to be 75.88426pt on input line 8.
 \c@prpddddd=\count554
- [82] [83]
+ [81] [82]
 \c@prpdiiidokjlikjlkjladkskks=\count555
 \c@prpvlambd=\count556
- [84]
+ [83]
 \c@thmjjijjlkjdkdkslkjd=\count557
- [85] [86] [87]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/25nov2021.tex
-Package marginnote Info: Margin note 88.1 is on absolute page 88 on input line 9.
-Package marginnote Info: xpos seems to be 218.76578pt on input line 9.
- [88] [89] [90] [91]
+ [84] [85] [86]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/25nov2021.tex
+Package marginnote Info: Margin note 89.1 is on absolute page 89 on input line 9.
+Package marginnote Info: right page because not two side mode on input line 9.
+Package marginnote Info: xpos seems to be 203.5889pt on input line 9.
+ [87] [88] [89] [90]
 \c@thmhhfjjalkjdkskaljskslkjslkjsljs=\count558
- [92]
+ [91]
 \c@crldsfdsfsdfsdfsdfsdfsd=\count559
 \c@thmoodoikjfkkekodino=\count560
 
@@ -1664,9 +1682,10 @@ Overfull \hbox (1.35706pt too wide) in paragraph at lines 246--246
  []
 
 ) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/29nov2021.tex
-Package marginnote Info: Margin note 93.1 is on absolute page 93 on input line 70.
-Package marginnote Info: xpos seems to be 154.9323pt on input line 70.
- [93] [94pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.6}) has been already used, duplicate ignored
+Package marginnote Info: Margin note 94.1 is on absolute page 94 on input line 70.
+Package marginnote Info: right page because not two side mode on input line 70.
+Package marginnote Info: xpos seems to be 170.10916pt on input line 70.
+ [92] [93pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.6}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -1676,36 +1695,43 @@ l.70 }
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.70 }
-      ] [95] [96]
+      ] [94] [95]
 \c@thmdnondoinodin=\count561
 \c@thmspettreucl=\count562
 \c@thmdijoijoisdfs=\count563
 \c@lmmdiiidiiididididoij=\count564
- [97]
+ [96]
 \c@crlmaiochenesoscusi=\count565
 \c@lmmdiiidiioijoooijoajkfjlkjdf=\count566
-) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/30nov2021.tex [98]
-Package marginnote Info: Margin note 99.1 is on absolute page 99 on input line 50.
-Package marginnote Info: xpos seems to be 209.03645pt on input line 50.
- [99pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.8}) has been already used, duplicate ignored
+) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/30nov2021.tex [97]
+Package marginnote Info: Margin note 100.1 is on absolute page 100 on input line 50.
+Package marginnote Info: right page because not two side mode on input line 50.
+Package marginnote Info: xpos seems to be 224.21332pt on input line 50.
+ [98pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.8}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.50     \end{enumerate}}
                          ]
 \c@crldididi=\count567
- [100] [101] [102]
+ [99] [100] [101]
 \c@thmdidisoijoadgakjlhdfavdafrgfadg=\count568
 \c@thmspetttrialgege=\count569
 \c@thmsdofijoijoijoijoidsf=\count570
- [103] [104]) [105]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ [102] [103]) (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/02dic2021.tex
+Package marginnote Info: Margin note 106.1 is on absolute page 106 on input line 19.
+Package marginnote Info: right page because not two side mode on input line 19.
+Package marginnote Info: xpos seems to be 205.52853pt on input line 19.
+ [104]
+\c@prpiidkksoijodlkjsdfoijsldkj=\count571
+ [105] [106] [107] [108] [109]) [110]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `geometria1.out' has not changed.
-(rerunfilecheck)             Checksum: FE8177A83BE9C4F5DEFB11E50F8A6CE5;2538.
+(rerunfilecheck)             Checksum: C59C1EC2932FD6BE821720CC2A516861;2695.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1715,10 +1741,10 @@ Package logreq Info: Writing requests to 'geometria1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 63844 strings out of 492616
- 1484293 string characters out of 6129481
- 2152153 words of memory out of 5000000
- 66164 multiletter control sequences out of 15000+600000
+ 63899 strings out of 492616
+ 1485271 string characters out of 6129481
+ 2152535 words of memory out of 5000000
+ 66180 multiletter control sequences out of 15000+600000
  559201 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,18n,136p,1734b,1534s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1729,10 +1755,10 @@ pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/rsfs/rsfs5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on "/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.pdf" (105 pages, 669566 bytes).
+Output written on "/Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.pdf" (111 pages, 690033 bytes).
 PDF statistics:
- 1389 PDF objects out of 1440 (max. 8388607)
- 1212 compressed objects within 13 object streams
- 553 named destinations out of 1000 (max. 500000)
- 19909 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1468 PDF objects out of 1728 (max. 8388607)
+ 1282 compressed objects within 13 object streams
+ 590 named destinations out of 1000 (max. 500000)
+ 19925 words of extra memory for PDF output out of 20736 (max. 10000000)
 

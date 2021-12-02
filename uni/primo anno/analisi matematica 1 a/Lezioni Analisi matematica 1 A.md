@@ -48,5 +48,21 @@
 	- [Esercizio III](reference%20manager/Scolastici/Gianluca%20Garello/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%2028%20-%20Esercizio%20III%20(32)/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%20-%20Gianluca%20Garello.pdf) - [soluzione](Esercizio%20III%20-%20v2.pdf) ([soluzione errata](Esercizio%20III.pdf))
 		- [soluzione animata](https://www.desmos.com/calculator/707eqd0kuf)
 	- [Esercizio IV](reference%20manager/Scolastici/Gianluca%20Garello/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%2028%20-%20Esercizio%20IV%20(30)/Analisi%20matematica%201%20A%20-%20Tutorato%202021%2010%20-%20Gianluca%20Garello.pdf) - [soluzione](Esercizio%20IV.pdf)
+- 4 novembre 2021
+	- [Esercizio I](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2004/Esercizio%20I.pdf)
+	- [Esercizio II](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2004/Esercizio%20II.pdf)
+	- [Esercizio III](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2004/Esercizio%20III.pdf)
+	- [Esercizio IV](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2004/Esercizio%20IV.pdf)
+- 18 novembre 2021
+	- [Esercizio I](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2018/Esercizio%20I.pdf)
+	- [Esercizio II](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2018/Esercizio%20II.pdf)
+	- [Esercizio III](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2018/Esercizio%20III.pdf)
+	- [Esercizio IV](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2011%2018/Esercizio%20IV.pdf)
+- 2 dicembre 2021
+	- [Esercizio I](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2012%2002/Esercizio%20I.pdf)
+	- [Esercizio II](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2012%2002/Esercizio%20II.pdf)
+	- [Esercizio III](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2012%2002/Esercizio%20III.pdf)
+	- [Esercizio IV](note%20archive/uni/primo%20anno/analisi%20matematica%201%20a/Tutorato/2021%2012%2002/Esercizio%20IV.pdf)
 
-TODO aggiungere tutorati
+
+TODO aggiungere testi tutorato

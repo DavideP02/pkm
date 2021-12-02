@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'geometria1.blg'
-[37] biber-darwin:315> INFO - === Tue Nov 30, 2021, 11:57:51
-[62] Biber.pm:371> INFO - Reading 'geometria1.bcf'
-[153] Utils.pm:193> WARN - No data sources defined!
+[36] biber-darwin:315> INFO - === Thu Dec  2, 2021, 13:52:18
+[60] Biber.pm:371> INFO - Reading 'geometria1.bcf'
+[150] Utils.pm:193> WARN - No data sources defined!

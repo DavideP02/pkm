@@ -2,602 +2,638 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Matrici}{5}{section.1}% 
+\contentsline {section}{\numberline {1}Matrici}{4}{section.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (1.1)}{5}{section*.2}% 
+\contentsline {paragraph}{Esempi (1.1)}{4}{section*.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Somma}{7}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.1}Somma}{6}{subsection.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (1.2)}{7}{section*.3}% 
+\contentsline {paragraph}{Esempi (1.2)}{6}{section*.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} della somma}{7}{section*.4}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} della somma}{6}{section*.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{7}{section*.5}% 
+\contentsline {paragraph}{Definizione }{6}{section*.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{8}{section*.6}% 
+\contentsline {paragraph}{Notazione }{7}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{8}{section*.7}% 
+\contentsline {paragraph}{Definizione }{7}{section*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{8}{section*.8}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{7}{section*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Gruppo}{8}{section.2}% 
+\contentsline {section}{\numberline {2}Gruppo}{7}{section.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{8}{section*.9}% 
+\contentsline {paragraph}{Definizione }{7}{section*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{8}{section*.10}% 
+\contentsline {paragraph}{Definizione }{7}{section*.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{8}{section*.11}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{7}{section*.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{9}{section*.12}% 
+\contentsline {paragraph}{Definizione }{8}{section*.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (2.1)}{9}{section*.13}% 
+\contentsline {paragraph}{Esempi (2.1)}{8}{section*.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{9}{section*.14}% 
+\contentsline {paragraph}{Definizione }{8}{section*.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Operazioni con le matrici}{9}{section.3}% 
+\contentsline {section}{\numberline {3}Operazioni con le matrici}{8}{section.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Moltiplicazione}{9}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Moltiplicazione}{8}{subsection.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.1)}{9}{section*.15}% 
+\contentsline {paragraph}{Esempio (3.1)}{8}{section*.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (3.1)}{9}{section*.16}% 
+\contentsline {paragraph}{Osservazione (3.1)}{8}{section*.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} del prodotto per scalari}{10}{section*.17}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} del prodotto per scalari}{9}{section*.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Prodotto tra matrici}{10}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Prodotto tra matrici}{9}{subsection.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{10}{section*.18}% 
+\contentsline {paragraph}{Definizione }{9}{section*.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Prodotto tra matrici quadrate}{10}{subsubsection.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Prodotto tra matrici quadrate}{9}{subsubsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}i }{10}{section*.19}% 
+\contentsline {paragraph}{Proposizione \textit {p.}i }{9}{section*.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:matrid]{(\textit {p.}i)}}{10}{section*.20}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:matrid]{(\textit {p.}i)}}{9}{section*.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.2)}{11}{section*.21}% 
+\contentsline {paragraph}{Esempio (3.2)}{10}{section*.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Lipsum 1}{11}{section.4}% 
+\contentsline {section}{\numberline {4}Lipsum 1}{10}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema I }{13}{section*.22}% 
+\contentsline {paragraph}{Teorema I }{12}{section*.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:primo]{(I)}}{13}{section*.23}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:primo]{(I)}}{12}{section*.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (4.1)}{14}{section*.24}% 
+\contentsline {paragraph}{Osservazione (4.1)}{13}{section*.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema II (del completamento di una base)}{14}{section*.25}% 
+\contentsline {paragraph}{Teorema II (del completamento di una base)}{13}{section*.25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:complbs]{(II)}}{14}{section*.26}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:complbs]{(II)}}{13}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (4.1)}{15}{section*.27}% 
+\contentsline {paragraph}{Esempio (4.1)}{14}{section*.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Operazioni tra sottospazi vettoriali}{17}{section.5}% 
+\contentsline {section}{\numberline {5}Operazioni tra sottospazi vettoriali}{16}{section.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}ii }{18}{section*.28}% 
+\contentsline {paragraph}{Proposizione \textit {p.}ii }{17}{section*.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:inters]{(\textit {p.}ii)}}{18}{section*.29}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:inters]{(\textit {p.}ii)}}{17}{section*.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}iii }{18}{section*.30}% 
+\contentsline {paragraph}{Proposizione \textit {p.}iii }{17}{section*.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:somvet]{(\textit {p.}iii)}}{18}{section*.31}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:somvet]{(\textit {p.}iii)}}{17}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{18}{section*.32}% 
+\contentsline {paragraph}{Esercizio }{17}{section*.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{18}{section*.33}% 
+\contentsline {paragraph}{Soluzione}{17}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}iv }{19}{section*.34}% 
+\contentsline {paragraph}{Proposizione \textit {p.}iv }{18}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:caa]{(\textit {p.}iv)}}{19}{section*.35}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:caa]{(\textit {p.}iv)}}{18}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{19}{section*.36}% 
+\contentsline {paragraph}{Notazione }{18}{section*.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.1)}{19}{section*.37}% 
+\contentsline {paragraph}{Esempio (5.1)}{18}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.2)}{19}{section*.38}% 
+\contentsline {paragraph}{Esempio (5.2)}{18}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}v }{19}{section*.39}% 
+\contentsline {paragraph}{Proposizione \textit {p.}v }{18}{section*.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.3)}{20}{section*.40}% 
+\contentsline {paragraph}{Esempio (5.3)}{19}{section*.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (5.1)}{20}{section*.41}% 
+\contentsline {paragraph}{Osservazione (5.1)}{19}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema III }{20}{section*.42}% 
+\contentsline {paragraph}{Teorema III }{19}{section*.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:grassmann]{(III)}}{21}{section*.43}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:grassmann]{(III)}}{20}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Lipsum 2}{23}{section.6}% 
+\contentsline {section}{\numberline {6}Lipsum 2}{22}{section.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Funzioni lineari}{24}{section.7}% 
+\contentsline {section}{\numberline {7}Funzioni lineari}{23}{section.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema IV (di esistenza e unicit\IeC {\`a})}{24}{section*.44}% 
+\contentsline {paragraph}{Teorema IV (di esistenza e unicit\IeC {\`a})}{23}{section*.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:vem]{(IV)}}{25}{section*.45}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:vem]{(IV)}}{24}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Matrice associata ad una applicazione lineare}{26}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.1}Matrice associata ad una applicazione lineare}{25}{subsection.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{27}{section*.46}% 
+\contentsline {paragraph}{Notazione }{26}{section*.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.1)}{28}{section*.47}% 
+\contentsline {paragraph}{Esempio (7.1)}{27}{section*.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.2)}{28}{section*.48}% 
+\contentsline {paragraph}{Esempio (7.2)}{27}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.3)}{28}{section*.49}% 
+\contentsline {paragraph}{Esempio (7.3)}{27}{section*.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.4)}{28}{section*.50}% 
+\contentsline {paragraph}{Esempio (7.4)}{27}{section*.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.5)}{29}{section*.51}% 
+\contentsline {paragraph}{Esempio (7.5)}{28}{section*.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{29}{section*.52}% 
+\contentsline {paragraph}{Esercizio }{28}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{29}{section*.53}% 
+\contentsline {paragraph}{Soluzione}{28}{section*.53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Immagine di sottospazi vettoriali}{29}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.2}Immagine di sottospazi vettoriali}{28}{subsection.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}vi }{29}{section*.54}% 
+\contentsline {paragraph}{Proposizione \textit {p.}vi }{28}{section*.54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:gere]{(\textit {p.}vi)}}{29}{section*.55}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:gere]{(\textit {p.}vi)}}{28}{section*.55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{30}{section*.56}% 
+\contentsline {paragraph}{Esercizio }{29}{section*.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{30}{section*.57}% 
+\contentsline {paragraph}{Soluzione}{29}{section*.57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{30}{section*.58}% 
+\contentsline {paragraph}{Definizione }{29}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (7.1)}{30}{section*.59}% 
+\contentsline {paragraph}{Osservazione (7.1)}{29}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{30}{section*.60}% 
+\contentsline {paragraph}{Esercizio }{29}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{31}{section*.61}% 
+\contentsline {paragraph}{Soluzione}{30}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{31}{section*.62}% 
+\contentsline {paragraph}{Definizione }{30}{section*.62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Retroimmagine di sottospazi}{32}{subsection.7.3}% 
+\contentsline {subsection}{\numberline {7.3}Retroimmagine di sottospazi}{31}{subsection.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}vii }{32}{section*.63}% 
+\contentsline {paragraph}{Proposizione \textit {p.}vii }{31}{section*.63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:retro]{(\textit {p.}vii)}}{32}{section*.64}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:retro]{(\textit {p.}vii)}}{31}{section*.64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{32}{section*.65}% 
+\contentsline {paragraph}{Esercizio }{31}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{33}{section*.66}% 
+\contentsline {paragraph}{Soluzione}{32}{section*.66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Nucleo di una funzione lineare}{34}{subsection.7.4}% 
+\contentsline {subsection}{\numberline {7.4}Nucleo di una funzione lineare}{33}{subsection.7.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{34}{section*.67}% 
+\contentsline {paragraph}{Definizione }{33}{section*.67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema V }{34}{section*.68}% 
+\contentsline {paragraph}{Teorema V }{33}{section*.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:kern]{(V)}}{34}{section*.69}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:kern]{(V)}}{33}{section*.69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{35}{section*.70}% 
+\contentsline {paragraph}{Esercizio }{34}{section*.70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{35}{section*.71}% 
+\contentsline {paragraph}{Soluzione}{34}{section*.71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{35}{section*.72}% 
+\contentsline {paragraph}{Esercizio }{34}{section*.72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{35}{section*.73}% 
+\contentsline {paragraph}{Soluzione}{34}{section*.73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{36}{section*.74}% 
+\contentsline {paragraph}{Notazione }{35}{section*.74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VI }{36}{section*.75}% 
+\contentsline {paragraph}{Teorema VI }{35}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carfin]{(VI)}}{37}{section*.76}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carfin]{(VI)}}{36}{section*.76}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{37}{section*.77}% 
+\contentsline {paragraph}{Definizione }{36}{section*.77}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VII }{37}{section*.78}% 
+\contentsline {paragraph}{Teorema VII }{36}{section*.78}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{38}{section*.79}% 
+\contentsline {paragraph}{Definizione }{37}{section*.79}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:chedde]{(VII)}}{38}{section*.80}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:chedde]{(VII)}}{37}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.6)}{38}{section*.81}% 
+\contentsline {paragraph}{Esempio (7.6)}{37}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5}Propriet\IeC {\`a} delle funzioni lineari}{38}{subsection.7.5}% 
+\contentsline {subsection}{\numberline {7.5}Propriet\IeC {\`a} delle funzioni lineari}{37}{subsection.7.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}viii }{38}{section*.82}% 
+\contentsline {paragraph}{Proposizione \textit {p.}viii }{37}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:comp]{(\textit {p.}viii)}}{38}{section*.83}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:comp]{(\textit {p.}viii)}}{37}{section*.83}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}ix }{39}{section*.84}% 
+\contentsline {paragraph}{Proposizione \textit {p.}ix }{38}{section*.84}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:sdfsdf]{(\textit {p.}ix)}}{39}{section*.85}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:sdfsdf]{(\textit {p.}ix)}}{38}{section*.85}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (7.7)}{39}{section*.86}% 
+\contentsline {paragraph}{Esempi (7.7)}{38}{section*.86}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{40}{section*.87}% 
+\contentsline {paragraph}{Definizione }{39}{section*.87}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}x }{41}{section*.88}% 
+\contentsline {paragraph}{Proposizione \textit {p.}x }{40}{section*.88}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:ccdcdc]{(\textit {p.}x)}}{41}{section*.89}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:ccdcdc]{(\textit {p.}x)}}{40}{section*.89}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6}Funzioni lineari e cambiamenti di base}{41}{subsection.7.6}% 
+\contentsline {subsection}{\numberline {7.6}Funzioni lineari e cambiamenti di base}{40}{subsection.7.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.6.1}Caso particolare}{43}{subsubsection.7.6.1}% 
+\contentsline {subsubsection}{\numberline {7.6.1}Caso particolare}{42}{subsubsection.7.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{43}{section*.90}% 
+\contentsline {paragraph}{Definizione }{42}{section*.90}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{43}{section*.91}% 
+\contentsline {paragraph}{Esercizio }{42}{section*.91}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{43}{section*.92}% 
+\contentsline {paragraph}{Soluzione}{42}{section*.92}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{43}{section*.93}% 
+\contentsline {paragraph}{Esercizio }{42}{section*.93}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{43}{section*.94}% 
+\contentsline {paragraph}{Soluzione}{42}{section*.94}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{44}{section*.95}% 
+\contentsline {paragraph}{Esercizio }{43}{section*.95}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{44}{section*.96}% 
+\contentsline {paragraph}{Soluzione}{43}{section*.96}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{45}{section*.97}% 
+\contentsline {paragraph}{Definizione }{44}{section*.97}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{45}{section*.98}% 
+\contentsline {paragraph}{Attenzione}{44}{section*.98}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.8)}{45}{section*.99}% 
+\contentsline {paragraph}{Esempio (7.8)}{44}{section*.99}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.7}Spazio delle funzioni lineari}{45}{subsection.7.7}% 
+\contentsline {subsection}{\numberline {7.7}Spazio delle funzioni lineari}{44}{subsection.7.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.7.1}Somma di funzioni lineari}{45}{subsubsection.7.7.1}% 
+\contentsline {subsubsection}{\numberline {7.7.1}Somma di funzioni lineari}{44}{subsubsection.7.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{45}{section*.100}% 
+\contentsline {paragraph}{Esercizio }{44}{section*.100}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{46}{section*.101}% 
+\contentsline {paragraph}{Soluzione}{45}{section*.101}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.7.2}Prodotto per scalari di funzioni lineari}{46}{subsubsection.7.7.2}% 
+\contentsline {subsubsection}{\numberline {7.7.2}Prodotto per scalari di funzioni lineari}{45}{subsubsection.7.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{46}{section*.102}% 
+\contentsline {paragraph}{Esercizio }{45}{section*.102}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{46}{section*.103}% 
+\contentsline {paragraph}{Soluzione}{45}{section*.103}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{46}{section*.104}% 
+\contentsline {paragraph}{Esercizio }{45}{section*.104}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{47}{section*.105}% 
+\contentsline {paragraph}{Soluzione}{46}{section*.105}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.8}Composizione di funzioni lineari}{47}{subsection.7.8}% 
+\contentsline {subsection}{\numberline {7.8}Composizione di funzioni lineari}{46}{subsection.7.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{47}{section*.106}% 
+\contentsline {paragraph}{Esercizio }{46}{section*.106}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{48}{section*.107}% 
+\contentsline {paragraph}{Soluzione}{47}{section*.107}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (7.2)}{48}{section*.108}% 
+\contentsline {paragraph}{Osservazione (7.2)}{47}{section*.108}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{49}{section*.109}% 
+\contentsline {paragraph}{Definizione }{48}{section*.109}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.9)}{49}{section*.110}% 
+\contentsline {paragraph}{Esempio (7.9)}{48}{section*.110}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{49}{section*.111}% 
+\contentsline {paragraph}{Definizione }{48}{section*.111}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{49}{section*.112}% 
+\contentsline {paragraph}{Definizione }{48}{section*.112}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{50}{section*.113}% 
+\contentsline {paragraph}{Esercizio }{49}{section*.113}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{50}{section*.114}% 
+\contentsline {paragraph}{Soluzione}{49}{section*.114}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Spazi vettoriali Euclidei}{50}{section.8}% 
+\contentsline {section}{\numberline {8}Spazi vettoriali Euclidei}{49}{section.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{50}{section*.115}% 
+\contentsline {paragraph}{Definizione }{49}{section*.115}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.1)}{50}{section*.116}% 
+\contentsline {paragraph}{Esempio (8.1)}{49}{section*.116}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Conseguenza}{50}{section*.117}% 
+\contentsline {paragraph}{Conseguenza}{49}{section*.117}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.2)}{51}{section*.118}% 
+\contentsline {paragraph}{Esempio (8.2)}{50}{section*.118}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.3)}{51}{section*.119}% 
+\contentsline {paragraph}{Esempio (8.3)}{50}{section*.119}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{51}{section*.120}% 
+\contentsline {paragraph}{Definizione }{50}{section*.120}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.4)}{52}{section*.121}% 
+\contentsline {paragraph}{Esempio (8.4)}{51}{section*.121}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{52}{section*.122}% 
+\contentsline {paragraph}{Definizione }{51}{section*.122}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{52}{section*.123}% 
+\contentsline {paragraph}{Esercizio }{51}{section*.123}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{52}{section*.124}% 
+\contentsline {paragraph}{Soluzione}{51}{section*.124}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xi }{52}{section*.125}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xi }{51}{section*.125}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.1)}{52}{section*.126}% 
+\contentsline {paragraph}{Osservazione (8.1)}{51}{section*.126}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:norma]{(\textit {p.}xi)}}{53}{section*.127}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:norma]{(\textit {p.}xi)}}{52}{section*.127}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Applicazione di Cauchy-Swartz}{54}{section*.128}% 
+\contentsline {paragraph}{Applicazione di Cauchy-Swartz}{53}{section*.128}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.2)}{54}{section*.129}% 
+\contentsline {paragraph}{Osservazione (8.2)}{53}{section*.129}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{54}{section*.130}% 
+\contentsline {paragraph}{Definizione }{53}{section*.130}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.5)}{54}{section*.131}% 
+\contentsline {paragraph}{Esempio (8.5)}{53}{section*.131}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{55}{section*.132}% 
+\contentsline {paragraph}{Definizione }{54}{section*.132}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.3)}{55}{section*.133}% 
+\contentsline {paragraph}{Osservazione (8.3)}{54}{section*.133}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Basi ortogonali e Basi ortonormali}{55}{subsection.8.1}% 
+\contentsline {subsection}{\numberline {8.1}Basi ortogonali e Basi ortonormali}{54}{subsection.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (8.6)}{55}{section*.134}% 
+\contentsline {paragraph}{Esempi (8.6)}{54}{section*.134}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{55}{section*.135}% 
+\contentsline {paragraph}{Esercizio }{54}{section*.135}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{56}{section*.136}% 
+\contentsline {paragraph}{Soluzione}{55}{section*.136}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{56}{section*.137}% 
+\contentsline {paragraph}{Esercizio }{55}{section*.137}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{56}{section*.138}% 
+\contentsline {paragraph}{Soluzione}{55}{section*.138}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VIII (Gram-Schmidt)}{57}{section*.139}% 
+\contentsline {paragraph}{Teorema VIII (Gram-Schmidt)}{56}{section*.139}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:algoritmograamsmith]{(VIII)}}{57}{section*.140}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:algoritmograamsmith]{(VIII)}}{56}{section*.140}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{57}{section*.141}% 
+\contentsline {paragraph}{Esercizio }{56}{section*.141}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{58}{section*.142}% 
+\contentsline {paragraph}{Soluzione}{57}{section*.142}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Matrici ortogonali}{58}{subsection.8.2}% 
+\contentsline {subsection}{\numberline {8.2}Matrici ortogonali}{57}{subsection.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{58}{section*.143}% 
+\contentsline {paragraph}{Definizione }{57}{section*.143}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xii }{59}{section*.144}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xii }{58}{section*.144}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{59}{section*.145}% 
+\contentsline {paragraph}{Definizione }{58}{section*.145}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:ortomatrx]{(\textit {p.}xii)}}{59}{section*.146}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:ortomatrx]{(\textit {p.}xii)}}{58}{section*.146}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema IX }{60}{section*.147}% 
+\contentsline {paragraph}{Teorema IX }{59}{section*.147}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:strutturaaaa]{(IX)}}{60}{section*.148}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:strutturaaaa]{(IX)}}{59}{section*.148}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema X }{61}{section*.149}% 
+\contentsline {paragraph}{Teorema X }{60}{section*.149}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:dkkkdkkdkkkk]{(X)}}{61}{section*.150}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:dkkkdkkdkkkk]{(X)}}{60}{section*.150}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{62}{section*.151}% 
+\contentsline {paragraph}{Esercizio }{61}{section*.151}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{62}{section*.152}% 
+\contentsline {paragraph}{Soluzione}{61}{section*.152}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Orientazione di uno spazio vettoriale (reale)}{62}{section.9}% 
+\contentsline {section}{\numberline {9}Orientazione di uno spazio vettoriale (reale)}{61}{section.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (9.1)}{63}{section*.153}% 
+\contentsline {paragraph}{Esempio (9.1)}{62}{section*.153}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xiii }{63}{section*.154}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xiii }{62}{section*.154}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (9.2)}{63}{section*.155}% 
+\contentsline {paragraph}{Esempio (9.2)}{62}{section*.155}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:classibosldo]{(\textit {p.}xiii)}}{63}{section*.156}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:classibosldo]{(\textit {p.}xiii)}}{62}{section*.156}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Complementi ortogonali}{64}{section.10}% 
+\contentsline {section}{\numberline {10}Complementi ortogonali}{63}{section.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (10.1)}{65}{section*.157}% 
+\contentsline {paragraph}{Esempi (10.1)}{64}{section*.157}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{65}{section*.158}% 
+\contentsline {paragraph}{Esercizio }{64}{section*.158}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{65}{section*.159}% 
+\contentsline {paragraph}{Soluzione}{64}{section*.159}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XI }{66}{section*.160}% 
+\contentsline {paragraph}{Teorema XI }{65}{section*.160}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:kjkjhjjdjdj]{(XI)}}{66}{section*.161}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:kjkjhjjdjdj]{(XI)}}{65}{section*.161}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xiv }{67}{section*.162}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xiv }{66}{section*.162}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:jjdijijijiij]{(\textit {p.}xiv)}}{67}{section*.163}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:jjdijijijiij]{(\textit {p.}xiv)}}{66}{section*.163}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{67}{section*.164}% 
+\contentsline {paragraph}{Esercizio }{66}{section*.164}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{68}{section*.165}% 
+\contentsline {paragraph}{Soluzione}{67}{section*.165}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{69}{section*.166}% 
+\contentsline {paragraph}{Esercizio }{68}{section*.166}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{69}{section*.167}% 
+\contentsline {paragraph}{Soluzione}{68}{section*.167}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1}Proiezioni ortogonali}{70}{subsection.10.1}% 
+\contentsline {subsection}{\numberline {10.1}Proiezioni ortogonali}{69}{subsection.10.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Isometrie}{70}{section.11}% 
+\contentsline {section}{\numberline {11}Isometrie}{69}{section.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XII }{70}{section*.168}% 
+\contentsline {paragraph}{Teorema XII }{69}{section*.168}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:jjjjkdpojkdkks]{(XII)}}{70}{section*.169}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:jjjjkdpojkdkks]{(XII)}}{69}{section*.169}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (11.1)}{70}{section*.170}% 
+\contentsline {paragraph}{Esempio (11.1)}{69}{section*.170}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{70}{section*.171}% 
+\contentsline {paragraph}{Esercizio }{69}{section*.171}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{71}{section*.172}% 
+\contentsline {paragraph}{Soluzione}{70}{section*.172}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{71}{section*.173}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{70}{section*.173}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{71}{section*.174}% 
+\contentsline {paragraph}{Attenzione}{70}{section*.174}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (11.2)}{71}{section*.175}% 
+\contentsline {paragraph}{Esempio (11.2)}{70}{section*.175}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{73}{section*.176}% 
+\contentsline {paragraph}{Esercizio }{72}{section*.176}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{73}{section*.177}% 
+\contentsline {paragraph}{Soluzione}{72}{section*.177}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Conseguenza}{74}{section*.178}% 
+\contentsline {paragraph}{Conseguenza}{73}{section*.178}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Endomorfismi simmetrici}{74}{section.12}% 
+\contentsline {section}{\numberline {12}Endomorfismi simmetrici}{73}{section.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIII }{74}{section*.179}% 
+\contentsline {paragraph}{Teorema XIII }{73}{section*.179}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:lineoinlin]{(XIII)}}{74}{section*.180}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:lineoinlin]{(XIII)}}{73}{section*.180}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{75}{section*.181}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{74}{section*.181}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{76}{section*.182}% 
+\contentsline {paragraph}{Definizione }{75}{section*.182}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (12.1)}{76}{section*.183}% 
+\contentsline {paragraph}{Esempi (12.1)}{75}{section*.183}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{76}{section*.184}% 
+\contentsline {paragraph}{Esercizio }{75}{section*.184}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{76}{section*.185}% 
+\contentsline {paragraph}{Soluzione}{75}{section*.185}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13}Spazi vettoriali Hermitiani}{77}{section.13}% 
+\contentsline {section}{\numberline {13}Spazi vettoriali Hermitiani}{76}{section.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (13.1)}{77}{section*.186}% 
+\contentsline {paragraph}{Esempio (13.1)}{76}{section*.186}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{78}{section*.187}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{77}{section*.187}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{79}{section*.188}% 
+\contentsline {paragraph}{Definizione }{78}{section*.188}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (13.1)}{79}{section*.189}% 
+\contentsline {paragraph}{Osservazione (13.1)}{78}{section*.189}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (13.2)}{79}{section*.190}% 
+\contentsline {paragraph}{Osservazione (13.2)}{78}{section*.190}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{79}{section*.191}% 
+\contentsline {paragraph}{Definizione }{78}{section*.191}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (13.2)}{79}{section*.192}% 
+\contentsline {paragraph}{Esempio (13.2)}{78}{section*.192}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{79}{section*.193}% 
+\contentsline {paragraph}{Esercizio }{78}{section*.193}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{79}{section*.194}% 
+\contentsline {paragraph}{Soluzione}{78}{section*.194}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{80}{section*.195}% 
+\contentsline {paragraph}{Definizione }{79}{section*.195}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIV }{80}{section*.196}% 
+\contentsline {paragraph}{Teorema XIV }{79}{section*.196}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:herm1]{(XIV)}}{80}{section*.197}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:herm1]{(XIV)}}{79}{section*.197}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (13.3)}{80}{section*.198}% 
+\contentsline {paragraph}{Osservazione (13.3)}{79}{section*.198}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (13.4)}{81}{section*.199}% 
+\contentsline {paragraph}{Osservazione (13.4)}{80}{section*.199}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{81}{section*.200}% 
+\contentsline {paragraph}{Definizione }{80}{section*.200}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (13.3)}{81}{section*.201}% 
+\contentsline {paragraph}{Esempio (13.3)}{80}{section*.201}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{81}{section*.202}% 
+\contentsline {paragraph}{Definizione }{80}{section*.202}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (13.5)}{81}{section*.203}% 
+\contentsline {paragraph}{Osservazione (13.5)}{80}{section*.203}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xv }{82}{section*.204}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xv }{81}{section*.204}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{82}{section*.205}% 
+\contentsline {paragraph}{Definizione }{81}{section*.205}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xvi }{82}{section*.206}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xvi }{81}{section*.206}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{82}{section*.207}% 
+\contentsline {paragraph}{Definizione }{81}{section*.207}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{83}{section*.208}% 
+\contentsline {paragraph}{Definizione }{82}{section*.208}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{83}{section*.209}% 
+\contentsline {paragraph}{Definizione }{82}{section*.209}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{83}{section*.210}% 
+\contentsline {paragraph}{Esercizio }{82}{section*.210}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{83}{section*.211}% 
+\contentsline {paragraph}{Soluzione}{82}{section*.211}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14}Autovalori e autovettori}{83}{section.14}% 
+\contentsline {section}{\numberline {14}Autovalori e autovettori}{82}{section.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{83}{section*.212}% 
+\contentsline {paragraph}{Definizione }{82}{section*.212}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.1)}{84}{section*.213}% 
+\contentsline {paragraph}{Osservazione (14.1)}{83}{section*.213}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{84}{section*.214}% 
+\contentsline {paragraph}{Definizione }{83}{section*.214}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xvii }{84}{section*.215}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xvii }{83}{section*.215}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:diiidokjlikjlkjladkskks]{(\textit {p.}xvii)}}{84}{section*.216}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:diiidokjlikjlkjladkskks]{(\textit {p.}xvii)}}{83}{section*.216}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}xviii }{84}{section*.217}% 
+\contentsline {paragraph}{Proposizione \textit {p.}xviii }{83}{section*.217}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:vlambd]{(\textit {p.}xviii)}}{84}{section*.218}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:vlambd]{(\textit {p.}xviii)}}{83}{section*.218}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (14.1)}{85}{section*.219}% 
+\contentsline {paragraph}{Esempi (14.1)}{84}{section*.219}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.2)}{85}{section*.220}% 
+\contentsline {paragraph}{Osservazione (14.2)}{84}{section*.220}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XV }{86}{section*.221}% 
+\contentsline {paragraph}{Teorema XV }{85}{section*.221}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:jjijjlkjdkdkslkjd]{(XV)}}{86}{section*.222}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:jjijjlkjdkdkslkjd]{(XV)}}{85}{section*.222}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Conseguenza}{87}{section*.225}% 
+\contentsline {paragraph}{Conseguenza}{86}{section*.225}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1}Calcolo degli autovalori}{87}{subsection.14.1}% 
+\contentsline {subsection}{\numberline {14.1}Calcolo degli autovalori}{86}{subsection.14.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{88}{section*.226}% 
+\contentsline {paragraph}{Definizione }{87}{section*.226}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.3)}{88}{section*.227}% 
+\contentsline {paragraph}{Osservazione (14.3)}{87}{section*.227}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2}Molteplicit\IeC {\`a} di un autovalore}{88}{subsection.14.2}% 
+\contentsline {subsection}{\numberline {14.2}Molteplicit\IeC {\`a} di un autovalore}{87}{subsection.14.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (14.2)}{89}{section*.228}% 
+\contentsline {paragraph}{Esempio (14.2)}{88}{section*.228}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{91}{section*.229}% 
+\contentsline {paragraph}{Definizione }{90}{section*.229}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.5)}{91}{section*.230}% 
+\contentsline {paragraph}{Osservazione (14.5)}{90}{section*.230}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.5)}{91}{section*.231}% 
+\contentsline {paragraph}{Osservazione (14.5)}{90}{section*.231}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Conseguenza}{92}{section*.232}% 
+\contentsline {paragraph}{Conseguenza}{91}{section*.232}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XVI }{92}{section*.233}% 
+\contentsline {paragraph}{Teorema XVI }{91}{section*.233}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:hhfjjalkjdkskaljskslkjslkjsljs]{(XVI)}}{92}{section*.234}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:hhfjjalkjdkskaljskslkjslkjsljs]{(XVI)}}{91}{section*.234}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Corollario }{93}{section*.235}% 
+\contentsline {paragraph}{Corollario }{92}{section*.235}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XVII }{93}{section*.236}% 
+\contentsline {paragraph}{Teorema XVII }{92}{section*.236}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:oodoikjfkkekodino]{(XVII)}}{93}{section*.237}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:oodoikjfkkekodino]{(XVII)}}{92}{section*.237}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{95}{section*.238}% 
+\contentsline {paragraph}{Esercizio }{94}{section*.238}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{95}{section*.239}% 
+\contentsline {paragraph}{Soluzione}{94}{section*.239}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.6)}{96}{section*.240}% 
+\contentsline {paragraph}{Osservazione (14.6)}{95}{section*.240}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.7)}{96}{section*.241}% 
+\contentsline {paragraph}{Osservazione (14.7)}{95}{section*.241}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.3}Teorema di Caley-Hamilton}{97}{subsection.14.3}% 
+\contentsline {subsection}{\numberline {14.3}Teorema di Caley-Hamilton}{96}{subsection.14.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XVIII (di Caley-Hamilton)}{97}{section*.242}% 
+\contentsline {paragraph}{Teorema XVIII (di Caley-Hamilton)}{96}{section*.242}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.4}Teorema Spettrale}{97}{subsection.14.4}% 
+\contentsline {subsection}{\numberline {14.4}Teorema Spettrale}{96}{subsection.14.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIX (reale, versione geometrica)}{97}{section*.243}% 
+\contentsline {paragraph}{Teorema XIX (reale, versione geometrica)}{96}{section*.243}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XX (reale, versione algebrica)}{97}{section*.244}% 
+\contentsline {paragraph}{Teorema XX (reale, versione algebrica)}{96}{section*.244}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemma \textit {l.}i }{98}{section*.245}% 
+\contentsline {paragraph}{Lemma \textit {l.}i }{97}{section*.245}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiiididididoij]{(\textit {l.}i)}}{98}{section*.246}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiiididididoij]{(\textit {l.}i)}}{97}{section*.246}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Corollario }{98}{section*.247}% 
+\contentsline {paragraph}{Corollario }{97}{section*.247}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\hyperref [crl:maiochenesoscusi]{\textit {dim.} }}{98}{section*.248}% 
+\contentsline {paragraph}{\hyperref [crl:maiochenesoscusi]{\textit {dim.} }}{97}{section*.248}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Conseguenza}{98}{section*.249}% 
+\contentsline {paragraph}{Conseguenza}{97}{section*.249}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Conseguenza}{98}{section*.250}% 
+\contentsline {paragraph}{Conseguenza}{97}{section*.250}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemma \textit {l.}ii }{98}{section*.251}% 
+\contentsline {paragraph}{Lemma \textit {l.}ii }{97}{section*.251}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiioijoooijoajkfjlkjdf]{(\textit {l.}ii)}}{98}{section*.252}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:diiidiioijoooijoajkfjlkjdf]{(\textit {l.}ii)}}{97}{section*.252}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spettreucl]{(XIX)}}{99}{section*.253}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:spettreucl]{(XIX)}}{98}{section*.253}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Corollario }{100}{section*.254}% 
+\contentsline {paragraph}{Corollario }{99}{section*.254}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\hyperref [crl:dididi]{\textit {dim.} }}{100}{section*.255}% 
+\contentsline {paragraph}{\hyperref [crl:dididi]{\textit {dim.} }}{99}{section*.255}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.8)}{100}{section*.256}% 
+\contentsline {paragraph}{Osservazione (14.8)}{99}{section*.256}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{100}{section*.257}% 
+\contentsline {paragraph}{Esercizio }{99}{section*.257}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{101}{section*.258}% 
+\contentsline {paragraph}{Soluzione}{100}{section*.258}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (14.9)}{103}{section*.259}% 
+\contentsline {paragraph}{Osservazione (14.9)}{102}{section*.259}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXI (complesso, versione geometrica)}{103}{section*.260}% 
+\contentsline {paragraph}{Teorema XXI (complesso, versione geometrica)}{102}{section*.260}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXII (complesso, versione algebrica)}{103}{section*.261}% 
+\contentsline {paragraph}{Teorema XXII (complesso, versione algebrica)}{102}{section*.261}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXIII (complesso, per matrici normali)}{103}{section*.262}% 
+\contentsline {paragraph}{Teorema XXIII (complesso, per matrici normali)}{102}{section*.262}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:sdofijoijoijoijoidsf]{(XXIII)}}{104}{section*.263}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:sdofijoijoijoijoidsf]{(XXIII)}}{103}{section*.263}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15}Forme Bilineari}{104}{section.15}% 
+\contentsline {section}{\numberline {15}Forme Bilineari}{103}{section.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (15.1)}{104}{section*.264}% 
+\contentsline {paragraph}{Esempio (15.1)}{103}{section*.264}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{104}{section*.265}% 
+\contentsline {paragraph}{Definizione }{103}{section*.265}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (15.2)}{104}{section*.266}% 
+\contentsline {paragraph}{Esempi (15.2)}{103}{section*.266}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1}Matrici associate alle forme bilineari}{104}{subsection.15.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.1)}{104}{section*.267}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xix }{105}{section*.268}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:iidkksoijodlkjsdfoijsldkj]{(\textit {p.}xix)}}{105}{section*.269}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.2)}{107}{section*.270}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{107}{section*.271}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{107}{section*.272}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{107}{section*.273}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{107}{section*.274}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.2}Forme quadratiche}{107}{subsection.15.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{108}{section*.275}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.3)}{108}{section*.276}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{108}{section*.277}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.4)}{109}{section*.278}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.3)}{109}{section*.279}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{109}{section*.280}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.5)}{110}{section*.281}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.4)}{110}{section*.282}% 
