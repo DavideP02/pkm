@@ -637,3 +637,75 @@
 \contentsline {paragraph}{Esempio (15.5)}{110}{section*.281}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Osservazione (15.4)}{110}{section*.282}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.3}Vettori ortogonali}{110}{subsection.15.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{110}{section*.283}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.5)}{110}{section*.284}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xx }{110}{section*.285}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:elefantedivetroaustriaco]{(\textit {p.}xx)}}{111}{section*.286}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xxi }{111}{section*.287}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:eleonorrugnyeeiiddoijooijoijoo]{(\textit {p.}xxi)}}{111}{section*.288}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.6)}{111}{section*.289}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.6)}{112}{section*.290}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.7)}{113}{section*.291}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.4}Nucleo di una forma bilineare simmetrica}{113}{subsection.15.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.7)}{113}{section*.292}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{113}{section*.293}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{113}{section*.294}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.8)}{113}{section*.295}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.9)}{113}{section*.296}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{114}{section*.297}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{114}{section*.298}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXIV }{114}{section*.299}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:didisoijadfaoivettcampok]{(XXIV)}}{114}{section*.300}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{114}{section*.301}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.5}Vettori isotropi e cono isotropo}{115}{subsection.15.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.10)}{115}{section*.302}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.11)}{115}{section*.303}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.8)}{116}{section*.304}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXV }{116}{section*.305}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:adolfosignorini]{(XXV)}}{116}{section*.306}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.6}Basi ortogonali, Teorema di Lagrange}{117}{subsection.15.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{117}{section*.307}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.12)}{117}{section*.308}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXVI (di Lagrange)}{117}{section*.309}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:diisoijsdoijsfodijflkjnhdskljjkjnkdsjklnsdkjnjnksdf]{(XXVI)}}{117}{section*.310}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corollario }{118}{section*.311}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.13)}{118}{section*.312}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xxii }{118}{section*.313}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:eternoriposo]{(\textit {p.}xxii)}}{118}{section*.314}% 
