@@ -246,7 +246,52 @@
             Se $ x \in E' $, allora $ x \in E $
         \end{itemize}
         Ne risulta che $ E' \subseteq E $
-        \item [(\textit{iii}) $ \implies $ (\textit{i})]
-        %%%%%%%%%
+        \item [(\textit{iii}) $ \implies $ (\textit{i})] $ E' \subseteq E $ $\implies$ $ E $ chiuso.
+        
+        Dimostriamo che $ E^{C} $ è aperto. Per assurdo, assumiamo che $ E^{C} $ non sia aperto 
+        
+        $\implies$ $ \exists\, x \in E^{C} $ tale che $ \forall\, r>0 $, $ B_{r} (x) \nsubseteq E^{C}$ 
+        
+        $\implies$ $ B_{r}(x)\cap E \neq \emptyset$ ma $ x\notin E $ 
+        
+        $\implies$ $ \exists\, y \in B_{r}(x)\cap E  $, $ y\neq x $. In particolare $ y \in E $, $ y\neq x $, $ y \in B_{r}(x)  $ 
+        
+        $\implies$ $ x \in E' $, ma $ E' \subseteq E $ 
+        
+        $\implies$ $ y \in E $ e $ y \in E^{C} $. Assurdo 
+        
+        $\implies$ $ E^{C} $ è aperto e $ E $ è chiuso\qed
     \end{itemize}
+}
+
+\definizione{}{
+    Dato $ E \subseteq \R^{n} $, diciamo \textit{chiusura} di $ E $ \begin{equation}
+        \overline{E}=\partial E \cup E
+    \end{equation}
+}
+
+\osservazione{
+    $ \Q $ è denso in $ \R $ 
+    
+    $\implies$ $ \forall\, x \in \R $, $ \forall\, r>0 $, $ B_{r}(x)=(x-r; x+r)$ contiene infiniti punti di $ \Q $ e contiene infiniti punti di $ \R\setminus \Q $ 
+    
+    $\implies$ $ \forall\, r>0 $ \[
+        \left.\begin{aligned}
+            B_{r}(x) & \nsubseteq \Q\\
+            B_{r}(x) & \nsubseteq \R\setminus \Q  
+        \end{aligned}\right\rbrace \,\implies\, \forall\, x \in \R\quad \begin{aligned}
+            x &\notin \mathring{Q}\\
+    x &\notin \mathring{ \R\setminus \Q}
+        \end{aligned}
+    \]
+
+    Dunque $ R \subseteq \partial \Q $ 
+    
+    $\implies$ $ \R \subseteq \partial \Q\cup \Q$ 
+    
+    $\implies$ $ \R \subseteq \overline{ \Q} $, ma $ \overline{ \Q} \subseteq \R $ 
+    
+    $\implies$ $ \R= \overline{ \Q} $.
+    
+    Questa è una formulazione equivalente della densità di $ \Q $ in $ \R $. 
 }

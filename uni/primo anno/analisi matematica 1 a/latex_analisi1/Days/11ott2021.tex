@@ -1,0 +1,52 @@
+\section{Limiti}
+\subsection{Introduzione al concetto di limite}
+
+Data\marginnote{11 ott 2021} una funzione $ f:D\to \R $, con $ D \subseteq \R^{n} $ e $ x_0 \in \R^{n} $, ci poniamo l'obiettivo di descrivere il comportamento della funzione quando $ x $ si "avvicina" a $ x_0 $.
+
+Indichiamo con $ x\to x_0 $: "avvicinarsi a $ x_0 $", "essere nei pressi di $ x_0 $". In alcuni casi è intuitivo.
+\begin{itemize}
+    \item caso 1: \begin{align*}
+    f:\R & \to \R \\
+    x & \mapsto x^{2}
+    \end{align*}\begin{align*}
+        x=2 \,&\implies\, f(x)=4 & x\to 2\quad &f(x) \to 4\\
+        x=3 \,&\implies\, f(x)=9 & x\to 3\quad &f(x) \to 9\\
+        x=-1 \,&\implies\, f(x)=1 & x\to -1\quad &f(x) \to 1
+    \end{align*}
+
+    Dobbiamo comunque chiarirlo in termini rigorosi.
+    \item caso 2: $ f(t)$ rappresenta un impulso luminoso istantaneo al tempo $ t=2 $
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                xlabel=$t$,
+                ylabel=$y$,
+                axis equal,
+                axis lines=middle,
+                enlargelimits,
+                xmax=5,
+                xmin=0,
+                ymax=4,
+                ymin=-1,
+                xtick={2},
+                ytick={3},
+                scale only axis, 
+                height=4cm, 
+                width=4cm
+                ]
+            \addplot [blue, no marks, thick] coordinates {(0,0) (7,0)};
+            \addplot [white, thick, only marks] coordinates {(2,0)};
+            \addplot [blue, thick, only marks] coordinates {(2,3)};
+            \addplot [blue, thick, mark=o] coordinates {(2,0)};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center} dove \[
+        f(t)=\begin{cases}
+            0 & t\neq 2\\
+            3 & t=2
+        \end{cases}
+    \]
+\end{itemize}
+\subsection{Estensione di $ \R $}
+\subsection{Estensione di $ \R^{n} $}
+\subsection{Limite di una funzione}

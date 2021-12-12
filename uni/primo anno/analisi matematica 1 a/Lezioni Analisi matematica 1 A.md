@@ -7,7 +7,7 @@
 	- [Appunti Lezione](202109221052%20(22%20set%202021).md) | [pdf](202109221052.pdf)
 	- [Approfondimento](202109231035%20-%20Appunti%20libro%20su%20Insiemi%20numerici.md)
 - 27 settembre 2021:
-	- TODO ricopiare appunti
+	- TODO inserire appunti su obsidian
 - 28 settembre 2021:
 	- [Appunti Lezione](202109280840%20(28%20set%202021).md) | [pdf](202109280840.pdf)
 - 4 ottobre 2021

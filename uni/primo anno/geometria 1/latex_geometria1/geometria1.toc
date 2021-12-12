@@ -709,3 +709,75 @@
 \contentsline {paragraph}{Proposizione \textit {p.}xxii }{118}{section*.313}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textit {dim.} \hyperref [prp:eternoriposo]{(\textit {p.}xxii)}}{118}{section*.314}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.7}Forme quadratiche reali ($ \mathds {K}=\mathds {R}$)}{119}{subsection.15.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempi (15.9)}{119}{section*.315}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.14)}{119}{section*.316}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXVII }{119}{section*.317}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:eleferelicuresaij]{(XXVII)}}{120}{section*.318}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xxiii }{120}{section*.319}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:elefanterosacandido]{(\textit {p.}xxiii)}}{120}{section*.320}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (15.15)}{121}{section*.321}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.10)}{122}{section*.322}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXVIII (di Sylvester)}{122}{section*.323}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:silversdffsdf]{(XXVIII)}}{122}{section*.324}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{123}{section*.325}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corollario }{123}{section*.326}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Regola di Cartesio}{123}{section*.327}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (15.11)}{124}{section*.328}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {16}Spazio vettoriale quoziente}{124}{section.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{124}{section*.329}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{124}{section*.330}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esercizio }{124}{section*.331}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Soluzione}{124}{section*.332}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (16.1)}{124}{section*.333}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (16.1)}{125}{section*.334}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposizione \textit {p.}xxiv }{126}{section*.335}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [prp:oijooijosodijfoaodfsijfa]{(\textit {p.}xxiv)}}{126}{section*.336}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definizione }{127}{section*.337}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXIX (primo teorema di Isomorfismo)}{127}{section*.338}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:primoteoiso]{(XXIX)}}{128}{section*.339}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {17}Spazio vettoriale duale}{128}{section.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (17.1)}{129}{section*.340}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Esempio (17.2)}{129}{section*.341}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXX }{129}{section*.342}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:iidioijsoidiotaciccioso]{(XXX)}}{129}{section*.343}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXXI }{130}{section*.344}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Teorema XXXII }{130}{section*.345}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:evvivaqualcosadidimostrato]{(XXXII)}}{131}{section*.346}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Osservazione (17.1)}{131}{section*.347}% 

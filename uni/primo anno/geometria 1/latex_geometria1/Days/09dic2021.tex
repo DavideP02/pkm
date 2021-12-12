@@ -1,0 +1,272 @@
+\section{Spazio vettoriale quoziente}
+Sia\marginnote{9 dic 2021}
+$ V $ spazio vettoriale su un campo $ \K $, $ H \subseteq V $ sottospazio vettoriale. Si introduce $ \sim $ relazione di equivalenza, dove $ v, w \in V $ soddisfano $ v\sim w $ se $ v-w \in H $. %DOMANDA: come definiamo l'operazione "-"?
+
+\esercizio{
+    Dimostrare che $ \sim $ è una relazione di equivalenza
+}{
+    Risolvere per esercizio %TODO risolvere esercizio
+}{}
+
+Dato $ v \in V $ indico con $ [v] $ la classe di $ v $ rispetto a $ \sim $, \begin{equation}
+    [v]=\{v+w\,\tc\, w \in H\}%DOMANDA: capire come sono equivalenti
+\end{equation}
+
+Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua volta una struttura di spazio vettoriale su $ \K $, dove \begin{align*}
+    [v_1]+[v_2]&:= [v_1+v_2]\qquad \forall\,v_1, v_2 \in V\\
+    \lambda[v]&:= [\lambda v]\qquad \forall\, \lambda \in \K, v \in V
+\end{align*}
+
+\esercizio{
+    Le operazioni di spazio vettoriale in $ V/H $ sono ben definite.
+}{
+    Risolvere per esercizio %TODO risolvere esercizio
+}{}
+
+\osservazione{
+    \[\underline{0}_{V/H}=[\underline{0}]=\{\underline{0} + w\,\tc\, w \in H\}=H \] con $ \underline{0} $ vettore nullo in $ V $. 
+
+    Quindi il vettore nullo in $ V/H $ si identifica in modo naturale con $ H $.
+}
+
+\esempio{
+    Dato $ \R^{n} $, sia \[H=\{(x_1, \cdots, x_{h}, 0, \cdots, 0 )\,|\, x_1, \cdots, x_{h} \in \R \}\] $ H $ è un sottospazio vettoriale $ h $-dimensionale di $ \R^{n} $. Esiste una identificazione naturale di $ H $ con $ \R^{h} $ \begin{align*}
+    H & \to \R^{h}  \\
+    (x_1, \cdots, x_{h}, 0, \cdots, 0 ) & \mapsto (x_1, \cdots, x_{h} )
+    \end{align*} Studio $ \R^{n}/H $ \[
+        x\sim y \iff x-y \in H \iff x_i=y_i \: \forall\, i = h+1, \cdots, n
+    \] Considero \begin{align*}
+    \Phi:\R^{n}/H & \to \R^{n-h} \\
+    [(x_1, \cdots, x_{n})] & \mapsto (x_{h+1}, \cdots, x_{n}  )
+    \end{align*}
+
+    $ \Phi $ è un isomorfismo, ovvero è ben definita, lineare, iniettiva e suriettiva.
+    \begin{itemize}
+        \item $ \Phi $ è ben definita, infatti, se $ x \in [y] $, 
+        
+        $\implies$ $ x_{i}=y_{i}   $ $ \forall\, i = h+1, \cdots, n $ 
+        
+        $\implies$ $ (x_{h+1}, \cdots, x_{n}  )=(y_{h+1}, \cdots, y_{n}) $, quindi $ \Phi[x] $ non dipende dal rappresentante $ x $;
+        \item $ \Phi $ è lineare, infatti \begin{multline*}\Phi(\lambda [x]+\mu [y])=\Phi([\lambda x]+ [\mu y])=\Phi([\lambda x + \mu y])=\\
+        =\lambda (x_{h+1}, \cdots, x_{n}  )+ \mu (y_{h+1}, \cdots, y_{n})= \lambda \Phi ([x]) + \mu\Phi([y]);
+    \end{multline*}
+    \item $ \Phi $ è iniettiva, infatti se $ \Phi([x])=\underline{0} \in \R^{n-h} $ 
+    
+    $\implies$ $ x_{h+1}=x_{h+1}=\cdots=x_{n}=0    $ 
+    
+    $\implies$ $ x \in H $ 
+    
+    $\implies$ $ [x]=\underline{0}_{V/H} $;
+    \item $ \Phi $ è suriettiva, infatti se $ (x_{h+1}, \cdots, x_{n}  ) \in \R^{n-h} $ 
+    
+    $\implies$ $ \Phi[(0, \cdots, 0, x_{h+1}, \cdots, x_{n}  )] =(x_{h+1}, \cdots, x_{n} ) $
+    \end{itemize}
+
+    $ \R^{n} $, $ H \subseteq \R^{n} $ con $ \dim H = h $, $ \R^{n}/H $ è isomorfo a $ \R^{n-h} $, $ \dim \R^{n}/H=n-h $
+}
+
+\proposizione{oijooijosodijfoaodfsijfa}{
+    Sia $ V $ uno spazio vettoriale su un campo $ \K $, con $ V $ finitamente generato. $ H \subseteq V $ un sottospazio vettoraile 
+    
+    $\implies$ $ \dim V/H=\dim V - \dim H $
+}
+\dimostrazioneprop{oijooijosodijfoaodfsijfa}{
+    Sia $ \{v_1, \cdots, v_{h}\}  $ una base di $ H $, e completiamola ad una base di $ V $: \[
+        \{v_1, \cdots, v_{h}, w_{1}, \cdots, w_{n-h}\}
+    \]
+
+    Sia $ L= \mathscr{L}(w_1, \cdots, w_{n-h} ) $ e dimostriamo che $ V/H $ è isomorfo ad $ L $.
+
+    Sia $ \Phi$ tale che \begin{align*}
+    \Phi: V/H & \to L  \\
+    \Biggl[\sum_{i=1}^{h} x_{i}v_{i} +\sum_{j=1}^{n-h}y_{j}w_{j}     \Biggr] & \mapsto \sum_{j=1}^{n-h} y_{j} w_{j}   
+    \end{align*} Si dimostra che $ \Phi $ è un isomorfismo, ovvero che $ \Phi $ è ben definita, lineare, iniettiva e suriettiva.
+    \begin{itemize}
+        \item $ \Phi $ è ben definita: siano $ v, v' \in V $ tali che $ v\sim v' $. Scrivo \[v=\sum_{i=1}^{h}x_{i}v_{i} + \sum_{j=1}^{n-h}y_{j}w_{j}\] e \[
+            v'=\sum_{i=1}^{h}x_{i}'v_{i} + \sum_{j=1}^{n-h}y_{j}'w_{j}
+        \]
+        $ v\sim v' $ $ \iff $ $ v-v' \in H $ $ \iff $ $ v-v' \in \mathscr{L}(v_1, \cdots, v_{h} ) $
+
+        $ \iff $ $ y_{j}=y_{j}'$ $ \forall\, j = 1, \cdots, n-h $ 
+        
+        $\implies$ $ v'=\sum_{i=1}^{h}x_{i}'v_{i} + \sum_{j=1}^{n-h}y_{j}w_{j} $ 
+        
+        $\implies$ $ \Phi[v] $ non dipende dal rappresentante $ v $.
+        \item $ \Phi $ è lineare, infatti 
+        \begin{multline*}
+            \Phi([v]+[v'])=\Phi([v+v'])=\\
+            =\Phi\Biggl(\biggl[\sum_{i=1}^{h}(x_{i}+x_{i}')v_{i}+\sum_{j=1}^{n-h}(y_{j}+y_{j}'  )w_{j}   \biggl]\Biggl)=\\
+            = \sum_{j=1}^{n-h} (y_{j}+y_{j}')w_{j}=  \sum_{j=1}^{n-h} y_{j}w_{j}+\sum_{j=1}^{n-h} y_{j}'w_{j}=\\
+            =\Phi[v]+\Phi[v'].
+        \end{multline*}
+        La dimostrazione di $ \Phi(\lambda[v])=\lambda\Phi([v]) $.
+        \item $ \Phi $ è iniettiva: infatti $ \Phi([v])=\underline{0} $ 
+        
+        $\implies$ $ v=\sum_{i=1}^{h} x_{i}v_{i}    $ 
+        
+        $\implies$ $ v \in \mathscr{L}(v_1, \cdots, v_{n} ) $ 
+        
+        $\implies$ $ v \in H  $ $ \implies $ $ [v]=\underline{0}_{V/H} $ 
+        
+        $\implies$ $ \ker \Phi =\{\underline{0}_{V/H}\} $ 
+        
+        $\implies$ $ \Phi $ iniettiva.
+        \item $ \Phi $ è suriettiva: infatti se $ z \in L $ 
+        
+        $\implies$ $ \Phi([z])=z $ 
+        
+        $\implies$ $ \Phi $ è suriettiva.
+    \end{itemize}
+
+    Dal momento che $ V/H $ è isomorfo ad $ L $ avranno stessa dimensione, segue la tesi.\qed
+}
+
+\definizione{}{
+    Sia $ V $ spazio vettoriale su $ \K $, $ H \subseteq V $ sottospazio vettoriale. La funzione \begin{align*}
+    \pi: V & \to V/H \\
+    v & \mapsto [v]
+    \end{align*} si dice la \textit{proiezione}. $ \pi $ è sempre lineare, suriettiva, e $ \ker(\pi)=H $
+}
+
+\teorema[(primo teorema di Isomorfismo)]{primoteoiso}{
+    Siano $ V $ e $ W $ spazi vettoriali su un campo $ \K $, sia $ F:V \to W $ lineare.
+
+    Allora la funzione \begin{align*}
+    \tilde{F}:V/\ker(F) &\to \im(F)\\
+    [v] &\mapsto F(v)
+    \end{align*} è ben definita ed è un isomorfismo.
+}
+\dimostrazione{primoteoiso}{
+    $ \tilde{F} $ è ben definita: infatti se $ v\sim w $ in $ V/\ker(F) $ 
+    
+    $\implies$ $ v-w \in \ker(F) $ 
+    
+    $\implies$ $ F(v-w)=\underline{0} $ 
+    
+    $\underset{\footnotemark}{\implies}$ $ F(v)=F(w) $. Quindi $ \tilde{F} $ non dipende dal rappresentante, ma solo dalle classi.\footnotetext{$F$ è lineare}
+
+    $ \tilde{F} $ è suriettiva, infatti $ F:V\to \im(F) $ è suriettiva.
+
+    $ \tilde{F} $ è iniettiva: infatti se $ \tilde{F}([v])=\underline{0} $ 
+    
+    $\implies$ $ F(v)=\underline{0} $ 
+    
+    $\implies$ $ v \in \ker(F) $ 
+    
+    $\implies$ $ [v]= \underline{0}_{V/\ker(F)} $ 
+    
+    $\implies$ $ \ker(\tilde{F}) $ è banale, e $ \tilde{F} $ è iniettiva.
+
+    %TODO manca diagramma (da foto): https://photos.app.goo.gl/hk6u1kQ8wu3ypxfm7
+    Il diagramma è commutativo
+}
+
+\section{Spazio vettoriale duale}
+
+Si consideri $ V $ spazio vettoriale su un campo $ \K $, si definisce il \textit{duale} \begin{equation}
+    V^{*}=\bigl\{\alpha: V\to \K\,|\, \alpha\text{ lineare}\bigr\}
+\end{equation} $ V^{*} $ eredita una struttura di spazio vettoriale su $ \K $, tramite \begin{align*}
+    (\alpha_1+\alpha_2)(v) &:= \alpha_1(v)+\alpha_2(v)\\
+    (\lambda\alpha)(v)&:= \lambda\bigl(\alpha(v)\bigr)\\
+    \forall\, \alpha, \alpha_1, \alpha_2 \in V^{*}, &v \in V e \lambda \in \K
+\end{align*}
+
+$ V^{*} $ con questa struttura di spazio vettoriale su $ \K $ si dice lo \textit{spazio duale} di $ V $.
+\esempio{
+    Sia $ V= \K^{n} $, \begin{align*}
+    \alpha_{i} : \K^{n} & \to \K \\
+    (x_1, \cdots, x_{n} ) & \mapsto x_{i} 
+    \end{align*} $ \alpha_{i} \in ( \K^{n})^{*}  $
+}
+\esempio{
+    Sia $ V= \K^{n,n} $, \begin{align*}
+    \alpha: \K^{n,n} & \to \K \\
+    A & \mapsto \tr(A)
+    \end{align*} $ \alpha \in ( \K^{n,n})^{*}  $
+}
+
+\rule{7em}{.4pt}
+
+D'ora in avanti $ V $ è finitamente generato. In questo caso se $ \mathscr{B} =\{v_1, \cdots, v_{n}\} $ è una base fissata, ogni elemento $ \alpha \in V^{*} $ è determinato dai valori che assume nei vettori di $ \mathscr{B} $.
+
+\teorema{iidioijsoidiotaciccioso}{
+    Se $ V $ è finitamente generato, $ V $ e $ V^{*} $ hanno la stessa dimensione.
+}
+\dimostrazione{iidioijsoidiotaciccioso}{
+    Sia $ \mathscr{B}=\{v_1, \cdots, v_{n}\}  $ una base di $ V$ e consideriamo $ \alpha_{1}, \alpha_{n} \in V^{*}  $ definiti come \[
+        \alpha_{i}(v_{j} )=\begin{cases}
+            1 &\text{se } i=j\\
+            0 &\text{se } i\neq j
+        \end{cases} \qquad \alpha_{i}(v_{j} )=\delta_{ij}  
+    \] Ora si dimostra che $ \{\alpha_1, \cdots, \alpha_{n} \} $ è una base di $ V^{*} $ (da cui segue $ \dim V=\dim V^{*}$).
+
+    Si dimostra $ \alpha_1, \cdots, \alpha_{n}  $ linearmente indipendenti e che sono dei generatori di $ V^{*}$.
+    \begin{itemize}
+        \item $ \alpha_1, \cdots, \alpha_{n}  $ linearmente indipendenti: siano $ \lambda_1, \cdots, \lambda_{n} \in \K $ tali che \[
+            \lambda_1\alpha_1+\cdots+\lambda_{n}\alpha_{n}=\underline{0}_{V^{*}}.
+        \] Questo significa che $ (\lambda_1\alpha_1+\cdots+\lambda_{n}\alpha_{n})(v)=0 $ $ \forall\, v \in V $. In particolare se $ v=v_{j}  $ ottengo \[
+            (\lambda_1\alpha_1+\cdots+\lambda_{n}\alpha_{n})(v_{j} )=0
+        \] 
+        
+        $\implies$ $ \parentesi{\lambda_{j} }{\lambda_1 \alpha_{1}(v_{j} )+ \cdots + \lambda_{n}\alpha_{n}(v_{j} )} =0 $ 
+        
+        $\implies$ $ \lambda_{j}=0  $, da cui deduco che $ \lambda_1=\lambda_2=\cdots=\lambda_{n}=0  $ 
+        
+        $\implies$ $ \alpha_1, \cdots, \alpha_{n}  $ linearmente indipendenti.
+        \item $ \alpha_1, \cdots, \alpha_{n}  $ generano $ V^{*} $: infatti sia $ \alpha \in V^{*} $ e poniamo $ \lambda_{j}:=\alpha(v_{j})$. Si dimostra che \[
+            \alpha=\lambda_1\alpha_1+\cdots+\lambda_{n}\alpha_{n}
+        \] Infatti $ \alpha(v_{j} )=\lambda_{j}  $ e \[
+            (\lambda_1\alpha_1+\cdots+\lambda_{n}\alpha_{n})(v_{j}) =\lambda_{j}    
+        \] 
+        
+        $\implies$ $ \alpha $ e $ \lambda_1\alpha_1+\cdots+\lambda_{n}\alpha_{n} $ coincidono nei vettori di $ \mathscr{B} $, e quindi su tutto $ V$.\qed
+    \end{itemize}
+}
+
+Ne segue che da una base $ \mathscr{B}=\{v_1, \cdots, v_{n}\}  $ di $ V $ è possibile sempre estrapolare \[
+    \mathscr{B}^{*}=\{\alpha_1, \cdots, \alpha_{n}\} 
+\] base di $ V^{*} $ detta base duale di $ V $.
+
+Ciò permette di costruire un isomorfismo $ V\to V^{*} $ tramite la relazione che a $ v_{i}  $ fa corrispondere $ \alpha_{i}$ ($\implies$ $ V $ è isomorfo a $ V^{*} $).
+
+Non esiste un isomorfismo canonico\footnote{definito senza dover scegliere una base di partenza} da $ V $ in $ V^{*} $.
+
+\teorema{augustataurinorum}{
+    $ V $ e $ V^{*} $ sono isomorfi (in dimensione finita), ma non canonicamente isomorfi.
+}
+
+Sia $ V $ spazio vettoriale su $ \K $, $ V^{*} $ spazio vettoriale su $ \K $. Posso considerare \begin{equation}
+    (V^{*})^{*}=\{\gamma:V^{*}\to \K\,|\, \gamma\text{ lineare}\}
+\end{equation} $ (V^{*})^{*} $ è lo spazio \textit{biduale} di $ V $
+
+\teorema{evvivaqualcosadidimostrato}{
+    $ V $ e $ (V^{*})^{*} $ in dimensione finita sono \textit{canonicamente isomorfi}.
+}
+\dimostrazione{evvivaqualcosadidimostrato}{
+    Si definisce un isomorfismo $ \Phi:V\to (V^{*})^{*} $ tramite la relazione \begin{equation}
+        \Phi(v)(\alpha):=\alpha(v)\qquad \forall\, v \in V, \alpha \in V^{*}
+    \end{equation} Si dimostra che $ \Phi $ è un isomorfismo: lineare, iniettiva.\footnote{Non c'è bisogno della suriettività perché hanno stessa dimensione.}
+    \begin{itemize}
+        \item $ \Phi(v) \in (V^{*})^{*} $, cioè $ \Phi(v): V^{*}\to \K $ è lineare, infatti \begin{multline*}
+            \Phi(v)(\lambda\alpha+\mu\beta)\underset{\footnotemarkk{elefantino}}{=}(\lambda \alpha+\mu\beta)=\\
+            =\lambda \alpha(v)+\mu\beta(v)\underset{\footnotemark}{=} \lambda\Phi(v)(\alpha)+\mu \Phi(v)(\beta)
+        \end{multline*}
+        \consecfoottext{1}{elefantino}{definizione di $ \Phi $}
+        \footnotetext{definizione di $ \Phi $}
+        \item $ \Phi $ è lineare: devo verificare che \[\Phi(\lambda v + \mu w)= \lambda\Phi(v)+\mu\Phi(v)\qquad\forall\, \lambda, \mu \in \K, v, w \in V \] cioè che \[
+            \Phi(\lambda v + \mu w)(\alpha)=\lambda\Phi(v)(\alpha)+\mu\Phi(v)(\alpha)\quad \forall\, \alpha \in V^{*}
+        \] ma \[
+            \Phi(\lambda v + \mu w)(\alpha)=\alpha(\lambda v + \mu w)\underset{\footnotemark}{=}\lambda \alpha (v)+ \mu \alpha(w)=\lambda\Phi(v)(\alpha)+\mu\Phi(w)(\alpha)
+        \]\footnotetext{$\alpha$ è lineare}
+        \item $ \Phi $ è iniettiva: infatti se $ \Phi(v)=\underline{0} \in (V^{*})^{*} $ 
+        
+        $\implies$ $ \Phi(v)(\alpha)=0 $ $ \forall\,\alpha \in V^{*}  $ 
+        
+        $\implies$ $ \alpha(v) = 0 $ $ \forall\, \alpha \in V^{*} $ 
+        
+        $\implies$ $ v=\underline{0} $ $ \implies $ $ \ker(\Phi)=\{\underline{0}\} $ e $ \Phi $ è iniettiva. \qed
+    \end{itemize}
+}
+
+\osservazione{
+    In dimensione infinita, la stessa dimostrazione funziona per trovare una funzione lineare $ V\to (V^{*})^{*} $ iniettiva. Se $ V $ e $ (V^{*})^{*} $ sono isomorfi, $ V $ si dice \textit{riflessivo}.}

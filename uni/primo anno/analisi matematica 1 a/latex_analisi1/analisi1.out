@@ -1,38 +1,5 @@
-\BOOKMARK [0][]{part.1}{I Insiemi}{}% 1
-\BOOKMARK [1][]{section.1}{Introduzione agli insiemi}{part.1}% 2
-\BOOKMARK [2][]{subsection.1.1}{Corrispondenza biunivoca}{section.1}% 3
-\BOOKMARK [3][]{subsubsection.1.1.1}{Corrispondenza \040N-Z}{subsection.1.1}% 4
-\BOOKMARK [3][]{subsubsection.1.1.2}{Corrispondenza \040N- NN}{subsection.1.1}% 5
-\BOOKMARK [2][]{subsection.1.2}{Insieme \040R}{section.1}% 6
-\BOOKMARK [3][]{subsubsection.1.2.1}{Relazioni}{subsection.1.2}% 7
-\BOOKMARK [3][]{subsubsection.1.2.2}{Definizione assiomatica dei numeri reali}{subsection.1.2}% 8
-\BOOKMARK [3][]{subsubsection.1.2.3}{Campi ordinati completi}{subsection.1.2}% 9
-\BOOKMARK [3][]{subsubsection.1.2.4}{Rappresentazione}{subsection.1.2}% 10
-\BOOKMARK [3][]{subsubsection.1.2.5}{Caratteristiche di \040R}{subsection.1.2}% 11
-\BOOKMARK [2][]{subsection.1.3}{Spazio Euclideo \040Rn }{section.1}% 12
-\BOOKMARK [3][]{subsubsection.1.3.1}{Operazioni su \040Rn }{subsection.1.3}% 13
-\BOOKMARK [1][]{section.2}{Punti di accumulazione}{part.1}% 14
-\BOOKMARK [1][]{section.3}{Topologia}{part.1}% 15
-\BOOKMARK [1][]{section.4}{Lipsum}{part.1}% 16
-\BOOKMARK [0][]{part.2}{II Funzioni e Successioni}{}% 17
-\BOOKMARK [1][]{section.5}{Limiti delle successioni}{part.2}% 18
-\BOOKMARK [2][]{subsection.5.1}{Confronti tra infiniti}{section.5}% 19
-\BOOKMARK [1][]{section.6}{Costante di Nepero}{part.2}% 20
-\BOOKMARK [1][]{section.7}{Continuit\340}{part.2}% 21
-\BOOKMARK [2][]{subsection.7.1}{Discontinuit\340}{section.7}% 22
-\BOOKMARK [2][]{subsection.7.2}{Prolungamento per continuit\340 di una funzione}{section.7}% 23
-\BOOKMARK [1][]{section.8}{Successioni}{part.2}% 24
-\BOOKMARK [2][]{subsection.8.1}{Un limite notevole}{section.8}% 25
-\BOOKMARK [2][]{subsection.8.2}{Sottosuccessioni}{section.8}% 26
-\BOOKMARK [2][]{subsection.8.3}{Successioni a valori in \040Rn }{section.8}% 27
-\BOOKMARK [3][]{subsubsection.8.3.1}{Successioni e chiusura di \040E Rn }{subsection.8.3}% 28
-\BOOKMARK [2][]{subsection.8.4}{Successioni di Cauchy}{section.8}% 29
-\BOOKMARK [1][]{section.9}{Teoremi per le funzioni continue}{part.2}% 30
-\BOOKMARK [1][]{section.10}{Successioni e topologia in \040Rn }{part.2}% 31
-\BOOKMARK [2][]{subsection.10.1}{Continuit\340 e compattezza in \040Rn }{section.10}% 32
-\BOOKMARK [2][]{subsection.10.2}{Legame tra uniforme continuit\340 e compattezza}{section.10}% 33
-\BOOKMARK [1][]{section.11}{Derivata}{part.2}% 34
-\BOOKMARK [2][]{subsection.11.1}{Derivate di funzioni elementari}{section.11}% 35
-\BOOKMARK [2][]{subsection.11.2}{Prima formula dell'incremento finito}{section.11}% 36
-\BOOKMARK [2][]{subsection.11.3}{Studio dei punti di dubbia derivabilit\340}{section.11}% 37
-\BOOKMARK [1][]{section.12}{Funzione convessa}{part.2}% 38
+\BOOKMARK [1][]{section.1}{Limiti}{}% 1
+\BOOKMARK [2][]{subsection.1.1}{Introduzione al concetto di limite}{section.1}% 2
+\BOOKMARK [2][]{subsection.1.2}{Estensione di \040R}{section.1}% 3
+\BOOKMARK [2][]{subsection.1.3}{Estensione di \040Rn }{section.1}% 4
+\BOOKMARK [2][]{subsection.1.4}{Limite di una funzione}{section.1}% 5
