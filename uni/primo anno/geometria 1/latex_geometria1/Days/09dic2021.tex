@@ -36,30 +36,30 @@ Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua v
     \end{align*} Studio $ \R^{n}/H $ \[
         x\sim y \iff x-y \in H \iff x_i=y_i \: \forall\, i = h+1, \cdots, n
     \] Considero \begin{align*}
-    \Phi:\R^{n}/H & \to \R^{n-h} \\
+    \phi:\R^{n}/H & \to \R^{n-h} \\
     [(x_1, \cdots, x_{n})] & \mapsto (x_{h+1}, \cdots, x_{n}  )
     \end{align*}
 
-    $ \Phi $ è un isomorfismo, ovvero è ben definita, lineare, iniettiva e suriettiva.
+    $ \phi $ è un isomorfismo, ovvero è ben definita, lineare, iniettiva e suriettiva.
     \begin{itemize}
-        \item $ \Phi $ è ben definita, infatti, se $ x \in [y] $, 
+        \item $ \phi $ è ben definita, infatti, se $ x \in [y] $, 
         
         $\implies$ $ x_{i}=y_{i}   $ $ \forall\, i = h+1, \cdots, n $ 
         
-        $\implies$ $ (x_{h+1}, \cdots, x_{n}  )=(y_{h+1}, \cdots, y_{n}) $, quindi $ \Phi[x] $ non dipende dal rappresentante $ x $;
-        \item $ \Phi $ è lineare, infatti \begin{multline*}\Phi(\lambda [x]+\mu [y])=\Phi([\lambda x]+ [\mu y])=\Phi([\lambda x + \mu y])=\\
-        =\lambda (x_{h+1}, \cdots, x_{n}  )+ \mu (y_{h+1}, \cdots, y_{n})= \lambda \Phi ([x]) + \mu\Phi([y]);
+        $\implies$ $ (x_{h+1}, \cdots, x_{n}  )=(y_{h+1}, \cdots, y_{n}) $, quindi $ \phi[x] $ non dipende dal rappresentante $ x $;
+        \item $ \phi $ è lineare, infatti \begin{multline*}\phi(\lambda [x]+\mu [y])=\phi([\lambda x]+ [\mu y])=\phi([\lambda x + \mu y])=\\
+        =\lambda (x_{h+1}, \cdots, x_{n}  )+ \mu (y_{h+1}, \cdots, y_{n})= \lambda \phi ([x]) + \mu\phi([y]);
     \end{multline*}
-    \item $ \Phi $ è iniettiva, infatti se $ \Phi([x])=\underline{0} \in \R^{n-h} $ 
+    \item $ \phi $ è iniettiva, infatti se $ \phi([x])=\underline{0} \in \R^{n-h} $ 
     
     $\implies$ $ x_{h+1}=x_{h+1}=\cdots=x_{n}=0    $ 
     
     $\implies$ $ x \in H $ 
     
     $\implies$ $ [x]=\underline{0}_{V/H} $;
-    \item $ \Phi $ è suriettiva, infatti se $ (x_{h+1}, \cdots, x_{n}  ) \in \R^{n-h} $ 
+    \item $ \phi $ è suriettiva, infatti se $ (x_{h+1}, \cdots, x_{n}  ) \in \R^{n-h} $ 
     
-    $\implies$ $ \Phi[(0, \cdots, 0, x_{h+1}, \cdots, x_{n}  )] =(x_{h+1}, \cdots, x_{n} ) $
+    $\implies$ $ \phi[(0, \cdots, 0, x_{h+1}, \cdots, x_{n}  )] =(x_{h+1}, \cdots, x_{n} ) $
     \end{itemize}
 
     $ \R^{n} $, $ H \subseteq \R^{n} $ con $ \dim H = h $, $ \R^{n}/H $ è isomorfo a $ \R^{n-h} $, $ \dim \R^{n}/H=n-h $
@@ -77,12 +77,12 @@ Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua v
 
     Sia $ L= \mathscr{L}(w_1, \cdots, w_{n-h} ) $ e dimostriamo che $ V/H $ è isomorfo ad $ L $.
 
-    Sia $ \Phi$ tale che \begin{align*}
-    \Phi: V/H & \to L  \\
+    Sia $ \phi$ tale che \begin{align*}
+    \phi: V/H & \to L  \\
     \Biggl[\sum_{i=1}^{h} x_{i}v_{i} +\sum_{j=1}^{n-h}y_{j}w_{j}     \Biggr] & \mapsto \sum_{j=1}^{n-h} y_{j} w_{j}   
-    \end{align*} Si dimostra che $ \Phi $ è un isomorfismo, ovvero che $ \Phi $ è ben definita, lineare, iniettiva e suriettiva.
+    \end{align*} Si dimostra che $ \phi $ è un isomorfismo, ovvero che $ \phi $ è ben definita, lineare, iniettiva e suriettiva.
     \begin{itemize}
-        \item $ \Phi $ è ben definita: siano $ v, v' \in V $ tali che $ v\sim v' $. Scrivo \[v=\sum_{i=1}^{h}x_{i}v_{i} + \sum_{j=1}^{n-h}y_{j}w_{j}\] e \[
+        \item $ \phi $ è ben definita: siano $ v, v' \in V $ tali che $ v\sim v' $. Scrivo \[v=\sum_{i=1}^{h}x_{i}v_{i} + \sum_{j=1}^{n-h}y_{j}w_{j}\] e \[
             v'=\sum_{i=1}^{h}x_{i}'v_{i} + \sum_{j=1}^{n-h}y_{j}'w_{j}
         \]
         $ v\sim v' $ $ \iff $ $ v-v' \in H $ $ \iff $ $ v-v' \in \mathscr{L}(v_1, \cdots, v_{h} ) $
@@ -91,16 +91,16 @@ Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua v
         
         $\implies$ $ v'=\sum_{i=1}^{h}x_{i}'v_{i} + \sum_{j=1}^{n-h}y_{j}w_{j} $ 
         
-        $\implies$ $ \Phi[v] $ non dipende dal rappresentante $ v $.
-        \item $ \Phi $ è lineare, infatti 
+        $\implies$ $ \phi[v] $ non dipende dal rappresentante $ v $.
+        \item $ \phi $ è lineare, infatti 
         \begin{multline*}
-            \Phi([v]+[v'])=\Phi([v+v'])=\\
-            =\Phi\Biggl(\biggl[\sum_{i=1}^{h}(x_{i}+x_{i}')v_{i}+\sum_{j=1}^{n-h}(y_{j}+y_{j}'  )w_{j}   \biggl]\Biggl)=\\
+            \phi([v]+[v'])=\phi([v+v'])=\\
+            =\phi\Biggl(\biggl[\sum_{i=1}^{h}(x_{i}+x_{i}')v_{i}+\sum_{j=1}^{n-h}(y_{j}+y_{j}'  )w_{j}   \biggl]\Biggl)=\\
             = \sum_{j=1}^{n-h} (y_{j}+y_{j}')w_{j}=  \sum_{j=1}^{n-h} y_{j}w_{j}+\sum_{j=1}^{n-h} y_{j}'w_{j}=\\
-            =\Phi[v]+\Phi[v'].
+            =\phi[v]+\phi[v'].
         \end{multline*}
-        La dimostrazione di $ \Phi(\lambda[v])=\lambda\Phi([v]) $.
-        \item $ \Phi $ è iniettiva: infatti $ \Phi([v])=\underline{0} $ 
+        La dimostrazione di $ \phi(\lambda[v])=\lambda\phi([v]) $.
+        \item $ \phi $ è iniettiva: infatti $ \phi([v])=\underline{0} $ 
         
         $\implies$ $ v=\sum_{i=1}^{h} x_{i}v_{i}    $ 
         
@@ -108,14 +108,14 @@ Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua v
         
         $\implies$ $ v \in H  $ $ \implies $ $ [v]=\underline{0}_{V/H} $ 
         
-        $\implies$ $ \ker \Phi =\{\underline{0}_{V/H}\} $ 
+        $\implies$ $ \ker \phi =\{\underline{0}_{V/H}\} $ 
         
-        $\implies$ $ \Phi $ iniettiva.
-        \item $ \Phi $ è suriettiva: infatti se $ z \in L $ 
+        $\implies$ $ \phi $ iniettiva.
+        \item $ \phi $ è suriettiva: infatti se $ z \in L $ 
         
-        $\implies$ $ \Phi([z])=z $ 
+        $\implies$ $ \phi([z])=z $ 
         
-        $\implies$ $ \Phi $ è suriettiva.
+        $\implies$ $ \phi $ è suriettiva.
     \end{itemize}
 
     Dal momento che $ V/H $ è isomorfo ad $ L $ avranno stessa dimensione, segue la tesi.\qed
@@ -243,28 +243,28 @@ Sia $ V $ spazio vettoriale su $ \K $, $ V^{*} $ spazio vettoriale su $ \K $. Po
     $ V $ e $ (V^{*})^{*} $ in dimensione finita sono \textit{canonicamente isomorfi}.
 }
 \dimostrazione{evvivaqualcosadidimostrato}{
-    Si definisce un isomorfismo $ \Phi:V\to (V^{*})^{*} $ tramite la relazione \begin{equation}
-        \Phi(v)(\alpha):=\alpha(v)\qquad \forall\, v \in V, \alpha \in V^{*}
-    \end{equation} Si dimostra che $ \Phi $ è un isomorfismo: lineare, iniettiva.\footnote{Non c'è bisogno della suriettività perché hanno stessa dimensione.}
+    Si definisce un isomorfismo $ \phi:V\to (V^{*})^{*} $ tramite la relazione \begin{equation}
+        \phi(v)(\alpha):=\alpha(v)\qquad \forall\, v \in V, \alpha \in V^{*}
+    \end{equation} Si dimostra che $ \phi $ è un isomorfismo: lineare, iniettiva.\footnote{Non c'è bisogno della suriettività perché hanno stessa dimensione.}
     \begin{itemize}
-        \item $ \Phi(v) \in (V^{*})^{*} $, cioè $ \Phi(v): V^{*}\to \K $ è lineare, infatti \begin{multline*}
-            \Phi(v)(\lambda\alpha+\mu\beta)\underset{\footnotemarkk{elefantino}}{=}(\lambda \alpha+\mu\beta)=\\
-            =\lambda \alpha(v)+\mu\beta(v)\underset{\footnotemark}{=} \lambda\Phi(v)(\alpha)+\mu \Phi(v)(\beta)
+        \item $ \phi(v) \in (V^{*})^{*} $, cioè $ \phi(v): V^{*}\to \K $ è lineare, infatti \begin{multline*}
+            \phi(v)(\lambda\alpha+\mu\beta)\underset{\footnotemarkk{elefantino}}{=}(\lambda \alpha+\mu\beta)=\\
+            =\lambda \alpha(v)+\mu\beta(v)\underset{\footnotemark}{=} \lambda\phi(v)(\alpha)+\mu \phi(v)(\beta)
         \end{multline*}
-        \consecfoottext{1}{elefantino}{definizione di $ \Phi $}
-        \footnotetext{definizione di $ \Phi $}
-        \item $ \Phi $ è lineare: devo verificare che \[\Phi(\lambda v + \mu w)= \lambda\Phi(v)+\mu\Phi(v)\qquad\forall\, \lambda, \mu \in \K, v, w \in V \] cioè che \[
-            \Phi(\lambda v + \mu w)(\alpha)=\lambda\Phi(v)(\alpha)+\mu\Phi(v)(\alpha)\quad \forall\, \alpha \in V^{*}
+        \consecfoottext{1}{elefantino}{definizione di $ \phi $}
+        \footnotetext{definizione di $ \phi $}
+        \item $ \phi $ è lineare: devo verificare che \[\phi(\lambda v + \mu w)= \lambda\phi(v)+\mu\phi(v)\qquad\forall\, \lambda, \mu \in \K, v, w \in V \] cioè che \[
+            \phi(\lambda v + \mu w)(\alpha)=\lambda\phi(v)(\alpha)+\mu\phi(v)(\alpha)\quad \forall\, \alpha \in V^{*}
         \] ma \[
-            \Phi(\lambda v + \mu w)(\alpha)=\alpha(\lambda v + \mu w)\underset{\footnotemark}{=}\lambda \alpha (v)+ \mu \alpha(w)=\lambda\Phi(v)(\alpha)+\mu\Phi(w)(\alpha)
+            \phi(\lambda v + \mu w)(\alpha)=\alpha(\lambda v + \mu w)\underset{\footnotemark}{=}\lambda \alpha (v)+ \mu \alpha(w)=\lambda\phi(v)(\alpha)+\mu\phi(w)(\alpha)
         \]\footnotetext{$\alpha$ è lineare}
-        \item $ \Phi $ è iniettiva: infatti se $ \Phi(v)=\underline{0} \in (V^{*})^{*} $ 
+        \item $ \phi $ è iniettiva: infatti se $ \phi(v)=\underline{0} \in (V^{*})^{*} $ 
         
-        $\implies$ $ \Phi(v)(\alpha)=0 $ $ \forall\,\alpha \in V^{*}  $ 
+        $\implies$ $ \phi(v)(\alpha)=0 $ $ \forall\,\alpha \in V^{*}  $ 
         
         $\implies$ $ \alpha(v) = 0 $ $ \forall\, \alpha \in V^{*} $ 
         
-        $\implies$ $ v=\underline{0} $ $ \implies $ $ \ker(\Phi)=\{\underline{0}\} $ e $ \Phi $ è iniettiva. \qed
+        $\implies$ $ v=\underline{0} $ $ \implies $ $ \ker(\phi)=\{\underline{0}\} $ e $ \phi $ è iniettiva. \qed
     \end{itemize}
 }
 

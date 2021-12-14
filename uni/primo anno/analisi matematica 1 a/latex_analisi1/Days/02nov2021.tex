@@ -279,9 +279,9 @@ Progressione geometrica \[
     e $ \frac{1}{\sqrt{n}} \xrightarrow{n\to + \infty} 0 \displaystyle $ allora per confronto \[
         \lim_{n\to +\infty} \frac{\sqrt{n}}{a^n} =0
     \]
-    ovvero \[
+    ovvero \begin{equation}
         \sqrt{n}=o(a^n)_{n\to +\infty}
-    \]
+    \end{equation}
     \item Dato $ a>1 $
     \[
         0\le \frac{n}{a^n}=\bigg(\frac{\sqrt{n}}{(\sqrt{a})^n}\bigg)^2
@@ -291,9 +291,9 @@ Progressione geometrica \[
     Otteniamo che \[
         \lim_{n\to + \infty} \frac{n}{a^n} =0
     \]
-    ovvero \[
+    ovvero \begin{equation}
         n=o(a^n)_{n\to + \infty}
-    \]
+    \end{equation}
     \item Dato $ k \in \N\setminus \{0,1\} $
     \[
         0\le \frac{n^k}{a^n}=\bigg(\frac{n}{(\sqrt[k]{a})^n}\bigg)^k
@@ -303,8 +303,22 @@ Progressione geometrica \[
     Dato che $ a>1 $ e $ \sqrt[k]{a}>1 $ concludiamo che \[
         \lim_{n\to + \infty} \frac{n^k}{a^n} = 0 
     \]
-    ovvero \[
-        n^k = o(a^n)_{n\to + \infty}
+    ovvero \begin{equation}
+        n^k = o(a^n)_{n\to + \infty}.
+    \end{equation}
+    \item Dato $ a>1 $, $ \alpha \in \R $ e $ \alpha>0 $ calcoliamo \[
+        \lim_{n\to + \infty} \frac{n^{\alpha}}{a^{n}} =?
     \]
-    \item %TODO manca un pezzo: https://math.i-learn.unito.it/pluginfile.php/160452/mod_resource/content/2/UNO_lezione13_2020_21.pdf
+    Osserviamo che $ 0\le [\alpha]\le \alpha < [\alpha]+1 $ dove $ [\alpha] \in \N $.
+
+    Allora $ n^{[\alpha]}\le n^{\alpha}< n^{[\alpha]+1} $.
+
+    Dato che $ a^{n}>1>0 $ posso dividere l'equazione precedente \[
+        \frac{n^{[\alpha]}}{a^{n}}\le \frac{n^{\alpha}}{a^{n}}<\frac{n^{[\alpha]+1}}{a^{n}}
+    \] Per il limite precedente si ha che \[
+        \lim_{n\to + \infty} \frac{n^{[\alpha]}}{a^{n}} = 0\qquad \lim_{n\to + \infty} \frac{n^{[\alpha]+1}}{a^{n}} = 0
+    \]
+    Per il teorema del confronto otteniamo che $ \displaystyle \lim_{n\to + \infty} \frac{n^{\alpha}}{a^{n}} = 0 $ ovvero \begin{equation}
+        n^{\alpha}=o(a^{n})_{n\to +\infty}
+    \end{equation}
 \end{enumerate}

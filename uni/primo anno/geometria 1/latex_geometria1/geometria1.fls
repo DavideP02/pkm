@@ -403,12 +403,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfad
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 OUTPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -416,6 +410,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.st
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -586,12 +582,24 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/doublestroke/dsrom12.t
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/09dic2021.tex
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/09dic2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/13dic2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/13dic2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/14dic2021.tex
+INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/Days/14dic2021.tex
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.aux
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.out
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.out
 INPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.run.xml
 OUTPUT /Users/davidepeccioli/Documents/Personal Knowledge Management/note archive/uni/primo anno/geometria 1/latex_geometria1/geometria1.run.xml
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb

@@ -1,0 +1,321 @@
+%TODO manca la parte iniziale
+
+%TODO manca esercizio
+Abbiamo utilizzato il seguente cambio di coordinate: %questa è la fine esercizio mancante
+\begin{gather*}
+    \begin{pmatrix}
+        x\\y
+    \end{pmatrix}=P\begin{pmatrix}
+        x'\\y'
+    \end{pmatrix}\qquad \begin{pmatrix}
+        X\\Y
+    \end{pmatrix}=\begin{pmatrix}
+        x'+1/2\\ y'+1/4
+    \end{pmatrix}\\
+    \implies\:\begin{pmatrix}
+        x'\\y'
+    \end{pmatrix}=\begin{pmatrix}
+        X-1/2\\ Y-1/4
+    \end{pmatrix} \,\implies
+\end{gather*}
+\begin{multline*}
+    \begin{pmatrix}
+        x\\y
+    \end{pmatrix}= P \begin{pmatrix}
+        X\\Y
+    \end{pmatrix}+ P\begin{pmatrix}
+        -1/2\\ -1/4
+    \end{pmatrix}=\\=\frac{1}{\sqrt{2}}\begin{pmatrix}
+        1 & 1\\-1 & 1
+    \end{pmatrix}\begin{pmatrix}
+        X\\Y
+    \end{pmatrix}+\frac{1}{\sqrt{2}}\begin{pmatrix}
+        1 & 1\\-1 & 1
+    \end{pmatrix}\begin{pmatrix}
+        -1/2\\ -1/4
+    \end{pmatrix}
+\end{multline*}
+\[
+    \begin{pmatrix}
+        X\\Y
+    \end{pmatrix}=\frac{1}{\sqrt{2}}\begin{pmatrix}
+        X+Y\\-X+Y
+    \end{pmatrix}+\frac{1}{\sqrt{2}}\begin{pmatrix}
+        -3/4\\ 1/4
+    \end{pmatrix}
+\]
+
+\rule{7em}{.4pt}
+
+È possibile dedurre di che conica si tratta dall'algoritmo senza dover operare il cambio di coordinate.
+
+L'equazione della conica data da \[
+    p(x,y)=a_{11} x^{2} + 2 a_{12} xy + a_{22}y^{2} + 2 a_{13}x + 2 a_{23} y + a_{33}=0
+\] 
+riscrivibile come 
+\[
+    \begin{pmatrix}
+        x & y
+    \end{pmatrix} A \begin{pmatrix}
+        x\\ y
+    \end{pmatrix} + 2a_{13} x + 2a_{23}y+a_{33}\qquad A=\begin{pmatrix}
+        a_{11} & a_{12}\\
+        a_{12} & a_{22}
+    \end{pmatrix} \in S(\R^{2,2})
+\] 
+ma anche come
+\[
+    \begin{pmatrix}
+        x & y & 1
+    \end{pmatrix} B \begin{pmatrix}
+        x\\ y\\ 1
+    \end{pmatrix}\qquad B=\begin{pmatrix}
+        a_{11} & a_{12} & a_{13}\\
+        a_{12} & a_{22} & a_{23}\\
+        a_{13} & a_{23} & a_{33}
+    \end{pmatrix}
+\]
+
+$ A $ è la matrice incompleta della coninca, mentre $ B $ è la matrice completa.
+
+Si può osservare che operando un cambio di coordinate (come una rototraslazione) alcune informazioni relative alle matrici $ A $ e $ B $ rimangono invariate. Da $ \rank A $, $ \rank B $, $ \det A $, $ \tr(A)\det(B) $ si può risalire a che conica si tratta.
+
+\teorema{terribileveramentetanto}{
+    \begin{itemize}
+        \item $ \rank B = 3 $
+            \begin{itemize}
+                \item $ \rank A = 2 $
+                    \begin{itemize}
+                        \item $ \det A > 0 $\footnote{
+                            Se $ \det A>0 $, allora $ \tr(A)\neq 0 $, infatti $ A $ è diagonalizzabile, $ \spettro(A)=\lambda_1, \lambda_2 $, $ \tr(A)= \lambda_1 + \lambda_2 $ mentre $ \det A = \lambda_1 \lambda_2 $. Quindi $ \det A >0 $ implica $ \lambda_1 $ e $ \lambda_2 $ hanno lo stesso segno 
+                            
+                            $\implies$ $ \lambda_1 + \lambda_2 \neq 0 $.
+                    }: 
+                            \begin{itemize}
+                                \item $ \tr(A)\det(B)<0 $: ellissi
+                                \item $ \tr(A)\det(B)>0 $: ellissi immaginaria
+                            \end{itemize}
+                        \item $ \det A < 0 $: iperbole
+                    \end{itemize}
+                \item $ \rank A = 1 $: parabola
+            \end{itemize}
+        \item $ \rank B = 2 $
+            \begin{itemize}
+                \item $ \det A \neq 0 $
+                    \begin{itemize}
+                        \item $ \det A > 0$: due rette immaginarie incidenti
+                        \item $ \det A < 0 $: due rette reali incidenti
+                    \end{itemize}
+                \item $ \det A = 0 $: due rette parallele
+            \end{itemize}
+        \item $ \rank B = 1 $ ($\implies$ $ \rank A = 1 $): due rette coincidenti
+    \end{itemize}
+}
+
+\section{Geometria Analitica}
+
+La geometria analitica\footnote{In questa sezione, per distinguere i punti dai vettori, si indicheranno quest'ultimi in neretto (es: $\mathbf{n}$)} è lo studio di punti, rette, piani, sfere (e oggetti simili) nello spazio.
+
+\subsection{Descrizione di un piano in $ \R^{3} $} 
+
+Il piano non è necessariamente vettoriale (ovvero passante per l'origine)
+
+Fisso $ p_0=(x_0, y_0, z_0) \in \R^{3} $ un punto, e $ \mathbf{n}=(a,b,c) $ un vettore, e descrivo il piano passante per $ p_0 $ e ortogonale a $ \mathbf{n} $.
+
+Piano ortogonale a $ \mathbf{n} $: $ \{(x,y,z) \in \R^{3}\,|\, (x,y,z) \cdot (a,b,c)=0\} $, ovvero \[
+    \{(x,y,z) \in \R^{3}\,|\, ax+by+cz=0\}
+\]
+Ne risulta quindi che \begin{equation}
+    ax+by+cz=0
+\end{equation} è l'equazione del piano in $ \R^{3} $ ortogonale a $ (a,b,c) $. Deduco che \begin{equation}
+    a(x-x_0)+b(y-y_0)+c(z-z_0)=0
+\end{equation} è l'equazione del piano passante per $ x_0, y_0, z_0 $ e ortogonale a $ (a,b,c) $
+
+Quindi \begin{equation}
+    ax+by+cz+d=0\qquad d=-ax_0-by_0-cz_0
+\end{equation} è l'\textit{equazione cartesiana di un piano}.
+
+Un altro modo per descrivere un piano passante per l'origine (piano vettoriale), è di fissare due vettori $ \mathbf{u}, \mathbf{v} $ non linearmente dipendente, e scrivere il piano come l'insieme dei vettori in $ \mathscr{L}(\mathbf{u}, \mathbf{v}) $ \[
+    \mathscr{L}(\mathbf{u}, \mathbf{v})=\{t\mathbf{u}+s\mathbf{v}\,|\, t, s \in \R\}
+\]
+Ne risulta quindi che ogni piano passante per l'origine lo si può scrivere come l'insieme dei punti di equazione \[
+    p=t\mathbf{u}+s\mathbf{v}\qquad (t,s \in \R, \mathbf{u},\mathbf{v} \text{ vettori})
+\]
+
+Un piano passante per $ p_0=(x_0, y_0, z_0) $ si ottiene traslando un piano passante per l'origine in $ p_0 $, e quindi ha equazione \[
+    p-p_0=t\mathbf{u}+s\mathbf{v}
+\]
+equazione parametrica di un piano passante per $ p_0 $ e parallelo a $ \mathbf{u} $ e $ \mathbf{v} $. Posto \[
+    \mathbf{u}=\begin{pmatrix}
+        l\\m\\n
+    \end{pmatrix}\qquad \mathbf{v}=\begin{pmatrix}
+        l'\\m'\\n'
+    \end{pmatrix}
+\]
+l'equazione diventa
+\begin{equation}
+    \begin{pmatrix}
+        x-x_0\\ y-y_0\\ z-z_0
+    \end{pmatrix}=t \begin{pmatrix}
+        l\\m\\n
+    \end{pmatrix}+s\begin{pmatrix}
+        l'\\m'\\n'
+    \end{pmatrix}\label{launo}
+\end{equation}
+al variare di $ s, t \in \R $
+
+$ (x,y,z) $ soddisfa la \eqref{launo} $ \iff $ $ (x-x_0, y-y_0, z-z_0) \in \mathscr{L}(\mathbf{u}, \mathbf{v}) $
+\begin{gather}
+    \iff \quad\rank \begin{pmatrix}
+        x-x_0 & y-y_0 & z-z_0\\
+        l & m &n \\
+        l' & m' & n'
+    \end{pmatrix}=2\\
+    \iff\quad \det\begin{pmatrix}
+        x-x_0 & y-y_0 & z-z_0\\
+        l & m &n \\
+        l' & m' & n'
+    \end{pmatrix}=0\label{equazionededd}
+\end{gather} % TODO eliminare il primo numero di equazone
+
+La \eqref{equazionededd} è un'altra equazione (cartesiana) del piano passante per $ (x_0, y_0, z_0) $ e parallelo a $ (l, m, n) $, $ (l', m', n') $
+
+Dati tre punti non allineati $ A, B, C $, si può trovare l'equazione di un piano passante per questi tre punti. \begin{align*}
+    A &= (x_{A}, y_{A}, z_{A}   )\\
+    B &= (x_{B}, y_{B}, z_{B}   )\\
+    C &= (x_{C}, y_{B}, z_{B}   )
+\end{align*}
+
+In particolare il piano $ \pi $ passa per $ A $ ed è parallelo a $ \mathbf{u}=B-A $ e $ \mathbf{v}=C-A $. Ricavo l'equazione \[
+    \det \begin{pmatrix}
+        x-x_{A} & y-y_{A} & z-z_{A}\\
+        x_{B} -x_{A} & y_{B} -y_{A} & z_{B} -z_{A}\\
+        x_{C} -x_{A} & y_{C} -y_{A} & z_{C} -z_{A}
+    \end{pmatrix}=0
+\]
+
+\esercizio{
+    Si trovi l'equazione del piano passante per $ A=(1, 0, 1) $, $ B=(2, -1, 0) $ e $ C=(1,1,1) $
+}{
+    \[
+        B-A=(1,-1, -1)\qquad C-A=(0, 1, 0)  
+    \] e $ \pi $ ha equazione \[
+        \pi:\det\begin{pmatrix}
+            x-1 & y & z-1\\
+            1 & -1 & -1\\
+            0 & 1 & 0
+        \end{pmatrix}=0
+    \] cioè \[
+        \det \begin{pmatrix}
+            x-1 & z-1 \\
+            1 & -1
+        \end{pmatrix}=0
+    \] ovvero \[x+z-2=0\]
+}{}
+
+\subsection{Rette nello spazio}
+
+Un primo modo è l'\textit{equazione cartesiana}: $ r $ è interesezione di due piani: $ \pi $ e $ \pi' $: \[
+    \begin{cases}
+        ax+by+cz+d=0\\
+        a'x+by'+cz'+d'=0
+    \end{cases}
+\]
+
+Nell'\textit{equazione parametrica} $ r $ ha equazione \[
+    \begin{pmatrix}
+        x \\ y \\ z
+    \end{pmatrix}=\begin{pmatrix}
+        x_0 \\ y_0 \\ z_0
+    \end{pmatrix} + t \begin{pmatrix}
+        l \\ m \\ n
+    \end{pmatrix}
+\]
+Vale che $ r $ passa per $ \bigl(\begin{smallmatrix}
+    x \\ y \\ z
+\end{smallmatrix}\bigr) $ (basta porre $ t=0 $), e $ r $ è parallela al vettore $ \bigl(\begin{smallmatrix}
+    x_0 \\ y_0 \\ z_0
+\end{smallmatrix}\bigr) $
+
+\esempio{
+    Equazione della retta passante per $ p_0=(1,2,-1) $ e parallela a $ (0,1,-1) $ \[
+        \begin{pmatrix}
+            x \\ y \\ z
+        \end{pmatrix}=\begin{pmatrix}
+            1 \\ 2 \\ -1
+        \end{pmatrix} + t \begin{pmatrix}
+            0 \\ 1 \\ -1
+        \end{pmatrix}
+    \]
+
+    Per dedurre la cartesiana si ``risolve'' eliminando il parametro $ t $.\begin{gather*}
+        \begin{pmatrix}
+            x-1\\ y-2\\ z-1
+        \end{pmatrix}=\begin{pmatrix}
+            0 \\ t \\ -t
+        \end{pmatrix}\\
+        \begin{cases}
+            x-1=0\\
+            y-2=t\\
+            -1-z=t
+        \end{cases} \,\implies\, \begin{cases}
+            x-1=0\\
+            y-2=-1-z
+        \end{cases}\implies \\
+        \begin{cases}
+            x-1=0\\
+            y+z-1=0
+        \end{cases}
+    \end{gather*}
+
+    Ho trovato sia l'equazione parametrica che cartesiana del sistema.
+}
+
+Si può trovare anche l'\textit{equazione della retta per due punti distinti} $ A, B $ \begin{align*}
+    A &= (x_{A}, y_{A}, z_{A}   )\\
+    B &= (x_{B}, y_{B}, z_{B}   )
+\end{align*}
+
+La retta passa per $ A $ ed è parallela a $ B-A $, cioè ha equazione \[
+    \begin{pmatrix}
+        x \\ y \\ z
+    \end{pmatrix}=\begin{pmatrix}
+        x_A \\ y_A \\ z_A
+    \end{pmatrix} + t \begin{pmatrix}
+        x_{B}-x_{A}   \\ y_{B}-y_{A}   \\ z_{B}-z_{A}  
+    \end{pmatrix}
+\]
+
+\subsubsection{Posizioni reciproche di due piani nello spazio}
+
+Siano $ \pi_1 $ e $ \pi_2 $ due piani in $ \R^{3} $, ci sono solo tre possibilità:
+\begin{enumerate}
+    \item $ \pi_1= \pi_2 $: coincidono;
+    \item $ \pi_1 \parallel \pi_2 $: sono paralleli;
+    \item $ \pi_1\cap \pi_2 $ è una retta
+\end{enumerate}
+
+Supponiamo \begin{align*}
+    \pi_1: &a_1x+b_1y+c_1z+d_1=0\\
+    \pi_2: &a_1x+b_2y+c_2z+d_2=0
+\end{align*}
+
+Studio \[
+    \begin{cases}
+        a_1x+b_1y+c_1z=-d_1\\
+        a_1x+b_2y+c_2z=-d_2
+    \end{cases}
+\] sistema lineare non omogeneo in due equazioni e tre incognite. Le matrici associate sono \[
+    A=\begin{pmatrix}
+        a_1 & b_1 & c_1\\
+        a_2 & b_2 & c_2
+    \end{pmatrix}\qquad (A|B)=\left(\begin{array}{@{}ccc|c@{}}
+        a_1 & b_1 & c_1 & -d_1\\
+        a_2 & b_2 & c_2 & -d_2
+    \end{array}
+    \right) %TODO aggiungere sbarretta prima dell'ultima colonna
+\]
+\begin{align*}
+    \pi_1= \pi_2 \,&\iff\, \rank (A )= \rank(A|B)= 1  \\      
+    \pi_1\parallel \pi_2\, &\iff\, \rank(A)=1,\: \rank(A|B)=2
+\end{align*}
