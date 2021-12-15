@@ -2,676 +2,218 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{I\hspace {1em}Insiemi}{5}{part.1}% 
+\contentsline {paragraph}{Esempio (0.1)}{5}{section*.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduzione agli insiemi}{5}{section.1}% 
+\contentsline {paragraph}{Definizione }{6}{section*.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Corrispondenza biunivoca}{5}{subsection.1.1}% 
+\contentsline {paragraph}{Esercizio }{6}{section*.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1}Corrispondenza $ \mathds {N}-\mathds {Z}$}{5}{subsubsection.1.1.1}% 
+\contentsline {paragraph}{Soluzione}{6}{section*.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2}Corrispondenza $ \mathds {N}- \mathds {N}\times \mathds {N}$}{5}{subsubsection.1.1.2}% 
+\contentsline {paragraph}{Osservazione (0.1)}{6}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{6}{section*.2}% 
+\contentsline {section}{\numberline {1}Successioni e topologia in $ \mathds {R}^{n} $}{7}{section.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Insieme $ \mathds {R}$}{6}{subsection.1.2}% 
+\contentsline {paragraph}{Definizione }{7}{section*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}i }{6}{section*.3}% 
+\contentsline {paragraph}{Esempi (1.1)}{7}{section*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:sdfsdfsdfdd]{(\textit {p.}i)}}{6}{section*.4}% 
+\contentsline {paragraph}{Teorema I (caratt. degli insiemi compatti)}{8}{section*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}ii }{7}{section*.5}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carcompins]{(I)}}{8}{section*.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:m2parimpari]{(\textit {p.}ii)}}{7}{section*.6}% 
+\contentsline {paragraph}{Esempi (1.2)}{9}{section*.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}iii (schema I)}{7}{section*.8}% 
+\contentsline {subsection}{\numberline {1.1}Continuit\IeC {\`a} e compattezza in $ \mathds {R}^{n} $}{9}{subsection.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:assurdo1]{(\textit {p.}iii)}}{7}{section*.9}% 
+\contentsline {paragraph}{Continuit\IeC {\`a}}{9}{section*.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}iv (schema II)}{7}{section*.10}% 
+\contentsline {paragraph}{Osservazione (1.1)}{10}{section*.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:assurdo2]{(\textit {p.}iv)}}{8}{section*.11}% 
+\contentsline {paragraph}{Teorema II }{10}{section*.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}v (schema III)}{8}{section*.12}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:compcont1]{(II)}}{10}{section*.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:assurdo3]{(\textit {p.}v)}}{8}{section*.13}% 
+\contentsline {paragraph}{Definizione }{10}{section*.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1}Relazioni}{8}{subsubsection.1.2.1}% 
+\contentsline {paragraph}{Teorema III (di Weierstrass)}{11}{section*.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{9}{section*.14}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:weierstrass]{(III)}}{11}{section*.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{9}{section*.15}% 
+\contentsline {paragraph}{Osservazione (1.2)}{12}{section*.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{9}{section*.16}% 
+\contentsline {paragraph}{Teorema IV (dei valori intermedi sui compatti)}{12}{section*.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (1.1)}{9}{section*.17}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:diiidiiidiidii]{(IV)}}{12}{section*.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{10}{section*.18}% 
+\contentsline {subsection}{\numberline {1.2}Legame tra uniforme continuit\IeC {\`a} e compattezza}{12}{subsection.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{11}{section*.19}% 
+\contentsline {paragraph}{Teorema V (di Heine-Cantor)}{12}{section*.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{11}{section*.20}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:heinecantor]{(V)}}{13}{section*.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{11}{section*.21}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{14}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (1.2)}{11}{section*.22}% 
+\contentsline {paragraph}{Definizione }{14}{section*.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{12}{section*.23}% 
+\contentsline {paragraph}{Teorema VI (caratt. delle funzioni continue)}{14}{section*.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (1.3)}{12}{section*.24}% 
+\contentsline {section}{\numberline {2}Derivata}{14}{section.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (1.4)}{12}{section*.25}% 
+\contentsline {paragraph}{Esempio (2.1)}{14}{section*.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2}Definizione assiomatica dei numeri reali}{13}{subsubsection.1.2.2}% 
+\contentsline {paragraph}{Esempio (2.2)}{15}{section*.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3}Campi ordinati completi}{14}{subsubsection.1.2.3}% 
+\contentsline {paragraph}{Esempio (2.3)}{15}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{14}{section*.26}% 
+\contentsline {paragraph}{Definizione }{15}{section*.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema I }{14}{section*.27}% 
+\contentsline {paragraph}{Definizione }{16}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.4}Rappresentazione}{15}{subsubsection.1.2.4}% 
+\contentsline {paragraph}{Esempio (2.4)}{16}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.5}Caratteristiche di $ \mathds {R}$}{15}{subsubsection.1.2.5}% 
+\contentsline {paragraph}{Esempio (2.5)}{16}{section*.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (1.1)}{15}{section*.28}% 
+\contentsline {paragraph}{Teorema VII }{17}{section*.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema II }{15}{section*.29}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:contederiv]{(VII)}}{17}{section*.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:jjillklucrezaibiosso]{(II)}}{16}{section*.30}% 
+\contentsline {paragraph}{Esempio (2.6)}{17}{section*.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (1.2)}{18}{section*.31}% 
+\contentsline {paragraph}{Osservazione (2.1)}{17}{section*.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{18}{section*.32}% 
+\contentsline {paragraph}{Definizione }{18}{section*.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema III (caratt. estremo superiore)}{18}{section*.33}% 
+\contentsline {paragraph}{Osservazione (2.2)}{18}{section*.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carestrsupppspp]{(III)}}{18}{section*.34}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{18}{section*.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema IV (Densit\IeC {\`a} di $ \mathds {Q}$ in $ \mathds {R}$)}{19}{section*.35}% 
+\contentsline {paragraph}{Esempio (2.7)}{18}{section*.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Spazio Euclideo $ \mathds {R}^{n} $}{19}{subsection.1.3}% 
+\contentsline {paragraph}{Osservazione (2.3)}{19}{section*.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{19}{section*.36}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} (Algebra delle derivate)}{19}{section*.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{19}{section*.37}% 
+\contentsline {paragraph}{Osservazione (2.4)}{19}{section*.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1}Operazioni su $ \mathds {R}^{n} $}{20}{subsubsection.1.3.1}% 
+\contentsline {paragraph}{Definizione }{19}{section*.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Somma ($+$)}{20}{section*.38}% 
+\contentsline {paragraph}{Notazione }{20}{section*.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} della somma}{20}{section*.39}% 
+\contentsline {subsection}{\numberline {2.1}Derivate di funzioni elementari}{20}{subsection.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Prodotto per uno scalare $ \lambda \in \mathds {R}$}{20}{section*.40}% 
+\contentsline {subsection}{\numberline {2.2}Prima formula dell'incremento finito}{21}{subsection.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} del prodotto}{20}{section*.41}% 
+\contentsline {paragraph}{Osservazione (2.5)}{21}{section*.49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{21}{section*.42}% 
+\contentsline {paragraph}{Teorema VIII (di derivazione delle funzioni composte)}{22}{section*.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{21}{section*.43}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:diderfunccomi]{(VIII)}}{22}{section*.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} del prodotto scalare}{21}{section*.44}% 
+\contentsline {paragraph}{Esempio (2.8)}{23}{section*.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (1.5)}{21}{section*.45}% 
+\contentsline {paragraph}{Esercizio }{23}{section*.53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{21}{section*.46}% 
+\contentsline {paragraph}{Soluzione}{23}{section*.54}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (1.3)}{22}{section*.47}% 
+\contentsline {paragraph}{Teorema IX (di derivazione della funzione inversa)}{23}{section*.55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (1.4)}{22}{section*.48}% 
+\contentsline {paragraph}{Esempio (2.9)}{24}{section*.56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} del modulo}{22}{section*.49}% 
+\contentsline {paragraph}{Applicazione}{24}{section*.57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (1.5)}{22}{section*.50}% 
+\contentsline {paragraph}{Applicazione}{24}{section*.58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{23}{section*.51}% 
+\contentsline {subsection}{\numberline {2.3}Studio dei punti di dubbia derivabilit\IeC {\`a}}{25}{subsection.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} della distanza}{23}{section*.52}% 
+\contentsline {paragraph}{Teorema X (di Darboux)}{25}{section*.59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{23}{section*.53}% 
+\contentsline {paragraph}{Osservazione (2.6)}{26}{section*.60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Punti di accumulazione}{23}{section.2}% 
+\contentsline {paragraph}{Esempio (2.10)}{26}{section*.61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{23}{section*.54}% 
+\contentsline {paragraph}{Esempi (2.11)}{26}{section*.62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (2.1)}{23}{section*.55}% 
+\contentsline {paragraph}{Esercizio }{26}{section*.63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{24}{section*.56}% 
+\contentsline {paragraph}{Soluzione}{27}{section*.64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{24}{section*.57}% 
+\contentsline {paragraph}{Definizione }{27}{section*.65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (2.2)}{24}{section*.58}% 
+\contentsline {paragraph}{Esempio (2.12)}{27}{section*.66}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{24}{section*.59}% 
+\contentsline {paragraph}{Definizione }{27}{section*.67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (2.3)}{24}{section*.60}% 
+\contentsline {section}{\numberline {3}Teoremi per le funzioni derivabili}{27}{section.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (2.4)}{25}{section*.61}% 
+\contentsline {subsection}{\numberline {3.1}Teorema di Fermat}{27}{subsection.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{25}{section*.62}% 
+\contentsline {paragraph}{Esempi (3.1)}{27}{section*.68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{25}{section*.63}% 
+\contentsline {paragraph}{Teorema XI (di Fermat)}{28}{section*.69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{25}{section*.64}% 
+\contentsline {paragraph}{Definizione }{28}{section*.70}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{25}{section*.65}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:difermatalleluia]{(XI)}}{28}{section*.71}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema V (di Bolzano-Weierstrass)}{26}{section*.66}% 
+\contentsline {paragraph}{Attenzione}{29}{section*.72}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (2.1)}{26}{section*.67}% 
+\contentsline {paragraph}{Esempio (3.2)}{29}{section*.73}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:bolzweierstrrdsdkkslkjf]{(V)}}{26}{section*.68}% 
+\contentsline {paragraph}{Attenzione}{29}{section*.74}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Topologia}{29}{section.3}% 
+\contentsline {paragraph}{Esempio (3.3)}{29}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{29}{section*.69}% 
+\contentsline {section}{\numberline {4}Funzione convessa}{29}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.1)}{29}{section*.70}% 
+\contentsline {paragraph}{Definizione }{29}{section*.76}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.2)}{30}{section*.71}% 
+\contentsline {paragraph}{Definizione }{30}{section*.77}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.3)}{30}{section*.72}% 
+\contentsline {paragraph}{Teorema XII (di caratt. delle funzioni convesse)}{30}{section*.78}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{31}{section*.73}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:elefante11ddedoijooodidiego]{(XII)}}{30}{section*.79}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.4)}{31}{section*.74}% 
+\contentsline {paragraph}{Teorema XIII (test della derivata seconda)}{33}{section*.80}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.5)}{31}{section*.75}% 
+\contentsline {paragraph}{\textit {dim.} \hyperref [thm:testdelladerivata]{(XIII)}}{33}{section*.81}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (3.6)}{32}{section*.76}% 
+\contentsline {paragraph}{Definizione }{34}{section*.82}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Domanda}{32}{section*.77}% 
+\contentsline {paragraph}{Definizione }{34}{section*.83}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{33}{section*.78}% 
+\contentsline {paragraph}{Attenzione}{34}{section*.84}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{33}{section*.79}% 
+\contentsline {paragraph}{Definizione }{34}{section*.85}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (3.1)}{33}{section*.80}% 
+\contentsline {paragraph}{Attenzione}{34}{section*.86}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} (di caratterizzazione degli aperti)}{33}{section*.81}% 
+\contentsline {paragraph}{Propriet\IeC {\`a} }{34}{section*.87}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VI (di caratterizzazione dei chiusi)}{34}{section*.82}% 
+\contentsline {paragraph}{Attenzione}{35}{section*.88}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carchiusdijooijooijdjkdjjdjdjdj]{(VI)}}{34}{section*.83}% 
+\contentsline {paragraph}{Esempio (4.1)}{35}{section*.89}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{35}{section*.84}% 
+\contentsline {section}{\numberline {5}Teoremi per la risoluzione di limiti}{35}{section.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (3.2)}{35}{section*.85}% 
+\contentsline {subsection}{\numberline {5.1}Teorema di De L'H\^opital}{35}{subsection.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Funzioni e Successioni}{36}{part.2}% 
+\contentsline {paragraph}{Teorema XIV (di De L'H\^opital)}{35}{section*.90}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Corrispondenze}{36}{section.4}% 
+\contentsline {paragraph}{Osservazione (5.1)}{35}{section*.91}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (4.1)}{36}{section*.86}% 
+\contentsline {paragraph}{Osservazione (5.2)}{36}{section*.92}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{36}{section*.87}% 
+\contentsline {paragraph}{Esempi (alcuni limiti notevoli) (5.1)}{36}{section*.93}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{36}{section*.88}% 
+\contentsline {paragraph}{Esempio (5.2)}{37}{section*.94}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (4.2)}{36}{section*.89}% 
+\contentsline {paragraph}{Attenzione}{37}{section*.95}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (4.1)}{37}{section*.90}% 
+\contentsline {subsection}{\numberline {5.2}Formula di Taylor}{38}{subsection.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (4.3)}{37}{section*.91}% 
+\contentsline {paragraph}{Definizione }{38}{section*.96}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Funzioni}{38}{section.5}% 
+\contentsline {paragraph}{Teorema XV }{38}{section*.97}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{38}{section*.92}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Definizioni}{38}{subsection.5.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{38}{section*.93}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{38}{section*.94}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.1)}{39}{section*.95}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{39}{section*.96}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.2)}{39}{section*.97}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{39}{section*.98}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.3)}{39}{section*.100}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Funzioni iniettive, suriettive e biiettive}{40}{subsection.5.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{40}{section*.101}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (5.1)}{40}{section*.102}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{40}{section*.103}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{40}{section*.104}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{40}{section*.105}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Funzione composta}{40}{subsection.5.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.4)}{41}{section*.106}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.5)}{42}{section*.107}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.6)}{43}{section*.108}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Funzione inversa}{44}{subsection.5.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.7)}{45}{section*.109}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{45}{section*.110}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.1}Grafico della funzione inversa}{46}{subsubsection.5.4.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{46}{section*.111}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{46}{section*.112}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{46}{section*.113}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{46}{section*.114}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Funzioni limitate}{46}{subsection.5.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.8)}{47}{section*.115}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{47}{section*.116}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (5.9)}{48}{section*.117}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{48}{section*.118}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6}Massimi, minimi e monotonia}{48}{subsection.5.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.6.1}Funzioni monotone}{49}{subsubsection.5.6.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Limiti}{49}{section.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Introduzione al concetto di limite}{49}{subsection.6.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Estensione di $ \mathds {R}$}{51}{subsection.6.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{51}{section*.119}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{51}{section*.120}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Estremo superiore (inferiore) in $ \mathds {R}^{*} $}{52}{section*.121}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VII (di Bolzano Weierstrass in $ \mathds {R}^{*} $)}{52}{section*.122}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (6.1)}{52}{section*.123}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Estensione di $ \mathds {R}^{n} $}{52}{subsection.6.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{53}{section*.124}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (6.2)}{53}{section*.125}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Limite di una funzione}{53}{subsection.6.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{53}{section*.126}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (6.3)}{54}{section*.127}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (6.1)}{56}{section*.128}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (6.2)}{57}{section*.129}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}\ignorespaces Funzioni senza limite}{58}{subsection.6.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}\ignorespaces Propriet\IeC {\`a} dei limiti}{58}{subsection.6.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7}\ignorespaces Algebra dei limiti}{64}{subsection.6.7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8}\ignorespaces Algebra estesa dei limiti}{66}{subsection.6.8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9}\ignorespaces Teoremi sui limiti}{68}{subsection.6.9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.10}\ignorespaces Potenze ad esponente reale}{71}{subsection.6.10}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.11}\ignorespaces Limiti notevoli e forme indeterminate}{72}{subsection.6.11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.12}\ignorespaces Infiniti ed infinitesimi}{75}{subsection.6.12}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.12.1}\ignorespaces Confronto di infinitesimi}{75}{subsubsection.6.12.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.12.2}\ignorespaces Confronto di infiniti}{76}{subsubsection.6.12.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.12.3}\ignorespaces Propriet\IeC {\`a} per infiniti e infinitesimi}{78}{subsubsection.6.12.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.13}\ignorespaces Altri limiti notevoli}{81}{subsection.6.13}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}\ignorespaces Successioni}{83}{section.7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Limiti delle successioni}{86}{subsection.7.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.1)}{86}{section*.130}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema VIII }{87}{section*.131}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema IX }{87}{section*.132}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema X (Principio di Archimede)}{87}{section*.133}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:archi]{(X)}}{87}{section*.134}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Applicazione del Principio di Archimede}{88}{section*.135}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XI (Disugualiganza di Bernoulli)}{88}{section*.136}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:bern]{(XI)}}{88}{section*.137}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.2)}{89}{section*.138}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{90}{section*.139}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{90}{section*.140}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XII (di relazione)}{90}{section*.141}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:rel]{(XII)}}{90}{section*.144}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.1}Confronti tra infiniti}{92}{subsubsection.7.1.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Costante di Nepero}{93}{subsection.7.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (7.1)}{95}{section*.145}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}vi }{95}{section*.146}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemma \textit {l.}i }{96}{section*.147}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:sgrsgfdsgfsd]{(\textit {p.}vi)}}{96}{section*.148}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:gagaga]{(\textit {l.}i)}}{96}{section*.149}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Un limite notevole}{97}{subsection.7.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4}Sottosuccessioni}{98}{subsection.7.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (7.3)}{98}{section*.150}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{99}{section*.151}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{99}{section*.152}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{99}{section*.153}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIII (legame limite successione e sottosuccessione)}{99}{section*.154}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:ddfsfsfsdfs]{(XIII)}}{100}{section*.155}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5}Successioni a valori in $ \mathds {R}^{n} $}{101}{subsection.7.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (7.4)}{101}{section*.156}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (7.2)}{101}{section*.157}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Proposizione \textit {p.}vii }{101}{section*.158}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [prp:asgdfgdffger]{(\textit {p.}vii)}}{101}{section*.159}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIV (di Bolzano-Weierstrass per le successioni)}{102}{section*.160}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:centrale]{(XIV)}}{102}{section*.161}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (7.3)}{103}{section*.162}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.5.1}Successioni e chiusura di $ E \subset \mathds {R}^{n} $}{103}{subsubsection.7.5.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{103}{section*.163}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XV }{104}{section*.164}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:dsfsdfsdddddd]{(XV)}}{104}{section*.169}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6}Successioni di Cauchy}{104}{subsection.7.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{104}{section*.170}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemma \textit {l.}ii }{105}{section*.171}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:dddddddsdfsdfs]{(\textit {l.}ii)}}{105}{section*.172}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XVI (Criterio di convergenza di Cauchy per le successioni)}{105}{section*.173}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:dfgdfgdfgdfgdfg]{(XVI)}}{105}{section*.174}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (7.4)}{106}{section*.175}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Continuit\IeC {\`a}}{107}{section.8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (8.1)}{107}{section*.176}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{108}{section*.177}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lemma \textit {l.}iii }{108}{section*.178}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [lmm:dfgdfgdg]{(\textit {l.}iii)}}{108}{section*.179}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (8.2)}{109}{section*.180}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.3)}{109}{section*.181}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{110}{section*.182}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XVII (Continuit\IeC {\`a} della funzione composta)}{110}{section*.183}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:adgfdagf]{(XVII)}}{110}{section*.184}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{111}{section*.185}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{111}{section*.186}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.4)}{111}{section*.187}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{112}{section*.188}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Discontinuit\IeC {\`a}}{112}{subsection.8.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.5)}{112}{section*.189}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.6)}{113}{section*.190}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.7)}{113}{section*.191}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{113}{section*.192}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{113}{section*.193}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Prolungamento per continuit\IeC {\`a} di una funzione}{113}{subsection.8.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (8.8)}{114}{section*.194}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}Teoremi per le funzioni continue}{115}{subsection.8.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{115}{section*.195}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XVIII (Teorema di esistenza degli zeri)}{115}{section*.196}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:teoexzeri]{(XVIII)}}{115}{section*.197}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.1)}{117}{section*.198}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.2)}{117}{section*.199}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.9)}{117}{section*.200}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.3)}{117}{section*.201}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XIX (dei valori intermedi)}{117}{section*.202}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:valinter]{(XIX)}}{117}{section*.203}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Corollario }{118}{section*.204}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (8.10)}{118}{section*.205}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{119}{section*.206}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{120}{section*.207}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{120}{section*.208}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (8.4)}{120}{section*.209}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Successioni e topologia in $ \mathds {R}^{n} $}{120}{section.9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{120}{section*.210}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (9.1)}{121}{section*.211}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XX (caratt. degli insiemi compatti)}{121}{section*.212}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:carcompins]{(XX)}}{121}{section*.213}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (9.2)}{123}{section*.214}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Continuit\IeC {\`a} e compattezza in $ \mathds {R}^{n} $}{123}{subsection.9.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Continuit\IeC {\`a}}{123}{section*.215}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (9.1)}{123}{section*.216}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXI }{123}{section*.217}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:compcont1]{(XXI)}}{123}{section*.218}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{124}{section*.219}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXII (di Weierstrass)}{124}{section*.220}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:weierstrass]{(XXII)}}{125}{section*.221}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (9.2)}{125}{section*.222}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXIII (dei valori intermedi sui compatti)}{125}{section*.223}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:diiidiiidiidii]{(XXIII)}}{126}{section*.224}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Legame tra uniforme continuit\IeC {\`a} e compattezza}{126}{subsection.9.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXIV (di Heine-Cantor)}{126}{section*.225}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:heinecantor]{(XXIV)}}{126}{section*.226}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{127}{section*.229}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{128}{section*.230}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXV (caratt. delle funzioni continue)}{128}{section*.231}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Derivata}{128}{section.10}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.1)}{128}{section*.232}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.2)}{128}{section*.233}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.3)}{129}{section*.234}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{129}{section*.235}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{129}{section*.236}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.4)}{129}{section*.237}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.5)}{130}{section*.238}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXVI }{130}{section*.239}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:contederiv]{(XXVI)}}{130}{section*.240}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.6)}{130}{section*.241}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (10.1)}{131}{section*.242}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{131}{section*.243}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (10.2)}{131}{section*.244}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{131}{section*.245}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.7)}{131}{section*.246}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (10.3)}{132}{section*.247}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} (Algebra delle derivate)}{132}{section*.248}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (10.4)}{132}{section*.249}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{133}{section*.250}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Notazione }{133}{section*.251}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1}Derivate di funzioni elementari}{134}{subsection.10.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2}Prima formula dell'incremento finito}{135}{subsection.10.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (10.5)}{135}{section*.252}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXVII (di derivazione delle funzioni composte)}{136}{section*.253}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:diderfunccomi]{(XXVII)}}{136}{section*.254}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.8)}{137}{section*.255}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{137}{section*.256}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{137}{section*.257}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXVIII (di derivazione della funzione inversa)}{137}{section*.258}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.9)}{137}{section*.259}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Applicazione}{138}{section*.260}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Applicazione}{138}{section*.261}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3}Studio dei punti di dubbia derivabilit\IeC {\`a}}{139}{subsection.10.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXIX (di Darboux)}{139}{section*.262}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempi (10.10)}{140}{section*.263}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esercizio }{140}{section*.264}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Soluzione}{140}{section*.265}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{140}{section*.266}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.11)}{140}{section*.267}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{141}{section*.268}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazione (10.6)}{141}{section*.269}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (10.12)}{141}{section*.270}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Funzione convessa}{141}{section.11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{141}{section*.271}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{141}{section*.272}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXX (di caratt. delle funzioni convesse)}{142}{section*.273}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:elefante11ddedoijooodidiego]{(XXX)}}{142}{section*.274}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Teorema XXXI (test della derivata seconda)}{145}{section*.275}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textit {dim.} \hyperref [thm:testdelladerivata]{(XXXI)}}{145}{section*.276}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{145}{section*.277}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{145}{section*.278}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{145}{section*.279}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Definizione }{145}{section*.280}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{145}{section*.281}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Propriet\IeC {\`a} }{146}{section*.282}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attenzione}{146}{section*.283}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Esempio (11.1)}{146}{section*.284}% 
+\contentsline {paragraph}{Esempio (5.3)}{39}{section*.98}% 

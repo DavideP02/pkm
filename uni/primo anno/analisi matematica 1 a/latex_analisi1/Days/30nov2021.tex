@@ -208,6 +208,19 @@ Se \[
     \lim_{x\to x_0} f'(x_0) = \nexists
 \] (al di fuori dei casi precedenti) l'esistenza di $ f'(x_0) $ varia da caso a caso.
 
+\osservazione{
+    È fondamentale che $ f $ sia continua in $ x_0 $, altrimenti può succedere che \[\lim_{x\to x_0} f'(x) = l \in \R\] e $ f $ non derivabile in $ x_0 $.
+}
+
+\esempio{
+    $ f(x)=\begin{cases}
+        x^{2} & x\neq 0\\
+        1 & x=0
+    \end{cases} $ non è derivabile in $ x_0=0 $, ma \[
+        \lim_{x\to 0} f'(x) = \lim_{x\to 0} 2x =0 \in \R
+    \]
+}
+
 \esempi{}{
     \begin{enumerate}
     \item Sia $ f(x)=\begin{cases}
