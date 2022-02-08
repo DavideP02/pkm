@@ -8,7 +8,7 @@
 $ f(x)=x^{2} $ è derivabile $ \forall\,x_0 \in \R $. La retta tangente è \[
     y = 2x_0 \,x-x_0^{2}
 \]
-%TODO aggiungere grafico
+\todo{Aggiungere grafico}
 }
 
 \esempio{}{
@@ -16,7 +16,7 @@ $ f(x)=x^{2} $ è derivabile $ \forall\,x_0 \in \R $. La retta tangente è \[
         0 & x<0\\
         1 & x\ge 0
     \end{cases}\qquad \dom H = \R, x_0 \in \R\]
-    % TODO manca questo esempio
+    \todo{Manca la fine di questo esempio}
 }
 
 $ f $ continua e derivabile ovunque, $ H $ non è continua e non è derivabile in $ x_0 =0$
@@ -28,11 +28,11 @@ $\implies$ $ f $ continua in $ x_0 $
 }
 \dimostrazione{contederiv}{
     $ f $ continua in $ x_0 $ \[
-        \iff \lim_{h\to 0} f(x_0+h) = f(x_0) \iff \lim_{h\to 0} \bigl(f(x_0)-f(x_0)\bigr) =0
+        \iff \lim_{h\to 0} f(x_0+h) = f(x_0) \iff \lim_{h\to 0} \bigl(f(x_0+h)-f(x_0)\bigr) =0
     \]
     Dimostriamo che vale se $ f $ è derivabile in $ x_0 $
    \[
-        \lim_{h\to 0} \bigl(f(x_0)-f(x_0)\bigr) =\\ \lim_{h\to 0} \underset{\to f'(x_0) \in \R}{\frac{f(x_0+h)-f(x_0)}{h}} \cdot h = 0\qedhere\]
+        \lim_{h\to 0} \bigl(f(x_0)-f(x_0)\bigr) =\\ \lim_{h\to 0} \parentesi{\to f'(x_0) \in \R}{\frac{f(x_0+h)-f(x_0)}{h}} \cdot h = 0\qedd\]
 }
 
 Quindi $ f $ derivabile in $ x_0 $ implica $ f $ continua, dunque $ f $ non continua in $ x_0 $ implica $ f $ non derivabile in $ x_0 $.
@@ -125,7 +125,7 @@ Si ha che $ f $ continua in $ x_0 $ \textit{non} implica $ f $ derivabile in $ x
     \end{enumerate}
 }
 \begin{proof}
-    % TODO manca dimostrazione
+\todo{Manca la dimostrazione}
 \end{proof}
 \osservazione{
     Le proprietà (\textit{i}) e (\textit{iii}) garantiscono che l'inisme delle funzioni derivabili su $ x  $ è uno spazio vettoriale su campo reale. Vale \[
@@ -164,4 +164,4 @@ Se $ f $ derivabile $ n-1 $ volte su I, definiamo la derivata $ n $-esima di $ f
     \end{gather*}
 }
 
-%TODO creare pdf e pagina obsidian
+%ATOD creare pdf e pagina obsidian

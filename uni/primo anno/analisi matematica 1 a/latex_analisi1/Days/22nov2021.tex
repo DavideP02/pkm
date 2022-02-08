@@ -8,7 +8,7 @@
     x & \mapsto \frac{1}{x}
     \end{align*}
 
-    Entrambe le funzioni sono continue in $ (0,1) $: $ \forall\,x_0 \in (0,1) $, \[ \forall\, \varepsilon>0\, \exists\,\delta=\delta( \varepsilon, x_0)>0 \,\tc\, |x-x_0|< \delta\quad \begin{cases}
+    Entrambe le funzioni sono continue in $ (0,1) $: $ \forall\,x_0 \in (0,1) $, \[ \forall\, \varepsilon>0\quad \exists\,\delta=\delta( \varepsilon, x_0)>0 \,\tc\, |x-x_0|< \delta\quad \begin{cases}
         |f(x)-f(x_0)|< \varepsilon\\
         |g(x)-g(x_0)|< \varepsilon
     \end{cases}\]
@@ -31,7 +31,7 @@
         $ \underset{x \in(0,1)}{\iff} $ $ \frac{|x-x_0|}{x\,x_0} < \varepsilon$
 
         Consideriamo $ x \in (x_0-x_0/2, x_0+x_0/2) = (x_0/2, 3x_0/2) $, $ x \in B_{\frac{x_0}{2}}(x_0) $ ha $ \delta = x_0/2 $, otteniamo 
-        %TODO manca un pezzo
+        \todo{Manca un pezzo}
     \end{itemize}
 
     Riassumiamo: \begin{itemize}
@@ -54,7 +54,7 @@
     f:D & \to \R \\
     x & \mapsto f(x)
     \end{align*} con $ D \subseteq \R $, diciamo che $ f $ è \textit{uniformemente continua su} $ D $ se \[
-        \forall\, \varepsilon >0\,\exists\, \delta=\delta( \varepsilon)>0\,\tc\, \forall\,x_0, x \in D \quad |x-x_0|<\delta \,\implies\, |f(x)-f(x_0)|< \varepsilon
+        \forall\, \varepsilon >0\quad\exists\, \delta=\delta( \varepsilon)>0\,\tc\, \forall\,x_0, x \in D \quad |x-x_0|<\delta \,\implies\, |f(x)-f(x_0)|< \varepsilon
     \]
 }
 
@@ -111,7 +111,7 @@ Breve riassunto:
         $\implies$ ogni sua sottosuccessione $ x_{h_{k}} \xrightarrow{k\to + \infty} 1 \displaystyle \notin E  $ 
         
         $\implies$ $ E $ non è compatto.
-        \item $ A=\{\cos k \pi/2\}_{k \in \Z}=\{0, 1, -1\} $ %TODO manca
+        \item $ A=\{\cos k \pi/2\}_{k \in \Z}=\{0, 1, -1\} $ \todo{Manca un pezzo}
         \item $ I=[-1, 1] $, chiuso e limitato. $ I $ è limitato 
         
         $\implies$ $ \forall\, x_{k}  $ ammette $ x_{h_{k}} \xrightarrow{k\to + \infty} l \in \R\displaystyle  $. Inoltre $ I $ è chiuso 
@@ -168,7 +168,7 @@ Breve riassunto:
 
                 Sia $ z \in \delta K $. Per definizione di frontiera $ \forall\, k \in \N\setminus\{0\} $ $ \exists\, x_{k} \in K $ tale che $ x_{k}\in B_{1/k}(z)   $
 
-                Sia $ \{x_{k} \}_{k=0}^\infty $ la successione così ottenuta. $\implies$ \[\forall\, \varepsilon>0\,\exists\, \overline{k} \,|\, \forall\, k \ge \overline{k}\quad x_{k} \in B_{1/k}(z) \subseteq B_{1/\overline{k}}(z) \subseteq B_{ \varepsilon}(z)   \] dunque $ x_{k} \xrightarrow{k\to +\infty} z \in \delta K \displaystyle $
+                Sia $ \{x_{k} \}_{k=0}^\infty $ la successione così ottenuta. $\implies$ \[\forall\, \varepsilon>0\quad\exists\, \overline{k} \,|\, \forall\, k \ge \overline{k}\quad x_{k} \in B_{1/k}(z) \subseteq B_{1/\overline{k}}(z) \subseteq B_{ \varepsilon}(z)   \] dunque $ x_{k} \xrightarrow{k\to +\infty} z \in \delta K \displaystyle $
 
                 Osserviamo che poiché $ K $ è compatto esiste una sottosuccessione $ \{x_{h_{k} } \}_{k=0}^\infty $ di $ \{x_{k} \}_{k=0}^\infty $ che converge a $ w \in K $, ossia \[\{x_{h_{k} } \}_{k=0}^\infty \xrightarrow{k\to +\infty} w \in K\displaystyle.\]
 
@@ -211,7 +211,7 @@ x & \mapsto f(x)
 \]
 
 Diciamo che $ f $ è continua su $ D $ se \[
-    \forall\, x_0 \in D\, \forall\, \varepsilon>0\,\exists\, \delta >0 \,\tc\, \forall\, x \in D\quad |x-x_0|<\delta \,\implies\, |f(x)-f(x_0)|< \varepsilon
+    \forall\, x_0 \in D\quad \forall\, \varepsilon>0\quad\exists\, \delta >0 \,\tc\, \forall\, x \in D\quad |x-x_0|<\delta \,\implies\, |f(x)-f(x_0)|< \varepsilon
 \]
 
 \osservazione{
@@ -227,4 +227,4 @@ $ f $ è continua su $ D $ se tutte le funzioni componenti $ f_1(x), \cdots, f_{
     L'immagine continua di un compatto è compatta.
 }
 
-%TODO creare pdf singolo e pagina obsidian
+%ATOD creare pdf singolo e pagina obsidian

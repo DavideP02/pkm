@@ -1,6 +1,6 @@
-%TODO manca la parte iniziale
+\todo{Manca la parte iniziale}
 
-%TODO manca esercizio
+\todo{Manca l'inizio di un esercizio}
 Abbiamo utilizzato il seguente cambio di coordinate: %questa è la fine esercizio mancante
 \begin{gather*}
     \begin{pmatrix}
@@ -170,13 +170,13 @@ $ (x,y,z) $ soddisfa la \eqref{launo} $ \iff $ $ (x-x_0, y-y_0, z-z_0) \in \math
         x-x_0 & y-y_0 & z-z_0\\
         l & m &n \\
         l' & m' & n'
-    \end{pmatrix}=2\\
+    \end{pmatrix}=2\nonumber \\
     \iff\quad \det\begin{pmatrix}
         x-x_0 & y-y_0 & z-z_0\\
         l & m &n \\
         l' & m' & n'
     \end{pmatrix}=0\label{equazionededd}
-\end{gather} % TODO eliminare il primo numero di equazone
+\end{gather}
 
 La \eqref{equazionededd} è un'altra equazione (cartesiana) del piano passante per $ (x_0, y_0, z_0) $ e parallelo a $ (l, m, n) $, $ (l', m', n') $
 
@@ -286,18 +286,18 @@ La retta passa per $ A $ ed è parallela a $ B-A $, cioè ha equazione \[
     \end{pmatrix}
 \]
 
-\subsubsection{Posizioni reciproche di due piani nello spazio}
+\subsection{Posizioni reciproche di due piani nello spazio}
 
 Siano $ \pi_1 $ e $ \pi_2 $ due piani in $ \R^{3} $, ci sono solo tre possibilità:
 \begin{enumerate}
     \item $ \pi_1= \pi_2 $: coincidono;
     \item $ \pi_1 \parallel \pi_2 $: sono paralleli;
-    \item $ \pi_1\cap \pi_2 $ è una retta
+    \item $ \pi_1\cap \pi_2 $ è una retta.
 \end{enumerate}
 
 Supponiamo \begin{align*}
     \pi_1: &a_1x+b_1y+c_1z+d_1=0\\
-    \pi_2: &a_1x+b_2y+c_2z+d_2=0
+    \pi_2: &a_2x+b_2y+c_2z+d_2=0
 \end{align*}
 
 Studio \[
@@ -313,7 +313,7 @@ Studio \[
         a_1 & b_1 & c_1 & -d_1\\
         a_2 & b_2 & c_2 & -d_2
     \end{array}
-    \right) %TODO aggiungere sbarretta prima dell'ultima colonna
+    \right)
 \]
 \begin{align*}
     \pi_1= \pi_2 \,&\iff\, \rank (A )= \rank(A|B)= 1  \\      

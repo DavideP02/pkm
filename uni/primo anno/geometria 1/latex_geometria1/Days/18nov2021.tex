@@ -1,6 +1,6 @@
-\proprieta{delle isometria\marginnote{18 nov 2021}}{
+\proprieta[delle isometria]{
 \begin{enumerate}
-    \item $ F $ è una isometria $ \iff $ $ ||F(v)||=||v|| $ $ \forall\,v \in V $.
+    \item $ F $\marginnote{18 nov 2021} è una isometria $ \iff $ $ ||F(v)||=||v|| $ $ \forall\,v \in V $.
     \item $ F $ è una isometria $ \implies $ $ F $ conserva gli ancoli tra i vettori.
     \attenzione{Ci sono funzioni che conseravano gli angoli ma non sono isometrie: si chiamano \textit{funzioni conformi}. }
 
@@ -61,12 +61,12 @@ Quindi \[
         
         Per ipotesi $ \{F(e_1), \cdots, F(e_{n} )\} $ è una base ortogonale di $ (V, \cdot ) $
 
-        Sia $ v \in V $, $ v=\sum_{k=1}^{n} \lambda_{k} e_{k} $, \begin{multline*} ||F(v)||^{2}=||\sum_{k=1}^{n} \lambda_{k} F(e_{k})||^{2}=\\=\sum_{k=1}^{n} \lambda^{2}_k ||F(e_{k} )||^{2}=\\
+        Sia $ v \in V $, $ v=\sum_{k=1}^{n} \lambda_{k} e_{k} $, \begin{multline*} ||F(v)||^{2}=||\sum_{k=1}^{n} \lambda_{k} F(e_{k})||^{2}=\\\underset{\footnotemark}{=}\sum_{k=1}^{n} \lambda^{2}_k ||F(e_{k} )||^{2}=\\
         =\sum_{k=1}^{n} \lambda_{k}^{2}=||v||^{2}  \end{multline*} 
         
         $\implies$ $ F $ isometria
     \end{itemize}
-    $\underset{\{F(e_1), \cdots, F(e_{n} )\}\text{ ortonormale}}{=}$ % TODO sistemare da qualche parte
+    \footnotetext{$\{F(e_1), \cdots, F(e_{n} )\}$ ortonormale}
     \item \begin{itemize}
         \item [``$\Rightarrow$''] Supponiamo $ F $ isometria e sia $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $, $ A \in \text{GL}(n, \R) $ dove $ n = \dim V $, $ \mathscr{B}=\{v_1, \cdots, v_{n} \} $, $ F(v_{i} ) \cdot F(v_{j}) =\delta_{ij} $
         
@@ -171,7 +171,7 @@ Siano $ (V, \cdot )$ e $ (W, \cdot ) $ spazi vettoriali Euclidei (diversi, con p
     \begin{enumerate}
         \item È implicata da $ \rank (A) =\rank (\null^{t}\!A) $ $ \forall\, A \in \R^{m,n} $.
         \item È implicata da $ \null^{t}\!(\null^{t}\!A) $ $ \forall\, A \in \R^{m,n} $
-        \item Lasciata per esercizio \qedhere%TODO risolvere esercizio
+        \item Lasciata per esercizio \qedhere%ESERCIZIO risolvere esercizio
     \end{enumerate}
 \end{proof}
 
@@ -232,4 +232,4 @@ Siano $ (V, \cdot )$ e $ (W, \cdot ) $ spazi vettoriali Euclidei (diversi, con p
     \end{itemize}
 }{}
 
-%TODO integrare nel sistema
+%ATOD integrare in obsidian

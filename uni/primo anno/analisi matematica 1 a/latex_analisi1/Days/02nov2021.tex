@@ -1,15 +1,26 @@
 \subsection{Limiti delle successioni}\marginnote{2 nov 2021}
 
-Data $ \{a_{n} \}_{n=0}^\infty, \N \to \R, a: n\to a_{n}  $, $l \in \R*$, diciamo che 
+Data $ \{a_{n} \}_{n=0}^\infty$, \begin{align*}
+a:\N & \to \R \\
+n & \mapsto a_{n} 
+\end{align*} e $l \in \R*$, diciamo che 
 \[
     \lim_{n\to\infty}a_{n}=l  
 \]
-se $\forall V(l) \exists U(+\infty) n \in(\N intersezione D) \implies a_{n \in V(l)}$
-Scriviamo $\forall V(l) \exists \overline{n} \in N \,|\, \forall n>\overline{n} a_{n} \in V(l)$
+se \[\forall\, V(l)\quad\exists\, U(+\infty)\quad n \in(\N \cap D)\quad\implies\,a_{n} \in V(l)\]
 
-$l\in \R$, diciamo che $ \{a_{n} \}_{n=0}^\infty $ è \textbf{convergente} a $ l $ se $ \forall\, \varepsilon \exists \overline{n} \in \N | \forall n>\overline{n} |a_{n} -l |<\varepsilon  $
+Scriviamo \[\forall\, V(l)\quad \exists\, \overline{n} \in N \,|\quad \forall\, n>\overline{n} \,\implies\, a_{n} \in V(l)\]
 
-Se $ l=\pm \infty $ $a_{n}$ è divergente a $ \pm\infty $, se $ \lim_{n\to+\infty} a_{n}=\nexists $ allora $ \{a_{n}\}_{n=0 }^\infty$ è irregolare (o oscillante).
+Distinguiamo i casi $ l \in \R $, $ l = \pm \infty $
+
+Se $l\in \R$, diciamo che $ \{a_{n} \}_{n=0}^\infty $ è \textbf{convergente} a $ l $ se 
+\[
+    \forall\, \varepsilon\quad \exists\, \overline{n} \in \N \,|\quad \forall\, n>\overline{n}\quad |a_{n} -l |<\varepsilon
+\]
+
+Se $ l=\pm \infty $ allora $a_{n}$ è divergente a $ \pm\infty $.
+
+Se $\displaystyle \lim_{n\to+\infty} a_{n}=\nexists $ allora $ \{a_{n}\}_{n=0 }^\infty$ è irregolare (o oscillante).
 
 
 \esempio{
@@ -22,14 +33,17 @@ Se $ l=\pm \infty $ $a_{n}$ è divergente a $ \pm\infty $, se $ \lim_{n\to+\inft
 Si dice di una successione $\{a_{n} \}_{n=0}^\infty$
 
 \begin{itemize}
-    \item $\forall \{a_{n} \}$ è crescente se $ \forall n \in \N $, $ a_{n} \le a_{n+1}  $
-    \item $\forall\{a_{n} \}$ è strettamente crescente se $ \forall n \in \N $, $ a_{n} < a_{n+1}  $
-    \item $\forall\{a_{n} \}$ è decrescente se $ \forall n \in \N $, $ a_{n} \ge a_{n+1}  $
-    \item $\forall \{a_{n} \}$ è strettamente decrescente se $ \forall n \in \N $, $ a_{n} > a_{n+1}  $
+    \item $\{a_{n} \}_{n=0}^\infty$ è crescente se $ \forall n \in \N $, $ a_{n} \le a_{n+1}  $
+    \item $\{a_{n} \}_{n=0}^\infty$ è strettamente crescente se $ \forall n \in \N $, $ a_{n} < a_{n+1}  $
+    \item $\{a_{n} \}_{n=0}^\infty$ è decrescente se $ \forall n \in \N $, $ a_{n} \ge a_{n+1}  $
+    \item $\{a_{n} \}_{n=0}^\infty$ è strettamente decrescente se $ \forall n \in \N $, $ a_{n} > a_{n+1}  $
 \end{itemize}
 Una successione crescente o decrescente si dice monotona, se strettamente crescente o decrescente si dice strettamente monotona.
 
-Un predicato $ P(n) $ è verificato definitivamente se $ \exists \overline{n} \forall n\le \overline{n}$ $ P(n) $  è vero
+Un predicato $ P(n) $ è verificato definitivamente se 
+\[
+    \exists\, \overline{n} \,\tc\quad \forall\, n\ge \overline{n}\quad P(n)\text{ è vero}
+\]
 
 Valgono per $ \{a_{n} \}_{n=0}^\infty$ i seguenti teoremi
 \begin{itemize}
@@ -138,7 +152,7 @@ Dunque \[
         è verificata
     \end{enumerate}
     Allora per induzione \[
-        \forall\, n \in \N\qquad (1+x)^{n}\ge 1+nx \quad\land\quad x>-1\qedhere
+        \forall\, n \in \N\qquad (1+x)^{n}\ge 1+nx \quad\land\quad x>-1\qedd
     \]
 }
 
@@ -147,38 +161,38 @@ Progressione geometrica \[
         q \in \R, \lim_{n \to \infty} q^n=?, n \in \N 
     \]
     \begin{itemize}
-        \item $q>1, q=1+p$ con $p>0$
-            $ q^n = (1+p)^n \ge 1+np$ per la disuguaglianza di Bernoulli
+        \item se $q>1$, $q=1+p$ con $p>0$
+            \[q^n = (1+p)^n \ge 1+n\,p\] per la disuguaglianza di Bernoulli
 
-            $ 1+np \to +\infty$ per $ n \to +\infty $
+            $ 1+np \xrightarrow[n \to +\infty]{} +\infty$
 
             Per confronto \[
                 \lim_{n\to + \infty} q^n=+ \infty
             \]
-        \item $ q=1 $ $ q^n = 1 $ $ \forall n $
+        \item se $ q=1 $ allora $ q^n = 1 $ $ \forall n $
         \[
             \lim_{n\to + \infty} q^n=1
         \]
-        \item $ -1<q<1 $ $ \iff $ $ |q|<1 $ 
+        \item se $ -1<q<1 $ $ \iff $ $ |q|<1 $ 
         
         $\implies$ $|q|=\frac{1}{1+p}$ con $ p>0 $ \[
             |q^n|=|q|^n=\frac{1}{(1+p)^n} \le \frac{1}{1+np}
         \]
 
-        $ 1+np \to +\infty$ per $ n \to +\infty $ 
+        $ 1+np \xrightarrow[n \to +\infty]{} +\infty$
         
         $\implies$ $ \frac{1}{1+np} \to 0$
 
         Per confronto \[
             \lim_{n\to + \infty} |q^n| = 0 \,\implies\,\lim_{n\to + \infty} q^n = 0
         \]
-        \item $ q=-1 $
+        \item se $ q=-1 $
         
         $ q^n $ è irregolare e limitata
         \item $ q<-1 $ \[
             q^n=(-1)^n|q|^n
         \]
-        ma $ |q|>1 $ quindi $ |q|^n\to + \infty $ per $ n\to + \infty $, e quindi $ q^n $ è irregolare non limitata
+        ma $ |q|>1 $ quindi $ |q|^n \xrightarrow[n\to + \infty]{}+ \infty $, e quindi $ q^n $ è irregolare non limitata
     \end{itemize}
     Riassumendo \[
     q^n\begin{cases}
@@ -200,7 +214,11 @@ Progressione geometrica \[
     }
 
 \teorema[(di relazione)]{rel}{
-    Sia $f:D\to \R$: $ x\to f(x) $, $ x_{0} \in D' $ e $ x_{0} \in \R* $, $ l \in \R* $ 
+    Sia \begin{align*}
+    f:D & \to \R \\
+    x & \mapsto f(x)
+    \end{align*}
+    $ x_{0} \in D' $ e $ x_{0} \in \R* $, $ l \in \R* $ 
     
     Allora $ \lim_{x\to x_{0} } f(x) = l $ \referenze{(A)}{\label{vi:A}}
     
@@ -213,7 +231,7 @@ Progressione geometrica \[
 \dimostrazione{rel}{
     \begin{itemize}
         \item [(A) $\implies$ (B)] Sappiamo che $\displaystyle \lim_{x\to x_{0} } f(x) =l $ ovvero \begin{equation}
-            \forall\, V(l)\, \exists\, U(x_{0} ) \,|\, x \in U\, \land \,x \in V \,\land\, x \neq x_{0} \,\implies\, f(x) \in V(l)\label{eq1}
+            \forall\, V(l)\quad \exists\, U(x_{0} ) \,|\, x \in U\, \land \,x \in V \,\land\, x \neq x_{0} \,\implies\, f(x) \in V(l)\label{eq1}
         \end{equation}
 
         Consideriamo $ \{a_{n} \}_{n=0}^\infty $ con $ a_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle  $ con $ a_{n} \in D $ e $ a_{n}\neq x_{0} $ ossia \[
@@ -222,7 +240,7 @@ Progressione geometrica \[
         allora \begin{equation}f(a_{n} ) \in V(l)\label{eq2}\end{equation}
         
         Concludendo, unendo \eqref{eq1} e \eqref{eq2}: \[
-            \forall V(l) \exists \overline{n} \in \N | \forall n > \overline{n} f(a_{n} ) \in V(l)
+            \forall\, V(l)\quad \exists\, \overline{n} \in \N \,|\, \forall\, n > \overline{n}\quad f(a_{n} ) \in V(l)
         \]
         ossia
         \[
@@ -236,35 +254,38 @@ Progressione geometrica \[
         Abbiamo ipotizzato $\neg$\hyperref[vi:A]{(A)}, ossia \[
             \lim_{x\to x_0} f(x) \neq l
         \] ossia \[
-            \exists\, V(l)\,|\, \forall\, U(x_0)\, \exists\, x \in U \,\land\, x \in D\,\land\, x \neq x_0\,\tc\, f(x)\notin V(l)
+            \exists\, V(l)\,\tc\, \forall\, U(x_0)\quad \exists\, x \in U \,\land\, x \in D\,\land\, x \neq x_0\,\tc\quad f(x)\notin V(l)
         \]
 
         Ci poniamo nel caso particolare $ x_0 \in \R $ (il caso $ x_0=\pm \infty $ funziona analogamente).
         
         $\neg$\hyperref[vi:A]{(A)} $ \,\implies\,  $
         \[
-            \exists\, V(l)\,|\, \forall\, \delta >0\, \exists\, x\,|\, 0<|x-x_0|<\delta \,\land\, x \in D \,\land\, f(x)\notin V(l)
+            \exists\, V(l)\,|\, \forall\, \delta >0\quad \exists\, x\,\tc\, 0<|x-x_0|<\delta \,\land\, x \in D \,\land\, f(x)\notin V(l)
         \]
 
-        Consideriamo $\delta=1$ $ \exists\, x_{1}  \, 0<|x-x_{0} |<1 $ $\land$ $ f(x_1) \notin V(l) $
+        Consideriamo $\delta=1$: $ \exists\, x_{1}\,\tc\: 0<|x_1-x_{0} |<1 $ $\land$ $ f(x_1) \notin V(l) $
         
-        Consideriamo $ \delta=\frac{1}{2} $ $ \exists\, x_{2}  \, 0<|x_{2} -x_{0} |<1 $ $\land$ $ f(x_2) \notin V(l) $
+        Consideriamo $ \delta=\frac{1}{2} $: $ \exists\, x_{2}\,\tc\: 0<|x_{2} -x_{0} |<1 $ $\land$ $ f(x_2) \notin V(l) $
 
         \dots
 
-        Consideriamo $ \delta=\frac{1}{n} $ $ \exists\, x_{n}  \, 0<|x_{n} -x_{0} |<1 $ $\land$ $ f(x_n) \notin V(l) $
+        Consideriamo $ \delta=\frac{1}{n} $: $ \exists\, x_{n}\,\tc\: 0<|x_{n} -x_{0} |<1 $ $\land$ $ f(x_n) \notin V(l) $
 
         \dots
 
         Allora abbiamo costruito una successione $ \{x_{n} \}_{n=0}^\infty $ tale che $ x_{n} \in D $, $ x_{n}\neq x_0  $ e $ f(x_{n})\notin V(l) $ 
 
-        inoltre $ \forall \varepsilon >0 \exists \overline{n} | \forall n>\overline{n} 0<|x_{n}-x_{0}|<\varepsilon $ ($\overline{n}>\frac{1}{\varepsilon}$)
+        inoltre 
+            \[
+                \forall\, \varepsilon >0 \quad\exists\, \overline{n} \,|\: \forall\, n>\overline{n}\quad 0<|x_{n}-x_{0}|<\varepsilon \qquad\left(\overline{n}>\frac{1}{\varepsilon}\right)
+            \]
 
         ossia $ x_{n} \xrightarrow{n\to + \infty} x_{0}  \displaystyle  $
 
         Abbiamo costruto una successione $ \{x_{n} \}_{n=0}^\infty $ con $ x_{n}\to x_0  $, $ x_{n} \neq x_0 $ e $ \lim_{n\to + \infty} f(x_{n} ) =l $ 
 
-        ossia abbiamo ottenuto che $ \neg B $ è vera \qedhere
+        ossia abbiamo ottenuto che $ \neg B $ è vera \qed
     \end{itemize}
 }
 

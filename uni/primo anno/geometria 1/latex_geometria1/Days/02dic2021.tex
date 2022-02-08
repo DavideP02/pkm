@@ -41,7 +41,20 @@ Sia $ V $ uno spazio vettoriale su $ \K $ con $ \dim  V =n $. Sia $ \mathscr{B}=
 
 Indico $ A $ con $ M^{ \mathscr{B}}(\xi) $, cioè $ A $ è la matrice associata a $ \xi $ tramite la base $ \mathscr{B} $
 
-% TODO manca un esempio
+\esempio{
+    Sia $ \xi:\R^{2}\times \R^{2} \to \R$ la forma bilineare \[
+        \xi(x,y)=3x_1x_2-2x_2y_2
+    \]
+    Cerco $ M^{ \mathscr{B}}(\xi) $, dove $ \mathscr{B}=\{e_1,e_2\} $ è la base canonica di $ \R^{2} $. \[
+        M^{ \mathscr{B}}(\xi)=\begin{pmatrix}
+            \xi(e_1,e_1) & \xi(e_1,e_2)\\
+            \xi(e_2,e_1) & \xi(e_2,e_2)
+        \end{pmatrix}=\begin{pmatrix}
+            3 & 0\\
+            0 & -2
+        \end{pmatrix}
+    \]
+}
 
 \proposizione{iidkksoijodlkjsdfoijsldkj}{
     Sia $ \mathscr{B} $ una base di $ V $, e sia $ \xi $ una forma bilineare su $ V $ \begin{enumerate}
@@ -107,7 +120,7 @@ $ A'= \null^{t}\!PAP$ con $ P$ matrice del cambiamento di base: \begin{equation}
 \esercizio{
     Essere congruenti è una relazione di equivalenza
 }{
-    Dimostrare l'affermazione %TODO risolvere
+    Dimostrare l'affermazione %ESERCIZIO risolvere
 }{}
 
 \definizione{}{

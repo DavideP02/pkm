@@ -4,7 +4,7 @@ Sia\marginnote{8 nov 2021} $ f:D\to \R $, $ D \subseteq \R $ $ x_{0} \in D'$, $ 
 
 Diciamo $ \lim_{x\to x_0} f(x) =l $
 \[
-  \iff\quad \forall \varepsilon>0 \exists \delta >0 \,\tc\, 0<|x-x_0|<\delta \,\implies\,|f(x)-l|<\varepsilon  
+  \iff\quad \forall\, \varepsilon>0\quad \exists\, \delta >0 \,\tc\: 0<|x-x_0|<\delta \,\implies\,|f(x)-l|<\varepsilon  
 \]
 
 Il valore di $ l $ non è in alcun modo legato ad $ f(x_0) $
@@ -67,10 +67,10 @@ Consideriamo $ x_0 \in D $
         \item [\textit{a}.] $ x_0 $ punto isolato di $ D $
         \item [\textit{b}.] $ x_0 \in D'$ e vale una delle seguenti affermazioni tra di loro equivalenti:
             \begin{itemize}
-                \item [(\textit{i})] $ \forall V(f(x_0))$ $ \exists U(x_0)$ tale che $ x \in U \cap D $ 
+                \item [(\textit{i})] $ \forall\, V(f(x_0))$ $ \exists\, U(x_0)$ tale che $ x \in U \cap D $ 
                 
                 $\implies$ $f(x) \in V$
-                \item [(\textit{ii})] $ \forall \varepsilon>0 $ $ \exists \delta > 0 $ tale che $ |x-x_0|<\delta $ 
+                \item [(\textit{ii})] $ \forall\, \varepsilon>0 $ $ \exists\, \delta > 0 $ tale che $ |x-x_0|<\delta $ 
                 
                 $\implies$ $ |f(x)-f(x_0)|<\varepsilon $
                 \item [(\textit{iii})] $ \lim_{x\to x_0} f(x) =f(x_0) $
@@ -89,11 +89,11 @@ Consideriamo $ x_0 \in D $
             \item [\textit{i}.$\iff$\textit{ii}.] è ovvio
             \item [\textit{ii}.$\implies$\textit{iii}.] è ovvio
             \item [\textit{iii}.$\iff$\textit{iv}.] per il teorema di relazione
-            \item [\textit{iii}.$\implies$\textit{ii}.] $ \displaystyle\lim_{x\to x_0} f(x) =f(x_0) $ vale \[\forall \varepsilon >0 \,\exists \delta >0:\, |x-x_0|<\delta \land x \neq x_0 \,\implies\, |f(x)-f(x_0)|< \varepsilon\]
+            \item [\textit{iii}.$\implies$\textit{ii}.] $ \displaystyle\lim_{x\to x_0} f(x) =f(x_0) $ vale \[\forall\, \varepsilon >0 \quad\exists\, \delta >0:\, |x-x_0|<\delta \,\land\, x \neq x_0 \,\implies\, |f(x)-f(x_0)|< \varepsilon\]
             
-            se $ x=x_0 $ $ |f(x)-f(x_0)|= |f(x_0)-f(x_0)|=0< \varepsilon$ 
+            se $ x=x_0 $ allora  $ |f(x)-f(x_0)|= |f(x_0)-f(x_0)|=0< \varepsilon$ 
             
-            $\implies$ $ \forall \varepsilon >0 \,\exists \delta>0:\, |x-x_0|<\delta \,\implies\,|f(x)-f(x_0)|< \varepsilon$ ossia $ f $ continua in $ x_0 $ \qed
+            $\implies$ $ \forall\, \varepsilon >0 \quad\exists\, \delta >0:\, |x-x_0|<\delta\,\implies\,|f(x)-f(x_0)|< \varepsilon$ ossia $ f $ continua in $ x_0 $ \qed
         \end{itemize}
     }  
 

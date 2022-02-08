@@ -1,4 +1,39 @@
-\marginnote{7 ott 2021}
+\subsubsection{Somma}
+
+Dati\marginnote{7 ott 2021} $ W_1, W_2 $ sottospazi vettoriali di $ V $, si definisce \begin{equation}
+	W_1+W_2=\{x+y \in V\,|\, x \in W_1\,\land\, y \in W_2\}
+\end{equation}
+
+\proposizione{spasioidusfjakjygfdmajghfdamhgfdajghfadshjfgkadsjfghdakjfghkdajghfkdjhsagfkdjahgfdkjsafghk}{
+	$ W_1+W_2 $ è sottospazio vettoriale di $ V $.
+}
+\dimostrazioneprop{spasioidusfjakjygfdmajghfdamhgfdajghfadshjfgkadsjfghdakjfghkdajghfkdjhsagfkdjahgfdkjsafghk}{
+	
+	\begin{itemize}
+		\item [($+$)] Siano $ w_1, w_2 \in W_1+W_2 $
+		
+		$ w_1 \in W_1+W_2 $ $ \implies $ $ w_1=x_1+y_1 $ con $ x_1 \in W_1 $ e $ y_1 \in W_2 $
+		
+		$ w_2 \in W_1+W_2 $ $ \implies $ $ w_2=x_2+y_2 $ con $ x_2 \in W_1 $ e $ y_2 \in W_2 $ \[
+			w_1+w_2=(x_1+y_1)+(x_2+y_2)=\parentesi{ \in W_1}{(x_1+x_2)}+\parentesi{ \in W_2}{(y_1+y_2)} \in W_1+W_2.
+		\]
+		\item [($\cdot$)] Sia $ w \in W_1+W_2 $ e $ \lambda \in \K $, $ w=x+y $ con $ x \in W_1 $, $ y \in W_2 $ \[
+			\lambda w = \lambda(x+y)= \underset{ \in W_1}{\lambda x}+ \underset{ \in W_2}{\lambda y} \in W_1+W_2
+		\]
+	\end{itemize} 
+	
+	$\implies$ $ W_1+W_2 $ è sottospazio vettoriale
+}
+
+\esempio{
+	Sia $ V=\R^{2} $, $ W_1= \mathscr{L}((1,0)) $, $ W_2= \mathscr{L}((0,1)) $;
+
+	$ W_1+W_2=\R^{2} $, infatti un generico elemento di $ W_1 $ è della forma $ (x,0) $, mentre un generico elemento di $ W_2 $ è della forma $ (0,y) $. Un generico vettore di $ W_1+W_2 $ è della forma $ (x,0)+(0,y)=(x,y) $, ovvero un generico elemento di $ \R^{2} $.
+}
+
+Vale che $ W_1+W_1=W_1 $, $ W_2+W_2=W_2 $, $ W_1\cap W_2=\{\underline{0}\} $. Inoltre $ W_1, W_2 \subseteq W_1+W_2 $, infatti ogni elemento $ x $ di $ W_1 $ si può scrivere come $ x+\underline{0} \in W_1+W_2 $ e ogni elemento $ y $ di $ W_2 $ si scrive come $ \underline{0}+y \in W_1+W_2 $, notando che, essendo $ W_1 $ e $ W_2 $ sottospazi vettoriali, $ \underline{0} \in W_1 $ e $ \underline{0} \in W_2 $.
+
+Quindi $ \dim (W_1+W_2)\le \max\{\dim W_1, \dim W_2\} $
 
 \proposizione{somvet}{Sia $V$ uno spazio vettoriale e $W, W_1$ e $W_2$ sottospazi di $V$.
 
@@ -55,12 +90,14 @@ La somma si generalizza a più sottospazi. Siano $W_1, \cdots, W_l \subseteq V$ 
 	\item $ W_i \cap (W_1+\cdots+W_{i-1}+W_{i+1}+\cdots+W_l) =\{\underline{0}\} $ $ \forall i = 1,\cdots,l $
 	\item Ogni $ v \in W_1+\cdots+W_l $ si scrive in modo unico come $ v=x_1+\cdots+x_l$ con $x_1 \in W_1, \cdots, x_l \in W_l$
 	\end{enumerate}
-	Se vale 1. si scrive $ W_1 \oplus W_2 \oplus \cdots \oplus W_l $}
+	Se vale 1. si scrive $ W_1 \oplus W_2 \oplus \cdots \oplus W_l $
 	
-%TODO Dimostrazione per esercizio
+Dimostrare la proposizione per esercizio%ESERCIZIO Dimostrazione per esercizio
+}
 
 \esempio{
-	Considero $ V $ spazio vettoriale di dimensione finita e $ \mathscr{B}=\{v1, \cdots, v_n\} $ $\implies$ $ V=\mathscr{L}(v_1) \oplus \cdots \oplus \mathscr{L}(v_l) $} %TODO controllare che l'esercizio sia finito
+	Considero $ V $ spazio vettoriale di dimensione finita e $ \mathscr{B}=\{v_1, \cdots, v_n\} $ $\implies$ $ V=\mathscr{L}(v_1) \oplus \cdots \oplus \mathscr{L}(v_l) $
+}
 
 Sia $V$ spazio vettoriale su un campo $\K$, finitamente generato. Sia $ W \subseteq V $ un sottospazio vettoriale, sia $ \mathscr{B}=\{w_1, \cdots, w_l\} $ una base di $ W $. Possiamo completare $ \mathscr{B} $ con una base dello spazio $ \mathscr{B}'=\{w_1, \cdots, w_l, v_1, \cdots, v_m\} $. Sia \[ Z=\mathscr{L}(v_1,\cdots, v_m) \subseteq V\] un sottospazio vettoriale, e per costruzione $ V=W \oplus Z $
 
@@ -80,6 +117,10 @@ Sia $V$ spazio vettoriale su un campo $\K$, finitamente generato. Sia $ W \subse
 	
 	$\implies$ $ \dim V = \dim W + \dim Z $}
 	
+\subsection{Formula di Grassmann}
+
+\todo{Sistemare appunti Formula di Grassman con quelli del prof}
+
 \teorema{grassmann}{
 	Sia $ V $ uno spazio vettoriale su un campo $\K$ finitamente generato. Siano $ W_1, W_2 \subseteq V $ due sottospazi vettoriali $ \tc V=W_1+W_2 $. Allora 
 	\[\dim V = \dim W_1 + \dim W_2 - \dim (W_1 \cap W_2)\]
@@ -90,15 +131,21 @@ Chiamo
 
 In particolare $ l,p \leq n $, $ r\leq l,p $
 \begin{enumerate}
-    \item $ r=l $ $\implies$ $ W_1 \cap W_2 = W_1 $ $\implies$ $ W_1 \subseteq W_2 $ $\implies$ $ W_1+W_2=W_2=V $ %TODO mostrare tutte implicazioni
-    \item $ r=p $ $\implies$ $ W_1 \cap W_2 = W_2 $ $\implies$ $ W_2 \subseteq W_1 $ $\implies$ $ W_1+W_1=W_1=V $ %TODO mostrare tutte le implicazioni
-    \item si assume $ r\leq l,p $ e sia \[\mathscr{B}=\{a_1,\cdots,a_r\} \text{ base di } W_1 \cap W_2\]
+    \item Se $ r=l $ $\implies$ $ W_1 \cap W_2 = W_1 $ $\implies$ $ W_1 \subseteq W_2 $ $\implies$ $ W_1+W_2=W_2=V $
+    \item Se $ r=p $ $\implies$ $ W_1 \cap W_2 = W_2 $ $\implies$ $ W_2 \subseteq W_1 $ $\implies$ $ W_1+W_1=W_1=V $
+	
+	In questi casi la formula è banale:
+	\begin{enumerate}
+		\item $ \displaystyle \parentesi{= \dim V}{\dim W_1} + \dim W_2 - \parentesi{= \dim W_2}{\dim (W_1\cap W_2)} = \dim V$
+		\item $ \displaystyle \dim W_1 +\parentesi{= \dim V}{\dim W_2} - \parentesi{= \dim W_1}{\dim (W_1\cap W_2)} = \dim V$
+	\end{enumerate}
+    \item Se si assume $ r< l,p $ e sia \[\mathscr{B}=\{a_1,\cdots,a_r\} \text{ base di } W_1 \cap W_2\]
     Completo $ \mathscr{B} $ con una base $ \mathscr{C} $ di $ W_1 $, \[\mathscr{C}=\{a_1, \cdots, a_r, b_{r+1}, \cdots, b_l\}\]e completo $ \mathscr{B} $ con una base $ \mathscr{D} $ di $ W_2 $, \[\mathscr{D}=\{a_1, \cdots, a_r, c_{r+1}, \cdots, c_p\}\]
     Si verifica che l'insieme \[\{a_1, \cdots, a_r, b_{r+1}, \cdots, b_l, c_{r+1}, \cdots, c_p\}\] è una base di $V$. In questo modo si ottiene \[\dim V= l + (p-r)\] cioè la tesi.
     
     Ovviamente risulta \[\mathscr{L}(a_1, \cdots, a_r, b_{r+1}, \cdots, b_l, c_{r+1}, \cdots, c_p)=V\] in quanto contiene i generatori sia di $W_1$ che di $W_2$, e quindi anche della loro somma. Verifichiamo che l'insieme \[\{a_1, \cdots, a_r, b_{r+1}, \cdots, b_l, c_{r+1}, \cdots, c_p\}\] sia libero.
     Supponiamo 
-    \begin{multline*}\lambda_1a_1+ \cdots + \lambda_r a_r + \mu{r+1}+b_{r+1} + \cdots + \\ + \cdots + \mu_lb_l + \gamma_{r+1} c_{r+1} + \cdots + \gamma_p c_p = \underline{0}**\end{multline*}
+    \begin{multline}\lambda_1a_1+ \cdots + \lambda_r a_r + \mu{r+1}+b_{r+1} + \cdots + \\ + \cdots + \mu_lb_l + \gamma_{r+1} c_{r+1} + \cdots + \gamma_p c_p = \underline{0}\label{rrssdoijooij}\end{multline}
     \[(\lambda_1a_1+ \cdots + \lambda_r a_r + \mu_{r+1} b_{r+1} + \cdots + \mu_l b_l)=( -\gamma_{r+1} c_{r+1} - \cdots - \gamma_p c_p)\]
     
     Sia \begin{multline*}c=(-\gamma_{r+1} c_{r+1} - \cdots - \gamma_p c_p)=\\=(\lambda_1a_1+ \cdots + \lambda_r a_r + \mu_{r+1} b_{r+1} + \cdots + \mu_l b_l)\end{multline*} sicuramente $c \in W_2$
@@ -106,12 +153,12 @@ In particolare $ l,p \leq n $, $ r\leq l,p $
     
     $\implies$ $c \in W_1 \cap W_2 = \mathscr{L}(a_1,\cdots, a_r)$ \\
     
-    $\implies$ $c = \beta_1 a_1 +\cdots+\beta_r a_r$, vado a sostituire in **
+    $\implies$ $c = \beta_1 a_1 +\cdots+\beta_r a_r$, vado a sostituire in \eqref{rrssdoijooij}
     \[(\beta_1 a_1 +\cdots+\beta_r a_r)+(\gamma_{r+1} c_{r+1} + \cdots + \gamma_p c_p) = \underline{0}\]
     \[\implies \begin{cases}
     	\beta_1=\cdots=\beta_r=0\\
     	\gamma_{r+1}=\cdots=\gamma_p=0
-    \end{cases}\]	%TODO chiarire meglio perché
+    \end{cases}\]	%ESERCIZIO chiarire meglio perché
 
     Ho ottenuto
     \begin{gather*}
@@ -123,7 +170,8 @@ In particolare $ l,p \leq n $, $ r\leq l,p $
     
     $\implies$ $\lambda_1=\cdots=\lambda_r = \mu_{r+1}=\cdots=\mu_l=0$
     
-    $\implies$ $\{a_1, \cdots, a_r, b_{r+1}, \cdots, b_l, c_{r+1}, \cdots, c_p\}$ è libero
-\end{enumerate}\qed}
+    $\implies$ $\{a_1, \cdots, a_r, b_{r+1}, \cdots, b_l, c_{r+1}, \cdots, c_p\}$ è libero. \qed
+\end{enumerate}}
 
-%TODO sistemare appunti con quelli del prof
+\rule{7em}{.4pt}
+ 

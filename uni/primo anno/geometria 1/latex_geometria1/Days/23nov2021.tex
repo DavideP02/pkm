@@ -62,13 +62,13 @@ Se $ \mathscr{B} $ è una base unitaria di $ (V, \cdot ) $, $ F \in \text{End}(V
 \[
     \text{Herm}(n)=\{A \in \C^{n,n}\,|\, \null^{t}\!\overline{A}=A\}
 \]
-$ \text{Herm}(n) $ è un sottospazio vettoriale di $ \C^{n,n} $ su campo $ \R $. %TODO capire se è sottospazio vettoriale di $ \C^{n,n} $ o di $ \C^{n} $
+$ \text{Herm}(n) $ è un sottospazio vettoriale di $ \C^{n,n} $ su campo $ \R $. \todo{Capire se è sottospazio vettoriale di $ \C^{n,n} $ o di $ \C^{n} $}
 }
 
 \esercizio{
     Calcolare $ \dim \text{Herm}(n) $
 }{
-    Da fare %TODO fare esercizio
+    Da fare %ESERCIZIO fare esercizio
 }{}
 
 \section{Autovalori e autovettori}
@@ -207,18 +207,19 @@ e $ V_{\lambda}  $ si dice l'autospazio di $ F $ relativo a $ \lambda $}
         \[F(\mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l})=F(\underline{0})=\underline{0}\]
     \begin{multline*}
         F(\mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l})=\\
-        = \mu_1 F(v_1)+\cdots+\mu_{l}F(v_{l} ) = \lambda_1 \mu_1v_1 + \cdots + \lambda_{l} \mu_{l} v_{l}    
+        = \mu_1 F(v_1)+\cdots+\mu_{l}F(v_{l} ) = \lambda_1 \mu_1v_1 + \cdots + \lambda_{l} \mu_{l} v_{l}
     \end{multline*} 
     
-    $\implies$ $ \lambda_1 \mu_1v_1 + \cdots + \lambda_{l} \mu_{l} v_{l}  =\underline{0}\referenze{(1)}{\label{xv:1}} $
+    $\implies$ \begin{equation}
+        \lambda_1 \mu_1v_1 + \cdots + \lambda_{l} \mu_{l} v_{l}  =\underline{0}\label{1ddsfdfsdfsd}
+    \end{equation}
 
     Si considera la relazione $ \mu_1v_{1}+\mu_2v_2+\cdots+\mu_{l}v_{l} = \underline{0}$ e la si moltiplica per $ \lambda_1 $ (qui senza perdere di generalità si può supporre $\lambda_1\neq 0$)
+    \begin{equation}
+        \lambda_1 \mu_1v_1 + \cdots + \lambda_{1} \mu_{l} v_{l} \label{xv:2}
+    \end{equation}
 
-    \[
-        \lambda_1 \mu_1v_1 + \cdots + \lambda_{1} \mu_{l} v_{l}  \referenze{(2)}{\label{xv:2}}
-    \]
-
-    Facendo ora \hyperref[xv:2]{(2)}-\hyperref[xv:1]{(1)} \[
+    Facendo ora \eqref{1ddsfdfsdfsd}$-$\eqref{xv:2} \[
         \mu_2 (\lambda_1-\lambda_2)v_2 + \mu_3(\lambda_1-\lambda_3)v_3+\cdots+\mu_l(\lambda_1-\lambda_l)v_l=\underline{0}
     \]
 
@@ -298,4 +299,4 @@ Si definisce $ p(\lambda):=\det(A-\lambda\id) $, un polinomio in $ \lambda $ di 
     \]
 }
 
-% TODO creare pdf individuale e pagina obsidian
+% ATOD creare pdf individuale e pagina obsidian

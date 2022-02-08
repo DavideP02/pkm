@@ -40,14 +40,14 @@
         \item [``$\implies$''] $ \{a_{k} \} $ è convergente, allora \[
             \exists\, l \in \R^{n}
         \] tale che \[
-            \forall\, \varepsilon>0\, \exists\, \overline{k}:\, \forall\,k>\overline{k}:\, |a_{k}-l|< \varepsilon 
+            \forall\, \varepsilon>0\quad \exists\, \overline{k}:\, \forall\,k>\overline{k}:\, |a_{k}-l|< \varepsilon 
         \]
         possiamo scrivere
         \[
             |a_{k}-a_{m}|\le |a_{k}-l|+|a_{m}-l|    
         \]
         \[
-            \exists\,\overline{k}\,\forall\, k,m\ge \overline{k}:
+            \exists\,\overline{k}\quad\forall\, k\quad m\ge \overline{k}:
         \]
         \begin{align*}
             |a_{k}-l|&< \varepsilon/2\\ 
@@ -64,7 +64,7 @@
         $ \underset{Lemma}{\underbrace{\implies}} $ $ \{a_{k} \}_{k=0}^\infty $ è limitata
 
         $\underset{B-W}{\underbrace{\implies}}$ ammette una sotosuccessione convergente, ossia esiste $ h_{k} \in \N$, $ \{a_{h_{k} } \} $ è convergente, ossia $ \exists \,l \in \R^{n} $: \[
-            \forall\, \varepsilon \, \exists \overline{k}:\, \forall\, k>\overline{k}:\, |a_{h_{k} }-l|< \varepsilon/2 
+            \forall\, \varepsilon \quad \exists\,\overline{k}:\, \forall\, k>\overline{k}:\, |a_{h_{k} }-l|< \varepsilon/2 
         \]
 
         Osserviamo \[
@@ -82,7 +82,7 @@
         \]
 
         Otteniamo $ \forall\,k\ge\varkappa $ \[
-            |a_{k}-l|\le \overset{< \varepsilon/2}{\overbrace{|a_{k}-a_{h_{k} }|}}+\overset{< \varepsilon/2}{\overbrace{|a_{h_{k} } -l|}}< \varepsilon\qedhere
+            |a_{k}-l|\le \overset{< \varepsilon/2}{\overbrace{|a_{k}-a_{h_{k} }|}}+\overset{< \varepsilon/2}{\overbrace{|a_{h_{k} } -l|}}< \varepsilon\qedd
         \]
     \end{itemize}
 }

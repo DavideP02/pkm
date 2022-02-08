@@ -1,7 +1,9 @@
-%TODO aggiungere da qualche parte cosa significa bilineare (lineare in ogni variabile)
+\todo{Aggiungere da qualche parte cosa significa bilineare (lineare in ogni variabile)}
 
-% In ogni spazio vettoriale (di dimensione >=1) esistono infiniti prodotti scalari 
-% TODO trovare un modo dove sistemarli
+\todo{Trovare il luogo in cui sistemare la seguente affermazione:
+    
+In ogni spazio vettoriale (di dimensione >=1) esistono infiniti prodotti scalari}
+
 
 \section{Spazi vettoriali Hermitiani}
 \marginnote{22 nov 2021}
@@ -67,7 +69,8 @@ $\implies$ $ z \cdot \overline{z}=|z|^{2} $
 (z,w) & \mapsto z\overline{w}
 \end{align*}
 \proprieta{di $ \cdot $}{
-    \begin{enumerate} % TODO riguardare dagli appunti 
+    \todo{Riguardare dagli appunti le proprietà}
+    \begin{enumerate}
         \item $ z \cdot w =\overline{w \cdot z} $ in quanto
         \[
             z \cdot w = z\overline{w}=\overline{w}z=\overline{w\overline{z}}=\overline{w \cdot z}
@@ -79,19 +82,21 @@ $\implies$ $ z \cdot \overline{z}=|z|^{2} $
 }
 
 \definizione{}{
-    Sia $ V $ uno spazio vettoriale complesso. Un \textit{prodotto Hermitiano} su $ V $ è una funzione $ \cdot: V\times V \to \C$ tale che % TODO riguardare dagli appunti 
+    Sia $ V $ uno spazio vettoriale complesso. Un \textit{prodotto Hermitiano} su $ V $ è una funzione $ \cdot: V\times V \to \C$ tale che 
     \begin{enumerate}
         \item $ v \cdot w =\overline{w \cdot v} $
         \item $ (v_1+v_2) \cdot w = v_1 \cdot w + v_2 \cdot w $
         \item $ (\lambda v) \cdot w = \lambda (v \cdot w $)
         \item $ v \cdot v \ge0 $ e $ v \cdot v=0 $ $ \iff $ $ v=0 $
     \end{enumerate}
+    \todo{Riguardare dagli appunti la definizione di prodotto Hermitiano}
 }
 
 \osservazione{
     Se $ \cdot $ è un prodotto Hermitiano 
     
-    $\implies$ $ v \cdot (w_1+w_2)=v \cdot w_1 + v \cdot w_2$ % TODO manca un pezzo
+    $\implies$ $ v \cdot (w_1+w_2)=v \cdot w_1 + v \cdot w_2$ % 
+    \todo{Manca un pezzo}
 }
 
 \osservazione{
@@ -108,7 +113,7 @@ $\implies$ $ z \cdot \overline{z}=|z|^{2} $
 \esempio{}{
     $ \C^{n} $ con il prodotto Hermitiano canonico, \[ (z_1, \cdots, z_{n} ) \cdot  (w_1, \cdots, w_{n} )=\sum_{k=1}^{n} z_{k} \overline{w_{k} } \]
 
-\esercizio{Si dimostri che $ \cdot  $ è un prodotto Hermitiano su $ \C^{n} $}{Da fare %TODO risolvere esercizio
+\esercizio{Si dimostri che $ \cdot  $ è un prodotto Hermitiano su $ \C^{n} $}{Da fare %ESERCIZIO risolvere esercizio
 }{}
 
 }
@@ -150,7 +155,7 @@ $\implies$ Ogni spazio vettoriale complesso ($\dim \ge 1$) ha sempre infiniti pr
     $ \forall\, v, w \in V $
 }
 \dimostrazione{herm1}{
-    Data per esercizio %TODO svolgere la dimostrazione
+    Data per esercizio %ESERCIZIO svolgere la dimostrazione
 }
 
 \osservazione{
@@ -180,7 +185,7 @@ $\implies$ Ogni spazio vettoriale complesso ($\dim \ge 1$) ha sempre infiniti pr
 }
 
 \esempio{
-    La base canonica di $ \C^{n} $ %TODO qual è la base canonica di $ \C^n $?
+    La base canonica di $ \C^{n} $ %ESERCIZIO qual è la base canonica di $ \C^n $?
     è unitaria rispetto al prodotto Hermitiano canonico.
 }
 
@@ -218,4 +223,4 @@ Sia $ (V, \cdot ) $ uno spazio vettoriale Hermitiano, siano $ \mathscr{B} $ e $ 
 
     $ SU(n) $ è un sottogruppo di $ U(n) $
 }
-%TODO creare pdf singolo e pagina obsidian
+%ATOD creare pdf singolo e pagina obsidian

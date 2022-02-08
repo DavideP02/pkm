@@ -1,4 +1,4 @@
-\documentclass[11pt, titlepage, twoside]{article} %TODO sistemare le dimensioni pagina per poter stampare fronte retro
+\documentclass[11pt, titlepage, twoside, a4paper]{article} %ATOD sistemare le dimensioni pagina per poter stampare fronte retro
 
 \input{LatexGEO/unito.tex}
 
@@ -6,6 +6,8 @@
     pdfauthor={Davide Peccioli},
     pdftitle={Geometria 1},
 }
+
+\usepackage{pdfpages}
 
 \begin{document}
 
@@ -27,37 +29,46 @@ Università degli studi di Torino
 
 \tableofcontents\cleardoublepage
 
-\input{Days/20set2021}
-\input{Days/21set2021}
-
-\section{Lipsum 1}
-\lipsum
-
-\input{Days/05ott2021}
-\input{Days/07ott2021}
-
-
-\section{Lipsum 2}
-\lipsum
-
-\input{Days/02nov2021}
-\input{Days/04nov2021}
-\input{Days/08nov2021}
-\input{Days/09nov2021}
-\input{Days/11nov2021}
-\input{Days/15nov2021}
-\input{Days/16nov2021}
-\input{Days/18nov2021}
-\input{Days/22nov2021}
-\input{Days/23nov2021}
-\input{Days/25nov2021}
-\input{Days/29nov2021}
-\input{Days/30nov2021}
-\input{Days/02dic2021}
-\input{Days/06dic2021}
-\input{Days/07dic2021}
-\input{Days/09dic2021}
-\input{Days/13dic2021}
-\input{Days/14dic2021}
+\input{Days/20set2021} % 1
+\input{Days/21set2021} % 2
+\input{Days/23set2021} % 3
+\input{Days/24set2021} % 4
+\input{Days/27set2021} % 5
+\input{Days/28set2021} % 6
+\input{Days/30set2021} % 7
+\input{Days/01ott2021} % 8
+\input{Days/05ott2021} % 9
+\input{Days/07ott2021} % 10
+\input{Days/11ott2021} % 11
+\input{Days/12ott2021} % 12
+\input{Days/14ott2021} % 13
+\input{Days/18ott2021} % 14
+\input{Days/19ott2021} % 15
+\input{Days/21ott2021} % 16
+\input{Days/25ott2021} % 17
+\input{Days/26ott2021} % 18
+\input{Days/28ott2021} % 19?
+\input{Days/02nov2021} % 19?
+\input{Days/04nov2021} % Lezione 20 [file 1]
+\input{Days/08nov2021} % 21
+\input{Days/09nov2021} % 22
+\input{Days/11nov2021} % 23
+\input{Days/15nov2021} % 24
+\input{Days/16nov2021} % 25
+\input{Days/18nov2021} % 26
+\input{Days/22nov2021} % 27
+\input{Days/23nov2021} % Lezione 28 [file 2]
+\input{Days/25nov2021} % 29
+\input{Days/29nov2021} % 30
+\input{Days/30nov2021} % 31?
+\input{Days/02dic2021} % 31?
+\input{Days/06dic2021} % Lezione 32 [file 3]
+\input{Days/07dic2021} % 33
+\input{Days/09dic2021} % 34
+\input{Days/13dic2021} % 35
+\input{Days/14dic2021} % 36
+\input{Days/16dic2021} % 37
 
 \end{document}
+
+%Il documento andrà compilato su Github solo dopo aver eliminato le parti importate da pdf esterni

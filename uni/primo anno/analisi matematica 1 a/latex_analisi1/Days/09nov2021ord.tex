@@ -1,11 +1,10 @@
 % Lezione 18: https://math.i-learn.unito.it/pluginfile.php/133502/mod_resource/content/1/UNO_lezione18_2020_21.pdf
 
-\marginnote{9 nov 2021}
-
+Un'\marginnote{9 nov 2021}altra definizione di continuità può essere data da 
 \begin{multline*}
     \lim_{x\to x_0} f(x) =f(x_0)\\
     \iff\,\lim_{h\to 0} f(x_0+h) =f(x_0)\,\iff\\ 
-    \lim_{h\to 0} f(x_0+h) - f(x_0)=0
+    \lim_{h\to 0} \left(f(x_0+h) - f(x_0)\right)=0
 \end{multline*}
 
 \esempio{
@@ -14,13 +13,13 @@
     Per  $ x_0 \in \R $
     \begin{multline*}
         \lim_{h\to 0} \sin (x_0+h)-\sin (x_0) =\\
-        = \lim_{h\to 0} \biggl(\sin x_0 \cos h + \sin h \cos x_0 - \sin x_0 \biggr)=\\
-        = \lim_{h\to 0} \biggl(\sin x_0 (\cos h -1)+ \sin h \cos x_0 \biggr)= 
+        = \lim_{h\to 0} \bigl(\sin x_0 \cos h + \sin h \cos x_0 - \sin x_0 \bigr)=\\
+        = \lim_{h\to 0} \bigl(\sin x_0 (\cos h -1)+ \sin h \cos x_0 \bigr)= 
     \end{multline*}
 
     Dato che $ \sin h \xrightarrow{h\to 0} 0 \displaystyle $
     \[
-        = \sin x_0 \lim_{h\to 0} \biggl(\cos h - 1\biggr)=0
+        = \sin x_0 \lim_{h\to 0} \bigl(\cos h - 1\bigr)=0
     \]
 
     Allora $ \forall x_0 \in \R $ si ha \[
@@ -38,7 +37,7 @@
         \item $ fg $ continua in $ x_0 $
         \item se $ g(x_0)\neq 0 $ allora $ \frac{f}{g} $ continua in $ x_0 $
         \item $ f_{+}(x)=\max \{0,f(x)\}$ è continua in $ x_0 $
-        % TODO aggiungere grafico di f+
+        \todo{Aggiungere grafico di $f_{+}$}
     \end{itemize}
 }
 
@@ -48,8 +47,8 @@
     $\implies$ $ g\circ f $ è continua in $ x_0 $
 }
 \dimostrazione{adgfdagf}{
-    % TODO aggiungere grafico
-    \[ \forall\, V(g(f(x_0)))\,\exists\, W(f(x_0))\text{ tale che } \forall y \in W \cap f(D) \] 
+    \todo{Aggiungere grafico}
+    \[ \forall\, V(g(f(x_0)))\quad\exists\, W(f(x_0))\text{ tale che } \forall y \in W \cap f(D) \] 
     
     $\implies$ $ g(y) \in V$
     
@@ -58,7 +57,7 @@
     Allora $ \exists U(x_0) $ tale che $ \forall x \in U\cap D $ $ g(f(x)) \in V $ 
     
     $\implies$ $ g \circ f $ è continua in $ x_0 $
-    % riguardare questa dimostrazione con gli appunti
+    \todo{Riguardare questa dimostrazione con gli appunti}
 }
 
 \proprieta{}{
@@ -95,7 +94,7 @@ Tutte queste funzioni sono dette "funzioni elementari"
 }
 
 \esempio{}{
-    %TODO grafico 1
+    \todo{Aggiungere grafico}
     La funzione è analiticamente definita come
     \[
         f(x)= \begin{cases}
@@ -116,7 +115,7 @@ Tutte queste funzioni sono dette "funzioni elementari"
             x+1 & 1 < x \le 2
         \end{cases}
     \]
-    %TODO grafico finv
+    \todo{Manca il grafico della funzione inversa}
     Quindi $ f^{-1} $ non è continua su $ f(D) $, in particolare non è continua in $ x_0=1 $
 }
 
@@ -190,7 +189,7 @@ Diciamo che:
 \[\lim_{x\to x_0^{+}} f(x) = \nexists\]
 \[\lim_{x\to x_0^{-}} f(x) = \nexists\]
 
-    % TODO manca esempio
+\todo{Manca un esempio}
 \end{enumerate}
 
 \subsection{Prolungamento per continuità di una funzione}

@@ -9,7 +9,7 @@ L'intera opera è di lettura scorrevole, con molti riferimenti a filosofi ed art
 
 Il #tempo non è altro che la nostra personale visione del mondo, che intrinsecamentte non ne è caratterizzato.
 
-La stessa divisione in "passato", "presente" e "futuro" è fallace, in quanto se ne può parlare solo in relazione a spazi molto vicini a noi: l'universo è costituito da **eventi**, ordinati solo in maniera parziale; non esiste un unico Tempo, che ordina iin maniera inequivocabile ogni evento nel nostro universo, bensì una miriade di relazione e di eventi interconnessi da queste relazioni: eliminato il tempo, resta solo il modo in cui gli eventi si relazionano tra di loro.
+La stessa divisione in "passato", "presente" e "futuro" è fallace, in quanto se ne può parlare solo in relazione a spazi molto vicini a noi: l'universo è costituito da **eventi**, ordinati solo in maniera parziale; non esiste un unico Tempo, che ordina in maniera inequivocabile ogni evento nel nostro universo, bensì una miriade di relazione e di eventi interconnessi da queste relazioni: eliminato il tempo, resta solo il modo in cui gli eventi si relazionano tra di loro.
 Eliminare il tempo non significa eliminare il movimento, anzi.
 
 Come può essersi quindi generato il concetto di tempo, in noi? A causa di una "sfocatura", la limitatezza della nostra visione: infatti, definendo il tempo (come lo conosciamo _empiricamente_) in relazione con la famosa Seconda legge della Termodinamica:
@@ -29,5 +29,8 @@ Il tempo è allora la forma con cui noi esseri il cui cervello è fatto essenzia
 
 References:
 [L'ordine del tempo - Carlo Rovelli](L'ordine%20del%20tempo%20-%20Carlo%20Rovelli.md)
+
+Tags:
+#bookreview 
 
 

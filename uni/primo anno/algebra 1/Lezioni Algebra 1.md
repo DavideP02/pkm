@@ -47,3 +47,20 @@
 	- [Slide](Algebra%201%20-%20Slides%20Lezione%2015%20(20211111)%20-%20Alessandro%20Ardizzoni.pdf)
 
 ## Prova in itinere:
+
+## Esami anni passati:
+- [Esame Algebra I del 20170130 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020170130%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20170216 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020170216%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20170612 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020170612%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20170703 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020170703%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20170911 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020170911%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20180129 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020180129%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20180213 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020180213%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20180612 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020180612%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20180710 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020180610%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20190129 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020190129%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20190613 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020190613%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20190703 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020190703%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20190917 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020190917%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20200116 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020200116%20-%20Alessandro%20Ardizzoni.pdf)
+- [Esame Algebra I del 20200203 - Alessandro Ardizzoni](Esame%20Algebra%20I%20del%2020200203%20-%20Alessandro%20Ardizzoni.pdf)

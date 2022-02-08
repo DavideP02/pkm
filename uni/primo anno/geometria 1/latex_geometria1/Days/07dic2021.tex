@@ -65,8 +65,12 @@ $\implies$ $ |\xi(v,w)| \le Q_{\xi}(v) \cdot Q_{\xi}(w)   $\qed
     \end{equation}
 }
 \dimostrazioneprop{elefanterosacandido}{
-    Manca la dimostrazione
-    %TODO manca dimostrazione
+    Usiamo $ Q_{\xi}(v+w)=Q_{\xi}(v)+Q_{\xi}(w)+2\xi(v,w)$.
+    \begin{align*}
+        \left|Q_{\xi}(v+w) \right|&\le \left|Q_{\xi}(v)\right|+\left|Q_{\xi}(w) \right|+2\,\left|\xi(v,w)\right|\\
+        &\le \left|Q_{\xi}(v)\right|+\left|Q_{\xi}(w) \right|+2\,\sqrt{Q_{\xi}(v) }\,\sqrt{Q_{\xi}(w) }\\
+        &= \left(\sqrt{Q_{\xi}(v) }+\sqrt{Q_{\xi}(w)}\right)^{2}
+    \end{align*} segue la tesi.\qed
 }
 
 \rule{7em}{.4pt}
@@ -89,10 +93,10 @@ $\implies$ $ \null^{t}\!P\,M^{ \mathscr{B}}(\xi) P = \biggl(\begin{smallmatrix}
     & & \lambda_{n} 
 \end{smallmatrix}\biggr) $, quindi si trova sempre una forma canonica di $ Q_{\xi}  $ in cui i coefficenti sono gli autovalori di $ M^{ \mathscr{B}}(\xi) $.
 
-%TODO manca un esercizio
+\todo{Manca un esercizio (chiesto a Simone Pacini)}
 
 \osservazione{
-    Sia $ \xi \in B_S(V, \R) $, esiste una base ortogonale di $ \xi $, $\mathscr{B}=\{v_1, \cdots, v_{n}\}$, $ \xi(v_i, v_j)=0 \forall\, i\neq j $ \[
+    Sia $ \xi \in B_S(V, \R) $, esiste una base ortogonale di $ \xi $, $\mathscr{B}=\{v_1, \cdots, v_{n}\}$, $ \xi(v_i, v_j)=0$ $\forall\, i\neq j $ \[
         \xi(v_{i}, v_{i}  )\begin{cases}
             >0\\
             =0\\
@@ -152,7 +156,7 @@ $\implies$ $ \null^{t}\!P\,M^{ \mathscr{B}}(\xi) P = \biggl(\begin{smallmatrix}
     
     $\implies$ $ t\ge p $. 
     
-    In modo analogo si dimostra che $ t>p $ porta ad un assurdo (esercizio%TODO fare per esercizio
+    In modo analogo si dimostra che $ t>p $ porta ad un assurdo (esercizio%ESERCIZIO fare per esercizio
     ) 
     
     $\implies$ $ t=p $\qed

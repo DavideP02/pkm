@@ -1,0 +1,255 @@
+\osservazione{
+Supponiamo\marginnote{16 dic 2021} che $ \pi_1\cap \pi_2 =r$ retta
+\begin{align*}
+    \pi_1: &a_1x+b_1y+c_1z+d_1=0 & \mathbf{n_1} &= (a_1, b_1, c_1)\\
+    \pi_2: &a_2x+b_2y+c_2z+d_2=0 & \mathbf{n_2} &= (a_2, b_2, c_2)
+\end{align*}
+Vale che $ \mathbf{n_1} $ è perpendicolare al piano $ a_1x+b_1y+c_1z=0 $, e $ \mathbf{n_2} $ è perpendicolare al piano $ a_2x+b_2y+c_2z=0 $
+
+Se $ r = \pi_{1} \cap \pi_2 $, \[
+    r:\begin{pmatrix}
+        x \\ y \\ z
+    \end{pmatrix}=\begin{pmatrix}
+        x_0 \\ y_0 \\ z_0
+    \end{pmatrix} + t \begin{pmatrix}
+        l \\ m \\ n
+    \end{pmatrix}
+\] e passa per $\begin{pmatrix}
+    x_0 \\ y_0 \\ z_0
+\end{pmatrix}$ ed è parallela a $ \begin{pmatrix}
+    l \\ m \\ n
+\end{pmatrix} $
+\[
+    \begin{pmatrix}
+        l \\ m \\ n
+    \end{pmatrix} \in \{a_1x+b_1y+c_1z=0\}\cap {a_2x+b_2y+c_2z=0}
+\] e inoltre $ \begin{pmatrix}
+    l \\ m \\ n
+\end{pmatrix} $ è ortogonale sia a $ \mathbf{n_1} $ e $ \mathbf{n_2} $.
+
+Possiamo considerare \[
+    \begin{pmatrix}
+        l \\ m \\ n
+    \end{pmatrix} = \mathbf{n_1} \wedge \mathbf{n_2}
+\]
+\begin{equation}
+    r:\begin{pmatrix}
+        x \\ y \\ z
+    \end{pmatrix}=\begin{pmatrix}
+        x_0 \\ y_0 \\ z_0
+    \end{pmatrix} + t\, \mathbf{n_1} \wedge \mathbf{n_2}
+\end{equation} per $ t \in \R $, dove $ \begin{pmatrix}
+    x_0 \\ y_0 \\ z_0
+\end{pmatrix} $ è un qualsiasi punto in $ \pi_1\cap\pi_2 $.
+}
+
+\subsection{Posizione di due rette nello spazio}
+
+Siano $ r $ e $ r' $ due rette nello spazio; ci sono varie possibilità
+\begin{itemize}
+    \item $ r=r' $;
+    \item $ r\parallel r' $;
+    \item $ r\cap r' =\{p_0\} $: incidenti;
+    \item $ r $ e $ r'$ sono sghembe, cioè non sono né parallele, né incidenti, ma sono disgiunte
+\end{itemize}
+
+Date \[
+    r:\begin{cases}
+        a_1x+b_1y+c_1z+d_1=0\\
+        a_2x+b_2y+c_2z+d_2=0
+    \end{cases} \qquad r':\begin{cases}
+        a_1'x+b_1'y+c_1'z+d_1'=0\\
+        a_2'x+b_2'y+c_2'z+d_2'=0
+    \end{cases}
+\]
+ovvero
+\[
+    r\cap r' =\begin{cases}
+        a_1x+b_1y+c_1z+d_1=0\\
+        a_2x+b_2y+c_2z+d_2=0\\
+        a_1'x+b_1'y+c_1'z+d_1'=0\\
+        a_2'x+b_2'y+c_2'z+d_2'=0
+    \end{cases}
+\]
+è un sistema in tre equazioni e quattro incognite. La matrice completa del sistema ha rango $ \le 2 $. La matrice completa ha rango 1 o 2.
+
+Se il sistema ha infinte soluzioni, allora le due rette sono coincidenti ($r=r'$), se ne ha solo una sono incidenti, mentre se $ r\cap r'=\emptyset $, le possibilità sono due: $ r\parallel r' $ o $ r $ e $ r'$ sono sghembe, e bisogna fare ulteriori studi.
+
+\subsection{Sfere nello spazio}
+
+Nello spazio la sfera di centro $ p_0=\left(\begin{smallmatrix}
+    \alpha\\ \beta\\ \gamma
+\end{smallmatrix}\right) $ e raggio $ R $ è l'insieme dei punti che distano $ R $ da $ p_0 $ \[
+    \Sigma = \{p \in \R^{3}\,\tc\: d(p,p_0)=R\}=\{p \in \R^{3}\,\tc\: ||p-p_0||^{2}=R^{2}\}
+\]
+Ponendo $ p=\left(\begin{smallmatrix}
+    x\\ y\\ z
+\end{smallmatrix}\right) $\[
+    p-p_0=\begin{pmatrix}
+        x-\alpha\\
+        y-\beta\\
+        z-\gamma
+    \end{pmatrix}\qquad ||p-p_0||^{2}=(x-\alpha)^{2}+(y-\beta)^{2}+(z-\gamma)^{2}
+\]
+
+$ \Sigma $ ha equazione \begin{equation}
+    (x-\alpha)^{2}+(y-\beta)^{2}+(z-\gamma)^{2}=R^{2}
+\end{equation} svolgendo i guadrati si trova \begin{equation}
+    x^{2}+y^{2}+z^{2}-2\alpha x -2 \beta y -2\gamma z + \alpha^{2}+\beta^{2}+\gamma^{2}-R^{2}=0
+\end{equation}
+
+Ne deduco che un'equazione del tipo \[
+    x^{2}+y^{2}+z^{2}-2\alpha x-2 \beta y -2\gamma z + \delta=0
+\] descrive una sfera $\iff $ $ \alpha^{2}+\beta^{2}+\gamma^{2}-\delta>0 $.
+
+In tal caso, la sfera ha centro $ (\alpha, \beta, \gamma) $ e raggio $ \sqrt{\alpha^{2}+\beta^{2}+\gamma^{2}-\delta} $
+
+\esempio{
+    $ x^{2}+y^{2}+z^{2}-2x-y+z=0 $. Si ha che \[
+        \alpha =1,\quad \beta=\frac{1}{2},\quad \gamma=-\frac{1}{2},\quad \delta=0
+    \] quindi $\alpha^{2}+\beta^{2}+\gamma^{2}-\delta>0 $, e l'equazione descrive la sfera di centro $ (1, 1/2, -1/2) $ e raggio $ R=\sqrt{1+1/4+1/4}=\sqrt{6}/2$ 
+}
+
+\subsection{Distanza di un punto da un piano}
+
+Dato $ p_0 \in\R^{3} $ e $ \pi \subseteq \R^{3} $ un piano, si vuole calcolare $ d(p_0, \pi) $.
+\todo{Manca disegno}
+
+Si avrà che $ d(p_0, \pi)=d(p_0, H)=||p_0-H|| $.
+
+Sia ora $ p_1 $ un punto nel piano, $ \mathbf{n} $ il vettore normale al piano e $ \mathbf{u}=p_0-p_1 $ \[
+    d(p_0, \pi)=d(p_0, H) = \frac{|(p_0-p_1)\,H|}{||n||}
+\]
+
+Se $ \pi $ ha equazione $ ax+by+cz+d=0 $, e $ p_0=(x_0,y_0,z_0) $, $ \mathbf{n}=(a,b,c) $ vettore ortogonale, e $ p_1=(x_1,y_1,z_1) $ un generico punto del piano 
+
+$\implies$ $ (p_0-p_1)=a(x_0-x_1)+b(y_0-y_1)+c(z_0-z_1)= $ \[
+    = ax_0+by_0+cz_0\parentesi{d}{-ax_1-by_1-cz_1}=ax_0+by_0+cz_0+d
+\]
+Quindi \begin{equation}
+    d(p_0, \pi)=\frac{|ax_0+by_0+cz_0+d|}{\sqrt{a^{2}+b^{2}+c^{2}}}
+\end{equation}
+
+Se $ p_0 \in \pi $ vale $ ax_0+by_0+cz_0+d=0 $, e quindi $ d(p_0, \pi)=0 $.
+
+\esempio{
+    $ \pi:2x+y-z+1=0 $, $ p_0=(1,1,-1) $ \[
+        d(p_0, \pi)=\frac{|2+1+1+1|}{\sqrt{6}}=\frac{5\sqrt{6}}{6}
+    \]
+}
+
+\subsection{Circonferenza nello spazio}
+
+Nello spazio si definisce la circonferenza di centro $ p_0=(\alpha, \beta, \gamma) \in \pi $, raggio $ R $ e contenuta nel piano $ \pi $ come l'insieme dei punti di $ \pi $ che distano $ R $ da $ p_0 $.
+\[
+    \mathscr{C} = \{p \in \R^{3}\,\tc\: p \in \pi \,\land\, d(p,p_0)=R\}
+\]
+
+Sia ora $ p=(x,y,z) $ e $ \pi=ax+by+cz+d=0 $: \[
+    \mathscr{C}= :\begin{cases}
+        (x-\alpha)^{2}+(y-\beta)^{2}+(z-\gamma)^{2}=R^{2}\\
+        ax+by+cz+d=0
+    \end{cases}
+\]
+La circonferenza quindi è stata scritta come intersezione di una sfera e di un piano.
+
+\osservazione{
+    Sia $ \Sigma $ sfera nello spazio, e $ \pi $ piano nello spazio. \[
+        \mathscr{C}=\Sigma\cap \pi
+    \]
+\todo{Manca disegno}
+
+    Sia $ R $ il raggio della sfera e $ r $ il raggio della circonferenza. Sia $ p_0 $ il centro della sfera, e sia $ Q \in \pi\cap \Sigma $ 
+    
+    $\implies$ $ d(p_0, Q)=R $.
+
+    Sia $ s $ la retta passante per $ p_0 $ (centro della sfera $ \Sigma $) e ortogonale a $\pi$, $ s $ passa anche per il centro della circonferenza $ \mathscr{C} $.
+
+    Il segmento rosso collega il centro di $ \Sigma $ con il centro di $ \mathscr{C} $. Questo segmento ha lunghezza $ d(p_0, \pi) $. 
+    
+    $\implies$ Tramite il teorema di Pitagora si ricava il raggio di $ \mathscr{C} $: \[
+        r=\sqrt{R^{2}-\left(d(p_0, \pi)\right)^{2}}
+    \]
+    Da qui si ricava il centro di $ \mathscr{C} $.
+}
+
+\esempio{
+    Sia $ \Sigma $ la sfera di equazione $ x^{2}+y^{2}+z^{2}-4x=0 $, e $ \pi:z+1=0 $.
+
+    Sia $ \mathscr{C}=\Sigma\cap \pi $, troviamo centro e raggio di $ \mathscr{C} $.
+
+    $ \Sigma $ ha centro $ p_0 = (2, 0, 0)$ e raggio $ \sqrt{4}=2 $. \[
+        d(p_0, \pi)=1,\qquad r=\sqrt{4-1}=\sqrt{3}
+    \]
+    Quindi $ \mathscr{C} $ ha raggio $\sqrt{3}$.
+
+    Per trovare il centro di $ \mathscr{C} $ sia $ s $ la retta passante per $ p_0 $ e ortogonale a $\pi$, $ s $ ha equazione parametrica \[
+        s:\begin{pmatrix}
+            x\\y\\z
+        \end{pmatrix}=\begin{pmatrix}
+            2\\0\\0
+        \end{pmatrix}+t\begin{pmatrix}
+            0\\0\\1
+        \end{pmatrix}
+    \]
+    Interseco $ s $ con $ \pi $ e trovo il punto $ \left(\begin{smallmatrix}
+        2\\0\\-1
+    \end{smallmatrix}\right) $, ovvero il centro di $ \mathscr{C} $.
+}
+
+\section{Geometria Affine}
+
+La geometria affine è simile alla geometria degli spazio vettoriali, ma è possibile muovere e cambiare l'origine.
+
+Sia $ V $ spazio vettoriale su un campo $ \K $, $ A $ insieme non vuoto e una funzione $ \textcolor{red}{+}:A\times V \to A $ tale che valgono due proprietà\footnote{Solo per chiarezza si è scelto di colorare di rosso il simbolo ``$+$''; in verità il simbolo è lo stesso della somma in $ V $.}: \begin{enumerate}
+    \item $ (p\,\textcolor{red}{+}\,v)\,\textcolor{red}{+}\,w=p\,\textcolor{red}{+}\,(v+w) $ $ \forall\, p \in A, v,w \in V $;
+    \item $ \forall\, p,q \in A $, $ \exists!\, v \in V $ tale che $ q=p\,\textcolor{red}{+}\,v $ (si usa la notazione $ v=q-p $)
+\end{enumerate}
+
+La terna $ (A, V, \textcolor{red}{+}) $ si dice uno spazio affine.
+\esempio{
+    Sia $ A=\R^{2} $, $ V=\R^{2} $, $p\,\textcolor{red}{+}\, v$ la somma in $ \R^{2} $
+}
+
+\definizione{}{
+    La dimensione di uno spazio affine è la dimensione di $ V $.
+}
+
+\osservazione{
+    $ A $ eredita una struttura di spazio vettoriale tramite la biezione \begin{align*}
+    V &\longrightarrow A \\
+    v &\longmapsto  O+v
+    \end{align*} dove $ O $ è un punto fissato di $ A $, che è l'origine rispetto alla struttura di spazio vettoriale indotta.
+}
+
+\definizione{}{
+    Sia $ (A, V, +) $ uno spazio affine. Un \textit{sistema di riferimento} su $ (A, V, +) $ è un insieme del tipo \[
+        R=\{O, v_1, \cdots, v_n\}\}
+    \] dove $ O \in A $ è un punto fissato e $ \{v_1, \cdots, v_{n} \} $ è una base di $ V $.
+}
+
+\rule{7em}{.4pt}
+
+Dato $ p \in A $, $ p-O \in V $, possiamo scrivere \[
+    p-0 = x_1v_1 + \cdots + x_{n}v_{n}  
+    \] per unici $ x_1,\cdots,x_{n} \in \K $ detti le compoenti di $ p $ rispetto a $ R $.
+
+\definizione{}{
+    Un \textit{sottospazio affine} di $ (A, V, +) $ è un sottoinsieme $ L $ di $ A $ della forma \[
+        L=p_0+W=\{p_0+w\,|\, w \in W\}
+    \] con $ W \subseteq V $ sottospazio vettoriale di $ V $ e $ p_0 $ punto fissato di $ A $.
+}
+
+\subsection{Riferimento Cartesiano}
+
+Sia $ (A, V, +) $ spazio affine, con $ (V, \cdot ) $ uno spazio vettoriale Euclideo. Un riferimento affine è \textit{Cartesiano} se è della forma \[
+    R=\{O, e_1, \cdots, e_{n} \}
+\] con $ \{e_1, \cdots, e_{n} \} $ base ortonormale di $ (V, \cdot ) $
+
+\subsection{Affinità}
+
+Siano $ (A, V, +) $ e $ (A', V', +') $ due spazi affini. Un morfismo affine è una funzione $ \phi:A\to A' $ che rispetti la struttura di spazio vettoriale affine, ovvero tale che $ \exists\, f:V\to V' $ lineare per cui \begin{equation}
+    \parentesi{\in V'}{\phi(q)-\phi(p)}=f(q-p)
+\end{equation}
+
+Un morfismo affine biettivo è un'affinità.

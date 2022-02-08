@@ -1,0 +1,261 @@
+Sia $V$ spazio vettoriale di dimensione finita, $V=W_1+W_2$ con $W_1$, $W_2$ sottospazi vettoriali $\implies$ 
+\[\dim V = \dim W_1 + \dim W_2 - \dim (W_1 \cap W_2)\]
+In particolare se $ W_1 \cap W_2 = \{\underline{0}\}$ , allora
+\[V=W_1 \oplus W_2 \,\implies\, \dim V = \dim W_1 + \dim W_2\]
+    
+\esercizio{
+    Sia $V=R^4$, 
+    \begin{align*}
+        W_1&=\{(x_1, x_2, x_3, x_4)\,|\,2x_1 - x_2 + x_3 = 0, x_1+x_2-x_4=0\}\\
+        W_2&= \mathscr{L}\left((0,0,1,1), (1,1,0,0), (2,2,-2,-2)\right)
+    \end{align*}
+    \begin{enumerate}
+        \item Si trovino una base di $ W_1 $ e una base di $ W_2 $.
+        \item Si calcoli $\dim (W_1+W_2)$ e si dica se la somma è diretta.
+        \item Si scriva $(2, 1, -1, 1)$ come somma di un vettore in $ W_1 $ con un vettore in $ W_2 $.
+    \end{enumerate}
+}{
+    \begin{enumerate}
+        \item $ W_1 $ è formato dai vettori $x=(x_1, x_2, x_3, x_4)$ le cui componenti risolvono questo sistema
+        \[
+        \begin{cases}
+        2x_1-x_2+x_3=0\\
+        x_1+x_2-x_4=0
+        \end{cases} \,\implies\, 
+        \begin{cases}
+        x_1=t\\
+        x_2=s\\
+        x_3=-2+s\\
+        x_4=t+s
+        \end{cases}
+        \]
+        \[
+            \begin{pmatrix}
+                x_1\\ x_2\\ x_3\\ x_4
+            \end{pmatrix}= t\,\begin{pmatrix}
+                1\\ 0\\ -2\\ 1
+            \end{pmatrix}+s\,\begin{pmatrix}
+                0\\ 1\\ 1\\ 1
+            \end{pmatrix}
+        \] 
+        
+        $\implies$ $W_1= \mathscr{L}\left((1, 0, -2, 1), (0, 1, 1, 1)\right)$, ma i due generatori sono linearmente indipendenti 
+        
+        $\implies$ $ \mathscr{B}_1=\{(1,0,-2,1),(0,1,1,1)\}$ base di $ W_1 $, con $v_1=(1,0,-2,1)$ e $v_2=(0,1,1,1)$
+    
+        Per $ W_2 $ si osserva che \[(2, 2, -2, -2)=-2(0,0, 1, 1)+2(1, 1, 0, 0)\] 
+        
+        $\implies$ $W_2= \mathscr{L}\left((0,0,1,1), (1, 1, 0, 0)\right)$. 
+        
+        Poiché i due generatori sono linearmente indipendenti 
+        
+        $\implies$ $ \mathscr{B}_2=\{(0,0,1,1),(1,1,0,0)\}$ base di $ W_2 $, con $w_1=(0,0,1,1)$ e $w_2=(1,1,0,0)$.
+        \item $W_1+W_2$ contiene $v_1, v_2, w_1, w_2$, so che $ \mathscr{B}_1=\{v1,v2\}$ è libero. 
+        
+        Considero $\{v1, v2, w1\}$ e mi chiedo se è libero, quindi studio il sistema $w_1=\lambda\, v_1 + \mu\, v_2$
+        \[
+            \begin{pmatrix}
+                0\\ 0\\ 1\\ 1
+            \end{pmatrix} = \lambda \begin{pmatrix}
+                1\\ 0\\ -2\\ 1
+            \end{pmatrix} + \mu \begin{pmatrix}
+                0\\ 1\\ 1\\ 1 
+            \end{pmatrix}= \begin{pmatrix}
+                \lambda \\ \mu\\ -2\lambda + \mu\\ \lambda+\mu
+            \end{pmatrix} \,\implies\, \begin{cases}
+                \lambda=0\\
+        \mu=0\\
+        0=1\\
+        0=1
+            \end{cases}
+        \] 
+        
+        $\implies$ il sistema non ha soluzione, $\{v_1, v_2, w_1\}$ è libero
+        
+        Considero $\{v_1, v_2, w_1, w_1\}$ e mi chiedo se è libero, quindi studio il sistema \[
+            w_2=\lambda_1\,v_1 + \lambda_2\,v_2 + \lambda_3\,w_1
+        \]
+        \begin{multline*}
+            \begin{pmatrix}
+                1\\ 1\\ 0\\ 0
+            \end{pmatrix}=\lambda_1 \begin{pmatrix}
+                1\\ 0\\ -2\\ 1
+            \end{pmatrix}+\lambda_2 \begin{pmatrix}
+                0\\1\\1\\1
+            \end{pmatrix}+\lambda_3 \begin{pmatrix}
+                0\\0\\1\\1
+            \end{pmatrix}=\\=\begin{pmatrix}
+                \lambda_1\\ \lambda_2\\-2\lambda_1+\lambda_2+\lambda_3\\ \lambda_1+\lambda_2+\lambda_3
+            \end{pmatrix} \,\implies\,
+            \begin{cases}
+                \lambda_1=1\\
+                \lambda_2=1\\
+                -1+\lambda_3=0 \,\implies\, \lambda_3=1\\
+                2+\lambda_3=0 \,\implies\, \lambda_3=-2
+            \end{cases}
+        \end{multline*}
+
+        Il sistema non ha soluzione e $\{v_1, v_2, w_1, w_2\}$ è libero 
+        
+        $\implies$ $W_1+W_2=\R^4$, per la formula di Grassmann $W_1 \cap W_2=\{\underline{0}\}$
+        
+        $\implies$ $R^4=W_1 \oplus W_2$ e $\{v_1, v_2, w_1, w_2\}$ è base di $\R^4$.
+        \item Voglio scrivere $v=(2, 1, -1, 1)$ come $v=a+b$ con $a \in W_2$ e $b \in W_2$
+        \[
+        v=\lambda_1 v_1+ \lambda_2 v_2+ \mu_1 w_1 + \mu_2 w_2\] con $\lambda_1, \lambda_2, \mu_1, \mu_2$ unici, poiché $\{v_1, v_2, w_1, w_2\}$ base di $\R^4$. So che $\lambda_1 v_1 + \lambda_2 v_2 \in W_1$ e $\mu_1 w_1 + \mu_2 w_2 \in W_2$
+        \[
+            \begin{pmatrix}
+                2\\ 1\\ -1 \\ 1
+            \end{pmatrix} = \begin{pmatrix}
+                \lambda_1\\ 0\\ -2\lambda_1\\ \lambda_1
+            \end{pmatrix} + \begin{pmatrix}
+                0\\ \lambda_2\\ \lambda_2\\ \lambda_2
+            \end{pmatrix} + \begin{pmatrix}
+                0\\ 0\\ \mu_1\\ \mu_1
+            \end{pmatrix} + \begin{pmatrix}
+                \mu_2\\ \mu_2\\ 0\\ 0
+            \end{pmatrix}
+        \] 
+        \[
+            \implies\,\begin{cases}
+                \lambda_1+\mu_2=2\\
+                \lambda_2+\mu_2=1\\
+                -2\lambda_1+\lambda_2+\mu_1=-1\\
+                \lambda_1+\lambda_2+\mu_1=1
+            \end{cases} \,\implies\, \begin{cases}
+                \lambda_1=2-\mu_2\\
+                \lambda_2=1-\mu_2\\
+                -4+2\mu_2+1-\mu_2+\mu_1=-1\\
+                2-\mu_2+1-\mu_2+\mu_1=1
+            \end{cases}
+        \]
+        \[
+        \begin{cases}
+            \lambda_1=2-\mu_2 \,\implies\, \lambda_1=\frac{2}{3}\\
+            \lambda_2=1-\mu_2 \,\implies\, \lambda_2 = -\frac{1}{3}\\
+            \mu_1+\mu_2=2 \,\implies\, \mu_1=2-\mu_2 \,\implies\, \mu_1=2-\frac{4}{3}=\frac{2}{3}\\
+            \mu_1-2\mu_2=-2 \,\implies\, 2-\mu_2-2\mu_2=-2 \,\implies\, \mu_2=\frac{4}{3}
+        \end{cases}
+        \]
+      
+        $v=\frac{2}{3} v_1-\frac{1}{3} v_2+\frac{2}{3} w_1+\frac{4}{3} w_2$ 
+        
+        $\implies$ $a=\frac{2}{3} v_1-\frac{1}{3} v_2 \in W_1$ e $b=\frac{2}{3} w_1+\frac{4}{3} w_2 \in W_2$
+    \end{enumerate}
+}{}
+
+\esercizio{
+    Sia \[W=\{(x_1, x_2, x_3) \in \R^3 \,|\: x_1-x_2+x_3=0\}.\] Si trovino due sottospazi $W_1, W_2 \in \R^3$ con \[W_1 \neq W_2 \,|\: \R^3=W \oplus W_1,\: \R^3=W \oplus W_2\]
+
+    Dal punto di vista geometrico $W$ è un piano nello spazio, mentre $ W_1 $ e $ W_2 $ sono due rette, passanti per l'origine, che non appartengano al piano.
+}{
+    $\dim W=2$, quindi $\dim W_1 = \dim W_2 = 1$
+
+    Risulta $W_1= \mathscr{L}(w_1), W_2= \mathscr{L}(w_2)$, con $w_2, w_2\neq \underline{0}$, $ w_1 $, $ w_2 $ non paralleli e $w_1, w_2 \notin W$
+    \begin{align*}
+    w_1=(1, 1, 1) \notin W \,\implies\, W_1= \mathscr{L}(w_1):&\text{ risulta }\R^3=W \oplus W_1\\
+    w_2=(3, 1, 1) \notin W \,\implies\, W_2= \mathscr{L}(w_2):&\text{ risulta }\R^3=W \oplus W_2
+    \end{align*}
+    Inoltre w1 e w2 non sono paralleli implies W1 neq W2
+}{}
+
+    
+\section{Matrici II}
+\subsection{Rango di una matrice e algoritmo di Gauss}
+    
+Sia $A \in \K^{m,n}$ con $\K$ campo. 
+\[A=\begin{pmatrix}
+    R_1\\ \vdots\\ R_m
+\end{pmatrix}\]
+dove $R_1, \cdots, R_m$ sono le righe di $A$.
+
+Ogni riga ha $n$ componenti, e può essere identificata con un elemento in $\K^n$, quindi $R_1, R_2, \cdots, R_m \in \K^n$
+
+$ \mathscr{L}(R_1,\cdots,R_m)$ è sottospazio vettoriale di $\K^n$
+
+Quando modifico la matrice $A$ implementando le tre operazioni dell'algoritmo di Gauss trovo una nuova matrice, 
+\[A'=\begin{pmatrix}
+    R_1'\\ \vdots\\ R_m'
+\end{pmatrix}\] 
+ma per la natura delle operazioni \[ \mathscr{L}(R_1',\cdots,R_m')= \mathscr{L}(R_1,\cdots,R_m)\] se $A'$ è ridotta per righe, le righe non nulle di $A'$ sono una base di $ \mathscr{L}(R_1,\cdots,R_m) $.
+
+\proposizione{}{
+    Il rango di una matrice è la dimensione del sottospazio vettoriale generato dalle righe. Denoto
+    \begin{equation}
+        R(A):= \mathscr{L}(R_1,...,R_m)\subseteq \K^n, \dim R(A)=\rank(A)
+    \end{equation}
+}
+
+Data $A \in \K^{m,n}$, 
+\begin{equation*}
+    A=\begin{pmatrix}
+        R_1\\ \vdots\\ R_m
+    \end{pmatrix}
+\end{equation*}
+dove $R_1, \cdots, R_m \in \K^n$ sono le righe della matrice; \begin{equation*}
+    A=\begin{pmatrix}
+        C_1 & \cdots & C_n
+    \end{pmatrix}
+\end{equation*} dove $C_1, \cdots, C_n$ sono le colonne di $A$, $C_1, \cdots,C_n \in \K^m$
+\[
+    R(A)= \mathscr{L}(R_1,...,R_m), \rank A=\dim R(A)
+\]
+Sia 
+\[C(A):= \mathscr{L}(C_1,\cdots,C_n)\] sottospazio vettoriale di $\K^n$.
+$C(A)=R(\null^t\!A)$ poiché per definizione di matrice trasposta le righe di $\null^t\!A$ sono le colonne di $A$.
+
+\teorema[(del rango)]{rankequellleoijdafliygkjygjhgfjhgfjhgfjhgfcjghgffgfgffgfgfgfg}{
+    Sia $A \in \K^{m,n}$ allora
+    \begin{gather*}
+        \rank(A) = \rank(\null^t\!A)\\
+        \iff\\ 
+        \dim R(A) = \dim C(A)
+    \end{gather*}
+}
+\dimostrazione{rankequellleoijdafliygkjygjhgfjhgfjhgfjhgfcjghgffgfgffgfgfgfg}{
+    Data $A \in \K^{m,n}$ e $R(A), C(A)$, siano $l=\dim C(A)$, $h=\dim R(A)$. Si dimostra che $l\le h$ e $h\le l$ 
+    
+    $\implies$ $l=h$.
+
+    Sia $ \mathscr{B}=\{w_1, \cdots, w_h\}\subseteq \K^n$ una base di $R(A)$. Per ogni $R_i\in \mathscr{L}(w_1, \cdots, w_h)$ possiamo scrivere 
+    \[R_i=b_{i1}\,w_1+b_{i2}\,w2+\cdots+b_{ih}\,w_h=\sum_{j=1}^h b_{ij}\,w_j\] per qualche $b_{i1}, \cdots, b_{ih} \in \K$
+
+    Sia $D$ la matrice le cui righe sono i vettori $w_1, \cdots, w_h$, \[
+        D=\begin{pmatrix}
+            w_1\\ \vdots\\ w_k
+        \end{pmatrix} \in \K^{h,n}
+    \]
+    Sia $B$ la matrice la cui entrata ($ij$)-esima è $b_{ij}$, $B \in \K^{m, h}$.
+
+    Sappiamo che $R_i=\sum_{j=1}^h b_{ij}\,w_j$ 
+    
+    $\implies$ $A=BD$ $\implies$ $ \null^{t}\!A=\null^{t}\!D\,\null^{t}\!B $
+
+    Le righe di $ \null^{t}\!A $ sono le colonne di $A$ 
+    
+    $\implies$ ogni colonna di $A$ è combinazione lineare degli stessi $h$-vettori  
+    
+    $\implies$ $\dim C(A)\le h$ $\implies$ $l\le h$
+
+    Per dimostrare che $h\le l$ si applica lo stesso ragionamento partendo da $ \null^{t}\!A $, e concludendo che ogni riga di $A$ è combinazione lineare degli stessi $l$-vettori da cui segue $h\le l$.\qed
+}
+
+Se ne deduce che l'algoritmo di Gauss può essere implementato sulle colonne. Data $A \in \K^{m,n}$, le tre operazioni possono essere operate sulle colonne.
+    
+\teorema[(di nullità più rango)]{nullitrasoijfdsoirango}{
+    Sia $A \in \K^{m,n}$, e si consideri il sistema lineare omogeneo associato $AX=\underline{0}$, con $X \in \K^{n}$.
+
+    Sia $N(A)=\{X \in \K^n\, |\: AX=\underline{0}\}$ (nullspace di $A$), $N(A) \subseteq \K^n$ sottospazio vettoriale.
+
+    Vale
+    \begin{equation}
+        \dim N(A) = n - \rank(A)
+    \end{equation}
+}
+\dimostrazione{nullitrasoijfdsoirango}{
+    $N(A)$ non cambia se sostituisco $A$ con una matrice ridotta per righe tramite l'algoritmo di Gauss. 
+    
+    Possiamo supporre $A$ ridotta per righe. $\rank(A)$ è il numero di righe di $A$, e sappiamo che le soluzioni del sistema $AX=\underline{0}$ dipendono da $n-r$ parametri.
+    
+    $\implies$ $\dim N(A)=n-r=n-\rank(A)$\qed
+}

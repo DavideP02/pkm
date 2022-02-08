@@ -1,9 +1,6 @@
-\marginnote{21 set 2021}
-
-\section{Operazioni con le matrici}
 \subsection{Moltiplicazione}
 
-Si può moltiplicare $\lambda \in \R$ con matrici $A\in\rmn$
+Si\marginnote{21 set 2021} può moltiplicare $\lambda \in \R$ con matrici $A\in\rmn$
 \[
 \lambda A=\lambda\qmatrice{a}=\qmatrice{\lambda a}
 \]
@@ -89,4 +86,190 @@ In generale se $ A \in \R^{m,m} $ $ \nexists $ un inverso per $ A $, cioè non e
 		
 		$\implies$ non è invertibile
 	\end{itemize}
+}
+
+Data $ A \in \R^{m,m} $, è necessario capire se è invertibile, ed eventualmente calcolarne l'inversa. Si definisce \begin{equation}
+	\gl (n, \R)=\{A, \R^{n,n}\,\tc\: A\text{ è invertibile}\}
+\end{equation}
+(con $ n\neq 1 $) ed è u gruppo non abeliano con la moltiplicazione tra matrici. 
+\[
+	\exists\, A, B \in \gl(n, \R)\,\tc\: AB\neq BA
+\]
+
+\teorema{proprioeoitaohiuhkjhdafoiughdafjhgoviualdbf}{
+	Valgono le seguenti proprietà
+	\begin{enumerate}
+		\item Siano $ A, B \in \R^{n,n} $ matrici invertibili: $ AB $ è invertibile, e \[
+			(AB)^{-1}=B^{-1}A^{-1}
+		\]
+		\item Se $ A \in \R^{n,n} $ è inveribile, allora $ A^{-1} $ è invertibile, e \[
+			(A^{-1})^{-1}=A
+		\]
+	\end{enumerate}
+}
+Si adotta come notazione $ A^{-1} $ matrice inversa di $ A $
+\dimostrazione{proprioeoitaohiuhkjhdafoiughdafjhgoviualdbf}{
+	\begin{enumerate}
+		\item Si dimostra che il prodotto tra $ (AB) $ e $ (B^{-1}A^{-1}) $ è l'identità, e che la cosa è commutativa
+		\begin{multline*}
+			(AB)(B^{-1}A^{-1})=A(BB^{-1})A^{-1}=\\=A\I A^{-1}= AA^{-1}=\I \,\implies\\
+			\implies\, (AB)(B^{-1}A^{-1})=\I
+		\end{multline*}
+		\begin{multline*}
+			(B^{-1}A^{-1})(AB)=B^{-1}(A^{-1}A)B=\\
+			= B^{-1}\I B=B^{-1}B=\I \,\implies\\
+			\implies\, (B^{-1}A^{-1})(AB)=\I
+		\end{multline*}
+		Ne risulta quindi che \[
+			(AB)(B^{-1}A^{-1})=\I=(B^{-1}A^{-1})(AB)
+		\]
+		quindi $ AB $ è invertibile e la sua inversa è $ B^{-1}A^{-1} $.
+		\item $ A $ è invertibile, quindi $ AA^{-1}=A^{-1}A=\I $ 
+		
+		$\implies$ sia $ A $ che $ A^{-1} $ sono invertibili: l'inversa di $ A^{-1} $ è $ A $, quindi \[
+			(A^{-1})^{-1}=A\qedd
+		\]
+	\end{enumerate}
+}
+
+\teorema[(di unicità degli inversi)]{unicinoinveoiriversoaisaoijlkuglkjughl}{
+	Sia $ A \in \R^{n,n} $ invertibile 
+	
+	$\implies$ esiste un'unica inversa di $ A $, cioè \begin{multline}
+		X, X' \in \R^{n,n}\,\tc\\ AX=XA=\I\,\land\, AX'=X'A=\I\\
+		\implies\,X=X'
+	\end{multline}
+}
+\dimostrazione{unicinoinveoiriversoaisaoijlkuglkjughl}{
+	$ X'=\I X=XAX'=X\I=X $\qed
+}
+
+\esempi[di inverse di matrici]{
+	\begin{itemize}
+		\item [(\textit{i})] Dato $ \R^{1,1}=\R $, $ x \in \R $ è invertibile $ \iff $ $ x\neq 0 $, e la sua inversa è $ 1/x $.
+		\item [(\textit{ii})] In $ \R^{2,2} $ si prendano due matrici \[
+			A=\begin{pmatrix}
+				a & b\\
+				c & d
+			\end{pmatrix}\qquad A'=\begin{pmatrix}
+				d & -b\\
+				-c & a
+			\end{pmatrix}
+		\]
+		\begin{gather*}
+			AA'= \begin{pmatrix}
+				a & b\\
+				c & d
+			\end{pmatrix}\begin{pmatrix}
+				d & -b\\
+				-c & a
+			\end{pmatrix} = \begin{pmatrix}
+				ad-cb & 0\\
+				0 & ad-cb
+			\end{pmatrix}=(ad-cb)\,\I\\
+			A'A= \begin{pmatrix}
+				d & -b\\
+				-c & a
+			\end{pmatrix}\begin{pmatrix}
+				a & b\\
+				c & d
+			\end{pmatrix} = \begin{pmatrix}
+				ad-cb & 0\\
+				0 & ad-cb
+			\end{pmatrix}=(ad-cb)\,\I
+		\end{gather*}
+
+		Se $ ad-cb\neq 0 $ possiamo definire \[
+			X=\frac{1}{ad-cb}\begin{pmatrix}
+				d & -b\\
+				-c & a
+			\end{pmatrix}
+		\]
+		per cui vale $ AX=XA=\I \,\implies\, X=A^{-1} $.
+
+		Se $ A \in \R^{2,2} $, $ A=\left(\begin{smallmatrix}
+			a & b\\ c & d
+		\end{smallmatrix}\right) $ con $ ad-cb \neq_0$ 
+		
+		$\implies$ $ A $ è invertibile, con inversa \[
+			A^{-1}=\frac{1}{ad-cb}\begin{pmatrix}
+				d & -b\\
+				-c & a
+			\end{pmatrix}
+		\]
+		$ ad-cb $ si dice il determinante di $ A$, e si indica con $ \det A $\begin{equation}
+			A^{-1}=\frac{1}{\det A}\begin{pmatrix}
+				d & -b\\
+				-c & a
+			\end{pmatrix}
+		\end{equation}
+		\item [(\textit{iii})] Sia $ A $ così costruita:
+		\[
+			A=\begin{pmatrix}
+				\lambda_1 & 0 & \cdots & 0\\
+				0 & \lambda_2 & & \vdots\\
+				\vdots & & \ddots & \vdots\\
+				0 & \hdotsfor{2} & \lambda_{n} 
+			\end{pmatrix}
+		\]
+		$ A $ ha $ (\lambda_1, \lambda_2, \cdots, \lambda_{n} ) $ sulla diagonale principale, e $ 0$ altrove.
+		
+		Se qualcuno dei $ \lambda_{i}=0  $ allora la matrice non è invertibile, mentre se $ \lambda_{i}\neq 0  $ $ \forall\, i = 1,\cdots, n $ allora $ A $ è invertibile, e vale 
+		\[
+			A^{-1}=\begin{pmatrix}
+				1/\lambda_1 & 0 & \cdots & 0\\
+				0 & 1/\lambda_2 & & \vdots\\
+				\vdots & & \ddots & \vdots\\
+				0 & \hdotsfor{2} & 1/\lambda_{n} 
+			\end{pmatrix}
+		\]
+	\end{itemize}
+}
+\subsection{Trasposta di una matrice}
+Sia $ A \in \R^{m,n} $, si definisce \textit{trasposta} di $ A $, $ \null^{t}\!A $, $ \null^{t}\!A \in \R^{n,m} $, ottenuta scambiando le righe di $ A $ con le colonne di $ A $.
+
+Se $ a_{ij}  $ è l'elemento $ ij $-esimo di $ A $, $ a_{ij}  $ è l'elemento $ ji $-esimo di $ \null^{t}\!A $ 
+
+\esempio{
+	\[
+		A=\begin{pmatrix}
+			1 & 2 & 0 & 3\\
+			-1 & 1 & 1 & 2
+		\end{pmatrix} \in \R^{2,4}\qquad \null^{t}\!A =\begin{pmatrix}
+			1 & -1\\
+			2 & 1\\
+			0 & 1\\
+			3 & 2
+		\end{pmatrix}\in \R^{4,2}
+	\]	
+}
+
+\definizione{}{
+	Una matrice $ A \in \R^{n,n} $ è \textit{simmetrica} se $ A= \null^{t}\!A $ 
+\[
+	\left(\iff\, a_{ij}=a_{ji}\: \forall\,i,j = 1,\cdots,n  \right)
+\]}
+
+\esempio{
+	$ A $ è simmetrica \[
+		A=\begin{pmatrix}
+			1 & 2 & 3\\
+			2 & 4 & 1\\
+			3 & 1 & 5
+		\end{pmatrix}
+	\]
+}
+
+\osservazione{
+	Ogni matrice diagonale è simmetrica.
+}
+
+\proprieta{}{
+	%ESERCIZIO dimostrare queste proprietà
+	\begin{enumerate}
+		\item $ \null^{t}\!(A+B)= \null^{t}\!A+\null^{t}\!B $ $ \forall\,A, B \in \R^{m,n} $;
+		\item $ \null^{t}\!(\lambda\,A)= \lambda \null^{t}\!A $ $ \forall\, \lambda \in \R, A \in \R^{m,n} $;
+		\item $ \null^{t}\!(AB)=\null^{t}\!B\null^{t}\!A $ $ \forall\,A, B \in \R^{m,n} $;
+		\item se $ A $ è invertibile, allora $ \null^{t}\!A $ è invertibile e $ (\null^{t}\!A)^{-1}=\null^{t}\!(A^{-1}) $.
+	\end{enumerate}
 }

@@ -1,6 +1,4 @@
-\marginnote{5 ott 2021}
-
-\teorema{primo}{Sia $V$ uno spazio vettoriale su campo $\K$, e $W\subseteq V$ un sottospazio vettoriale:
+\teorema{primo}{Sia\marginnote{5 ott 2021} $V$ uno spazio vettoriale su campo $\K$, e $W\subseteq V$ un sottospazio vettoriale:
 \begin{enumerate}
 \item \label{thm_1:1} se $V$ è finitamente generato $\implies$ $W$ è finitamente generato;
 \item se  $V$ è finitamente generato $\implies$ $\dim W\le\dim V$
@@ -17,7 +15,7 @@
 	
 	Considero $\mathscr{L}(w_1, w_2)\subseteq W$, ma $W\neq \mathscr{L}(w_1, w_2)$, altrimenti $W$ sarebbe generato da $\{w_1, w_2\}$. $\implies$\\$\implies$ $\exists\: w_3\in W \land w_3 \notin \mathscr{L}(w_1, w_2)$.
 	
-	Itero il procedimento e trovo \begin{multline*}\{w_1, \cdots, w_{n+1}\}\subseteq W\:\tc\: w_{n+1}\notin \mathscr{L}(w_1, \cdots, w_n)\:\implies \\ \implies\{w_1, \cdots, w_{n+1}\}\text{ è un insieme libero}\end{multline*}e contiene più elementi di una base $\mathscr{B}$. Assurdo per teorema precedente. % TODO aggiungere numero del teorema
+	Itero il procedimento e trovo \begin{multline*}\{w_1, \cdots, w_{n+1}\}\subseteq W\:\tc\: w_{n+1}\notin \mathscr{L}(w_1, \cdots, w_n)\:\implies \\ \implies\{w_1, \cdots, w_{n+1}\}\text{ è un insieme libero}\end{multline*}e contiene più elementi di una base $\mathscr{B}$. Assurdo per teorema precedente. % ATOD aggiungere numero del teorema
 	
 	\item Supponiamo $V$ finitamente generato, e sia $W\subseteq V$ un sottospazio vettoriale. $W$ è finitamente generato (per \ref{thm_1:1}.) 
 	$\implies$ $\exists \:\mathscr{B}=\{w_1, \cdots, w_m \}$ base di $W$ $\implies$ $\mathscr{B}\subseteq V$ è un sottoinsieme libero $\implies$ $m\le \dim V$ $\implies$ $\dim W \le \dim V$
@@ -26,7 +24,9 @@
 	
 	$W$ ha una base $\mathscr{B}$ con $n$ vettori, dove $n=\dim V$ $\implies$ $\mathscr{B}$ è una base di $V$.
 	
-	Se $\mathscr{B}=\{w_1, \cdots, w_n\}$ $\implies$ $W=\mathscr{L}(w_1, \cdots, w_n)=V$ $\implies$ $W=V$\qed
+	Se $\mathscr{B}=\{w_1, \cdots, w_n\}$ 
+	
+	$\implies$ $W=\mathscr{L}(w_1, \cdots, w_n)=V$ $\implies$ $W=V$\qed
 	\end{enumerate}
 }
 
@@ -248,7 +248,9 @@ E_5=\lambda_1 A_1 + \lambda_2 A_2+ \lambda_3A_3+\lambda_4 E_1 +\lambda_5 E_4
 La soluzione è $\mathscr{B}'=\{A_1, A_2, A_3, E_1, E_4, E_5\}$
 }
 
-\section{Operazioni tra sottospazi vettoriali}
+\subsection{Operazioni tra sottospazi vettoriali}
+
+\subsubsection{Intersezione}
 
 Sia $V$ uno spazio vettoriale su un un campo $\K$, e siano $W_1$ e $W_2\subseteq V$ due sottospazi vettoriali.
 
@@ -259,8 +261,65 @@ W_1 \cap W_2 = \{x\:|\: x\in w_1 \land x \in w_2\}
 
 \proposizione{inters}{$W_1 \cap W_2$ è sempre sottospazio vettoriale}
 \dimostrazioneprop{inters}{Siano $x,y\in W_1 \cap W_2$
-\[\implies\left.\begin{cases}
-x,y \in W_1 \implies (x+y)\in W_1 \\
-x,y \in W_2 \implies (x+y)\in W_2\end{cases}\right\rbrace\implies (x+y)\in W_1\cap W_2\qedhere\]}
+\[\implies\left\lbrace\begin{aligned}
+x,y \in W_1 &\implies (x+y)\in W_1 \\
+x,y \in W_2 &\implies (x+y)\in W_2\end{aligned}\right\rbrace\implies (x+y)\in W_1\cap W_2\] 
 
-% TODO FINIRE
+$\implies$ $ W_1\cap W_2 $ è chiuso rispetto alla somma.
+
+Siano $ x \in W_1\cap W_2 $, e $ \lambda \in \K $ \[
+	\implies\left\lbrace \begin{aligned}
+		x \in W_1 &\implies \lambda\,x \in W_1\\
+		x \in W_2 &\implies \lambda\,x \in W_2
+	\end{aligned}\right\rbrace \implies \lambda x \in W_1\cap W_2
+\]
+
+$ \implies$ $ W_1\cap W_2 $ è un sottospazio vettoriale di $ V $.\qed
+}
+
+\esempio{
+	Sia $ V=\R^{3} $, \begin{align*}
+		W_1&=\{(x_1,x_2,x_3) \in \R^{3}\,\tc\: 2x_1-x_2+x_3=0\}\\
+		W_2&=\{(x_1,x_2,x_3) \in \R^{3}\,\tc\:x_1-x_3=0\}
+	\end{align*} 
+
+	$ W_1 $ e $ W_2 $ sono sottospazi vettoriali di $ \R^{3} $ (sono due piani), e $ W_1\cap W_2 $ è una retta. 
+	
+	Trovo l'equazione di $ W_1\cap W_2 $, \[
+		W_1\cap W_2=\{x=(x_1,x_2,x_3) \in \R\,\tc\: 2x_1-x_2+x_3=x_1-x_3=0\}
+	\]
+	\[
+		\begin{cases}
+			2x_1-x_2+x_3=0\\
+			x_1=x_3
+		\end{cases} \,\implies\, \begin{cases}
+			x_1=t\\
+			x_2=3t\\
+			x_3=t
+		\end{cases}
+	\] 
+	
+	$\implies$ $ W_1\cap W_2 =\{t(1,3,1)\,\tc\: t \in \R\} $, ovvero è una retta passante per $ \underline{0} $ e $ (1,3,1) $ 
+	
+	$\implies$ $ W_1\cap W_2 = \mathscr{L}\left((1,3,1)\right)$
+}
+
+\osservazione{
+	\[
+		\left.\begin{aligned}
+			W_1\cap W_2 \subseteq W_1 &\implies\, \dim (W_1\cap W_2) \le \dim W_1\\
+			W_1\cap W_2 \subseteq W_2 &\implies\, \dim (W_1\cap W_2) \le \dim W_2
+		\end{aligned}\:\right| \,\implies\, 
+	\] 
+	
+	$\implies$ $ \dim (W_1\cap W_2)\le \min\{\dim W_1;\, \dim W_2\} $
+}
+
+\osservazione{
+	Sebbene $ W_1\cap W_2 $ sia sottospazio vettoriale, $ W_1\cup W_2 $ \textbf{non} è sottospazio vettoriale. Prendiamo un controesempio: preso $ \R^{2} $, $ W_1= \mathscr{L}((1,0)) $ e $ W_2= \mathscr{L}((0,1)) $. 
+	\[
+		\underset{\in W_1}{(1,0)}+\underset{\in W_2}{(0,1)}=(1,1) \in W_1\cup W_2
+	\] 
+	
+	$\implies$ l'unione non è chiusa rispetto alla somma. 
+}

@@ -153,7 +153,7 @@ La \textit{molteplicità geometrica} di $ \lambda_0 $ è il numero $ m_{g}(\lamb
 }
 
 \osservazione{
-    %TODO manca questa osservazione
+\todo{Manca questa osservazione}
 }
 
 \osservazione{
@@ -220,7 +220,29 @@ La \textit{molteplicità geometrica} di $ \lambda_0 $ è il numero $ m_{g}(\lamb
         \item \underline{Caso 2}: supponiamo che $ l:=m_{g}(\lambda)\lneq n  $. Quindi $ V_{\lambda} $ ha dimensione $ l $. Fissiamo una base $ \{v_1, \cdots, v_{l} \} $ di $ V_{\lambda}  $, che completo con una base di $ V $, $ \mathscr{B}=\{v_1, \cdots, v_{l}, w_{l+1}, \cdots, w_{n}   \} $.
         
         Sia $ A=M^{ \mathscr{B}, \mathscr{B}}(F) $. \[
-            A=%TODO aggiungere matrice da [disegno](https://photos.app.goo.gl/FYKefCDKemSkZ7tb7)
+            A=\left(
+                \begin{array}{@{}c|c@{}}
+                    \begin{matrix}
+                        \lambda & & 0\\
+                        & \ddots &\\
+                        0 & & \lambda
+                    \end{matrix} & \begin{matrix}
+                        & & \\
+                        & \star &\\
+                        & &
+                    \end{matrix}\\
+                    \hline
+                    \begin{matrix}
+                        & & \\
+                        & 0 &\\
+                        & &
+                    \end{matrix} & \begin{matrix}
+                        & & \\
+                        & \star\star &\\
+                        & &
+                    \end{matrix}
+                \end{array}
+            \right)
         \]
         Calcolo $ p(x)=\det(A-x\Id)=(\lambda-x)^{l}q(x) $ con $ q \in \K_{n-l}[x]  $
 
@@ -245,4 +267,4 @@ Sono fatti equivalenti \begin{enumerate}
 \end{enumerate}
 }   
 
-%TODO creare pdf giorno e pagina obsidian
+%ATOD creare pdf giorno e pagina obsidian

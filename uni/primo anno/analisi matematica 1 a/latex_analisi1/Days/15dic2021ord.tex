@@ -1,0 +1,199 @@
+\subsubsection{Studio locale di funzioni}
+Sia\marginnote{15 dic 2021} $ f:I\to \R $, $ x_0 \in I $, $ f $ derivabile $ n $ volte nel punto $ x_0 $. Assumiamo che $ f^{(k)}(x_0)=0 $ per $ k=1,\cdots, n-1 $ e $ f^{(n)}(x_0)\neq 0$
+
+Applichiamo lo sviluppo di Taylor in $ x_0 $ 
+    \begin{multline*}
+        f(x)=f(x_0)+ \cancel{f'(x_0)\,(x-x_0)}+\\+\cancel{f''(x_0)\frac{(x-x_0)^{2}}{2}}+\cdots+\cancel{\frac{f^{(n-1)}(x_0)}{(n-1)!}(x-x_0)^{n-1}}+\\+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}+ o\left((x-x_0)^{n}\right)_{x\to x_0}
+    \end{multline*}
+    
+\begin{gather*}
+    f(x)-f(x_0)=\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}+ o\left((x-x_0)^{n}\right)_{x\to x_0}\\
+    f(x)-f(x_0)=(x-x_0)^{n}\Biggl(\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}+ \parentesi{ \xrightarrow[x\to x_0]{} 0 \displaystyle}{\frac{o\left((x-x_0)^{n}\right)_{x\to x_0}}{(x-x_0)^{n}}}\Biggr)
+\end{gather*}
+
+Allora in $ U(x_0) $ il segno di $ f(x)-f(x_0) $ dipende da \[
+    (x-x_0)^{n}\,f^{(n)}(x_0)
+\]
+
+Allora, per $ n $ pari, il segno di $ f(x)-f(x_0) $ dipende da $ f^{(n)}(x_0) $; 
+\begin{itemize}
+    \item se $ f^{(n)}(x_0)>0 $ 
+
+    $\implies$ $ f(x)-f(x_0)>0 $ 
+    
+    $\implies$ $ f(x)>f(x_0) $ 
+    
+    $\implies$ $ x_0 $ è un punto di minimo locale;
+    \item se $ f^{(n)}(x_0)<0 $ 
+
+    $\implies$ $ f(x)-f(x_0)<0 $ 
+    
+    $\implies$ $ f(x)<f(x_0) $ 
+    
+    $\implies$ $ x_0 $ è un punto di massimo locale.
+\end{itemize}
+
+Per $ n $ dispari, invece, il segno di $ f(x)-f(x_0) $ dipenderà da 
+\[
+    \parentesi{\begin{aligned}
+        <0 \:&\text{se } x<x_0\\
+        >0 \:&\text{se } x>x_0
+    \end{aligned}}{(x-x_0)^{n}}\, \cdot \parentesi{\text{sgn fissato}}{f^{(n)}(x_0)}
+\]
+Quindi $ f(x)-f(x_0) $ cambia segno in $ x_0 $ 
+
+$\implies$ $ x_0 $ non è né massimo né minimo (flesso).
+
+\proprieta{}{
+    Sia $ f:I\to \R $, $ x_0 \in I $, $ f $ derivabile $ n $ volte nel punto $ x_0 $, $ f^{(k)}(x_0)=0 $ per $ k=1,\cdots, n-1 $ e $ f^{(n)}(x_0)\neq 0$
+
+    Allora, per $ n $ pari\begin{itemize}
+        \item $ f^{(n)}(x_0)>0 $ $\implies$ $ x_0 $ punto di minimo locale;
+        \item $ f^{(n)}(x_0)<0 $ $\implies$ $ x_0 $ punto di massimo locale;
+    \end{itemize}
+    mentre se $ n $ è dispari, $ x_0 $ non è né massimo né minimo locale.
+}
+
+\subsubsection{Sviluppi delle principali funzioni}
+
+Ci concentriamo nel caso $ x_0=0 $ (sviluppi di Mac Laurin).
+\[
+    f(x)=\left(\sum_{k=1}^{n}\frac{f^{(k)}}{k!} x^{k}\right) + o(x_{k} )
+\]
+D'ora in avanti tutti gli $ o\left(f(x)\right) $ sono considerati per $ x\to 0 $
+
+\begin{enumerate}
+    \item $ f(x)=e^{x} $: si ha che \[\forall\, k \in \N \quad f^{(k)(x)}=e^{x}\quad f^{(k)}(0)=1\] Allora \[
+        e^{x}=\sum_{k=0}^{n}\frac{1}{k!}\,x^{k} + o(x^{k})
+    \] ovvero \[
+        e^{x}=1+x+\frac{x^{2}}{2}+\cdots+\frac{x^{n}}{n!}+o(x^{n})
+    \]
+    \item $ f(x)=\sin x $
+    \begin{align*}
+        f(0)&=0 & f'(x)&=\cos x\\
+        f'(0)&=1 & f''(x)&=-\sin x\\
+        f''(0)&=0 & f'''(x)&= -\cos x\\
+        f'''(0)&=-1 & f^{(4)}(x)&= \sin x\\
+        f^{(4)}(0)&=0
+    \end{align*}
+    Si ha quindi che \begin{gather*}
+        \sin x =\sum_{k=0}^{n} (-1)^{k} \frac{x^{2k+1}}{(2k+1)!}+o\left(x^{2n+2}\right)\\
+        \sin x = x - \frac{x^{3}}{6} + \frac{x^{5}}{120}+\cdots+(-1)^{n}\frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+2})
+    \end{gather*}
+    \item $ f(x)=\cos x $: \begin{gather*}
+        \cos x =\sum_{k=0}^{n}(-1)^{k}\frac{x^{2k}}{(2k)!} + o(x^{2n+1})\\
+        \cos x =1 - \frac{x^{2}}{2} + \frac{x^{4}}{4}+\cdots+ (-1)^{n}\frac{x^{2n}}{(2n)!}+o(x^{2n+1}
+    \end{gather*}
+    \item $ f(x)=\ln(1+x) $: si ha \begin{align*}
+        f(0)&=0 & f'(x)&=\frac{1}{1+x}\\
+        f'(0)&=1 & f''(x)&=-(1+x)^{-2}\\
+        f''(0)&=-1=-1! & f^{(3)}(x)&=2(1+x)^{-3}\\
+        f^{(3)}(0)&=2=2! & f^{(4)}(x)&=-6(1+x)^{-4}\\
+        f^{(4)}(0)&= -6=-3!
+    \end{align*}
+    In generale \[
+        f^{(n)}(0)=(-1)^{n+1}\,(n-1)!
+    \]
+    Allora \begin{gather*}
+        \ln(1+x)=\sum_{k=1}^{n} \frac{f^{(k)}(0)}{k!}\,x^{k} + o(x^n)\\
+        \ln(1+x)=\sum_{k=1}^{n} (-1)^{k+1}\frac{(k-1)!}{k(k-1)!}\,x^k + o(x^n)\\
+        \ln(1+x)=\sum_{k=1}^{n} \frac{(-1)^{k+1}}{k}\,x^k + o(x^n)
+    \end{gather*}
+    Quindi \[
+        \ln(1+x)=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}-\frac{x^{4}}{4}+\cdots+ \frac{x^{n}}{n}+ o(x^n)
+    \]
+    \item $ f(x)=\frac{1}{1+x} $, $ f(x)=D\left(\ln(1+x)\right) $ \[
+        f(x)=g'(x)\qquad g(x)=\ln (1+x)
+    \]
+    allora (per la \hyperref[proprietaettte]{proprietà})
+    \begin{multline*}
+        T_{n}[f(x)]=T_{n}[g'(x)]=\left(T_{n+1}[g(x)] \right)'=\\
+        = D\left[T_{n+1}\left[\ln (1+x)\right] \right] =\\=
+        D\left[\sum_{k=1}^{n+1}\frac{(-1)^{k+1}}{k}x^{k} \right] =\\
+        =\sum_{k=1}^{n+1}\frac{(-1)^{k+1}}{\cancel{k}} \, \cancel{k}\,x^{k-1}
+    \end{multline*}
+    Posto $ h=k-1 $, si ha \[
+        =\sum_{h=0}^{n}(-1)^{h+2}\,x^{h}=\sum_{h=0}^{n} (-1)^{h}\,x^{h}  
+    \]
+
+    Risulta quindi che \begin{gather*}
+        \frac{1}{1+x}=\sum_{k=0}^{n} (-1)^{h}\,x^{h} +o(x^{n})\\
+        \frac{1}{1+x}=1-x+x^{2}-x^{3}+\cdots+(-1)^{n}+o(x^{n} )
+    \end{gather*}
+    \item sia $ f(x)=\arctan x $\begin{gather*}
+        \arctan x = \sum_{k=0}^{n} (-1)^{k}\frac{x^{2k+1}}{k}+o(x^{2n}+2)\\
+        \arctan x = x-\frac{x^{3}}{3}+\frac{x^{5}}{5}+ \cdots+(-1)^{n}\frac{2^{2n+1}}{2n+1}+o(x^{2n+2})
+    \end{gather*}
+    \item $ \sinh x = \frac{e^{x}-e^{-x}}{2} $ \begin{gather*}
+        \sinh x =\sum_{k=0}^{n}\frac{x^{2k+1}}{(2k+1)!}+o(x^{2n+2})\\
+        \sinh x = 1 + \frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\cdots+ \frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+2})
+    \end{gather*}
+    \item$ \cosh x = \frac{e^{x}+e^{-x}}{2} $ \begin{gather*}
+        \sinh x =\sum_{k=0}^{n}\frac{x^{2k}}{(2k)!}+o(x^{2n+1})\\
+        \sinh x = 1 + \frac{x^{2}}{2!}+\frac{x^{4}}{4!}+\cdots+ \frac{x^{2n}}{(2n)!}+o(x^{2n+1})
+    \end{gather*}
+    \item ricordando la \hyperref[binomiale]{notazione}, si ha che per $ \alpha \in \R $, $ x>-1 $ \begin{gather*}
+        (1+x)^{\alpha}\sum_{k=0}^{n}  \begin{pmatrix}
+            \alpha\\ k
+        \end{pmatrix} x^{k} + o(x^{n})\\
+        (1+x)^{\alpha}=1+\alpha x + \frac{\alpha(\alpha -1)}{2!}x^{2}+\cdots+ \frac{\alpha\,(\alpha-1)\,\cdots(\alpha-n+1)}{n!}x^{n}
+    \end{gather*}
+
+    In particolare si ha che \[
+        (1+x)^{\alpha}=1+\alpha\,x + o(x)
+    \] e \[
+        \sqrt{1+x}=1+\frac{x}{2}-\frac{x^{2}}{8}+\frac{1}{16}x^{3}+o(x^{3})
+    \]
+    \item $\displaystyle \tan x = x + \frac{x^{3}}{3} + \frac{2}{15}x^{5}+o(x^{6})$
+    \item $ \displaystyle \arcsin x = x + \frac{x^{3}}{6}+ \frac{3}{40}x^{5}+o(x^{6}) $
+\end{enumerate}
+
+\osservazione{
+    Se $ f $ è pari $ T_{n}[f] $ ha solo potenze pari, e se $ f $ è dispari $ T_{n}[f] $ ha solo potenze dispari.
+}
+
+\notazione{}{\label{binomiale}
+    Ricordare che, dati $ n, k \in \N $, $ k\le n $ \begin{equation}
+        \begin{pmatrix}
+            n\\ k
+        \end{pmatrix}=\frac{n!}{k!(n-k!)}
+    \end{equation} ovvero \[
+        \begin{pmatrix}
+            n\\ k
+        \end{pmatrix}=\frac{n\,(n-1)\,\cdots\,(n-k+1)}{k!}
+    \]
+
+    Inoltre, indichiamo, dati $ \alpha \in \R $, $ k \in \N $,
+    \[
+        \begin{pmatrix}
+            \alpha\\ k
+        \end{pmatrix}=\frac{\alpha\,(\alpha-1)\,\cdots\,(\alpha-k+1)}{k!}
+    \]
+}
+
+\esercizio{
+    Calcolare il polinomio di MacLaurin di grado $ 4 $ per la funzione \[
+        f(x)=\frac{\sin x}{x}
+    \]
+}{
+    Sviluppo del seno:
+    \[
+        \sin x = x - \frac{x^{3}}{3!} + \frac{x^{5}}{5!} +o(x^{6})
+    \]
+    Quindi \[
+        \frac{\sin x}{x} = 1 - \frac{x^{2}}{6} + \frac{x^{4}}{120} +o(x^{5})
+    \] 
+    
+    $\implies$ $ \displaystyle T_{4}\left[\frac{\sin x}{x}\right] =1 - \frac{x^{2}}{6} + \frac{x^{4}}{120}  $
+}{}
+
+La validità dell'ultima implicazione di questo esercizio è dovuto alla seguente proprietà:
+\proprieta{}{
+    Data $ f:I\to \R $, $ x_0 \in I $, $ f $ derivabile $ n$ volte in $ x_0 $; 
+
+    se esiste un polinomio $ P_{n}(x)  $ di grado $ n $ o inferiore, tale che \[
+        f(x)= P_{n}(x)+o\left((x-x_0)^{n}\right) 
+    \] allora \begin{equation}
+        P_{n}(x)=T_{n}[f]  
+    \end{equation}
+} 

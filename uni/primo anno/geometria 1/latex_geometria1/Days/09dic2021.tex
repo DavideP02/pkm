@@ -5,7 +5,7 @@ $ V $ spazio vettoriale su un campo $ \K $, $ H \subseteq V $ sottospazio vettor
 \esercizio{
     Dimostrare che $ \sim $ è una relazione di equivalenza
 }{
-    Risolvere per esercizio %TODO risolvere esercizio
+    Risolvere per esercizio %ESERCIZIO risolvere esercizio
 }{}
 
 Dato $ v \in V $ indico con $ [v] $ la classe di $ v $ rispetto a $ \sim $, \begin{equation}
@@ -20,7 +20,7 @@ Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua v
 \esercizio{
     Le operazioni di spazio vettoriale in $ V/H $ sono ben definite.
 }{
-    Risolvere per esercizio %TODO risolvere esercizio
+    Risolvere per esercizio %ESERCIZIO risolvere esercizio
 }{}
 
 \osservazione{
@@ -156,8 +156,19 @@ Indico con $ V/H $ il quoziente di $ V $ rispetto a $ \sim $. $ V/H $ ha a sua v
     $\implies$ $ [v]= \underline{0}_{V/\ker(F)} $ 
     
     $\implies$ $ \ker(\tilde{F}) $ è banale, e $ \tilde{F} $ è iniettiva.
-
-    %TODO manca diagramma (da foto): https://photos.app.goo.gl/hk6u1kQ8wu3ypxfm7
+    
+    \begin{center}
+    \begin{tikzpicture}
+        \matrix (m) [matrix of math nodes,row sep=3em,column sep=4em,minimum width=2em, ampersand replacement=\&]
+        {
+           V \& F(v) \\
+           V/\ker(F) \& \\};
+        \path[-stealth]
+          (m-1-1) edge node [left] {$\pi$} (m-2-1)
+                  edge node [above] {$F$} (m-1-2)
+          (m-2-1) edge node [below] {$f$} (m-1-2);
+      \end{tikzpicture}
+    \end{center}
     Il diagramma è commutativo
 }
 

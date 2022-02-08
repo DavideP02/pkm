@@ -1,4 +1,4 @@
-\documentclass[11pt, titlepage, twoside]{article}
+\documentclass[11pt, titlepage, twoside, a4paper]{article}
 
 \input{LatexAN/unito.tex}
 
@@ -9,6 +9,11 @@
 
 % cose particolari per disegnare
 \usetikzlibrary{decorations.pathreplacing,calligraphy,backgrounds,spy}
+
+%GEOGEBRA functions
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
 
 \usepackage{pdfpages}
 
@@ -32,52 +37,58 @@ Università degli studi di Torino
 
 \tableofcontents\cleardoublepage
 
-% \input{Days/20set2021}
-% \input{Days/21set2021ord}
-% \input{Days/22set2021ord}
-% \input{Days/27set2021}
-% \input{Days/28set2021}
-% \input{Days/04ott2021}
-% \input{Days/05ott2021}
-% \input{Days/11ott2021}
-% \includepdf[pages={1-}, addtotoc={
-%     1, subsection, 2, Funzioni senza limite, 12pi,
-%     1, subsection, 2, Proprietà dei limiti, 12pii
-% }]{PDF/202110120850.pdf} %12 ott
-% \includepdf[pages={1-}, %
-% addtotoc={
-%     1, subsection, 2, Algebra dei limiti, 18pi,
-%     3, subsection, 2, Algebra estesa dei limiti, 18pii,
-%     5, subsection, 2, Teoremi sui limiti, 18piii
-% }%
-% ]{PDF/202110181045.pdf} %18 ott
-% \includepdf[pages={1-}, addtotoc={
-%     3, subsection, 2, Potenze ad esponente reale, 19pi,
-%     4, subsection, 2, Limiti notevoli e forme indeterminate, 19pii
-% }]{PDF/202110190840.pdf} %19 ott
-% \includepdf[pages={1-}, addtotoc={
-%     1, subsection, 2, Infiniti ed infinitesimi, 25pi,
-%     1, subsubsection, 3, Confronto di infinitesimi, 25pii,
-%     2, subsubsection, 3, Confronto di infiniti, 25piii,
-%     4, subsubsection, 3, Proprietà per infiniti e infinitesimi, 25piv
-% }]{PDF/202110251030.pdf} %25 ott
-% \includepdf[pages={1-}, addtotoc={
-%     1, subsection, 2, Altri limiti notevoli, 26pi,
-%     3, section, 1, Successioni, 26pii
-% }]{PDF/202110260852.pdf} %26 ott
-% \input{Days/02nov2021}
-% \input{Days/08nov2021ord} % successioni
-% \input{Days/09nov2021ordbis} % continuo successioni
-% \input{Days/15nov2021} % successioni
-% \input{Days/16nov2021ord} % successioni
-% \input{Days/08nov2021ordbis} %inizio continuità
-% \input{Days/09nov2021ord} % continuità 2
-% \input{Days/16nov2021ordbis} % continuità
+\input{Days/20set2021}
+\input{Days/21set2021ord}
+\input{Days/22set2021ord}
+\input{Days/27set2021}
+\input{Days/28set2021}
+\input{Days/04ott2021}
+\input{Days/05ott2021}
+\input{Days/11ott2021}
+\includepdf[pages={1-}, addtotoc={
+    1, subsection, 2, Funzioni senza limite, 12pi,
+    1, subsection, 2, Proprietà dei limiti, 12pii
+}]{PDF/202110120850.pdf} %12 ott
+\includepdf[pages={1-}, %
+addtotoc={
+    1, subsection, 2, Algebra dei limiti, 18pi,
+    3, subsection, 2, Algebra estesa dei limiti, 18pii,
+    5, subsection, 2, Teoremi sui limiti, 18piii
+}%
+]{PDF/202110181045.pdf} %18 ott
+\includepdf[pages={1-}, addtotoc={
+    3, subsection, 2, Potenze ad esponente reale, 19pi,
+    4, subsection, 2, Limiti notevoli e forme indeterminate, 19pii
+}]{PDF/202110190840.pdf} %19 ott
+\includepdf[pages={1-}, addtotoc={
+    1, subsection, 2, Infiniti ed infinitesimi, 25pi,
+    1, subsubsection, 3, Confronto di infinitesimi, 25pii,
+    2, subsubsection, 3, Confronto di infiniti, 25piii,
+    4, subsubsection, 3, Proprietà per infiniti e infinitesimi, 25piv
+}]{PDF/202110251030.pdf} %25 ott
+\includepdf[pages={1-}, addtotoc={      
+    1, subsection, 2, Altri limiti notevoli, 26pi,
+    3, section, 1, Successioni, 26pii
+}]{PDF/202110260852.pdf} %26 ott
+\input{Days/02nov2021}
+\input{Days/08nov2021ord} % successioni
+\input{Days/09nov2021ordbis} % continuo successioni
+\input{Days/15nov2021} % successioni
+\input{Days/16nov2021ord} % successioni
+\input{Days/20dic2021succ} %fine successioni
+\input{Days/08nov2021ordbis} %inizio continuità
+\input{Days/09nov2021ord} % continuità 2
+\input{Days/16nov2021ordbis} % continuità
 \input{Days/22nov2021}
 \input{Days/23nov2021}
 \input{Days/29nov2021}
 \input{Days/30nov2021}
 \input{Days/01dic2021}
 \input{Days/07dic2021}
-\input{Days/14dic2021}
+\input{Days/14dic2021ord} % da caricare necessariamente con "Days/30nov2021"
+\input{Days/15dic2021ord}
+\input{Days/20dic2021ord}
+
 \end{document}
+
+%Il documento andrà compilato su Github solo dopo aver eliminato le parti importate da pdf esterni

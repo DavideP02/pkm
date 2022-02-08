@@ -1,0 +1,130 @@
+\subsection{Limite superiore e limite inferiore}
+\definizione{}{
+    Sia\marginnote{20 dic 2021} $ \{a_{k} \}_{k=0}^\infty $ successione a valori reali, \begin{equation}
+        \Lambda = \{l \in \R^{*}\,|\: \exists\, a_{k_{n} } \longrightarrow l\}
+    \end{equation}
+    Si dice $ l $ valore limite di $ \{a_{k} \}_{k=0}^\infty $, e $ \Lambda $ classe limite.
+}
+
+\osservazione{
+    \begin{enumerate}
+        \item $ a_{n} \xrightarrow[n\to +\infty]{} \lambda \in \R^{*} $ 
+        
+        $\implies$ $ \forall\,a_{k_{n} } \longrightarrow \lambda $ 
+        
+        $\implies$ $ \Lambda=\{\lambda\} $.
+        \item $ \Lambda\neq\emptyset $, infatti preso $ A=\{a_{n} \} $ insieme dei valori della successione $ \{a_{k} \}_{k=0}^\infty $, può avvenire che:
+        \begin{itemize}
+            \item [(\textit{i})] $ A $ è finito, e almeno uno dei suoi elementi $ \lambda $ è assunto infinite volte dalla successione. Allora \[
+                \exists\,a_{n_{k} } \equiv \lambda\qquad a_{k_{n} } \xrightarrow[n\to + \infty]{} \lambda \,\implies\, \lambda \in \Lambda 
+            \]
+            \item [(\textit{ii})] $ A $ è infinito, allora per il teorema di Bolzano Weierstrass ammette almeno un punto di accumulazione $ \lambda \in \R^{*} $: allora \[
+                \exists\, a_{k_{n} } \longrightarrow \lambda \,\implies\, \lambda \in \Lambda
+            \]
+        \end{itemize}
+        \item $ \Lambda $ è chiusa in $ \R^{*} $. 
+        
+        Ricordiamo che $ X $ è chiuso $ \iff $ $ X' \subseteq X $.
+
+        Sia $ l \in \R^{*} $ punto di accumulazione di $ \Lambda $ ($l \in \Lambda'$), ovvero \[
+            \forall\, \varepsilon>0\quad \exists\, \lambda \in \Lambda,\: \lambda\neq l\:\tc\quad \lambda \in (l- \varepsilon; l+ \varepsilon)
+        \]
+
+        $\lambda \in \Lambda$, $ \lambda $ è punto limite \begin{multline*}
+            \exists\, a_{n_{k} } \longrightarrow \lambda \,\implies\\\implies\, \forall\,\eta\quad (\lambda-\eta; \lambda+\eta)\text{ contiene infiniti punti di } \{a_{k} \}_{k=0}^\infty
+        \end{multline*}
+        Sia $ \eta $ tale che $ (\lambda-\eta; \lambda+\eta) \subseteq (l- \varepsilon; l+ \varepsilon) $ 
+        
+        $\implies$ $ \forall\, \varepsilon>0 $, $ (l- \varepsilon; l+ \varepsilon) $ contiene infiniti punti di $ \{a_{k} \}_{k=0}^\infty $ 
+        
+        $\implies$ $ \exists $ $ a_{k_{n} }\longrightarrow l $ 
+        
+        $\implies$ $ l \in \Lambda $ 
+        
+        $\implies$ $ \Lambda' \subseteq\Lambda $ 
+        
+        $\implies$ $ \Lambda $ è chiuso.
+    \end{enumerate}
+}
+
+Grazie alle osservazioni $ 2.$ $ 3. $ si ha che $ \Lambda $ ammette in $ \R^{*} $ massimo $ M $ e minimo $ m $ (con $ m,M \in [- \infty, + \infty] $).
+
+Indichiamo con \begin{align*}
+    \limsup_{n\to + \infty} a_{n} &= M =\max_{ \in \R^{*}} \Lambda\\
+    \liminf_{n\to + \infty} a_{n} &= m =\min_{ \in \R^{*}} \Lambda
+\end{align*}
+Altre notazioni sono \[
+    \limsup_{n\to + \infty} a_{n} = \varlimsup_{n\to \infty} a_{n}\qquad \liminf_{n\to + \infty} a_{n} = \varliminf_{n\to \infty} a_{n} 
+\]
+
+Ne consegue che $ \{a_{k} \}_{k=0}^\infty $ può non ammettere limite in $ \R^{*} $, ma ammette sempre $ \liminf $ e $ \limsup $.
+
+\esempio{
+    Sia $ a_{n}=q^{n}$: allora \begin{itemize}
+        \item se $ |q|<0 $ allora $ a_{n}\longrightarrow 0  $ 
+        
+        $\implies$ $ \Lambda=\{0\} $, e \[
+            \limsup a_{n} =\liminf a_{n} =0 
+        \]
+        \item se $ q=1 $, $ a_{n} \equiv 1 $, $ \Lambda=\{1\} $, e \[
+            \limsup a_{n} =\liminf a_{n} = 1 
+        \]
+        \item se $ q=-1 $, $ a_{n}=1,-1, 1, -1, \cdots$: \[
+            \exists\, a_{k_{n} }\longrightarrow 1\qquad \exists\, a_{k_{n} } \longrightarrow -1 
+        \] quindi $ \Lambda=\{+1, -1\} $. Inoltre \[
+            \lim_{n\to + \infty} a_{n}  = \nexists\qquad \begin{aligned}
+                \limsup a_{n} &=1\\
+                \liminf a_{n} &=-1  
+            \end{aligned}
+        \]
+        \item se $ q>1 $, $ \lim_{n\to + \infty} =+ \infty $, $ \Lambda =\{+ \infty\} $, e \[
+            \limsup a_{n} =\liminf a_{n} = + \infty
+        \]
+        \item se $ q<-1 $, $ \Lambda=\{+ \infty, -\infty\} $ e \[
+            \limsup a_{n} = + \infty\qquad \liminf a_{n} = - \infty
+        \]
+    \end{itemize}
+}
+
+\osservazione{
+    In generale vale che \[
+        \lim_{n\to + \infty} a_{n}  =l \in \R^{*} \,\iff\, \liminf_{n\to + \infty} a_{n} = \limsup_{n\to +\infty} a_{n} =l 
+    \]  
+}
+
+\esempio{
+    Sia $ \displaystyle a_{n}=\sin\left(n\frac{\pi}{2}\right)$, $ a_{n} $ assume solo i valori $ \{-1, 0, 1\} $. Si hanno le seguenti sottosuccessioni: \begin{align*}
+        a_{2n}=b_{n}&= \sin\left(2n\frac{\pi}{2}\right)\equiv 0\\
+        a_{4n+1}=c_{n}&= \sin\left((4n+1)\frac{\pi}{2}\right)\equiv 1\\
+        a_{4n+3}=d_{n}&= \sin\left((4n+3)\frac{\pi}{2}\right)\equiv -1 
+    \end{align*} 
+
+    $ \implies $ $ \Lambda =\{-1, 0, 1\} $, e \[
+        \liminf a_{n} = -1\qquad \limsup a_{n} = +1   
+    \]
+}
+
+\esempio{
+    Sia $\displaystyle a_{n}=n\,\sin\left(n\frac{\pi}{2}\right)  $: \begin{align*}
+        a_{2n}&= 2n\, \sin\left(2n\frac{\pi}{2}\right) =0\\
+        a_{4n+1}&= (4n+1)\,\sin\left((4n+1)\frac{\pi}{2}\right) = 1, 5, 9, 13,\cdots\\
+        a_{4n+3}&= (4n+3)\,\sin\left((4n+3)\frac{\pi}{2}\right) = -3, -7, -11,\cdots
+    \end{align*}
+    Vale che \[
+        a_{2n} \longrightarrow  0\qquad a_{4n+1} \longrightarrow + \infty\qquad a_{4n+3}\longrightarrow - \infty
+    \] quindi $ \Lambda=\{- \infty, 0, \infty\} $ e \[
+        \liminf a_{n} = - \infty\qquad \limsup a_{n} = + \infty  
+    \]
+}
+
+\proprieta{}{
+    Vale sempre che \[
+        \liminf a_{n} \le \limsup a_{n}  
+    \]
+
+    Inoltre se $ \{a_{k} \}_{k=0}^\infty $ è limitata superiormente (inferiormente), allora 
+    \begin{align*}
+        \exists\, a_{k_{n}} &\longrightarrow \limsup a_{n} = M \in \R\\  
+        \Bigl(\exists\, a_{k_{n}} &\longrightarrow \liminf a_{n} = m \in \R\Bigr)
+    \end{align*}
+}   

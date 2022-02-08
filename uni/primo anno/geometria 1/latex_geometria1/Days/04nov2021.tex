@@ -1,7 +1,5 @@
-\marginnote{4 nov 2021}
-
 \definizione{
-	Data $ F:V\to W $ applicazione lineare tra spazi vettoriali su uno stesso campo, il rango di F ($ \rank F $) è la dimensione di $ F(V) $
+	Data\marginnote{4 nov 2021} $ F:V\to W $ applicazione lineare tra spazi vettoriali su uno stesso campo, il rango di F ($ \rank F $) è la dimensione di $ F(V) $
 }
 
 Se $ \mathscr{B} $ è una base di $ V $ e $ \mathscr{C} $ è una base di $ W $, ad $ F $ si associa la matrice $ M^{\mathscr{B}, \mathscr{C}}(F) $ che rappresenta $ F $ rispetto alle basi fissate.
@@ -143,7 +141,7 @@ $\implies$ $ F^{-1}(\underline{0}_W) $ sottospazio vettoriale di $ V $
 }
 
 \teorema{kern}{
-	$ F $ è iniettiva $ \iff $ $ \ker F={\underline{0}_V} $
+	$ F $ è iniettiva $ \iff $ $ \ker F=\{\underline{0}_V\} $
 }
 \dimostrazione{kern}{
 	\begin{itemize}
@@ -193,7 +191,7 @@ Questo sopra enunciato è il teorema di nullità più rango in termini di una fu
 	\]
 	Si diano condizioni necessarie e sufficienti affinché $ F^{-1}(w_0) $ sia sottospazio.
 }{
-	% TODO risolvere esercizio 
+	% ESERCIZIO risolvere esercizio 
 }
 
 \esercizio{
@@ -265,11 +263,11 @@ Questo sopra enunciato è il teorema di nullità più rango in termini di una fu
 
 	Quindi \[ \ker g =\{- \lambda v_1+ \lambda v_2+ \lambda v_3 | \lambda \in\K\}= \mathscr{L}(v_1-v_2-v_3)\]
 
-	$ g(V) $ ha dimensione 2. Per esercizio si trovi una base di $ g(V) $ % TODO svolgere esercizio
+	$ g(V) $ ha dimensione 2. Per esercizio si trovi una base di $ g(V) $ % ESERCIZIO svolgere esercizio
 }
 
 \notazione{
-	Spesso l'immagine di una funzione lineare $ F $ si indica con $ \text{Im}(F) $
+	Spesso l'immagine di una funzione lineare $ F $ si indica con $ \im(F) $
 }
 
 \teorema{carfin}{
@@ -310,7 +308,7 @@ Questo sopra enunciato è il teorema di nullità più rango in termini di una fu
 
 \definizione{Una funzione lineare sia iniettiva che suriettiva si dice un isomorfismo
 
-$ F:V\to W $ è un isomorfismo $\iff$ $ \text{Im}(F)=W $ e $ \ker F =\{ \underline{0}_V\} $
+$ F:V\to W $ è un isomorfismo $\iff$ $ \im(F)=W $ e $ \ker F =\{ \underline{0}_V\} $
 
 }
 
@@ -325,14 +323,14 @@ $ F:V\to W $ è un isomorfismo $\iff$ $ \text{Im}(F)=W $ e $ \ker F =\{ \underli
 \definizione{Un isomorfismo $ F:V\to V $ si dice un automorfismo di $ V $}
 \dimostrazione{chedde}{
 	\begin{enumerate}
-		\item $ \dim V =\dim W $, $ \dim V = \dim \ker (F)+\dim \text{Im}(F) $
+		\item $ \dim V =\dim W $, $ \dim V = \dim \ker (F)+\dim \im(F) $
 		
-		$ \implies$ $ \dim W = \dim \ker (F)+\dim \text{Im}(F) $
+		$ \implies$ $ \dim W = \dim \ker (F)+\dim \im(F) $
 
 		\begin{itemize}
 		\item Se $ F $ è suriettiva 
 		
-		$\implies$ $ \dim W = \dim \text{Im}(F) $
+		$\implies$ $ \dim W = \dim \im(F) $
 
 		$\implies$ $ \dim \ker (F) = 0 $
 
@@ -344,9 +342,9 @@ $ F:V\to W $ è un isomorfismo $\iff$ $ \text{Im}(F)=W $ e $ \ker F =\{ \underli
 		
 		$\implies$ $ \dim \ker F = 0 $
 		
-		$\implies$ $ \dim W = \dim \text{Im}F $
+		$\implies$ $ \dim W = \dim \im F $
 		
-		$\implies$ $ W=\text{Im}F $
+		$\implies$ $ W=\im F $
 		
 		$\implies$ F è suriettiva
 		\end{itemize}

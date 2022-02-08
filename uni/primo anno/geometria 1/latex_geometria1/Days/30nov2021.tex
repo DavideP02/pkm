@@ -1,4 +1,4 @@
-% TODO creare pagina singola + obsidian
+% ATOD creare pagina singola + obsidian
 \dimostrazione{spettreucl}{
     \begin{enumerate}
         \item $ F \in \End(V)$ simmetrico\marginnote{30 nov 2021}. Per i lemmi $ \spettro (F) $ non è vuoto, e considero $ \spettro(F)=\{\lambda_1, \cdots, \lambda_{l}\} $. 
@@ -49,7 +49,7 @@
     \end{enumerate}}
 
 \corollario{dididi}{
-    Se $ (V, \cdot ) $ è uno spazio vettoriale euclideo e $ F \in \End(V) $ è simmetrico 
+    Se $ (V, \cdot ) $ è uno spazio vettoriale Euclideo e $ F \in \End(V) $ è simmetrico 
     
     $\implies$ $ F $ ha una base ortonormale di autovettori.
 }{}
@@ -79,7 +79,7 @@ $\implies $ $ \mathscr{B} $ \[
         \end{pmatrix} \in \R^{3,3}
     \] $ A $ simmetrica. Si trovi una base ortonormale di autovettori di $  A $. (in $ \R^{3}$ con il prodotto scalare canonico)
 }{
-    \begin{enumerate}
+\begin{enumerate}
     \item Trovo gli autovalori di $ A $
     \begin{multline*}
         p(\lambda)=\det (A- \lambda\I) = \det \begin{pmatrix}
@@ -102,7 +102,7 @@ $\implies $ $ \mathscr{B} $ \[
     \item Trovo le radici di $ p(\lambda) $. Noto che $ 1 $ è radice del polinomio. 
     
     $\implies$ $ (\lambda-1) $ divide $ p(\lambda) $, dividiamo $ p(\lambda) $ con $ (\lambda-1) $
-    % TODO scrivre divisione polinomiale 
+    \todo{Scrivere la divisione polinomiale}
 
     $\implies$ $ p(\lambda)=(\lambda-1)(-\lambda^{2}-\lambda+2) $. Tutte le radici del polinomio, ovvero gli autovalori di $ A $, sono \[
         \{1, -2\}
@@ -186,9 +186,10 @@ $\implies $ $ \mathscr{B} $ \[
     \end{smallmatrix}\biggr) $ base ortonormale di $ V_{-2}  $
 
     \item Trovo la base ortonormale: $ \{e_1, e_2, e_3\} $ è base ortonormale di autovettori di $ A $. Quindi \[
-        Q=%TODO manca matrice
+        Q=\star
         \in O(3)
     \]
+    \todo{Manca matrice (al posto di $ \star $)}
     
     Vale $ Q^{-1} A Q $ è diagonale e $ \null^{t}\!Q A Q $ è diagonale
 \end{enumerate}}{}
@@ -228,8 +229,8 @@ $\implies $ $ \mathscr{B} $ \[
     ($U(n)=\{B \in \C^{n,n}\,|\, \null^{t}\!\overline{B} =B^{-1}\}$)
 }
 
-%TODO manca una osservazione
-%TODO manca una definizione
+\todo{Mancano una osservazione e una definizione}
+
 
 \teorema[(complesso, per matrici normali)]{sdofijoijoijoijoidsf}{
     Sia $ A \in \C^{n,n} $ sono fatti equivalenti \begin{itemize}
@@ -240,7 +241,25 @@ $\implies $ $ \mathscr{B} $ \[
 
 \dimostrazione{sdofijoijoijoijoidsf}{
     \begin{itemize}
-        \item [(\textit{i}) $ \implies $ (\textit{ii})] %TODO aggiungere da foto https://photos.app.goo.gl/jNwFxtTcp1VL3wd98
+        \item [(\textit{i}) $ \implies $ (\textit{ii})] Sia $ A \in \C^{n,n} $, tale che $ \exists P \in U(x) $ tale che \[
+            P^{-1} A P =D
+        \] con $ D $ diagonale.
+
+        $ A=PDP^{-1} $ 
+        
+        $\implies$ $ \overline{A}=\overline{P}\,\overline{D}\,\overline{P}^{-1} $ 
+        
+        $\implies$ $\displaystyle \null^{t}\overline{A} = \underset{=P}{\null^{t}\overline{P}^{-1}}\,\overline{D}\,\underset{=P^{-1}}{\null^{t}\overline{P}}$
+        
+        $\implies$ $ \null^{t}\overline{A}=P\,\overline{D}\, P^{-1} $
+
+        Si ha quindi che \begin{align}
+            A\null^{t}\overline{A}&=PDP^{-1}\,P\,\overline{D}\, P^{-1}=PD\,\overline{D}\, P^{-1}\label{etero1}\\
+            \null^{t}\overline{A}A&=P\,\overline{D}\, P^{-1}\,PDP^{-1}=P\,\overline{D}\,DP^{-1}\label{etero2}
+        \end{align}
+        Poiché $ D $ e $ \overline{D} $ commutano, \eqref{etero1} e \eqref{etero2} sono uguali, e 
+        
+        $\implies$ $ A $ e $ \null^{t}\overline{A} $ commutano.\qed
     \end{itemize}
 }
 

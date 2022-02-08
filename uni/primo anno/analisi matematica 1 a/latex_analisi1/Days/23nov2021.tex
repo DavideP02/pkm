@@ -102,7 +102,7 @@
         \exists\, c \in \begin{aligned}
             &[x_{m}, x_{M}  ]\\
             &[x_{M}, x_{m}  ]
-        \end{aligned} \quad \tc\, g(c)= 0 \,\implies\, f(x)=\lambda\qedhere
+        \end{aligned} \quad \tc\, g(c)= 0 \,\implies\, f(x)=\lambda\qedd
     \]
 }
 
@@ -122,7 +122,7 @@
     \]
 
     Diamo a $ \delta $ i valori $ 1, 1/2, \cdots, 1/k $ allora \begin{multline*}
-        \exists\,\overline{ \varepsilon}>0\,\forall\, k \in  \N\setminus\{0\}\, \exists\, x_{k}, z_{k}  \in K\\\tc\, |x_{\delta}-z_{\delta}|<1/k\,\land\,|f(x_{\delta} )-f(z_{\delta} )|\ge \overline{ \varepsilon}.\referenze{(A)}{\label{xviii:A}}
+        \exists\,\overline{ \varepsilon}>0\,\tc\: \forall\, k \in  \N\setminus\{0\}\, \exists\, x_{k}, z_{k}  \in K\\\tc\, |x_{\delta}-z_{\delta}|<1/k\,\land\,|f(x_{\delta} )-f(z_{\delta} )|\ge \overline{ \varepsilon}.\referenze{(A)}{\label{xviii:A}}
     \end{multline*}
 
     Consideriamo le successioni a valori in $ K $ ottenute dagli $ x_{k}  $ e $ z_{k}  $ sopra considerati, a valori in $ K $ \[
@@ -149,7 +149,7 @@
         |f(x_{h_{k} } )-f(z_{h_{k} } )| \xrightarrow{k\to +\infty} 0 \displaystyle
     \] 
     
-    $\implies$ \[\forall\, \varepsilon>0 \exists\, \overline{k}\,|\,\forall\, k>\overline{k}\quad |f(x_{h_{k} } )-f(z_{h_{k} } )|< \varepsilon\]
+    $\implies$ $\displaystyle\forall\, \varepsilon>0 \quad\exists\, \overline{k}\,|\:\forall\, k>\overline{k}\quad |f(x_{h_{k} } )-f(z_{h_{k} } )|< \varepsilon$
 
     Questo nega la condizione \hyperref[xviii:A]{(A)}, dunque $ f $ non può essere non uniformemente continua
 
@@ -198,7 +198,7 @@ f:I & \to \R \\
 x & \mapsto f(x)
 \end{align*}
 
-%TODO aggiungere disegno (dis 1)
+\todo{Aggiungere disegno (dis 1)}
 
 Si ha che $ x_0, x_1 \in I $, $ P_0=(x_0, f(x_0)) $, $ P_1=(x_1, f(x_1)) $.
 
@@ -216,7 +216,7 @@ Cosa accade quando $ x_1\to x_0 $? Si ha che $ P_1 \to P_0 $ e che $ s\to r $, c
         \end{cases}
     \]
 
-    %TODO aggiungere disegno (dis 2)
+    \todo{Aggiungere disegno (dis 2)}
 
     In questo caso quando $ x\to x_0$, $ P_1 \to P_2\neq P_1 $, e $ s\to r $ retta verticale.
 
@@ -225,7 +225,7 @@ Cosa accade quando $ x_1\to x_0 $? Si ha che $ P_1 \to P_0 $ e che $ s\to r $, c
 
 \esempio{
     Sia $ h(x) $ una funzione, dal grafico:
-    %TODO aggiungere disegno (dis 3)
+    \todo{Aggiungere disegno (dis 3)}
 
     Quando $ x_1\to x_0 $, $ P_1 \to P_2 $, ma $ s\to r $ che non è ``tangente''.
 }
@@ -260,4 +260,4 @@ Si osservi che è il coefficiente angolare della secante tra $ P_0=(x_0, f(x_0))
     da cui $ f'(x_0) $ è il coefficiente angolare (pendenza) della tangente al grafico in $ x_0 $.
 }    
 
-% TODO aggiungere disegni da [file](23nov2021disegni.pdf)
+% ATOD aggiungere disegni da [file](23nov2021disegni.pdf)

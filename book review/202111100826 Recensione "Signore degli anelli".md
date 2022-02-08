@@ -35,3 +35,8 @@ Nella Terra di Mordor dove le Ombre si celano
 Un Anello per trovarli, Uno per vincerli,  
 Uno per radunarli e al buio avvincerli  
 Nella Terra di Mordor dove le Ombre si celano.
+
+---
+
+Tags:
+#bookreview 

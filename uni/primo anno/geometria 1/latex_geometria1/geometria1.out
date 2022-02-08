@@ -1,51 +1,78 @@
-\BOOKMARK [1][]{section.1}{Matrici}{}% 1
-\BOOKMARK [2][]{subsection.1.1}{Somma}{section.1}% 2
-\BOOKMARK [1][]{section.2}{Gruppo}{}% 3
-\BOOKMARK [1][]{section.3}{Operazioni con le matrici}{}% 4
-\BOOKMARK [2][]{subsection.3.1}{Moltiplicazione}{section.3}% 5
-\BOOKMARK [2][]{subsection.3.2}{Prodotto tra matrici}{section.3}% 6
-\BOOKMARK [3][]{subsubsection.3.2.1}{Prodotto tra matrici quadrate}{subsection.3.2}% 7
-\BOOKMARK [1][]{section.4}{Lipsum 1}{}% 8
-\BOOKMARK [1][]{section.5}{Operazioni tra sottospazi vettoriali}{}% 9
-\BOOKMARK [1][]{section.6}{Lipsum 2}{}% 10
-\BOOKMARK [1][]{section.7}{Funzioni lineari}{}% 11
-\BOOKMARK [2][]{subsection.7.1}{Matrice associata ad una applicazione lineare}{section.7}% 12
-\BOOKMARK [2][]{subsection.7.2}{Immagine di sottospazi vettoriali}{section.7}% 13
-\BOOKMARK [2][]{subsection.7.3}{Retroimmagine di sottospazi}{section.7}% 14
-\BOOKMARK [2][]{subsection.7.4}{Nucleo di una funzione lineare}{section.7}% 15
-\BOOKMARK [2][]{subsection.7.5}{Propriet\340 delle funzioni lineari}{section.7}% 16
-\BOOKMARK [2][]{subsection.7.6}{Funzioni lineari e cambiamenti di base}{section.7}% 17
-\BOOKMARK [3][]{subsubsection.7.6.1}{Caso particolare}{subsection.7.6}% 18
-\BOOKMARK [2][]{subsection.7.7}{Spazio delle funzioni lineari}{section.7}% 19
-\BOOKMARK [3][]{subsubsection.7.7.1}{Somma di funzioni lineari}{subsection.7.7}% 20
-\BOOKMARK [3][]{subsubsection.7.7.2}{Prodotto per scalari di funzioni lineari}{subsection.7.7}% 21
-\BOOKMARK [2][]{subsection.7.8}{Composizione di funzioni lineari}{section.7}% 22
-\BOOKMARK [1][]{section.8}{Spazi vettoriali Euclidei}{}% 23
-\BOOKMARK [2][]{subsection.8.1}{Basi ortogonali e Basi ortonormali}{section.8}% 24
-\BOOKMARK [2][]{subsection.8.2}{Matrici ortogonali}{section.8}% 25
-\BOOKMARK [1][]{section.9}{Orientazione di uno spazio vettoriale \(reale\)}{}% 26
-\BOOKMARK [1][]{section.10}{Complementi ortogonali}{}% 27
-\BOOKMARK [2][]{subsection.10.1}{Proiezioni ortogonali}{section.10}% 28
-\BOOKMARK [1][]{section.11}{Isometrie}{}% 29
-\BOOKMARK [1][]{section.12}{Endomorfismi simmetrici}{}% 30
-\BOOKMARK [1][]{section.13}{Spazi vettoriali Hermitiani}{}% 31
-\BOOKMARK [1][]{section.14}{Autovalori e autovettori}{}% 32
-\BOOKMARK [2][]{subsection.14.1}{Calcolo degli autovalori}{section.14}% 33
-\BOOKMARK [2][]{subsection.14.2}{Molteplicit\340 di un autovalore}{section.14}% 34
-\BOOKMARK [2][]{subsection.14.3}{Teorema di Caley-Hamilton}{section.14}% 35
-\BOOKMARK [2][]{subsection.14.4}{Teorema Spettrale}{section.14}% 36
-\BOOKMARK [1][]{section.15}{Forme Bilineari}{}% 37
-\BOOKMARK [2][]{subsection.15.1}{Matrici associate alle forme bilineari}{section.15}% 38
-\BOOKMARK [2][]{subsection.15.2}{Forme quadratiche}{section.15}% 39
-\BOOKMARK [2][]{subsection.15.3}{Vettori ortogonali}{section.15}% 40
-\BOOKMARK [2][]{subsection.15.4}{Nucleo di una forma bilineare simmetrica}{section.15}% 41
-\BOOKMARK [2][]{subsection.15.5}{Vettori isotropi e cono isotropo}{section.15}% 42
-\BOOKMARK [2][]{subsection.15.6}{Basi ortogonali, Teorema di Lagrange}{section.15}% 43
-\BOOKMARK [2][]{subsection.15.7}{Forme quadratiche reali \( K=R\)}{section.15}% 44
-\BOOKMARK [1][]{section.16}{Spazio vettoriale quoziente}{}% 45
-\BOOKMARK [1][]{section.17}{Spazio vettoriale duale}{}% 46
-\BOOKMARK [1][]{section.18}{Coniche}{}% 47
-\BOOKMARK [1][]{section.19}{Geometria Analitica}{}% 48
-\BOOKMARK [2][]{subsection.19.1}{Descrizione di un piano in \040R3 }{section.19}% 49
-\BOOKMARK [2][]{subsection.19.2}{Rette nello spazio}{section.19}% 50
-\BOOKMARK [3][]{subsubsection.19.2.1}{Posizioni reciproche di due piani nello spazio}{subsection.19.2}% 51
+\BOOKMARK [0][]{part.1}{I Introduzione agli strumenti}{}% 1
+\BOOKMARK [1][]{section.1}{Matrici I}{part.1}% 2
+\BOOKMARK [2][]{subsection.1.1}{Somma}{section.1}% 3
+\BOOKMARK [2][]{subsection.1.2}{Moltiplicazione}{section.1}% 4
+\BOOKMARK [2][]{subsection.1.3}{Prodotto tra matrici}{section.1}% 5
+\BOOKMARK [3][]{subsubsection.1.3.1}{Prodotto tra matrici quadrate}{subsection.1.3}% 6
+\BOOKMARK [2][]{subsection.1.4}{Trasposta di una matrice}{section.1}% 7
+\BOOKMARK [2][]{subsection.1.5}{Traccia di una matrice}{section.1}% 8
+\BOOKMARK [1][]{section.2}{Sistemi Lineari}{part.1}% 9
+\BOOKMARK [1][]{section.3}{Sistemi Matriciali}{part.1}% 10
+\BOOKMARK [2][]{subsection.3.1}{Inversa di una Matrice}{section.3}% 11
+\BOOKMARK [1][]{section.4}{Spazi vettoriali}{part.1}% 12
+\BOOKMARK [2][]{subsection.4.1}{Sottospazio delle Matrici Quadrate}{section.4}% 13
+\BOOKMARK [2][]{subsection.4.2}{Sottospazi vettoriali}{section.4}% 14
+\BOOKMARK [2][]{subsection.4.3}{Operazioni tra sottospazi vettoriali}{section.4}% 15
+\BOOKMARK [3][]{subsubsection.4.3.1}{Intersezione}{subsection.4.3}% 16
+\BOOKMARK [3][]{subsubsection.4.3.2}{Somma}{subsection.4.3}% 17
+\BOOKMARK [2][]{subsection.4.4}{Formula di Grassmann}{section.4}% 18
+\BOOKMARK [1][]{section.5}{Matrici II}{part.1}% 19
+\BOOKMARK [2][]{subsection.5.1}{Rango di una matrice e algoritmo di Gauss}{section.5}% 20
+\BOOKMARK [2][]{subsection.5.2}{Determinante}{section.5}% 21
+\BOOKMARK [3][]{subsubsection.5.2.1}{Sviluppi di Laplace}{subsection.5.2}% 22
+\BOOKMARK [1][]{section.6}{Cambiamento di Base in uno Spazio Vettoriale}{part.1}% 23
+\BOOKMARK [1][]{section.7}{Iperpiani Vettoriali}{part.1}% 24
+\BOOKMARK [0][]{part.2}{II Studio degli spazi vettoriali e delle loro funzioni}{}% 25
+\BOOKMARK [1][]{section.8}{Calcolo Vettoriale}{part.2}% 26
+\BOOKMARK [2][]{subsection.8.1}{Angolo tra due vettori in \040V3 \040e prodotto scalare}{section.8}% 27
+\BOOKMARK [2][]{subsection.8.2}{Proiezione ortogonale}{section.8}% 28
+\BOOKMARK [2][]{subsection.8.3}{Prodotto vettoriale}{section.8}% 29
+\BOOKMARK [2][]{subsection.8.4}{Prodotto misto}{section.8}% 30
+\BOOKMARK [1][]{section.9}{Applicazioni lineari}{part.2}% 31
+\BOOKMARK [2][]{subsection.9.1}{Matrice associata ad una applicazione lineare}{section.9}% 32
+\BOOKMARK [2][]{subsection.9.2}{Immagine di sottospazi vettoriali}{section.9}% 33
+\BOOKMARK [2][]{subsection.9.3}{Retroimmagine di sottospazi}{section.9}% 34
+\BOOKMARK [2][]{subsection.9.4}{Nucleo di una funzione lineare}{section.9}% 35
+\BOOKMARK [2][]{subsection.9.5}{Propriet\340 delle funzioni lineari}{section.9}% 36
+\BOOKMARK [2][]{subsection.9.6}{Funzioni lineari e cambiamenti di base}{section.9}% 37
+\BOOKMARK [3][]{subsubsection.9.6.1}{Caso particolare}{subsection.9.6}% 38
+\BOOKMARK [2][]{subsection.9.7}{Spazio delle funzioni lineari}{section.9}% 39
+\BOOKMARK [3][]{subsubsection.9.7.1}{Somma di funzioni lineari}{subsection.9.7}% 40
+\BOOKMARK [3][]{subsubsection.9.7.2}{Prodotto per scalari di funzioni lineari}{subsection.9.7}% 41
+\BOOKMARK [2][]{subsection.9.8}{Composizione di funzioni lineari}{section.9}% 42
+\BOOKMARK [1][]{section.10}{Spazi vettoriali Euclidei}{part.2}% 43
+\BOOKMARK [2][]{subsection.10.1}{Basi ortogonali e Basi ortonormali}{section.10}% 44
+\BOOKMARK [2][]{subsection.10.2}{Matrici ortogonali}{section.10}% 45
+\BOOKMARK [1][]{section.11}{Orientazione di uno spazio vettoriale \(reale\)}{part.2}% 46
+\BOOKMARK [1][]{section.12}{Complementi ortogonali}{part.2}% 47
+\BOOKMARK [2][]{subsection.12.1}{Proiezioni ortogonali}{section.12}% 48
+\BOOKMARK [1][]{section.13}{Isometrie}{part.2}% 49
+\BOOKMARK [1][]{section.14}{Endomorfismi simmetrici}{part.2}% 50
+\BOOKMARK [1][]{section.15}{Spazi vettoriali Hermitiani}{part.2}% 51
+\BOOKMARK [1][]{section.16}{Autovalori e autovettori}{part.2}% 52
+\BOOKMARK [2][]{subsection.16.1}{Calcolo degli autovalori}{section.16}% 53
+\BOOKMARK [2][]{subsection.16.2}{Molteplicit\340 di un autovalore}{section.16}% 54
+\BOOKMARK [2][]{subsection.16.3}{Teorema di Caley-Hamilton}{section.16}% 55
+\BOOKMARK [2][]{subsection.16.4}{Teorema Spettrale}{section.16}% 56
+\BOOKMARK [1][]{section.17}{Forme Bilineari}{part.2}% 57
+\BOOKMARK [2][]{subsection.17.1}{Matrici associate alle forme bilineari}{section.17}% 58
+\BOOKMARK [2][]{subsection.17.2}{Forme quadratiche}{section.17}% 59
+\BOOKMARK [2][]{subsection.17.3}{Vettori ortogonali}{section.17}% 60
+\BOOKMARK [2][]{subsection.17.4}{Nucleo di una forma bilineare simmetrica}{section.17}% 61
+\BOOKMARK [2][]{subsection.17.5}{Vettori isotropi e cono isotropo}{section.17}% 62
+\BOOKMARK [2][]{subsection.17.6}{Basi ortogonali, Teorema di Lagrange}{section.17}% 63
+\BOOKMARK [2][]{subsection.17.7}{Forme quadratiche reali \( K=R\)}{section.17}% 64
+\BOOKMARK [1][]{section.18}{Spazio vettoriale quoziente}{part.2}% 65
+\BOOKMARK [1][]{section.19}{Spazio vettoriale duale}{part.2}% 66
+\BOOKMARK [1][]{section.20}{Coniche}{part.2}% 67
+\BOOKMARK [1][]{section.21}{Geometria Analitica}{part.2}% 68
+\BOOKMARK [2][]{subsection.21.1}{Descrizione di un piano in \040R3 }{section.21}% 69
+\BOOKMARK [2][]{subsection.21.2}{Rette nello spazio}{section.21}% 70
+\BOOKMARK [2][]{subsection.21.3}{Posizioni reciproche di due piani nello spazio}{section.21}% 71
+\BOOKMARK [2][]{subsection.21.4}{Posizione di due rette nello spazio}{section.21}% 72
+\BOOKMARK [2][]{subsection.21.5}{Sfere nello spazio}{section.21}% 73
+\BOOKMARK [2][]{subsection.21.6}{Distanza di un punto da un piano}{section.21}% 74
+\BOOKMARK [2][]{subsection.21.7}{Circonferenza nello spazio}{section.21}% 75
+\BOOKMARK [1][]{section.22}{Geometria Affine}{part.2}% 76
+\BOOKMARK [2][]{subsection.22.1}{Riferimento Cartesiano}{section.22}% 77
+\BOOKMARK [2][]{subsection.22.2}{Affinit\340}{section.22}% 78
